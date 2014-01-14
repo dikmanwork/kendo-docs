@@ -10,7 +10,7 @@ relatedDocs: php-dataviz-ui-sparkline, php-sparkline-overview
 
 This help topic shows how to bind Kendo Sparkline for PHP to JSON response.
 
-> The following demos are using the sample SQLite database shipped with the Kendo UI for PHP demos (**/wrappers/php/sample.db**).
+> The following demos are using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
 
 ## Binding to array returned by PDO
 

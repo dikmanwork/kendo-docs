@@ -18,7 +18,7 @@ will happen on the client-side.
 PHP Data Objects ([PDO](http://www.php.net/manual/en/intro.pdo.php)) is an interface for accessing various databases in PHP. Here is how to bind Kendo ListView to array
 returned by PDO.
 
-> The following demo is using the sample SQLite database shipped with the Kendo UI for PHP demos (**/wrappers/php/sample.db**).
+> The following demo is using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
 
 1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create a PDO connection
@@ -95,7 +95,7 @@ to specify the model fields. Those fields are required for filtering and editing
 ## Using the DataSourceResult Helper
 
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
-It is distributed with the Kendo UI for PHP demos and can be found in the **/wrappers/php/lib/** directory of the Kendo UI Complete for PHP distribution.
+It is distributed with the **UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **UI for PHP** distribution.
 
 1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Copy **/wrappers/php/lib/DataSourceResult.php** to your web site root and include it.

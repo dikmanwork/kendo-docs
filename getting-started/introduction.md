@@ -20,8 +20,8 @@ Kendo UI comes in different bundles:
 * Kendo UI Mobile - HTML5 framework for building hybrid mobile applications.
 * Kendo UI Complete - includes Kendo UI Web, Kendo UI DataViz and Kendo UI Mobile.
 * Kendo UI Complete for ASP.NET MVC - Kendo UI Complete plus ASP.NET MVC wrappers for Kendo UI Web and Kendo UI DataViz.
-* Kendo UI Complete for JSP - Kendo UI Complete plus JSP wrappers for Kendo UI Web and Kendo UI DataViz.
-* Kendo UI Complete for PHP - Kendo UI Complete plus PHP wrappers for Kendo UI Web and Kendo UI DataViz.
+* **UI for JSP** - Kendo UI Complete plus JSP wrappers for Kendo UI Web and Kendo UI DataViz.
+* **UI for PHP** - Kendo UI Complete plus PHP wrappers for Kendo UI Web and Kendo UI DataViz.
 
 # Installing and Getting Started with Kendo UI
 
@@ -211,8 +211,8 @@ which allow configuring the Kendo UI widgets with server-side code.
 You can find more info about the server-side wrappers here:
 
 - [Get Started with Kendo UI Complete for ASP.NET MVC](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction)
-- [Get Started with Kendo UI Complete for JSP](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction)
-- [Get Started with Kendo UI Complete for PHP](http://docs.kendoui.com/getting-started/using-kendo-with/php/introduction)
+- [Get Started with **UI for JSP**](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction)
+- [Get Started with **UI for PHP**](http://docs.kendoui.com/getting-started/using-kendo-with/php/introduction)
 
 ## Next Steps
 

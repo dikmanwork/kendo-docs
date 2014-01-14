@@ -88,9 +88,9 @@ will happen on the server-side.
 
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
 The DataSourceResult can also perform paging, sorting, filtering, grouping and aggregate calculation on the server side by generating SQL executed via PDO.
-It is distributed with the Kendo UI for PHP demos and can be found in the **/wrappers/php/lib/** directory of the Kendo UI Complete for PHP distribution.
+It is distributed with the **UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **UI for PHP** distribution.
 
-> The following demo is using the sample SQLite database shipped with the Kendo UI for PHP demos (**/wrappers/php/sample.db**).
+> The following demo is using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
 
 First we will configure a Kendo AutoComplete for PHP binding and then we will implement the remote service which will return JSON.
 
