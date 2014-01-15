@@ -9,7 +9,7 @@ publish: true
 
 # How-To: Add Widgets with Kendo UI Web
 
-In this how-to, we'll examine how to add widgets to an application or site with [Kendo UI Web](http://www.kendoui.com/web.aspx).
+In this how-to, we'll examine how to add widgets to an application or site with [Kendo UI Web](http://www.telerik.com/kendo-ui-web).
 
 Let's begin by examining how to add a widget to an existing page. For this example, let's assume the following Markup:
 

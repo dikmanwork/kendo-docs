@@ -19,7 +19,7 @@ The Music Store sample is split into three seperate projects; Web, Dashboard and
 This sample project was based on Microsoft's [MVC Music Store](http://mvcmusicstore.codeplex.com/), so much of the
 server-side processing and the data structure are reused in this project.
 The UI of the music store was completely redesigned with Kendo UI.
-It focuses on [Kendo UI Web](http://www.kendoui.com/web.aspx), how it was used and the ways in which it interacts with ASP.NET MVC, WebAPI and WCF Data Services.
+It focuses on [Kendo UI Web](http://www.telerik.com/kendo-ui-web), how it was used and the ways in which it interacts with ASP.NET MVC, WebAPI and WCF Data Services.
 
 ## View the Live Site
 
