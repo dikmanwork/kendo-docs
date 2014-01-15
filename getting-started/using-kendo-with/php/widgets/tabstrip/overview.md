@@ -9,7 +9,7 @@ relatedDocs: php-ui-tabstrip
 
 # TabStrip
 
-The Kendo TabStrip for PHP is a server-side wrapper for the [Kendo UI TabStrip](http://docs.kendoui.com/api/web/tabstrip) widget.
+The Kendo TabStrip for PHP is a server-side wrapper for the [Kendo UI TabStrip](/api/web/tabstrip) widget.
 
 ## Getting Started
 

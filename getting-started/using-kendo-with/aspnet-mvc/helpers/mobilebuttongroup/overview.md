@@ -8,7 +8,7 @@ publish: true
 
 # MobileButtonGroup
 
-The MobileButtonGroup HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ButtonGroup](http://docs.kendoui.com/api/mobile/buttongroup) widget. It allows you to configure the Kendo UI Mobile ButtonGroup
+The MobileButtonGroup HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ButtonGroup](/api/mobile/buttongroup) widget. It allows you to configure the Kendo UI Mobile ButtonGroup
 from server-side code.
 
 ## Getting started

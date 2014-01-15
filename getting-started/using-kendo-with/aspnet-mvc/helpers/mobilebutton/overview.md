@@ -8,7 +8,7 @@ publish: true
 
 # MobileButton
 
-The MobileButton HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Button](http://docs.kendoui.com/api/mobile/button) widget. It allows you to configure the Kendo UI Mobile Button
+The MobileButton HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Button](/api/mobile/button) widget. It allows you to configure the Kendo UI Mobile Button
 from server-side code.
 
 ## Getting started

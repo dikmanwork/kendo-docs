@@ -8,7 +8,7 @@ publish: true
 
 # MobileSwitch
 
-The MobileSwitch HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Switch](http://docs.kendoui.com/api/mobile/switch) widget. It allows you to configure the Kendo UI Mobile Switch
+The MobileSwitch HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Switch](/api/mobile/switch) widget. It allows you to configure the Kendo UI Mobile Switch
 from server-side code.
 
 ## Getting started

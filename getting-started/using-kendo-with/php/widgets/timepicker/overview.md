@@ -9,7 +9,7 @@ relatedDocs: php-ui-timepicker
 
 # Timepicker
 
-The Kendo TimePicker for PHP is a server-side wrapper for the [Kendo UI TimePicker](http://docs.kendoui.com/api/web/timepicker) widget.
+The Kendo TimePicker for PHP is a server-side wrapper for the [Kendo UI TimePicker](/api/web/timepicker) widget.
 
 ## Getting Started
 

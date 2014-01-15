@@ -6,13 +6,13 @@ publish: true
 
 # ColorPalette
 
-The ColorPalette JSP tag is a server-side wrapper for the [Kendo UI ColorPalette](http://docs.kendoui.com/api/web/colorpalette) widget.
+The ColorPalette JSP tag is a server-side wrapper for the [Kendo UI ColorPalette](/api/web/colorpalette) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo ColorPalette:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -34,7 +34,7 @@ Here is how to configure a simple Kendo ColorPalette:
 ## Accessing an Existing ColorPalette
 
 You can reference an existing ColorPalette instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/colorpalette#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/colorpalette#methods) to control its behavior.
 
 ### Accessing an existing ColorPalette instance
 
@@ -48,7 +48,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI ColorPalette events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/colorpalette#events) exposed by Kendo UI ColorPalette:
+You can subscribe to all [events](/api/web/colorpalette#events) exposed by Kendo UI ColorPalette:
 
 ### Subscribe by handler name
 

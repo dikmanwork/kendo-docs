@@ -8,7 +8,7 @@ publish: true
 
 # MobileModalView
 
-The MobileModalView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ModalView](http://docs.kendoui.com/api/mobile/modalview) widget. It allows you to configure the Kendo UI Mobile ModalView
+The MobileModalView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ModalView](/api/mobile/modalview) widget. It allows you to configure the Kendo UI Mobile ModalView
 from server-side code.
 
 ## Getting started

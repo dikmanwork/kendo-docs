@@ -9,7 +9,7 @@ relatedDocs: php-ui-datepicker
 
 # DatePicker
 
-The Kendo DatePicker for PHP is a server-side wrapper for the [Kendo UI DatePicker](http://docs.kendoui.com/api/web/datepicker) widget.
+The Kendo DatePicker for PHP is a server-side wrapper for the [Kendo UI DatePicker](/api/web/datepicker) widget.
 
 ## Getting Started
 

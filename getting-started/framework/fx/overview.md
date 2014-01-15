@@ -9,7 +9,7 @@ Kendo UI FX provides a rich, extensible and performance-optimized toolset for el
 Each effect utilizes CSS tranisions if possible, with a fallback to manual property value modification in older browsers. Animations can be played in reverse which is very convenient for showing and hiding certain parts of the UI.
 Kendo FX uitilizes [jQuery Deffered utility](http://api.jquery.com/category/deferred-object/) for chaining/callbacks.
 
-This document provides an overview of the Kendo UI FX library. [Please refer to the FX API docs for complete API details.](http://docs.kendoui.com/api/framework/fx/common)
+This document provides an overview of the Kendo UI FX library. [Please refer to the FX API docs for complete API details.](/api/framework/fx/common)
 
 ## Getting Started
 
@@ -93,14 +93,14 @@ Example working with multiple elements:
 
 The Kendo UI FX library currently supports the following effects:
 
-- [Expand](http://docs.kendoui.com/api/framework/fx/expand)
-- [Fade](http://docs.kendoui.com/api/framework/fx/fade)
-- [Flip](http://docs.kendoui.com/api/framework/fx/flip)
-- [PageTurn](http://docs.kendoui.com/api/framework/fx/pageturn)
-- [SlideIn](http://docs.kendoui.com/api/framework/fx/slidein)
-- [Tile](http://docs.kendoui.com/api/framework/fx/tile)
-- [Transfer](http://docs.kendoui.com/api/framework/fx/transfer)
-- [Zoom](http://docs.kendoui.com/api/framework/fx/zoom)
+- [Expand](/api/framework/fx/expand)
+- [Fade](/api/framework/fx/fade)
+- [Flip](/api/framework/fx/flip)
+- [PageTurn](/api/framework/fx/pageturn)
+- [SlideIn](/api/framework/fx/slidein)
+- [Tile](/api/framework/fx/tile)
+- [Transfer](/api/framework/fx/transfer)
+- [Zoom](/api/framework/fx/zoom)
 
 When possible, effects are hardware accelerated via CSS transitions, making them ideal for desktop and mobile devices. Unlike CPU intensive JavaScript animations, animations done with CSS can provide better framerates and battery life.
 

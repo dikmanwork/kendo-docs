@@ -9,7 +9,7 @@ relatedDocs: php-ui-multiselect
 
 # MultiSelect
 
-The Kendo MultiSelect for PHP is a server-side wrapper for the [Kendo UI MultiSelect](http://docs.kendoui.com/api/web/multiselect) widget.
+The Kendo MultiSelect for PHP is a server-side wrapper for the [Kendo UI MultiSelect](/api/web/multiselect) widget.
 
 ## Getting Started
 

@@ -9,7 +9,7 @@ relatedDocs: php-ui-numerictextbox
 
 # NumericTextBox
 
-The Kendo NumericTextBox for PHP is a server-side wrapper for the [Kendo UI NumericTextBox](http://docs.kendoui.com/api/web/numerictextbox) widget.
+The Kendo NumericTextBox for PHP is a server-side wrapper for the [Kendo UI NumericTextBox](/api/web/numerictextbox) widget.
 
 ## Getting Started
 

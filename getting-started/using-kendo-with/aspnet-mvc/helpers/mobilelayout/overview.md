@@ -8,7 +8,7 @@ publish: true
 
 # MobileLayout
 
-The MobileLayout HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Layout](http://docs.kendoui.com/api/mobile/layout) widget. It allows you to configure the Kendo UI Mobile Layout
+The MobileLayout HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Layout](/api/mobile/layout) widget. It allows you to configure the Kendo UI Mobile Layout
 from server-side code.
 
 ## Getting started

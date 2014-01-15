@@ -8,7 +8,7 @@ publish: true
 
 # MobileListView
 
-The MobileListView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ListView](http://docs.kendoui.com/api/mobile/listview) widget. It allows you to configure the Kendo UI Mobile ListView
+The MobileListView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ListView](/api/mobile/listview) widget. It allows you to configure the Kendo UI Mobile ListView
 from server-side code.
 
 ## Getting started

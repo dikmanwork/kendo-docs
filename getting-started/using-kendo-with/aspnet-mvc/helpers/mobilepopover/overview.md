@@ -8,7 +8,7 @@ publish: true
 
 # MobilePopOver
 
-The MobilePopOver HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile PopOver](http://docs.kendoui.com/api/mobile/popover) widget. It allows you to configure the Kendo UI Mobile PopOver
+The MobilePopOver HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile PopOver](/api/mobile/popover) widget. It allows you to configure the Kendo UI Mobile PopOver
 from server-side code.
 
 ## Getting started

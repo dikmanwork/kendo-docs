@@ -174,7 +174,7 @@ By default, the Window widget is moved in the DOM and placed as a child of the `
 but may lead to undesired side effects if the Window is created from an element inside a form, as the moved form fields will not be submitted. There are two ways to avoid this:
 
 1. the whole form including its opening and closing tags should be inside the element, from which the Window is created;
-1. if the Window is created from an element inside the form, then the [appendTo](http://docs.kendoui.com/api/web/window#configuration-appendTo) property should be used, so that the Window is not moved outside the form;
+1. if the Window is created from an element inside the form, then the [appendTo](/api/web/window#configuration-appendTo) property should be used, so that the Window is not moved outside the form;
 
 If form data is validated on the server, we recommend submitting via AJAX, so that the Window remains visible and any validation messages are displayed seamlessly.
 

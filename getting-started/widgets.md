@@ -70,7 +70,7 @@ You can configure a Kendo UI widget by passing a configuration object as an argu
     });
     </script>
 
-This example sets the [height](http://docs.kendoui.com/api/web/grid#height-numberstring), [columns](http://docs.kendoui.com/api/web/grid#columns-array) and [dataSource](http://docs.kendoui.com/api/web/grid#datasource-kendodatadatasource--object) configuration options of the grid widget.
+This example sets the [height](/api/web/grid#height-numberstring), [columns](/api/web/grid#columns-array) and [dataSource](/api/web/grid#datasource-kendodatadatasource--object) configuration options of the grid widget.
 
 > The [api](/api) documentation lists all configuration options supported by each Kendo UI widget.
 

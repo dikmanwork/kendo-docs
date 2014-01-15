@@ -8,7 +8,7 @@ publish: true
 
 # MobileSplitView
 
-The MobileSplitView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile SplitView](http://docs.kendoui.com/api/mobile/splitview) widget. It allows you to configure the Kendo UI Mobile SplitView
+The MobileSplitView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile SplitView](/api/mobile/splitview) widget. It allows you to configure the Kendo UI Mobile SplitView
 from server-side code.
 
 ## Getting started

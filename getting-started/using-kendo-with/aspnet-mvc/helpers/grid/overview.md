@@ -9,7 +9,7 @@ ordinal: 01
 
 # Grid
 
-The Grid HtmlHelper extension is a server-side wrapper for the [Kendo UI Grid](http://docs.kendoui.com/api/web/grid) widget. It allows you to configure the Kendo UI grid
+The Grid HtmlHelper extension is a server-side wrapper for the [Kendo UI Grid](/api/web/grid) widget. It allows you to configure the Kendo UI grid
 from server-side code, helps with data binding and editing.
 
 ## Introduction

@@ -9,7 +9,7 @@ relatedDocs: php-ui-colorpicker
 
 # ColorPicker
 
-The Kendo ColorPicker for PHP is a server-side wrapper for the [Kendo UI ColorPicker](http://docs.kendoui.com/api/web/colorpicker) widget.
+The Kendo ColorPicker for PHP is a server-side wrapper for the [Kendo UI ColorPicker](/api/web/colorpicker) widget.
 
 ## Getting Started
 

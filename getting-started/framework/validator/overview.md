@@ -9,7 +9,7 @@ publish: true
 # Kendo UI Validator Overview
 The Kendo UI Validator offers an easy way to do client-side form validation. Built around the HTML5 form validation attributes, it supports variety of built-in validation rules, but also provides a convenient way for setting custom rules handling.
 
-For a complete overview of the Validator's methods and configuration options, [review the Validator API Reference](http://docs.kendoui.com/api/framework/validator).
+For a complete overview of the Validator's methods and configuration options, [review the Validator API Reference](/api/framework/validator).
 
 ## HTML5 form validation
 One of the highly anticipated features in HTML5 is the arrival of new [HTML5 form validation attributes](https://developer.mozilla.org/en/HTML/Forms_in_HTML#Constraint_Validation). When used, these attributes set constraints on HTML inputs that will be enforced by the browser. Available constraints include:

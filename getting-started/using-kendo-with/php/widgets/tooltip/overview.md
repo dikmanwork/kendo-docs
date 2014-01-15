@@ -9,7 +9,7 @@ relatedDocs: php-ui-tooltip
 
 # Tooltip
 
-The Kendo Tooltip for PHP is a server-side wrapper for the [Kendo UI Tooltip](http://docs.kendoui.com/api/web/tooltip) widget.
+The Kendo Tooltip for PHP is a server-side wrapper for the [Kendo UI Tooltip](/api/web/tooltip) widget.
 
 ## Getting Started
 

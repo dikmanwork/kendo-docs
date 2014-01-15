@@ -84,7 +84,7 @@ The solution is to load a partial HTML fragment that doesn't contain any unneede
 
 Change event of an input widget is triggered only by user action. DOM elements work in the same way.
 
-If you need to trigger an event manually use the [trigger method](http://docs.kendoui.com/api/framework/widget#trigger).
+If you need to trigger an event manually use the [trigger method](/api/framework/widget#trigger).
 
 ## Creating two or more widgets produces JavaScript errors or only the first one is initialized/working.
 

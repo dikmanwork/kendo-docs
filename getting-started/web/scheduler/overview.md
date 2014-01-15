@@ -59,7 +59,7 @@ In most cases the Kendo UI Scheduler widget would be bound to a remote service w
 a demo remote service which returns sample scheduler events. That service uses [JSONP](http://en.wikipedia.org/wiki/JSONP) in order to support cross-domain requests.
 
 > The demo service uses JSONP in order to be accessible cross-domain. If your own service lives in the same domain as the web site you don't need to use JSONP - you can use JSON instead. More information
-about cross-domain requests can be found [here](http://docs.kendoui.com/howto/use-cors-with-all-modern-browsers).
+about cross-domain requests can be found [here](/howto/use-cors-with-all-modern-browsers).
 
 ### Example - binding to remote service
 

@@ -8,7 +8,7 @@ publish: true
 
 # Splitter
 
-Kendo Splitter for PHP is a server-side wrapper for the [Kendo UI Splitter](http://docs.kendoui.com/api/web/splitter) widget.
+Kendo Splitter for PHP is a server-side wrapper for the [Kendo UI Splitter](/api/web/splitter) widget.
 
 ## Getting Started
 
@@ -120,7 +120,7 @@ Here is how to configure a simple Kendo Splitter:
 ## Accessing an Existing Splitter
 
 You can reference an existing Splitter instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/splitter#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/splitter#methods) to control its behavior.
 
 
 ### Accessing an existing Splitter instance
@@ -136,7 +136,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI Splitter events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/splitter#events) exposed by Kendo UI Splitter:
+You can subscribe to all [events](/api/web/splitter#events) exposed by Kendo UI Splitter:
 
 
 ### Example - subscribing by specifying JavaScript function name

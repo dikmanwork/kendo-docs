@@ -9,7 +9,7 @@ relatedDocs: php-ui-combobox
 
 # ComboBox
 
-The Kendo ComboBox for PHP is a server-side wrapper for the [Kendo UI ComboBox](http://docs.kendoui.com/api/web/combobox) widget.
+The Kendo ComboBox for PHP is a server-side wrapper for the [Kendo UI ComboBox](/api/web/combobox) widget.
 
 ## Getting Started
 

@@ -6,18 +6,18 @@ publish: true
 
 # ComboBox
 
-The ComboBox JSP tag is a server-side wrapper for the [Kendo UI ComboBox](http://docs.kendoui.com/api/web/combobox) widget.
+The ComboBox JSP tag is a server-side wrapper for the [Kendo UI ComboBox](/api/web/combobox) widget.
 
 ## Getting Started
 
 There are two ways to bind a Kendo ComboBox:
 
 *   **server** - the data will be serialized to the client. No Ajax requests will be made.
-*   **ajax** - the combobox will make ajax requests to get the data. [Here](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/tags/combobox/ajax-binding) you can find more information about this binding.
+*   **ajax** - the combobox will make ajax requests to get the data. [Here](/getting-started/using-kendo-with/jsp/tags/combobox/ajax-binding) you can find more information about this binding.
 
 Here is how to configure the Kendo ComboBox for binding to a data passed as model attribute in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method and pass the Products table to the View:
 
@@ -41,7 +41,7 @@ Here is how to configure the Kendo ComboBox for binding to a data passed as mode
 ## Accessing an Existing ComboBox
 
 You can reference an existing ComboBox instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/combobox#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/combobox#methods) to control its behavior.
 
 ### Accessing an existing ComboBox instance
 
@@ -55,7 +55,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI ComboBox events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/combobox#events) exposed by Kendo UI combobox:
+You can subscribe to all [events](/api/web/combobox#events) exposed by Kendo UI combobox:
 
 ### Subscribe by handler name
 

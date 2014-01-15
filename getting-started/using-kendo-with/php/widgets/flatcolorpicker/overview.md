@@ -9,7 +9,7 @@ relatedDocs: php-ui-flatcolorpicker
 
 # FlatColorPicker
 
-The Kendo FlatColorPicker for PHP is a server-side wrapper for the [Kendo UI FlatColorPicker](http://docs.kendoui.com/api/web/flatcolorpicker) widget.
+The Kendo FlatColorPicker for PHP is a server-side wrapper for the [Kendo UI FlatColorPicker](/api/web/flatcolorpicker) widget.
 
 ## Getting Started
 

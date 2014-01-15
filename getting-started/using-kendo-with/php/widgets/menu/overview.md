@@ -9,7 +9,7 @@ relatedDocs: php-ui-menu
 
 # Menu
 
-The Menu class is a server-side wrapper for the [Kendo UI Menu](http://docs.kendoui.com/api/web/menu) widget.
+The Menu class is a server-side wrapper for the [Kendo UI Menu](/api/web/menu) widget.
 
 ## Getting Started
 

@@ -8,7 +8,7 @@ publish: true
 
 # MobileNavBar
 
-The MobileNavBar HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile NavBar](http://docs.kendoui.com/api/mobile/navbar) widget. It allows you to configure the Kendo UI Mobile NavBar
+The MobileNavBar HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile NavBar](/api/mobile/navbar) widget. It allows you to configure the Kendo UI Mobile NavBar
 from server-side code.
 
 ## Getting started

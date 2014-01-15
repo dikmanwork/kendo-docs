@@ -9,7 +9,7 @@ relatedDocs: php-ui-panelbar
 
 #PanelBar
 
-The Kendo PanelBar for PHP is a server-side wrapper for the [Kendo UI PanelBar](http://docs.kendoui.com/api/web/panelbar) widget.
+The Kendo PanelBar for PHP is a server-side wrapper for the [Kendo UI PanelBar](/api/web/panelbar) widget.
 
 ## Getting Started
 

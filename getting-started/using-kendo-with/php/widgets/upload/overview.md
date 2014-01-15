@@ -9,7 +9,7 @@ relatedDocs: php-ui-upload
 
 # Upload
 
-The Kendo Upload for PHP is a server-side wrapper for the [Kendo UI Upload](http://docs.kendoui.com/api/web/upload) widget.
+The Kendo Upload for PHP is a server-side wrapper for the [Kendo UI Upload](/api/web/upload) widget.
 
 ## Getting Started
 

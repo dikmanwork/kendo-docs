@@ -8,13 +8,13 @@ publish: true
 
 # TimePicker
 
-The TimePicker HtmlHelper extension is a server-side wrapper for the [Kendo UI TimePicker](http://docs.kendoui.com/api/web/timepicker) widget.
+The TimePicker HtmlHelper extension is a server-side wrapper for the [Kendo UI TimePicker](/api/web/timepicker) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo TimePicker:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -43,7 +43,7 @@ Here is how to configure a simple Kendo TimePicker:
 ## Accessing an Existing TimePicker
 
 You can reference an existing TimePicker instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/timepicker#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/timepicker#methods) to control its behavior.
 
 ### Accessing an existing TimePicker instance
 
@@ -57,7 +57,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI TimePicker events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/timepicker#events) exposed by Kendo UI TimePicker:
+You can subscribe to all [events](/api/web/timepicker#events) exposed by Kendo UI TimePicker:
 
 ### WebForms - subscribe by handler name
 

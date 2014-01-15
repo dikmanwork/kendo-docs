@@ -9,7 +9,7 @@ relatedDocs: php-ui-calendar
 
 # Calendar
 
-The Kendo Calendar for PHP is a server-side wrapper for the [Kendo UI Calendar](http://docs.kendoui.com/api/web/calendar) widget.
+The Kendo Calendar for PHP is a server-side wrapper for the [Kendo UI Calendar](/api/web/calendar) widget.
 
 ## Getting Started
 

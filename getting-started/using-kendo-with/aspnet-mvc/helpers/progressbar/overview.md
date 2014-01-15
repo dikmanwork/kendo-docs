@@ -8,13 +8,13 @@ publish: true
 
 # ProgressBar
 
-The ProgressBar HtmlHelper extension is a server-side wrapper for the&nbsp;[Kendo UI ProgressBar](http://docs.kendoui.com/api/web/progressbar)&nbsp;widget.
+The ProgressBar HtmlHelper extension is a server-side wrapper for the&nbsp;[Kendo UI ProgressBar](/api/web/progressbar)&nbsp;widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo ProgressBar:
 
-1. Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1. Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 2. Create a new action method which renders the view:
 
 		 public ActionResult Index()

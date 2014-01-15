@@ -6,13 +6,13 @@ publish: true
 
 # ProgressBar
 
-The ProgressBar tag is a server-side wrapper for the [Kendo UI ProgressBar](http://docs.kendoui.com/api/web/progressbar) widget.
+The ProgressBar tag is a server-side wrapper for the [Kendo UI ProgressBar](/api/web/progressbar) widget.
 
 ## Getting Started
 
 Here is how to configure the Kendo ProgressBar in Spring MVC:
 
-1. Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1. Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 2. Create a new action method:
 
 		@RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)

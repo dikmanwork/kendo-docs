@@ -9,7 +9,7 @@ relatedDocs: php-ui-dropdownlist
 
 # DropDownList
 
-The Kendo DropDownList for PHP is a server-side wrapper for the [Kendo UI DropDownList](http://docs.kendoui.com/api/web/dropdownlist) widget.
+The Kendo DropDownList for PHP is a server-side wrapper for the [Kendo UI DropDownList](/api/web/dropdownlist) widget.
 
 ## Getting Started
 

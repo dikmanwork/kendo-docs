@@ -8,7 +8,7 @@ publish: true
 
 # MobileApplication
 
-The MobileApplication HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Application](http://docs.kendoui.com/api/mobile/application) widget. It allows you to configure the Kendo UI Mobile Application
+The MobileApplication HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Application](/api/mobile/application) widget. It allows you to configure the Kendo UI Mobile Application
 from server-side code.
 
 ## Getting started

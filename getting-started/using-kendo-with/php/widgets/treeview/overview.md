@@ -9,7 +9,7 @@ relatedDocs: php-ui-treeview
 
 # TreeView
 
-The Kendo TreeView for PHP is a server-side wrapper for the [Kendo UI TreeView](http://docs.kendoui.com/api/web/treeview) widget.
+The Kendo TreeView for PHP is a server-side wrapper for the [Kendo UI TreeView](/api/web/treeview) widget.
 
 ## Getting Started
 

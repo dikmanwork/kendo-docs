@@ -8,7 +8,7 @@ publish: true
 
 #Date Formatting
 
-The purpose of date formatting is to convert Date object to a human readable string using culture's specific settings. [kendo.format](http://docs.kendoui.com/api/framework/kendo#format) and [kendo.toString](http://docs.kendoui.com/api/framework/kendo#tostring) methods support standard and custom date formats:
+The purpose of date formatting is to convert Date object to a human readable string using culture's specific settings. [kendo.format](/api/framework/kendo#format) and [kendo.toString](/api/framework/kendo#tostring) methods support standard and custom date formats:
 
 ## Standard date formats
 

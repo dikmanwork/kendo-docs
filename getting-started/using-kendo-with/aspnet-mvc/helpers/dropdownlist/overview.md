@@ -8,7 +8,7 @@ publish: true
 
 # DropDownList
 
-The DropDownList HtmlHelper extension is a server-side wrapper for the [Kendo UI DropDownList](http://docs.kendoui.com/api/web/dropdownlist) widget.
+The DropDownList HtmlHelper extension is a server-side wrapper for the [Kendo UI DropDownList](/api/web/dropdownlist) widget.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ There are two ways to bind a Kendo DropDownList for ASP.NET MVC:
 
 Here is how to configure the Kendo DropDownList  for server binding to the Northwind Products table using Linq to SQL:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method and pass the Products table as the model:
 
@@ -63,7 +63,7 @@ Here is how to configure the Kendo DropDownList  for server binding to the North
 
 Here is how to configure the Kendo DropDownList for ajax binding to the Northwind Products table using Linq to SQL:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create an action method which renders the view:
 
@@ -118,7 +118,7 @@ Here is how to configure the Kendo DropDownList for ajax binding to the Northwin
 ## Accessing an Existing DropDownList
 
 You can reference an existing DropDownList instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/dropdownlist#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/dropdownlist#methods) to control its behavior.
 
 
 ### Accessing an existing DropDownList instance
@@ -134,7 +134,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI DropDownList events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/dropdownlist#events) exposed by Kendo UI DropDownList:
+You can subscribe to all [events](/api/web/dropdownlist#events) exposed by Kendo UI DropDownList:
 
 
 ### WebForms - subscribe by handler name

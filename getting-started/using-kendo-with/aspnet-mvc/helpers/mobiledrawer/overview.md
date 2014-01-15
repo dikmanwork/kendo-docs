@@ -8,7 +8,7 @@ publish: true
 
 # MobileDrawer
 
-The MobileDrawer HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Drawer](http://docs.kendoui.com/api/mobile/drawer) widget. It allows you to configure the Kendo UI Mobile Drawer
+The MobileDrawer HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Drawer](/api/mobile/drawer) widget. It allows you to configure the Kendo UI Mobile Drawer
 from server-side code.
 
 ## Getting started

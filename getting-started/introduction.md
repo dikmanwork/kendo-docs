@@ -210,9 +210,9 @@ which allow configuring the Kendo UI widgets with server-side code.
 
 You can find more info about the server-side wrappers here:
 
-- [Get Started with **UI for ASP.NET MVC**](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction)
-- [Get Started with **UI for JSP**](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction)
-- [Get Started with **UI for PHP**](http://docs.kendoui.com/getting-started/using-kendo-with/php/introduction)
+- [Get Started with **UI for ASP.NET MVC**](/getting-started/using-kendo-with/aspnet-mvc/introduction)
+- [Get Started with **UI for JSP**](/getting-started/using-kendo-with/jsp/introduction)
+- [Get Started with **UI for PHP**](/getting-started/using-kendo-with/php/introduction)
 
 ## Next Steps
 

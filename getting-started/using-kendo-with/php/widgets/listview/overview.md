@@ -9,7 +9,7 @@ relatedDocs: php-ui-listview
 
 # ListView
 
-The Kendo ListView for PHP is a server-side wrapper for the [Kendo UI ListView](http://docs.kendoui.com/api/web/listview) widget.
+The Kendo ListView for PHP is a server-side wrapper for the [Kendo UI ListView](/api/web/listview) widget.
 
 ## Getting Started
 

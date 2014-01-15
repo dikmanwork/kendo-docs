@@ -8,13 +8,13 @@ publish: true
 
 # ListView
 
-The ListView HtmlHelper extension is a server-side wrapper for the [Kendo UI ListView](http://docs.kendoui.com/api/web/listview) widget.
+The ListView HtmlHelper extension is a server-side wrapper for the [Kendo UI ListView](/api/web/listview) widget.
 
 ## Getting Started
 
 Here is how to configure the Kendo ListView for server binding to the Northwind Products table using Linq to SQL:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method and pass the Products table as the model:
 
@@ -78,7 +78,7 @@ Here is how to configure the Kendo ListView for server binding to the Northwind 
 ## Accessing an Existing ListView
 
 You can reference an existing ListView instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/listview#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/listview#methods) to control its behavior.
 
 ### Accessing an existing ListView instance
 
@@ -93,7 +93,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI ListView events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/listview#events) exposed by Kendo UI ListView:
+You can subscribe to all [events](/api/web/listview#events) exposed by Kendo UI ListView:
 
 
 ### WebForms - subscribe by handler name

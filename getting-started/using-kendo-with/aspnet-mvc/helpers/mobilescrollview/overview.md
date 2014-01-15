@@ -8,7 +8,7 @@ publish: true
 
 # MobileScrollView
 
-The MobileScrollView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ScrollView](http://docs.kendoui.com/api/mobile/scrollview) widget. It allows you to configure the Kendo UI Mobile ScrollView
+The MobileScrollView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ScrollView](/api/mobile/scrollview) widget. It allows you to configure the Kendo UI Mobile ScrollView
 from server-side code.
 
 ## Getting started

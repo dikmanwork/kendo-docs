@@ -9,7 +9,7 @@ relatedDocs: php-ui-progressbar
 
 # ProgressBar
 
-The Kendo ProgressBar for PHP is a server-side wrapper for the [Kendo UI ProgressBar](http://docs.kendoui.com/api/web/progressbar) widget.
+The Kendo ProgressBar for PHP is a server-side wrapper for the [Kendo UI ProgressBar](/api/web/progressbar) widget.
 
 ## Getting Started
 

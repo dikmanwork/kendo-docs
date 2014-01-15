@@ -6,7 +6,7 @@ publish: true
 
 # Slider
 
-The Slider tag is a server-side wrapper for the [Kendo UI Slider](http://docs.kendoui.com/api/web/slider) widget.
+The Slider tag is a server-side wrapper for the [Kendo UI Slider](/api/web/slider) widget.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ There are two types of Slider:
 
 Here is how to configure the Kendo Slider in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method:
 
@@ -38,7 +38,7 @@ Here is how to configure the Kendo Slider in Spring MVC:
 ## Accessing an Existing Slider
 
 You can reference an existing Slider instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/slider#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/slider#methods) to control its behavior.
 
 ### Accessing an existing Slider instance
 
@@ -53,7 +53,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI slider events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/slider#events) exposed by Kendo UI slider:
+You can subscribe to all [events](/api/web/slider#events) exposed by Kendo UI slider:
 
 ### Subscribe by handler name
 

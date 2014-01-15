@@ -6,13 +6,13 @@ publish: true
 
 # Grid
 
-The Grid tag is a server-side wrapper for the [Kendo UI Grid](http://docs.kendoui.com/api/web/grid) widget.
+The Grid tag is a server-side wrapper for the [Kendo UI Grid](/api/web/grid) widget.
 
 ## Getting Started
 
 Here is how to configure the Kendo Grid for binding to a data passed as model attribute in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method and pass the Products table to the View:
 
@@ -42,7 +42,7 @@ Here is how to configure the Kendo Grid for binding to a data passed as model at
 ## Accessing an Existing Grid
 
 You can reference an existing Grid instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/grid#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/grid#methods) to control its behavior.
 
 ### Accessing an existing Grid instance
 
@@ -57,7 +57,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI Grid events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/grid#events) exposed by Kendo UI grid:
+You can subscribe to all [events](/api/web/grid#events) exposed by Kendo UI grid:
 
 
 ### Subscribe by handler name

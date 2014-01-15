@@ -9,7 +9,7 @@ relatedDocs: php-ui-colorpalette
 
 # ColorPalette
 
-The Kendo ColorPalette for PHP is a server-side wrapper for the [Kendo UI ColorPalette](http://docs.kendoui.com/api/web/colorpalette) widget.
+The Kendo ColorPalette for PHP is a server-side wrapper for the [Kendo UI ColorPalette](/api/web/colorpalette) widget.
 
 ## Getting Started
 

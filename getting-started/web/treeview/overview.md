@@ -121,7 +121,7 @@ When binding through the dataSource configuration option, each item can have the
         text: "Item text",
 
         // if specified, renders the item as a link. (<a href=""></a>)
-        url: "http://docs.kendoui.com/",
+        url: "/",
 
         // renders a <img class="k-image" src="/images/icon.png" />
         imageUrl: "/images/icon.png",
@@ -179,8 +179,8 @@ and can be easily accessed through the treeview [dataItem method](/api/web/treev
         select: onSelect
     });
 
-Since the dataItem is of type [Node](http://docs.kendoui.com/api/framework/node),
-you can use its [loaded flag](http://docs.kendoui.com/api/framework/node#methods-loaded) to force reloading of nodes from the server.
+Since the dataItem is of type [Node](/api/framework/node),
+you can use its [loaded flag](/api/framework/node#methods-loaded) to force reloading of nodes from the server.
 
 ### Reloading child nodes when nodes are expanded
 
@@ -220,7 +220,7 @@ The same approach can be used for gathering of expanded nodes.
 
 ### Projecting the TreeView state
 
-Because the HierarchicalDataSource does not support data projection, you might need to remap state fields via the [schema.parse](http://docs.kendoui.com/api/framework/datasource#configuration-schema.parse) configuration option:
+Because the HierarchicalDataSource does not support data projection, you might need to remap state fields via the [schema.parse](/api/framework/datasource#configuration-schema.parse) configuration option:
 
     <div id="tree">
     <script>

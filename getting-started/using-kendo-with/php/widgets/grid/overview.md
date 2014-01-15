@@ -9,7 +9,7 @@ relatedDocs: php-ui-grid
 
 # Grid
 
-The Kendo Grid for PHP is a server-side wrapper for the [Kendo UI Grid](http://docs.kendoui.com/api/web/grid) widget.
+The Kendo Grid for PHP is a server-side wrapper for the [Kendo UI Grid](/api/web/grid) widget.
 
 ## Getting Started
 

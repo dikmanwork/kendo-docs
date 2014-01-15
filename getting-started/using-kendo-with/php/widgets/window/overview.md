@@ -9,7 +9,7 @@ relatedDocs: php-ui-window
 
 # Window
 
-The Kendo Window for PHP is a server-side wrapper for the [Kendo UI Window](http://docs.kendoui.com/api/web/window) widget.
+The Kendo Window for PHP is a server-side wrapper for the [Kendo UI Window](/api/web/window) widget.
 
 ## Getting Started
 

@@ -6,13 +6,13 @@ publish: true
 
 # Tooltip
 
-The Tooltip JSP tag is a server-side wrapper for the [Kendo UI Tooltip](http://docs.kendoui.com/api/web/tooltip) widget.
+The Tooltip JSP tag is a server-side wrapper for the [Kendo UI Tooltip](/api/web/tooltip) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Tooltip:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -33,7 +33,7 @@ Here is how to configure a simple Kendo Tooltip:
 ## Accessing an Existing Tooltip
 
 You can reference an existing Tooltip instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/tooltip#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/tooltip#methods) to control its behavior.
 
 ### Accessing an existing Tooltip instance
 
@@ -59,7 +59,7 @@ You can load views asynchronously through the `content` attribute:
 
 ## Handling Kendo UI Tooltip events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/tooltip#events) exposed by Kendo UI Tooltip:
+You can subscribe to all [events](/api/web/tooltip#events) exposed by Kendo UI Tooltip:
 
 ### Subscribe by handler name
 

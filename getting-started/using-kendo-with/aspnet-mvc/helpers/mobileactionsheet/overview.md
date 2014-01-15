@@ -8,7 +8,7 @@ publish: true
 
 # MobileActionSheet
 
-The MobileActionSheet HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ActionSheet](http://docs.kendoui.com/api/mobile/actionsheet) widget. It allows you to configure the Kendo UI Mobile ActionSheet
+The MobileActionSheet HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ActionSheet](/api/mobile/actionsheet) widget. It allows you to configure the Kendo UI Mobile ActionSheet
 from server-side code.
 
 ## Getting started

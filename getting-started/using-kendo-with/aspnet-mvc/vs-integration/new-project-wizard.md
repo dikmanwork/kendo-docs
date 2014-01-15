@@ -22,7 +22,7 @@ Using the options in the **UI for ASP.NET MVC** Project Settings page you can mo
 -   **View Engine** – Choose between Razor and WebForms
 -   **Theme** – Choose the visual theme for your **UI for ASP.NET MVC** Application
 -   **Copy Editor Templates** - Copy the predefined editor templates to ~/Views/Shared/EditorTemplates
--   **Use CDN Support** - Enable or disable [CDN](http://docs.kendoui.com/getting-started/javascript-dependencies#cdn) support.
+-   **Use CDN Support** - Enable or disable [CDN](/getting-started/javascript-dependencies#cdn) support.
 -   **Copy Global Resources** - Copy the localization files to ~/Scripts/kendo/{version}/cultures
 -   **Add Test Project** – Choose whether to add a test project to the solution.
 

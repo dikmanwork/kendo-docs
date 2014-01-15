@@ -9,7 +9,7 @@ relatedDocs: php-ui-slider
 
 # Slider
 
-The Kendo Slider for PHP is a server-side wrapper for the [Kendo UI Slider](http://docs.kendoui.com/api/web/slider) widget.
+The Kendo Slider for PHP is a server-side wrapper for the [Kendo UI Slider](/api/web/slider) widget.
 
 ## Getting Started
 

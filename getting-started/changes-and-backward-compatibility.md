@@ -125,7 +125,7 @@ Some ASP.NET MVC applications may be broken if using other libraries incompatibl
 #### Breaking changes
 
 * **Cascading ComboBoxes/DropDownLists:** The parameterMap of the child widget's dataSource is called before the change event of the parent widget.
-Use [cascade](http://docs.kendoui.com/api/web/combobox#cascade) event instead of change event.
+Use [cascade](/api/web/combobox#cascade) event instead of change event.
 
 * **UI for ASP.NET MVC**: Remove Slide effect. Use SlideIn instead.
 

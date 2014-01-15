@@ -74,7 +74,7 @@ You can reference an existing **ProgressBar** instance via [jQuery.data()](http:
 
 ## Subscribing to the events of Kendo UI ProgressBar
 
-The **ProgressBar** supports the following [events](http://docs.kendoui.com/api/web/progressbar#events):
+The **ProgressBar** supports the following [events](/api/web/progressbar#events):
 
 * **change** - Fired each time when a new value is set.
 * **complete** - Fired when the progress has completed i.e. each time when it reaches the maximum value.
@@ -84,7 +84,7 @@ There are two ways to handle events:
 * Specify the JavaScript function which will handle the event during the widget initialization.
 * Use the `bind` method of the widget after initialization.
 
-You could find examples of both approaches in the [api reference](http://docs.kendoui.com/api/web/progressbar#events).
+You could find examples of both approaches in the [api reference](/api/web/progressbar#events).
 
 ### Accessing an Existing ProgressBar instance
 

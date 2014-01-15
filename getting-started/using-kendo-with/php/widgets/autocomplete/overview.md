@@ -9,7 +9,7 @@ relatedDocs: php-ui-autocomplete
 
 # AutoComplete
 
-The Kendo AutoComplete for PHP is a server-side wrapper for the [Kendo UI AutoComplete](http://docs.kendoui.com/api/web/autocomplete) widget.
+The Kendo AutoComplete for PHP is a server-side wrapper for the [Kendo UI AutoComplete](/api/web/autocomplete) widget.
 
 ## Getting Started
 

@@ -6,13 +6,13 @@ publish: true
 
 # PanelBar
 
-The PanelBar JSP tag is a server-side wrapper for the [Kendo UI PanelBar](http://docs.kendoui.com/api/web/panelbar) widget.
+The PanelBar JSP tag is a server-side wrapper for the [Kendo UI PanelBar](/api/web/panelbar) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo PanelBar:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -48,7 +48,7 @@ Here is how to configure a simple Kendo PanelBar:
 ## Accessing an Existing PanelBar
 
 You can reference an existing PanelBar instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/panelbar#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/panelbar#methods) to control its behavior.
 
 ### Accessing an existing PanelBar instance
 
@@ -62,7 +62,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI PanelBar events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/panelbar#events) exposed by Kendo UI PanelBar:
+You can subscribe to all [events](/api/web/panelbar#events) exposed by Kendo UI PanelBar:
 
 ### Subscribe by handler name
 

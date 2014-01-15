@@ -8,7 +8,7 @@ publish: true
 
 # MobileTabStrip
 
-The MobileTabStrip HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile TabStrip](http://docs.kendoui.com/api/mobile/tabstrip) widget. It allows you to configure the Kendo UI Mobile TabStrip
+The MobileTabStrip HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile TabStrip](/api/mobile/tabstrip) widget. It allows you to configure the Kendo UI Mobile TabStrip
 from server-side code.
 
 ## Getting started

@@ -9,7 +9,7 @@ relatedDocs: php-ui-editor
 
 # Editor
 
-The Kendo Editor for PHP is a server-side wrapper for the [Kendo UI Editor](http://docs.kendoui.com/api/web/editor) widget.
+The Kendo Editor for PHP is a server-side wrapper for the [Kendo UI Editor](/api/web/editor) widget.
 
 ## Getting Started
 

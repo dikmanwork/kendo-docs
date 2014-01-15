@@ -6,18 +6,18 @@ publish: true
 
 # MultiSelect
 
-The MultiSelect JSP tag is a server-side wrapper for the [Kendo UI MultiSelect](http://docs.kendoui.com/api/web/multiSelect) widget.
+The MultiSelect JSP tag is a server-side wrapper for the [Kendo UI MultiSelect](/api/web/multiSelect) widget.
 
 ## Getting Started
 
 There are two ways to bind a Kendo MultiSelect:
 
 *   **server** - the data will be serialized to the client. No Ajax requests will be made.
-*   **ajax** - the multiSelect will make ajax requests to get the data. [Here](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/tags/multiSelect/ajax-binding) you can find more information about this binding.
+*   **ajax** - the multiSelect will make ajax requests to get the data. [Here](/getting-started/using-kendo-with/jsp/tags/multiSelect/ajax-binding) you can find more information about this binding.
 
 Here is how to configure the Kendo MultiSelect for binding to a data passed as model attribute in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](http://docs.kendoui.com/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method and pass the Products table to the View:
 
@@ -73,7 +73,7 @@ This functionality is supported in Q1 SP1 2013 release and later versions of Ken
 ## Accessing an Existing MultiSelect
 
 You can reference an existing MultiSelect instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](http://docs.kendoui.com/api/web/multiselect#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/api/web/multiselect#methods) to control its behavior.
 
 ### Accessing an existing MultiSelect instance
 
@@ -87,7 +87,7 @@ Once a reference has been established, you can use the [API](http://docs.kendoui
 
 ## Handling Kendo UI MultiSelect events
 
-You can subscribe to all [events](http://docs.kendoui.com/api/web/multiselect#events) exposed by Kendo UI multiselect:
+You can subscribe to all [events](/api/web/multiselect#events) exposed by Kendo UI multiselect:
 
 ### Subscribe by handler name
 

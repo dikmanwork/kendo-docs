@@ -8,7 +8,7 @@ publish: true
 
 # Button
 
-The Button HtmlHelper extension is a server-side wrapper for the [Kendo UI Button](http://docs.kendoui.com/api/web/button) widget.
+The Button HtmlHelper extension is a server-side wrapper for the [Kendo UI Button](/api/web/button) widget.
 
 It is assumed that the reader of this page is familiar with the fundamental [Kendo UI widget concepts](/getting-started/widgets) and
 the [Kendo UI MVC wrappers](/getting-started/using-kendo-with/aspnet-mvc/introduction) are setup correctly.
