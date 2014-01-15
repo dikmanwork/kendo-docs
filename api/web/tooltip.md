@@ -239,7 +239,7 @@ versions, so it is advisable to always use the [iframe configuration option](#if
       $(document).ready(function() {
         $("#target").kendoTooltip({
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280
@@ -510,7 +510,7 @@ Triggered when an AJAX request for content completes.
       $(document).ready(function() {
         $("#target").kendoTooltip({
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280,
@@ -531,7 +531,7 @@ Triggered when an AJAX request for content completes.
       $(document).ready(function() {
         var tooltip = $("#target").kendoTooltip({
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280
@@ -654,7 +654,7 @@ Triggered before an AJAX request started. Note that this event is triggered only
         $("#target").kendoTooltip({
           iframe: false,
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280,
@@ -676,7 +676,7 @@ Triggered before an AJAX request started. Note that this event is triggered only
         var tooltip = $("#target").kendoTooltip({
           iframe: false,
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280
@@ -713,7 +713,7 @@ Triggered when an AJAX request for content fails.
         $("#target").kendoTooltip({
           iframe: false,
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280,
@@ -735,7 +735,7 @@ Triggered when an AJAX request for content fails.
         var tooltip = $("#target").kendoTooltip({
           iframe: false,
           content: {
-            url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+            url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
           },
           width: 220,
           height: 280

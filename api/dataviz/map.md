@@ -1477,7 +1477,7 @@ versions, so it is advisable to always use the [iframe configuration option](#if
             markerDefaults: {
                 tooltip: {
                       content: {
-                        url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+                        url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
                       },
                       width: 220,
                       height: 280
@@ -1568,7 +1568,7 @@ Explicitly states whether content iframe should be created.
                 tooltip: {
                       iframe: true,
                       content: {
-                        url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+                        url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
                       },
                       width: 220,
                       height: 280
@@ -2066,7 +2066,7 @@ versions, so it is advisable to always use the [iframe configuration option](#if
                 location: [42, 27],
                 tooltip: {
                       content: {
-                        url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+                        url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
                       },
                       width: 220,
                       height: 280
@@ -2145,7 +2145,7 @@ Explicitly states whether content iframe should be created.
                 tooltip: {
                       iframe: true,
                       content: {
-                        url: "http://demos.kendoui.com/content/web/tooltip/ajax/ajaxContent3.html"
+                        url: "http://demos.telerik.com/kendo-ui/content/web/tooltip/ajax/ajaxContent3.html"
                       },
                       width: 220,
                       height: 280

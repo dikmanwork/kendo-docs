@@ -279,8 +279,8 @@ Sets the field of the data item that provides the image URL of the treeview node
     <div id="treeview"></div>
     <script>
     var items = [
-      { text: "Mail", image: "http://demos.kendoui.com/content/web/treeview/mail.png" },
-      { text: "Search", image: "http://demos.kendoui.com/content/web/treeview/search.png" }
+      { text: "Mail", image: "http://demos.telerik.com/kendo-ui/content/web/treeview/mail.png" },
+      { text: "Search", image: "http://demos.telerik.com/kendo-ui/content/web/treeview/search.png" }
     ];
     $("#treeview").kendoTreeView({
       dataImageUrlField: "image",
@@ -331,7 +331,7 @@ If the `dataSource` option is an existing [kendo.data.HierarchicalDataSource](/a
     var dataSource = new kendo.data.HierarchicalDataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Employees",
+          url: "http://demos.telerik.com/kendo-ui/service/Employees",
           dataType: "jsonp"
         }
       },
@@ -358,7 +358,7 @@ If an array, each level uses the field that is at the same index in the array, o
 
     <style>
       #treeview .k-sprite {
-        background-image: url("http://demos.kendoui.com/content/web/treeview/coloricons-sprite.png");
+        background-image: url("http://demos.telerik.com/kendo-ui/content/web/treeview/coloricons-sprite.png");
       }
 
       .folder { background-position: 0 -16px; }

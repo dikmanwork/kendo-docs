@@ -43,7 +43,7 @@ If set to `false` the widget will not bind to the DataSource during initializati
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -51,7 +51,7 @@ If set to `false` the widget will not bind to the DataSource during initializati
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
     </script>
 
@@ -119,7 +119,7 @@ Instance of DataSource that the mobile ScrollView will be bound to. *If DataSour
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -127,7 +127,7 @@ Instance of DataSource that the mobile ScrollView will be bound to. *If DataSour
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
     </script>
 
@@ -181,7 +181,7 @@ The template which is used to render the pages without content. By default the S
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -189,7 +189,7 @@ The template which is used to render the pages without content. By default the S
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
     </script>
 
@@ -222,7 +222,7 @@ If set to `true` the ScrollView will display a pager. By default pager is enable
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -230,7 +230,7 @@ If set to `true` the ScrollView will display a pager. By default pager is enable
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
     </script>
 
@@ -267,7 +267,7 @@ Determines how many data items will be passed to the page template.
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -275,7 +275,7 @@ Determines how many data items will be passed to the page template.
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
     </script>
 
@@ -355,7 +355,7 @@ The template which is used to render the content of pages. By default the Scroll
                 type: "odata",
                 transport: {
                     read: {
-                        url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+                        url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
                     }
                 },
                 serverPaging: true,
@@ -613,7 +613,7 @@ The data collection. **Available only in data bound mode.** Parameter will be un
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       serverPaging: true,
@@ -621,7 +621,7 @@ The data collection. **Available only in data bound mode.** Parameter will be un
     });
 
     function setBackground(id) {
-      return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+      return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
     }
 
     function change(e) {

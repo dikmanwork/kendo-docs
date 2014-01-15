@@ -19,7 +19,7 @@ Represents the Kendo UI QRCode widget. Inherits from [Widget](/api/framework/wid
 <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       renderAs: "svg"
     });
     </script>
@@ -33,7 +33,7 @@ The background color of the QR code. Accepts a valid CSS color string, including
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       background: "red"
     });
     </script>
@@ -51,7 +51,7 @@ The color of the border. Accepts a valid CSS color string, including hex and rgb
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       border: {
         color: "#FF321C",
         width: 2
@@ -68,7 +68,7 @@ The width of the border in pixels. By default the border width is set to zero wh
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       border: {
         width: 5,
         color: "#FF7D05"
@@ -85,7 +85,7 @@ The color of the QR code. Accepts a valid CSS color string, including hex and rg
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       color: "#aa00bb"
     });
     </script>
@@ -127,7 +127,7 @@ The possible values are:
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       errorCorrection: "H"
     });
     </script>
@@ -154,7 +154,7 @@ Specifies the size of a QR code in pixels (i.e. "200px"). Numeric values are tre
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       size: 300
     });
     </script>
@@ -164,7 +164,7 @@ Specifies the size of a QR code in pixels (i.e. "200px"). Numeric values are tre
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html",
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html",
       size: "300px"
     });
     </script>
@@ -178,7 +178,7 @@ The value of the QRCode.
     <div id="qrCode"></div>
     <script>
     $("#qrCode").kendoQRCode({
-      value: "http://demos.kendoui.com/dataviz/overview/index.html"
+      value: "http://demos.telerik.com/kendo-ui/dataviz/overview/index.html"
     });
     </script>
 

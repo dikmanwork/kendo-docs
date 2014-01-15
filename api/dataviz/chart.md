@@ -26,7 +26,7 @@ data source is fired. By default the widget will bind to the data source specifi
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/stockdata",
+          url: "http://demos.telerik.com/kendo-ui/service/stockdata",
           dataType: "jsonp"
         }
       }
@@ -5261,7 +5261,7 @@ If the `dataSource` option is an existing [kendo.data.DataSource](/api/framework
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/stockdata",
+          url: "http://demos.telerik.com/kendo-ui/service/stockdata",
           dataType: "jsonp"
         }
       }

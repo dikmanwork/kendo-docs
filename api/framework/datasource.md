@@ -91,11 +91,11 @@ If set to `true` the data source would automatically save any changed data items
       autoSync: true,
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
-          url: "http://demos.kendoui.com/service/products/update",
+          url: "http://demos.telerik.com/kendo-ui/service/products/update",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -105,7 +105,7 @@ If set to `true` the data source would automatically save any changed data items
     });
     dataSource.fetch(function() {
       var product = dataSource.at(0);
-      product.set("UnitPrice", 20); // auto-syncs and makes request to http://demos.kendoui.com/service/products/update
+      product.set("UnitPrice", 20); // auto-syncs and makes request to http://demos.telerik.com/kendo-ui/service/products/update
     });
     </script>
 
@@ -122,11 +122,11 @@ makes a HTTP request for every CRUD operation.
       batch: true,
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
-          url: "http://demos.kendoui.com/service/products/update",
+          url: "http://demos.telerik.com/kendo-ui/service/products/update",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -139,7 +139,7 @@ makes a HTTP request for every CRUD operation.
       product.set("UnitPrice", 20);
       var anotherProduct = dataSource.at(1);
       anotherProduct.set("UnitPrice", 20);
-      dataSource.sync(); // causes only one request to "http://demos.kendoui.com/service/products/update"
+      dataSource.sync(); // causes only one request to "http://demos.telerik.com/kendo-ui/service/products/update"
     });
     </script>
 
@@ -640,7 +640,7 @@ The configuration used to parse the remote service response.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: { q: "html5" } // search for tweets that contain "html5"
         }
@@ -749,7 +749,7 @@ return the data items for the response.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: { q: "html5" } // search for tweets that contain "html5"
         }
@@ -770,7 +770,7 @@ return the data items for the response.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: { q: "html5" } // search for tweets that contain "html5"
         }
@@ -797,7 +797,7 @@ return the errors for response. If there are any errors the [error](#events-erro
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: { q: "#" }
         }
@@ -817,7 +817,7 @@ return the errors for response. If there are any errors the [error](#events-erro
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: { q: "#" }
         }
@@ -985,7 +985,7 @@ Executed before the server response is used. Use it to preprocess or parse the s
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       },
@@ -1314,7 +1314,7 @@ Local data sources are bound to a JavaScript array via the [data](#configuration
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
@@ -1344,9 +1344,9 @@ if the `id` of the data item is `ProductID` the "create" server response must be
     <script>
     var dataSource = new kendo.data.DataSource({
       transport: {
-        // make JSONP request to http://demos.kendoui.com/service/products/create
+        // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/create
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data, type) {
@@ -1376,9 +1376,9 @@ if the `id` of the data item is `ProductID` the "create" server response must be
           /* implementation omitted for brevity */
         },
         create: function(options) {
-          // make JSONP request to http://demos.kendoui.com/service/products/create
+          // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/create
           $.ajax({
-            url: "http://demos.kendoui.com/service/products/create",
+            url: "http://demos.telerik.com/kendo-ui/service/products/create",
             dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
             // send the created data items as the "models" service parameter encoded in JSON
             data: {
@@ -1530,7 +1530,7 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           cache: true,
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
@@ -1555,7 +1555,7 @@ If set to function the data source will invoke it and use the result as the URL.
       transport: {
         create: {
           url: function(options) {
-            return "http://demos.kendoui.com/service/products/create"
+            return "http://demos.telerik.com/kendo-ui/service/products/create"
           },
           cache: true,
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
@@ -1592,12 +1592,12 @@ If the value of `transport.destroy` is a string the data source uses this string
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         },
-        // make JSONP request to http://demos.kendoui.com/service/products/destroy
+        // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/destroy
         destroy: {
-          url: "http://demos.kendoui.com/service/products/destroy",
+          url: "http://demos.telerik.com/kendo-ui/service/products/destroy",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data, type) {
@@ -1628,7 +1628,7 @@ If the value of `transport.destroy` is a string the data source uses this string
       transport: {
         read: function(options) {
           $.ajax({
-            url: "http://demos.kendoui.com/service/products",
+            url: "http://demos.telerik.com/kendo-ui/service/products",
             dataType: "jsonp",
             success: function(result) {
               options.success(result);
@@ -1636,9 +1636,9 @@ If the value of `transport.destroy` is a string the data source uses this string
           });
         },
         destroy: function (options) {
-          // make JSONP request to http://demos.kendoui.com/service/products/destroy
+          // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/destroy
           $.ajax({
-            url: "http://demos.kendoui.com/service/products/destroy",
+            url: "http://demos.telerik.com/kendo-ui/service/products/destroy",
             dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
             // send the destroyed data items as the "models" service parameter encoded in JSON
             data: {
@@ -1794,11 +1794,11 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         },
         destroy: {
-          url: "http://demos.kendoui.com/service/products/destroy",
+          url: "http://demos.telerik.com/kendo-ui/service/products/destroy",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data, type) {
@@ -1825,12 +1825,12 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         },
         destroy: {
           url: function (options) {
-            return "http://demos.kendoui.com/service/products/destroy",
+            return "http://demos.telerik.com/kendo-ui/service/products/destroy",
           },
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
@@ -1921,7 +1921,7 @@ The type of the request which the data source makes. The supported values are "c
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Orders?$format=json",
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders?$format=json",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           jsonp: "$callback",
           cache: true
@@ -1954,7 +1954,7 @@ The type of the request which the data source makes. The supported values are "c
     var dataSource = new kendo.data.DataSource({
       transport: {
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data, type) {
@@ -1986,9 +1986,9 @@ If the value of `transport.read` is a string the data source uses this string as
     <script>
     var dataSource = new kendo.data.DataSource({
       transport: {
-        // make JSONP request to http://demos.kendoui.com/service/products
+        // make JSONP request to http://demos.telerik.com/kendo-ui/service/products
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
@@ -2004,7 +2004,7 @@ If the value of `transport.read` is a string the data source uses this string as
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: {
             q: $("#search").val() // send the value of the #search input to the remote service
@@ -2020,9 +2020,9 @@ If the value of `transport.read` is a string the data source uses this string as
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: function(options) {
-          // make JSONP request to http://demos.kendoui.com/service/products
+          // make JSONP request to http://demos.telerik.com/kendo-ui/service/products
           $.ajax({
-            url: "http://demos.kendoui.com/service/products",
+            url: "http://demos.telerik.com/kendo-ui/service/products",
             dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
             success: function(result) {
               // notify the data source that the request succeeded
@@ -2090,7 +2090,7 @@ Refer to the [jQuery.ajax](http://api.jquery.com/jQuery.ajax) documentation for 
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: {
             q: "html5" // send "html5" as the "q" parameter
@@ -2107,7 +2107,7 @@ Refer to the [jQuery.ajax](http://api.jquery.com/jQuery.ajax) documentation for 
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/twitter/search",
+          url: "http://demos.telerik.com/kendo-ui/service/twitter/search",
           dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
           data: function() {
             return {
@@ -2171,7 +2171,7 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
@@ -2188,7 +2188,7 @@ If set to function the data source will invoke it and use the result as the URL.
       transport: {
         read: {
           url: function(options) {
-            return "http://demos.kendoui.com/service/products",
+            return "http://demos.telerik.com/kendo-ui/service/products",
           }
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
@@ -2216,11 +2216,11 @@ If the value of `transport.update` is a string the data source uses this string 
     var dataSource = new kendo.data.DataSource({
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
-          url: "http://demos.kendoui.com/service/products/update",
+          url: "http://demos.telerik.com/kendo-ui/service/products/update",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -2231,7 +2231,7 @@ If the value of `transport.update` is a string the data source uses this string 
     dataSource.fetch(function() {
       var product = dataSource.at(0);
       product.set("UnitPrice", 20);
-      dataSource.sync(); makes request to http://demos.kendoui.com/service/products/update
+      dataSource.sync(); makes request to http://demos.telerik.com/kendo-ui/service/products/update
     });
     </script>
 
@@ -2244,9 +2244,9 @@ If the value of `transport.update` is a string the data source uses this string 
           /* implementation omitted for brevity */
         },
         update: function(options) {
-          // make JSONP request to http://demos.kendoui.com/service/products/update
+          // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/update
           $.ajax({
-            url: "http://demos.kendoui.com/service/products/update",
+            url: "http://demos.telerik.com/kendo-ui/service/products/update",
             dataType: "jsonp", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
             // send the updated data items as the "models" service parameter encoded in JSON
             data: {
@@ -2271,7 +2271,7 @@ If the value of `transport.update` is a string the data source uses this string 
     dataSource.fetch(function() {
       var product = dataSource.at(0);
       product.set("UnitPrice", 20);
-      dataSource.sync(); makes request to http://demos.kendoui.com/service/products/update
+      dataSource.sync(); makes request to http://demos.telerik.com/kendo-ui/service/products/update
     });
     </script>
 
@@ -2401,11 +2401,11 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
-          url: "http://demos.kendoui.com/service/products/update",
+          url: "http://demos.telerik.com/kendo-ui/service/products/update",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -2425,12 +2425,12 @@ If set to function the data source will invoke it and use the result as the URL.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
           url: function(options) {
-            return "http://demos.kendoui.com/service/products/update",
+            return "http://demos.telerik.com/kendo-ui/service/products/update",
           },
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
@@ -2456,7 +2456,7 @@ If set the data source will use a predefined [transport](#configuration-transpor
     var dataSource= new kendo.data.DataSource({
       type: "odata",
       transport: {
-        read: "http://demos.kendoui.com/service/Northwind.svc/Orders"
+        read: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders"
       },
       pageSize: 20,
       serverPaging: true
@@ -2502,9 +2502,9 @@ Either a [kendo.data.Model](/api/framework/model) instance or JavaScript object 
     <script>
     var dataSource = new kendo.data.DataSource({
       transport: {
-        // make JSONP request to http://demos.kendoui.com/service/products/create
+        // make JSONP request to http://demos.telerik.com/kendo-ui/service/products/create
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data, type) {
@@ -2733,7 +2733,7 @@ The data items which will replace the current ones in the data source. If omitte
     var dataSource = new kendo.data.DataSource({
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
@@ -2777,12 +2777,12 @@ The optional function which is executed when the remote request is finished.  Th
     var dataSource = new kendo.data.DataSource({
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
     });
-    // read the data items from http://demos.kendoui.com/service/products
+    // read the data items from http://demos.telerik.com/kendo-ui/service/products
     dataSource.fetch(function(){
       var data = this.data();
       console.log(data.length);  // displays "77"
@@ -3161,7 +3161,7 @@ option is set to `true`.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -3196,7 +3196,7 @@ Optional data to pass to the remote service.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       },
@@ -3297,15 +3297,15 @@ The `sync` method will request the remote service if:
       batch: true,
       transport: {
         read:  {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         update: {
-          url: "http://demos.kendoui.com/service/products/update",
+          url: "http://demos.telerik.com/kendo-ui/service/products/update",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         destroy: {
-          url: "http://demos.kendoui.com/service/products/destroy",
+          url: "http://demos.telerik.com/kendo-ui/service/products/destroy",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -3320,7 +3320,7 @@ The `sync` method will request the remote service if:
       anotherProduct.set("UnitPrice", 20);
       var yetAnotherProduct = dataSource.at(2);
       dataSource.remove(yetAnotherProduct);
-      dataSource.sync(); // makes a request to http://demos.kendoui.com/service/products/update" and http://demos.kendoui.com/service/products/destroy
+      dataSource.sync(); // makes a request to http://demos.telerik.com/kendo-ui/service/products/update" and http://demos.telerik.com/kendo-ui/service/products/destroy
     });
     </script>
 
@@ -3441,7 +3441,7 @@ The data source instance which fired the event.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       },
@@ -3463,7 +3463,7 @@ The data source instance which fired the event.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         }
       }
@@ -3507,7 +3507,7 @@ The current [jqXHR](http://api.jquery.com/Types/#jqXHR).
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/"
+          url: "http://demos.telerik.com/kendo-ui/service/"
         }
       }
     });
@@ -3540,7 +3540,7 @@ The type of the request. Set to "create", "read", "update" or "destroy".
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       },
@@ -3565,7 +3565,7 @@ The type of the request. Set to "create", "read", "update" or "destroy".
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       }
@@ -3591,7 +3591,7 @@ The data source instance which fired the event.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       },
@@ -3610,7 +3610,7 @@ The data source instance which fired the event.
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       }
@@ -3640,7 +3640,7 @@ The data source instance which fired the event.
       batch: true,
       transport: {
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data) {
@@ -3668,7 +3668,7 @@ The data source instance which fired the event.
       batch: true,
       transport: {
         create: {
-          url: "http://demos.kendoui.com/service/products/create",
+          url: "http://demos.telerik.com/kendo-ui/service/products/create",
           dataType: "jsonp" //"jsonp" is required for cross-domain requests; use "json" for same-domain requests
         },
         parameterMap: function(data) {

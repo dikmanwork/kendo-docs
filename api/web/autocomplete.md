@@ -140,7 +140,7 @@ If the `dataSource` option is an existing [kendo.data.DataSource](/api/framework
     var dataSource = new kendo.data.DataSource({
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/products",
+          url: "http://demos.telerik.com/kendo-ui/service/products",
           dataType: "jsonp"
         }
       }
