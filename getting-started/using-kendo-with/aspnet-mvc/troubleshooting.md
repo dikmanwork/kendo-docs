@@ -1,14 +1,14 @@
 ---
 title: Troubleshooting
-meta_title: Troubleshooting guide for Kendo UI Complete for ASP.NET MVC
-meta_description: Find solutions for common problems which you may face while using Kendo UI Complete for ASP.NET MVC.
+meta_title: Troubleshooting guide for UI for ASP.NET MVC
+meta_description: Find solutions for common problems which you may face while using UI for ASP.NET MVC
 slug: mvc-troubleshooting
 publish: true
 ---
 
 # Troubleshooting
 
-This page provides solutions for common problems you may encounter while working with Kendo UI Complete for ASP.NET MVC. In addition you could check the general [Kendo UI troubleshooting help topic](/getting-started/troubleshooting).
+This page provides solutions for common problems you may encounter while working with **UI for ASP.NET MVC**. In addition you could check the general [Kendo UI troubleshooting help topic](/getting-started/troubleshooting).
 
 ## JavaScript error that jQuery is unavailable or undefined
 

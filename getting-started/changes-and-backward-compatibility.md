@@ -31,7 +31,7 @@ Also see [`kendo.resize()`](/api/framework/kendo/#methods-resize).
  -  `end.endCountOccurrence` becomes `end.occurrence`
  -  `end.endUntilOn` becomes `end.on`
 
-* **MVC DataSource**: The MVC DataSource transport now serializes numbers based on the used Kendo culture. As a result, if you are using an invariant culture number model binder, the numbers will not be parsed correctly. You should either use the the same culture to parse the numbers in the model binder or remove the model binder in order for numbers with a decimal separator to be parsed correctly. 
+* **MVC DataSource**: The MVC DataSource transport now serializes numbers based on the used Kendo culture. As a result, if you are using an invariant culture number model binder, the numbers will not be parsed correctly. You should either use the the same culture to parse the numbers in the model binder or remove the model binder in order for numbers with a decimal separator to be parsed correctly.
 
 ## KendoUI 2013 Q2
 
@@ -127,7 +127,7 @@ Some ASP.NET MVC applications may be broken if using other libraries incompatibl
 * **Cascading ComboBoxes/DropDownLists:** The parameterMap of the child widget's dataSource is called before the change event of the parent widget.
 Use [cascade](http://docs.kendoui.com/api/web/combobox#cascade) event instead of change event.
 
-* **Kendo UI Complete for ASP.NET MVC:** Remove Slide effect. Use SlideIn instead.
+* **UI for ASP.NET MVC**: Remove Slide effect. Use SlideIn instead.
 
 ## KendoUI 2012 Q3
 

@@ -1,15 +1,15 @@
 ---
-title: Kendo UI Complete for ASP.NET MVC Fundamentals
-meta_title: Kendo UI Complete for ASP.NET MVC Fundamentals
+title: UI for ASP.NET MVC Fundamentals
+meta_title: UI for ASP.NET MVC Fundamentals
 meta_description: Kendo UI server-side wrappers, configuration, fluent interface, initialization
 slug: mvc-fundamentals
 publish: true
 ---
-# Kendo UI Complete for ASP.NET MVC Fundamentals
+# UI for ASP.NET MVC Fundamentals
 
 ## Server-side wrappers
 
-Kendo UI Complete for ASP.NET MVC is a set of server-side wrappers. A server-wrapper does the following.
+**UI for ASP.NET MVC** is a set of server-side wrappers. A server-wrapper does the following.
 
 * Allows the developer to configure a Kendo UI widget via C# or VB.NET code - set its value, data source etc.
 * Renders the HTML and JavaScript needed to initialize the Kendo UI widget. The widget options propagate to the client-side via the widget initialization script.

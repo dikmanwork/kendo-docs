@@ -6,7 +6,7 @@ slug: mvc-5
 publish: true
 ---
 # Kendo UI in ASP.NET MVC 5 applications
-This tutorial shows how to use Kendo UI Complete for ASP.NET MVC in ASP.NET MVC 5 applications. The tutorial uses Visual Studio 2013 but will work with all Visual Studio versions that support ASP.NET MVC 5. The tutorial also creates a new ASP.NET MVC 5 application but the steps to use Kendo UI in exsiting ASP.NET MVC 5 application are the same.
+This tutorial shows how to use **UI for ASP.NET MVC** in ASP.NET MVC 5 applications. The tutorial uses Visual Studio 2013 but will work with all Visual Studio versions that support ASP.NET MVC 5. The tutorial also creates a new ASP.NET MVC 5 application but the steps to use Kendo UI in exsiting ASP.NET MVC 5 application are the same.
 
 **The Kendo UI Visual Studio extensions automate the whole procedure which this document describes.**
 ## Create a new ASP.NET MVC 5 Application
@@ -21,9 +21,9 @@ To create a new ASP.NET MVC 5 Application follow these steps.
 6. Press **CTRL+F5** to build and run the application.
 ![New ASP.NET MVC 5 Application](images/mvc5-new-app.png)
 
-## Add Kendo UI Complete for ASP.NET MVC
+## Add UI for ASP.NET MVC to the application
 
-To use Kendo UI Complete for ASP.NET MVC you need to include the required JavaScript and CSS files, reference the Kendo.Mvc.dll assembly and update the web.config file of the application.
+To use **UI for ASP.NET MVC** you need to include the required JavaScript and CSS files, reference the Kendo.Mvc.dll assembly and update the web.config file of the application.
 
 ### Include the JavaScript and CSS files
 
@@ -33,7 +33,7 @@ Kendo UI requires certain JavaScript and CSS files to be included in the page. T
 
 To copy the Kendo UI JavaScript and CSS files in the Visual Studio Solution of the application follow these steps.
 
-1. Navigate to the install location of Kendo UI Complete for ASP.NET MVC. By default it is in **C:\Program Files (x86)\Telerik\**.
+1. Navigate to the install location of **UI for ASP.NET MVC**. By default it is in **C:\Program Files (x86)\Telerik\**.
 2. Copy the **js** directory from the install location and paste it in the **Script** folder of the application.
 3. Copy the **styles** directory from the install location and paste it in the **Content** folder of the application.
 4. Rename the **Scripts/js** directory to **Scripts/kendo**. Rename **Content/styles** to **Content/kendo**.
@@ -104,8 +104,8 @@ To include the Kendo UI JavaScript and CSS files from CDN follow these steps. Im
 The next step is to add a reference to **Kendo.Mvc.dll** which is the assembly containing the Kendo UI server-side wrappers.
 
 1. Right-click the **References** node in Solution Explorer and click **Add Reference**.
-2. Select the **Browse** tab of the **Add Reference** dialog and navigate to the install location of Kendo UI Complete for ASP.NET MVC.
-3. Navigate to **wrappers/aspnetmvc/Binaries/MVC5**. This directory contains the ASP.NET MVC 5 version of Kendo UI Complete for ASP.NET MVC.
+2. Select the **Browse** tab of the **Add Reference** dialog and navigate to the install location of **UI for ASP.NET MVC**.
+3. Navigate to **wrappers/aspnetmvc/Binaries/MVC5**. This directory contains the ASP.NET MVC 5 version of **UI for ASP.NET MVC**.
 4. Select **Kendo.Mvc.dll** and click **OK**.
 
 ### Update the web.config
