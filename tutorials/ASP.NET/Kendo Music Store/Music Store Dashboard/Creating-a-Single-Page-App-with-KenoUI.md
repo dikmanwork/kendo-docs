@@ -82,7 +82,7 @@ anonymous function and added to the Window object:
 
 The musicDashboard object has a setup method that initilizes the router member to a new Kendo UI Router object.
 The Router object allows you to define your application's URLs. This means they can be shared to provide deep linking to your application.
-You can read more about the [Kendo Router](http://www.kendoui.com/blogs/teamblog/posts/13-05-09/a-day-at-the-spa-with-kendo.router.aspx "Kendo Router") object at http://www.kendoui.com/blogs/teamblog/posts/13-05-09/a-day-at-the-spa-with-kendo.router.aspx
+You can read more about the [Kendo Router](http://blogs.telerik.com/posts/teamblog/posts/13-05-09/a-day-at-the-spa-with-kendo.router.aspx "Kendo Router") object at http://blogs.telerik.com/posts/teamblog/posts/13-05-09/a-day-at-the-spa-with-kendo.router.aspx
 
         //kendoui router object
         router: undefined,

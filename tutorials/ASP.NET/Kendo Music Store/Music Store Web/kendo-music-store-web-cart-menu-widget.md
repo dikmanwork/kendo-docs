@@ -37,8 +37,8 @@ These are the features that we want the Cart Menu widget to support:
 ## Boilerplate Custom Widget
 
 > For more information on creating a custom widget, Burke Holland has a couple excellent blog posts on the KendoUI blog:
-> [Creating Custom Kendo UI Plugins](http://www.kendoui.com/blogs/teamblog/posts/12-04-03/creating_custom_kendo_ui_plugins.aspx)
-> and [Creating a DataSource Aware Kendo UI Widget](http://www.kendoui.com/blogs/teamblog/posts/12-04-10/creating_a_datasource_aware_kendo_ui_widget.aspx)
+> [Creating Custom Kendo UI Plugins](http://blogs.telerik.com/posts/teamblog/posts/12-04-03/creating_custom_kendo_ui_plugins.aspx)
+> and [Creating a DataSource Aware Kendo UI Widget](http://blogs.telerik.com/posts/teamblog/posts/12-04-10/creating_a_datasource_aware_kendo_ui_widget.aspx)
 
 The JavaScript code for the cart menu widget is in the file **Scripts/App/kendo-cart-menu-widget.js**.
 

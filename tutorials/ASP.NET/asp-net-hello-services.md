@@ -818,7 +818,7 @@ The completed application used in this project is available on the course
 
 ![][63]
 
-   [1]: http://www.kendoui.com/blogs/teamblog/posts/12-05-02/html5_development_for_asp_net_developers.aspx
+   [1]: http://blogs.telerik.com/posts/teamblog/posts/12-05-02/html5_development_for_asp_net_developers.aspx
 
    [2]: http://www.asp.net/web-api
 
