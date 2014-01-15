@@ -27,4 +27,4 @@ Using the responsive features of Bootstrap does not differ from other responsive
 
 ## Using a customized version of Bootstrap
 
-If you have customized the colors of Bootstrap before using it, and need Kendo UI to match the newly chosen colors, you will need to customize Kendo UI's bootstrap theme through the [Kendo UI ThemeBuilder](http://demos.kendoui.com/themebuilder/web.html).
+If you have customized the colors of Bootstrap before using it, and need Kendo UI to match the newly chosen colors, you will need to customize Kendo UI's bootstrap theme through the [Kendo UI ThemeBuilder](http://demos.telerik.com/kendo-ui/themebuilder/web.html).

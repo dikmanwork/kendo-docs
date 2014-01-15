@@ -87,7 +87,7 @@ Background icons are applied via the `icon` or `spriteCssClass` property and are
 The `span` element can be rendered by the **Button** automatically, or an existing `span` element can be used, if it has a `k-sprite` CSS class (or `k-icon` if the `icon` property is used).
 
 The difference between the two properties is that `icon` is intended to be used for built-in Kendo UI icons, which are part of the theme sprite.
-For a list of available icon names, please refer to the [Icons demo](http://demos.kendoui.com/web/styling/icons.html).
+For a list of available icon names, please refer to the [Icons demo](http://demos.telerik.com/kendo-ui/web/styling/icons.html).
 
 #### Example - using icon
 

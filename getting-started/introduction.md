@@ -232,7 +232,7 @@ A lot of interactive tutorials are available in the [Kendo UI Dojo](http://www.k
 
 ### Examples
 
-1. [Online demos](http://demos.kendoui.com)
+1. [Online demos](http://demos.telerik.com/kendo-ui)
 1. [Code library projects](http://www.kendoui.com/code-library.aspx)
 1. Examples available on github
 -   [ASP.NET MVC examples](https://github.com/telerik/kendo-examples-asp-net-mvc/)

@@ -41,7 +41,7 @@ hierarchical data.
     var homogeneous = new kendo.data.HierarchicalDataSource({
         transport: {
             read: {
-                url: "http://demos.kendoui.com/service/Employees",
+                url: "http://demos.telerik.com/kendo-ui/service/Employees",
                 dataType: "json"
             }
         },
@@ -57,7 +57,7 @@ The above snippet will target the HierarchicalDataSource to a single service end
 The data service is homogeneous, i.e. it always returns objects of the same type.
 After executing `homogeneous.read()`, the service end-point is hit without a EmployeeId parameter:
 
-    GET http://demos.kendoui.com/service/Employees
+    GET http://demos.telerik.com/kendo-ui/service/Employees
 
     => [ { "EmployeeId": 2, "Name": "Andrew", "HasEmployees": true } ]
 
@@ -69,7 +69,7 @@ Reading the children of the returned item is achieved by calling the [`load` met
 
 This will hit the service end-point and will supply the id of the data item:
 
-    GET http://demos.kendoui.com/service/Employees?EmployeeId=2
+    GET http://demos.telerik.com/kendo-ui/service/Employees?EmployeeId=2
 
     => [
           { "EmployeeId": 3, "Name": "Bob", "HasEmployees": false },
@@ -104,7 +104,7 @@ You can either hard-code it, map it to another property, or compute it with a fu
     var Products = {
             transport: {
                 read: {
-                    url: "http://demos.kendoui.com/service/Products",
+                    url: "http://demos.telerik.com/kendo-ui/service/Products",
                     dataType: "json"
                 }
             },
@@ -121,7 +121,7 @@ You can either hard-code it, map it to another property, or compute it with a fu
     var Categories = new kendo.data.HierarchicalDataSource({
         transport: {
             read: {
-                url: "http://demos.kendoui.com/service/Categories",
+                url: "http://demos.telerik.com/kendo-ui/service/Categories",
                 dataType: "json"
             }
         },
@@ -153,7 +153,7 @@ the hierarchy with any DataSource-enabled component.
     var Categories = new kendo.data.HierarchicalDataSource({
         transport: {
             read: {
-                url: "http://demos.kendoui.com/service/Categories"
+                url: "http://demos.telerik.com/kendo-ui/service/Categories"
             }
         },
         schema: {
@@ -163,7 +163,7 @@ the hierarchy with any DataSource-enabled component.
                 children: {
                     transport: {
                         read: {
-                            url: "http://demos.kendoui.com/service/Products"
+                            url: "http://demos.telerik.com/kendo-ui/service/Products"
                         }
                     },
                     schema: {

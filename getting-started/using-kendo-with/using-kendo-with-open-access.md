@@ -103,7 +103,7 @@ Now we need to add the needed Kendo files, so add the following lines in the hea
     <script src="Scripts/jquery-1.7.1.min.js"></script>
     <script src="Scripts/2012.3.1114/kendo.all.min.js"></script>
 
-Next, we need to set up the grid.  KendoUI’s web site provides many [great examples](http://demos.kendoui.com/web/grid/index.html) of how to configure binding; so I won’t go into too much detail here.  The basic idea is that we need a div that will be used as the container for the KendoUI grid, and then we just have to configure the grid in script.
+Next, we need to set up the grid.  KendoUI’s web site provides many [great examples](http://demos.telerik.com/kendo-ui/web/grid/index.html) of how to configure binding; so I won’t go into too much detail here.  The basic idea is that we need a div that will be used as the container for the KendoUI grid, and then we just have to configure the grid in script.
 
 The code needed is here:
 

@@ -55,7 +55,7 @@ be lost when the user refreshes the page. This is why a scheduler will most like
 
 ## Binding to remote service
 
-In most cases the Kendo UI Scheduler widget would be bound to a remote service which will return, update or delete scheduler events. The Kendo UI [online demos](http://demos.kendoui.com/web/scheduler/) use
+In most cases the Kendo UI Scheduler widget would be bound to a remote service which will return, update or delete scheduler events. The Kendo UI [online demos](http://demos.telerik.com/kendo-ui/web/scheduler/) use
 a demo remote service which returns sample scheduler events. That service uses [JSONP](http://en.wikipedia.org/wiki/JSONP) in order to support cross-domain requests.
 
 > The demo service uses JSONP in order to be accessible cross-domain. If your own service lives in the same domain as the web site you don't need to use JSONP - you can use JSON instead. More information
@@ -70,19 +70,19 @@ about cross-domain requests can be found [here](/howto/use-cors-with-all-modern-
             batch: true, // Enable batch updates
             transport: {
                 read: {
-                    url: "http://demos.kendoui.com/service/tasks",
+                    url: "http://demos.telerik.com/kendo-ui/service/tasks",
                     dataType: "jsonp"
                 },
                 update: {
-                    url: "http://demos.kendoui.com/service/tasks/update",
+                    url: "http://demos.telerik.com/kendo-ui/service/tasks/update",
                     dataType: "jsonp"
                 },
                 create: {
-                    url: "http://demos.kendoui.com/service/tasks/create",
+                    url: "http://demos.telerik.com/kendo-ui/service/tasks/create",
                     dataType: "jsonp"
                 },
                 destroy: {
-                    url: "http://demos.kendoui.com/service/tasks/destroy",
+                    url: "http://demos.telerik.com/kendo-ui/service/tasks/destroy",
                     dataType: "jsonp"
                 },
                 parameterMap: function(options, operation) {

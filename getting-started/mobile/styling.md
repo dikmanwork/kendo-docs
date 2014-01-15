@@ -25,7 +25,7 @@ All themes and skins ***require*** the **images** subfolder, which contains a ma
 
 <br/>
 Kendo UI Mobile's themes are designed to be easily customizable with different colors and backgrounds.
-To further ease the task, we also provide a special tool called [Kendo UI Mobile ThemeBuilder](http://demos.kendoui.com/mobilethemebuilder/index.html).
+To further ease the task, we also provide a special tool called [Kendo UI Mobile ThemeBuilder](http://demos.telerik.com/kendo-ui/mobilethemebuilder/index.html).
 It is very simple to use - just drag and drop your chosen colors, gradients, patterns and font styles onto the platform theme you need restyled and finally click the export button to get
 the needed CSS stylesheet.
 

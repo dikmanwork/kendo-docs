@@ -77,7 +77,7 @@ You can preview the simple application that the Bootstrapper provided you with b
 
 The Bootstrapper will automatically refresh changes to your app in the preview window, so you're free to keep it open as you work on your app.
 
-The application is simple and contains just a [Kendo UI Window](http://demos.kendoui.com/web/window/index.html) widget as part of the scaffold. It's time to start editing this application.
+The application is simple and contains just a [Kendo UI Window](http://demos.telerik.com/kendo-ui/web/window/index.html) widget as part of the scaffold. It's time to start editing this application.
 
 ### Editing
 

@@ -66,7 +66,7 @@ There are three settings, which the **Button** provides for configuring icons - 
 Background icons are applied via the `.Icon()` or `.SpriteCssClass()` fluent methods and are displayed as a background of a `span` element.
 
 The difference between the two settings is that `.Icon()` is intended to be used for built-in Kendo UI icons, which are part of the theme sprite.
-For a list of available icon names, please refer to the [Icons demo](http://demos.kendoui.com/web/styling/icons.html).
+For a list of available icon names, please refer to the [Icons demo](http://demos.telerik.com/kendo-ui/web/styling/icons.html).
 
 #### Using `.Icon()`
 

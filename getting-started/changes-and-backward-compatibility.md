@@ -53,7 +53,7 @@ Also see [`kendo.resize()`](/api/framework/kendo/#methods-resize).
             ]
         });
 
-* **Editor**: Initializing the editor from a `div` element triggers the [inline editing mode](http://demos.kendoui.com/web/editor/inline-editing.html). If you need to revert to the old behavior, initialize it from a `<textarea>` element.
+* **Editor**: Initializing the editor from a `div` element triggers the [inline editing mode](http://demos.telerik.com/kendo-ui/web/editor/inline-editing.html). If you need to revert to the old behavior, initialize it from a `<textarea>` element.
 
 * **Mobile ListView**:
 
@@ -201,7 +201,7 @@ if using the Default skin, should be updated to:
             .k-i-arrow-w
             .k-i-seek-w
             .k-i-seek-e
-    for more information check the [Styling Icons demo](http://demos.kendoui.com/web/styling/icons.html).
+    for more information check the [Styling Icons demo](http://demos.telerik.com/kendo-ui/web/styling/icons.html).
 
 *  **Popup:** Popup based widgets nested in other Popup based widgets create their Popup container inside the Popup parent. This means that a DropDownList created inside an already
     initialized Menu will create its list inside the Menu item's parent Popup.

@@ -62,7 +62,7 @@ The widget supports two operation modes - standard and data bound. The first one
             type: "odata",
             transport: {
                 read: {
-                    url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+                    url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
                 }
             },
             serverPaging: true,
@@ -70,7 +70,7 @@ The widget supports two operation modes - standard and data bound. The first one
         });
 
         function setBackground(id) {
-            return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+            return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
         }
     </script>
 
@@ -94,7 +94,7 @@ The widget supports two operation modes - standard and data bound. The first one
                     type: "odata",
                     transport: {
                         read: {
-                            url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+                            url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
                         }
                     },
                     serverPaging: true,
@@ -107,7 +107,7 @@ The widget supports two operation modes - standard and data bound. The first one
         }
 
         function setBackground(id) {
-            return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+            return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
         }
     </script>
 
@@ -194,7 +194,7 @@ By default the widget displays one data record per page. There is an opportunity
                     type: "odata",
                     transport: {
                         read: {
-                            url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+                            url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
                         }
                     },
                     serverPaging: true,
@@ -208,7 +208,7 @@ By default the widget displays one data record per page. There is an opportunity
         }
 
         function setBackground(id) {
-            return "url(http://demos.kendoui.com/content/web/foods/" + id +".jpg)";
+            return "url(http://demos.telerik.com/kendo-ui/content/web/foods/" + id +".jpg)";
         }
     </script>
 

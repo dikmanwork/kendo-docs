@@ -77,7 +77,7 @@ preferably in the $(document).ready() event handler.
         dataSource: {
             transport: {
                 read: {
-                    url: "http://demos.kendoui.com/service/Employees",
+                    url: "http://demos.telerik.com/kendo-ui/service/Employees",
                     dataType: "json"
                 }
             },

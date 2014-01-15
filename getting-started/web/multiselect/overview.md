@@ -204,7 +204,7 @@ This functionality is supported in Q1 SP1 2013 release and later versions of Ken
                     serverFiltering: true,
                     transport: {
                         read: {
-                            url: "http://demos.kendoui.com/service/Northwind.svc/Products",
+                            url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products",
                         }
                     }
                 },
