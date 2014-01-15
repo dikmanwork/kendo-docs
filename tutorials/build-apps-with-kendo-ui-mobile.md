@@ -38,10 +38,10 @@ Apps do not need to be "cross compiled" in to a native SDK language. Your HTML a
 
 There are a few key, "non-visual" pieces of Kendo UI Mobile used in virtually all apps:
 
-1. **[Application](http://demos.kendoui.com/mobile/application/index.html)**:
+1. **[Application](http://demos.telerik.com/kendo-ui/mobile/application/index.html)**:
 The shell of a Kendo UI Mobile app. Application manages all navigation, application history, loading views, rendering mobile meta tags, and other essential mobile app tasks.
-2. **[Layout](http://demos.kendoui.com/mobile/layout/index.html)**: Defines the reusable portions of a mobile app, similar to a MasterPage or template. Layouts are often used improve app maintainability by defining things used across multiple views, like navigation. Layouts are not required, but encouraged.
-3. **[Views](http://demos.kendoui.com/mobile/view/index.html)**: Individual pages of a mobile app. Views contain the majority of an app's content. Every app will have one or more views.
+2. **[Layout](http://demos.telerik.com/kendo-ui/mobile/layout/index.html)**: Defines the reusable portions of a mobile app, similar to a MasterPage or template. Layouts are often used improve app maintainability by defining things used across multiple views, like navigation. Layouts are not required, but encouraged.
+3. **[Views](http://demos.telerik.com/kendo-ui/mobile/view/index.html)**: Individual pages of a mobile app. Views contain the majority of an app's content. Every app will have one or more views.
 
 Layouts and Views are defined with HTML; the Application is simply JavaScript. There is no markup associated with an Application. Let's create the basic structure of a Kendo UI Mobile app using these building blocks.
 

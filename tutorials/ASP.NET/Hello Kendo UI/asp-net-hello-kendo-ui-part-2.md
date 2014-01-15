@@ -509,12 +509,12 @@ code for this module [**here**][3].
    [3]: https://github.com/telerik/html5-dev-for-aspnet-devs/tree/master
 /hello-kendo-ui-part-2
 
-   [4]: http://demos.kendoui.com/web/grid/editing-popup.html
+   [4]: http://demos.telerik.com/kendo-ui/web/grid/editing-popup.html
 
-   [5]: http://demos.kendoui.com/web/grid/editing-inline.html
+   [5]: http://demos.telerik.com/kendo-ui/web/grid/editing-inline.html
 
-   [6]: http://demos.kendoui.com/web/grid/editing-custom.html
+   [6]: http://demos.telerik.com/kendo-ui/web/grid/editing-custom.html
 
    [9]: http:///api/framework/model
 
-   [10]: http://demos.kendoui.com/web/datepicker
+   [10]: http://demos.telerik.com/kendo-ui/web/datepicker

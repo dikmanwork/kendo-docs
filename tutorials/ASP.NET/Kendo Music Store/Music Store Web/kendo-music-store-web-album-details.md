@@ -164,7 +164,7 @@ We could have also calculated an actual X and Y coordinate to position the windo
 ## Handle Changing the Quantity
 
 One of the features of the album details window is the ability to change the quantity with a
-[Kendo Numeric Text Box](http://demos.kendoui.com/web/numerictextbox/index.html) widget.
+[Kendo Numeric Text Box](http://demos.telerik.com/kendo-ui/web/numerictextbox/index.html) widget.
 This uses an MVVM bound input box as the base element for the number box:
 
     <input type="number" value="1" min="1" max="100" data-role="numerictextbox" data-decimals="0" data-format="n0" data-bind="value: quantity, events: { spin: updateQty }" />

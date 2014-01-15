@@ -467,11 +467,11 @@ This has been an example of how to get rolling with PHP and [Kendo UI][32].
 
    [22]: https://raw.github.com/telerik/kendo-docs/production/tutorials/PHP/images/ff819b019713_9A19-6_2.png
 
-   [23]: http://demos.kendoui.com/web/grid/detailtemplate.html
+   [23]: http://demos.telerik.com/kendo-ui/web/grid/detailtemplate.html
 
    [24]:http://www.kendoui.com/documentation/framework/templates/overview.aspx
 
-   [25]: http://demos.kendoui.com/web/templates/index.html
+   [25]: http://demos.telerik.com/kendo-ui/web/templates/index.html
 
    [26]: http://php.net/manual/en/pdo.prepared-statements.php
 

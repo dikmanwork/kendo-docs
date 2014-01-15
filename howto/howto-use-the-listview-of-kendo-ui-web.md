@@ -23,7 +23,7 @@ First, we'll define a target HTML element such as a list or div:
 
     <script type="text/x-kendo-tmpl" id="template">
         <div class="product">
-            <img src="http://demos.kendoui.com/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
+            <img src="http://demos.telerik.com/kendo-ui/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
             <h3>#:ProductName#</h3>
             <p>#:kendo.toString(UnitPrice, "c")#</p>
         </div>
@@ -34,7 +34,7 @@ Next, we'll initialize the ListView by referring the template and a result set f
     var dataSource = new kendo.data.DataSource({
         transport: {
             read: {
-                url: "http://demos.kendoui.com/service/Products",
+                url: "http://demos.telerik.com/kendo-ui/service/Products",
                 dataType: "jsonp"
             }
         }
@@ -58,7 +58,7 @@ In scenarios where the number of items bound to a ListView is larger than expect
 
     <script type="text/x-kendo-tmpl" id="template">
         <div class="product">
-            <img src="http://demos.kendoui.com/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
+            <img src="http://demos.telerik.com/kendo-ui/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
             <h3>#:ProductName#</h3>
             <p>#:kendo.toString(UnitPrice, "c")#</p>
         </div>
@@ -69,7 +69,7 @@ The next step is to update the ListView configuration to state that it support p
     var dataSource = new kendo.data.DataSource({
         transport: {
             read: {
-                url: "http://demos.kendoui.com/service/Products",
+                url: "http://demos.telerik.com/kendo-ui/service/Products",
                 dataType: "jsonp"
             }
         },
@@ -99,7 +99,7 @@ From a design perspective, it may be useful to visually differiante each alterna
 
     <script type="text/x-kendo-tmpl" id="template">
         <div class="product">
-            <img src="http://demos.kendoui.com/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
+            <img src="http://demos.telerik.com/kendo-ui/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
             <h3>#:ProductName#</h3>
             <p>#:kendo.toString(UnitPrice, "c")#</p>
         </div>
@@ -107,7 +107,7 @@ From a design perspective, it may be useful to visually differiante each alterna
 
     <script type="text/x-kendo-tmpl" id="altTemplate">
         <div class="product alt">
-            <img src="http://demos.kendoui.com/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
+            <img src="http://demos.telerik.com/kendo-ui/content/web/foods/#= ProductID #.jpg" alt="#: ProductName # image" />
             <h3>#:ProductName#</h3>
             <p>#:kendo.toString(UnitPrice, "c")#</p>
         </div>
@@ -158,7 +158,7 @@ The ListView encapsulates operations for adding and removing items, item selecti
         });
     });
 
-The template you define for the inline editing of items may include other Kendo UI widgets. Looking at [the example for editing items on KendoUI.com](http://demos.kendoui.com/web/listview/editing.html), you can see that the edit template defines a series of widgets for editing an item:
+The template you define for the inline editing of items may include other Kendo UI widgets. Looking at [the example for editing items on KendoUI.com](http://demos.telerik.com/kendo-ui/web/listview/editing.html), you can see that the edit template defines a series of widgets for editing an item:
 
 ![ListView Item Editing](images/listview-item-editing.png)
 

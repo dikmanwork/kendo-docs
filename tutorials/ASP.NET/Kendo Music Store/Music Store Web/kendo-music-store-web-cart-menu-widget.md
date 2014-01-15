@@ -276,7 +276,7 @@ They are rendered using the template:
 
 The second &lt;span&gt; element represents the remove button, and has the following css classes:
 
-**k-icon** and **k-i-close** indicate that this element will be a Kendo Icon and that the close icon is to be displayed in this element. See: [Styling / Icons](http://demos.kendoui.com/web/styling/icons.html)
+**k-icon** and **k-i-close** indicate that this element will be a Kendo Icon and that the close icon is to be displayed in this element. See: [Styling / Icons](http://demos.telerik.com/kendo-ui/web/styling/icons.html)
 
 **k-delete-button** indicates that this is a delete button.
 Within a ListView widget, elements of this special class *automatically* become a button that deletes the item from the bound DataSource.

@@ -160,7 +160,7 @@ the **h2** tag.
 
 That won’t work.  You should be doing that in your view model.  If you aren’t
 using a view model and you have a good use case for sticking JavaScript into
-your markup, consider using a [Kendo UI Template](http://demos.kendoui.com/web/templates/index.html) instead.
+your markup, consider using a [Kendo UI Template](http://demos.telerik.com/kendo-ui/web/templates/index.html) instead.
 
 2. Kendo UI is not the only framework that uses data attributes for binding.
 In fact, its pretty common.  If you find yourself in a situation where you

@@ -87,7 +87,7 @@ Next, we will need to define a DataSource instance, which will fetch the data fr
       type: "odata",
       transport: {
         read: {
-          url: "http://demos.kendoui.com/service/Northwind.svc/Products"
+          url: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
         }
       },
       schema: {

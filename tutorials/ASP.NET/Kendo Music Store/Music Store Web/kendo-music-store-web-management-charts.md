@@ -11,7 +11,7 @@ publish: true
 
 When logged in to the Music Store as an administrator an additional button titled "Manage Store" is made available in the upper right corner.
 This opens the management graphs which can be used to monitor the sales status of the store.
-This page uses [Kendo DataViz](http://demos.kendoui.com/dataviz/overview/index.html) to render the graphs.
+This page uses [Kendo DataViz](http://demos.telerik.com/kendo-ui/dataviz/overview/index.html) to render the graphs.
 
 This code is located in **Scripts/App/storemanager-graphs.js**.
 
@@ -20,8 +20,8 @@ This code is located in **Scripts/App/storemanager-graphs.js**.
 ## Setting up the HTML
 
 The page contains a date range selector that can be used to choose whether to view a day, week, month, or year of data.
-This selector is represented by a [Kendo ListView](http://demos.kendoui.com/web/listview/index.html) widget.
-The main graph is represented by a [Kendo DataViz Chart](http://demos.kendoui.com/dataviz/overview/index.html).
+This selector is represented by a [Kendo ListView](http://demos.telerik.com/kendo-ui/web/listview/index.html) widget.
+The main graph is represented by a [Kendo DataViz Chart](http://demos.telerik.com/kendo-ui/dataviz/overview/index.html).
 The HTML used is:
 
     <ul id="date-range" class="selector" ></ul>

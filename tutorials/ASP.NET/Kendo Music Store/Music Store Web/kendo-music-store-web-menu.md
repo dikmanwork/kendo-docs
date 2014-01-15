@@ -9,7 +9,7 @@ publish: true
 
 ![kendo-menu-overview](images/kendo-menu-overview.png)
 
-The main menu of the Music Store application shows off some of the functionality of the [Kendo Menu Widget](http://demos.kendoui.com/web/menu/index.html).
+The main menu of the Music Store application shows off some of the functionality of the [Kendo Menu Widget](http://demos.telerik.com/kendo-ui/web/menu/index.html).
 The **Genres** item uses a pull-down menu of items to show all the genres of music in the store.
 The **About** item displays some static content within a panel that opens below the menu.
 The **Contact** item works like a hyperlink or button and navigates when clicked on, instead of displaying a sub-menu.

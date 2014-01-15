@@ -101,7 +101,7 @@ The most draconian of your choices, but given *most* browsers *do* support CORS,
 The choice is yours, but clearly, you have *some* choice that should still make CORS appealing.
 
 ## Putting It All Together
-In the [Kendo UI Feed Reader demo](http://www.kendoui.com/blogs/teamblog/posts/11-09-29/rss_feed_reader_built_with_kendo_ui_yql_amp_less.aspx), we use [YQL](http://developer.yahoo.com/yql/) to feed RSS XML directly to the browser. YQL supports CORS, so we elected to send XML to the browser instead of JSONP to highlight [Kendo UI's data source support for XML](http://demos.kendoui.com/web/datasource/xml-data.html).
+In the [Kendo UI Feed Reader demo](http://www.kendoui.com/blogs/teamblog/posts/11-09-29/rss_feed_reader_built_with_kendo_ui_yql_amp_less.aspx), we use [YQL](http://developer.yahoo.com/yql/) to feed RSS XML directly to the browser. YQL supports CORS, so we elected to send XML to the browser instead of JSONP to highlight [Kendo UI's data source support for XML](http://demos.telerik.com/kendo-ui/web/datasource/xml-data.html).
 
 Version 1 of this demo did not support non-CORS browsers. To add support for these browsers, we modified the code to use XDR with IE and YQL JSONP with Opera and all non-CORS browsers.
 

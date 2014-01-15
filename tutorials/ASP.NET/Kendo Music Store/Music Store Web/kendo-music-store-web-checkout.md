@@ -15,7 +15,7 @@ The user can change quantities or remove items from the cart and review the subt
 
 ## Create the Grid
 
-We are using an MVVM bound [Kendo Grid](http://demos.kendoui.com/web/grid/index.html) widget to render the shopping cart contents on the checkout page.
+We are using an MVVM bound [Kendo Grid](http://demos.telerik.com/kendo-ui/web/grid/index.html) widget to render the shopping cart contents on the checkout page.
 This is done by defining a &lt;div&gt; element and specifying **data-role="grid"**
 
     <div id="cart-grid"

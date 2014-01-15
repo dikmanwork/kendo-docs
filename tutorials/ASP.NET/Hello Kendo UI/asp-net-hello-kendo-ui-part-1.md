@@ -457,9 +457,9 @@ Download the full source for the project in this tutorial [**here**][6].  You
 will build on this tutorial in the weeks to come as you add more and more
 advanced functionality to this application.
 
-   [4]: http://demos.kendoui.com/web/grid/index.html
+   [4]: http://demos.telerik.com/kendo-ui/web/grid/index.html
 
-   [5]: http://demos.kendoui.com/web/datasource/index.html
+   [5]: http://demos.telerik.com/kendo-ui/web/datasource/index.html
 
    [6]: https://github.com/telerik/html5-dev-for-aspnet-devs
 

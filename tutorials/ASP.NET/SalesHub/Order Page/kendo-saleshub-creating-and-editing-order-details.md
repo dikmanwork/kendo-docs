@@ -11,7 +11,7 @@ publish: true
 
 ## How to Setup the Custom Order Detail Editor
 
-Since the MVC extensions for the [Kendo Grid](http://demos.kendoui.com/web/grid/index.html) make use of MVC's
+Since the MVC extensions for the [Kendo Grid](http://demos.telerik.com/kendo-ui/web/grid/index.html) make use of MVC's
 [EditorForModel](http://msdn.microsoft.com/en-us/library/system.web.mvc.html.editorextensions.editorformodel.aspx)
 we're able to customize the editor that the grid uses by creating an Editor template. To
 set up the custom editor for the grid, we first have to create a partial Razor view with the same name as the type that
@@ -49,7 +49,7 @@ which will be used by our custom client-side JavaScript to display the errors th
         @Html.ValidationMessageFor(model => model.Origin)
     </div>
 
-Here we setup the [Kendo DropDownList](http://demos.kendoui.com/web/dropdownlist/index.html) for the **Origin**
+Here we setup the [Kendo DropDownList](http://demos.telerik.com/kendo-ui/web/dropdownlist/index.html) for the **Origin**
 property. We're using its `BindTo` function against the **Origins** property in the **ViewData**. As we're not
 binding the dropdown list against **SelectListItem**s, we have to tell it which property should be used as the
 text and which property should be used as the value. To do this we use the `DataTextField` and `DataValueField`
@@ -180,7 +180,7 @@ of the order details grid we subscribed to the **Error** event of the datsource.
     .Events(events =>  events.Error("window.SalesHub.OrderDetails_Error"))
 
 In **Views/Order/_Order.cshtml** we also declared a
-[Kendo template](http://demos.kendoui.com/web/templates/index.html):
+[Kendo template](http://demos.telerik.com/kendo-ui/web/templates/index.html):
 
     <script type="text/x-kendo-template" id="orderDetailsValidationMessageTemplate">
         # if (messages.length) { #

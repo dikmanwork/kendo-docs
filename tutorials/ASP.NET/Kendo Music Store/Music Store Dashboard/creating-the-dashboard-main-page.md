@@ -9,7 +9,7 @@ publish: true
 
 ![dashboard-overview](images/dashboard-overview.png)
 
-The main page constitutes the landing page of the Dashboard, and the navigation strip, an overview of recent sales far various periods of time, top singles and albums, and a series of gauges showing hourly data. For this view, we use a declarative approach similar to the Kendo Music Store itself, also using the **data-** attributes, and the [Kendo MVVM](http://demos.kendoui.com/web/mvvm/index.html) framework.
+The main page constitutes the landing page of the Dashboard, and the navigation strip, an overview of recent sales far various periods of time, top singles and albums, and a series of gauges showing hourly data. For this view, we use a declarative approach similar to the Kendo Music Store itself, also using the **data-** attributes, and the [Kendo MVVM](http://demos.telerik.com/kendo-ui/web/mvvm/index.html) framework.
 
 This page is contained in the files **app/views/main.html**, **app/main-view.js**, and **Content/home-view.css**
 

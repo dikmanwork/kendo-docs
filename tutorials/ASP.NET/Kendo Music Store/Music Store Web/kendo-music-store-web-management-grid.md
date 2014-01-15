@@ -11,7 +11,7 @@ publish: true
 
 When logged in to the Music Store as an administrator an additional button titled "Manage Store" is made available in the upper right corner.
 This opens the management grid which can be used to add, remove and delete albums from the store.
-This page uses the [Kendo Grid](http://demos.kendoui.com/web/grid/index.html) widget.
+This page uses the [Kendo Grid](http://demos.telerik.com/kendo-ui/web/grid/index.html) widget.
 
 This code is located in **Scripts/App/storemanager-index.js**.
 
@@ -179,7 +179,7 @@ The **sortable**, **groupable** and **filterable** properties indicate that sort
 The **pageable** property indicates that the grid will support paging. The page size was defined on the DataSource and set to 50 items per page.
 
 **editable** defines the grid editing style. In this sample we are using "inline" which lets one entire row be shifted into edit mode, then saved or cancelled.
-Other edit modes (incell/inline/popup) can be seen in the [Grid demos](http://demos.kendoui.com/web/grid/editing.html).
+Other edit modes (incell/inline/popup) can be seen in the [Grid demos](http://demos.telerik.com/kendo-ui/web/grid/editing.html).
 
 The **toolbar** property contains an array of commands to place along the top of the grid. In this sample we display a "create" button that can be used to add a new record.
 
@@ -252,7 +252,7 @@ The Album objects returned from the server contain the GenreId and the ArtistId,
 It would look very strange to just display these IDs in the grid, since no one will know what "Genre 1" or "Artist 27" is.
 Instead, we want to load all genre and artist names into a list of objects that can be used to map these IDs to their display names.
 
-In the Kendo Grid, this is called a [Foreign Key column](http://demos.kendoui.com/web/grid/foreignkeycolumn.html).
+In the Kendo Grid, this is called a [Foreign Key column](http://demos.telerik.com/kendo-ui/web/grid/foreignkeycolumn.html).
 
 In the Music Store, we use the jQuery **$.Deferred()** functionality to asynchronously load the lists of Genres and Albums from the server.
 Once they are retrieved they are mapped to lists of objects that follow the format:
@@ -287,7 +287,7 @@ With the foreign key column, it instead uses a Dropdown box to select from the c
 
 We use another custom editor for the album art column.
 This one is a little more complicated than the artist name because we need to support the ability to upload new album art.
-To facilitate this we used the [Kendo Upload](http://demos.kendoui.com/web/upload/index.html) widget.
+To facilitate this we used the [Kendo Upload](http://demos.telerik.com/kendo-ui/web/upload/index.html) widget.
 
 A custom editor is defined for the column by specifying **editor: albumArtEditor** and the editor function:
 

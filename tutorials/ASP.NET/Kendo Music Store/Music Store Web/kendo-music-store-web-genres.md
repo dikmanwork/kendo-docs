@@ -18,7 +18,7 @@ The albums will be limited to 20 per page, and display paging navigation at both
 
 This view is contained in **Views/Store/Browse.cshtml**.
 
-We start with a [Kendo ListView](http://demos.kendoui.com/web/listview/index.html) widget that will
+We start with a [Kendo ListView](http://demos.telerik.com/kendo-ui/web/listview/index.html) widget that will
 become the container for the Albums.
 
     <div data-role="listview" data-bind="source: albums" data-template="album-template"></div>

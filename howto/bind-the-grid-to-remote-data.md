@@ -13,7 +13,7 @@ Love them or hate them, grids are a staple of user interfaces. While jQuery has 
 
 I have used jqGrid in the past on a few projects. While I was fundamentally satisfied with it, I was always a bit taken back at how much code it took to create a simple grid. I also experienced serious lag in the browser when dealing with larger recordsets. I'm also not a huge fan of composing html inside your JavaScript, which is the standard way to render a row in most jQuery grids.
 
-Fortunately, the [Grid](http://demos.kendoui.com/grid/index.html) makes this much easier on us. With to the rapid templating engine that is included with Kendo UI, and the built-in datasource, we can get up and running with our grid very quickly.
+Fortunately, the [Grid](http://demos.telerik.com/kendo-ui/grid/index.html) makes this much easier on us. With to the rapid templating engine that is included with Kendo UI, and the built-in datasource, we can get up and running with our grid very quickly.
 
 To start with, we need a data source. Due to my work on [instasharp.org](http://instasharp.org/) recently, I have become quite familiar with the Instagram API. We can use their "Popular" feeds endpoint without having to go through an authorization process. We still need a client_id, but it is easy to sign up for one of those at [http://instagram.com/developer/manage/](http://instagram.com/developer/manage/).
 
@@ -37,7 +37,7 @@ We can turn the div into a grid in the document.ready() jQuery function.
 
 ## Add Some Awesome Data
 
-It's not much to look at, so lets add some data to it. Kendo UI provides a very powerful [data binding framework](http://demos.kendoui.com/datasource/index.html) we can use right inline with our grid. We simply need to define the data source of the grid and supply our remote endpoint. Kendo UI is still in beta so some of the naming may change slightly, but I'll explain what each one of these attributes / objects does.</p>
+It's not much to look at, so lets add some data to it. Kendo UI provides a very powerful [data binding framework](http://demos.telerik.com/kendo-ui/datasource/index.html) we can use right inline with our grid. We simply need to define the data source of the grid and supply our remote endpoint. Kendo UI is still in beta so some of the naming may change slightly, but I'll explain what each one of these attributes / objects does.</p>
 
 <iframe style="width: 700px; height: 350px;" src="http://jsfiddle.net/65kWY/12/embedded/js,html,css,result"></iframe>
 
@@ -72,6 +72,6 @@ If you check out the "html" tab on the previous fiddle, you can see the templati
 
 ## Wrap Up
 
-I hope you were able to see the power of the Kendo UI [Grid](http://demos.kendoui.com/grid/index.html), [Data Source](http://demos.kendoui.com/datasource/index.html) and [Templating](http://demos.kendoui.com/templates/index.html) engine in this article. As well as providing you with a complete toolkit for your jQuery / HTML5 development, it helps you write cleaner JavaScript and lets the markup remain where it belongs.
+I hope you were able to see the power of the Kendo UI [Grid](http://demos.telerik.com/kendo-ui/grid/index.html), [Data Source](http://demos.telerik.com/kendo-ui/datasource/index.html) and [Templating](http://demos.telerik.com/kendo-ui/templates/index.html) engine in this article. As well as providing you with a complete toolkit for your jQuery / HTML5 development, it helps you write cleaner JavaScript and lets the markup remain where it belongs.
 
 Download the toolkit [here](http://www.kendoui.com/download.aspx), or use the CDN references. Make sure you also hit up the [forums](http://www.kendoui.com/forums.aspx) if you have any questions or suggestions for Kendo UI.

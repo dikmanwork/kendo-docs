@@ -9,13 +9,13 @@ publish: true
 
 ![kendo-saleshub-customer-TreeView-screenshot](images/kendo-saleshub-customer-TreeView-screenshot.png)
 
-In this section of the tutorial you'll learn how to create a [Kendo TreeView](http://demos.kendoui.com/web/TreeView/index.html)
+In this section of the tutorial you'll learn how to create a [Kendo TreeView](http://demos.telerik.com/kendo-ui/web/TreeView/index.html)
 server-side.
 
-In the SalesHub application, a [Kendo TreeView](http://demos.kendoui.com/web/TreeView/index.html) is used to display all of the Customers which belong to a Selling Company. The Selling Company appears as a root node in the TreeView and the Customers for each Selling Company are grouped by
+In the SalesHub application, a [Kendo TreeView](http://demos.telerik.com/kendo-ui/web/TreeView/index.html) is used to display all of the Customers which belong to a Selling Company. The Selling Company appears as a root node in the TreeView and the Customers for each Selling Company are grouped by
 the region in which the customer is located. So the basic structure of the TreeView is: `Selling Company -> Region -> Customer Name`.
 
-When a Customer is selected in the [Kendo TreeView](http://demos.kendoui.com/web/TreeView/index.html) the Order's grid is updated to
+When a Customer is selected in the [Kendo TreeView](http://demos.telerik.com/kendo-ui/web/TreeView/index.html) the Order's grid is updated to
 display only the Orders for the selected Customer. If you would like to learn how the Order's grid is updated depending on the selected
 Customer, please read [Filtering Order's Server-Side](kendo-saleshub-filtering-orders-server-side).
 
