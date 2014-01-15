@@ -9,7 +9,7 @@ publish: true
 
 # How-To: Add Charts and Gauges with Kendo UI DataViz
 
-In this how-to, we'll examine how to add charts and gauges to an application or site with [Kendo UI DataViz](http://www.kendoui.com/dataviz.aspx).
+In this how-to, we'll examine how to add charts and gauges to an application or site with [Kendo UI DataViz](http://www.telerik.com/kendo-ui-dataviz).
 
 Let's begin by examining how to add a chart to an existing page. For this example, let's assume the following Markup:
 

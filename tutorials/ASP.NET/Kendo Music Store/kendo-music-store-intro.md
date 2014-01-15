@@ -39,7 +39,7 @@ Please use the navigation tree at the left to navigate the sections of this tuto
 ![kendo-music-store-intro-dashboard-screenshot](images/kendo-music-store-intro-dashboard-screenshot.png)
 
 The Dashboard builds upon the music store theme, adding a conceptual management dashboard to track album performance.
-It focuses on [Kendo UI DataViz](http://www.kendoui.com/dataviz.aspx) and how Kendo and Sammy.js were used to create a visually rich single page application.
+It focuses on [Kendo UI DataViz](http://www.telerik.com/kendo-ui-dataviz) and how Kendo and Sammy.js were used to create a visually rich single page application.
 
 ## View the Live Site
 
