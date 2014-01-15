@@ -146,4 +146,4 @@ Column resizing feature on touch screen devices is triggered when the user holds
 
 ## Further reading
 
-- Blog post: [Building An Adaptive Grid and Scheduler for Kendo UI](http://blogs.telerik.com/posts/teamblog/posts/13-10-10/building-an-adaptive-grid-and-scheduler-for-kendo-ui.aspx)
+- Blog post: [Building An Adaptive Grid and Scheduler for Kendo UI](http://blogs.telerik.com/posts/posts/13-10-10/building-an-adaptive-grid-and-scheduler-for-kendo-ui.aspx)

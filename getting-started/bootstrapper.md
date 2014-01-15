@@ -63,7 +63,7 @@ Create a new project by clicking on the `+` icon in the "Projects" sidebar menu,
 
 ![Create A New Project](images/bootstrapper2.jpeg)
 
-By default, the Bootstrapper puts all of your projects into a `PROJECTS` folder in the root of the Bootstrapper install location.  You also have the option to specify a [RequireJS](http://blogs.telerik.com/posts/teamblog/posts/13-05-08/requirejs-fundamentals.aspx) project configuration if you want.  For now, leave that box unchecked.
+By default, the Bootstrapper puts all of your projects into a `PROJECTS` folder in the root of the Bootstrapper install location.  You also have the option to specify a [RequireJS](http://blogs.telerik.com/posts/posts/13-05-08/requirejs-fundamentals.aspx) project configuration if you want.  For now, leave that box unchecked.
 
 The Bootstrapper will now scaffold you a simple project.  You can see the different project files in the main area of the Bootstrapper.  The files in your project are devided up into two types, **Project Files** and **Library Files**.  The **Project Files** are those which comprise the code that you are writing.  The **Library Files** are those third party libraries that you are using with your project.  Even if you don't have the library  files included in your HTML pages, the Bootstrapper will detect them and show them here if they exist in your project.
 
@@ -146,7 +146,7 @@ If you go back to your preview window now, you will see that it's empty.  The pr
 
 ### Bootstrapper Code Tools
 
-The Bootstrapper will lint your JavaScript for you using [JSHint](http://blogs.telerik.com/posts/teamblog/posts/13-07-09/protecting-your-mellow-with-javascript-linters.aspx).  If you lint the code that you just copied, you will get one error.
+The Bootstrapper will lint your JavaScript for you using [JSHint](http://blogs.telerik.com/posts/posts/13-07-09/protecting-your-mellow-with-javascript-linters.aspx).  If you lint the code that you just copied, you will get one error.
 
 ![JSHint Button](images/bootstrapper6.jpeg)
 

@@ -26,7 +26,7 @@ By and large, developers are dealing with these complex applications with differ
 
 Of the patterns listed above, Model View View-Model, or MVVM, is the most popular. And though there are several great MVVM libraries available to front-end devs, Kendo UI also has a full MVVM framework baked right into its core. Let's take a look at how MVVM works seamlessly with Kendo UI.
 
-> If you have been using MVVM and Knockout for some time and have questions about why we decided to make MVVM part of the Kendo UI core, please read [this post](http://blogs.telerik.com/posts/teamblog/posts/12-02-16/kendo_ui_mvvm_and_knockoutjs.aspx).
+> If you have been using MVVM and Knockout for some time and have questions about why we decided to make MVVM part of the Kendo UI core, please read [this post](http://blogs.telerik.com/posts/posts/12-02-16/kendo_ui_mvvm_and_knockoutjs.aspx).
 
 ## MVVM In Kendo UI
 
