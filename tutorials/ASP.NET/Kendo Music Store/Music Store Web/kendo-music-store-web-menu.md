@@ -86,7 +86,7 @@ For example, let's add this content for out "About" menu item:
                 <div class="k-content menu-content">
                     <img src="~/Images/kendo-logo.png" />
                     <p>Try Kendo UI yourself in the interactive Kendo UI Dojo!</p>
-                    <p><a href="http://www.kendoui.com/dojo.aspx" target="_blank">Launch Kendo UI Dojo</a></p>
+                    <p><a href="http://www.telerik.com/kendo-ui/dojo" target="_blank">Launch Kendo UI Dojo</a></p>
                 </div>
             </li>
         </ul>
