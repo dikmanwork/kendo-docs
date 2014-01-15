@@ -9,7 +9,7 @@ publish: true
 
 # Tutorial: Intro to Building Apps With Kendo UI Mobile
 
-In this tutorial, we'll examine the basics of building apps with [Kendo UI Mobile](http://www.kendoui.com/mobile.aspx). You will learn:
+In this tutorial, we'll examine the basics of building apps with [Kendo UI Mobile](http://www.telerik.com/kendo-ui-mobile). You will learn:
 
 - What makes Kendo UI Mobile unique
 - How to use Kendo UI Mobile to build a basic app
