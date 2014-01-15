@@ -463,7 +463,7 @@ client-side events to build your own UI.
 	</script>
 
 ### template `String|Function`
-The [template](http://docs.kendoui.com/api/framework/kendo#methods-template) used to render the files in the list
+The [template](/api/framework/kendo#methods-template) used to render the files in the list
 
 #### Template data `Array`
 

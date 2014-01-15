@@ -26,23 +26,23 @@ Filtering an API reference page for a specific configuration, field, method or e
 
 #### API Reference
 
-##### [DataViz](http://docs.kendoui.com/api/dataviz)
+##### [DataViz](/api/dataviz)
 
 The API Reference For Kendo UI DataViz
 
-##### [Framework](http://docs.kendoui.com/api/framework)
+##### [Framework](/api/framework)
 
 The API Reference For Kendo UI Core Framework (i.e. MVVM, Globalization, SPA)
 
-##### [Mobile](http://docs.kendoui.com/api/mobile)
+##### [Mobile](/api/mobile)
 
 The API Reference For Kendo UI Mobile
 
-##### [Web](http://docs.kendoui.com/api/web)
+##### [Web](/api/web)
 
 (i.e. Grid, Treeview, Scheduler)
 
-##### [Wrappers](http://docs.kendoui.com/api/wrappers)
+##### [Wrappers](/api/wrappers)
 
 The API Reference For Kendo UI Server Wrappers (ASP.NET MVC, Java, PHP)
 

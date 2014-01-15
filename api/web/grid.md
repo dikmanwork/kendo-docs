@@ -347,7 +347,7 @@ Provides a way to specify a custom editing UI for the column. Use the `container
 
 > The editing UI should contain an element whose `name` HTML attribute is set as the column [field](#configuration-columns.field).
 
-> Validation settings defined in the `model.fields` configuration will **not** be applied automatically. In order the validation to work, **the developer is responsible for attaching the corresponding validation attributes to the editor input**. In case the custom editor is a widget, the developer should [customize the validation warning tooltip position](http://docs.kendoui.com/getting-started/framework/validator/overview#customizing-the-tooltip-position) in order to avoid visual issues.
+> Validation settings defined in the `model.fields` configuration will **not** be applied automatically. In order the validation to work, **the developer is responsible for attaching the corresponding validation attributes to the editor input**. In case the custom editor is a widget, the developer should [customize the validation warning tooltip position](/getting-started/framework/validator/overview#customizing-the-tooltip-position) in order to avoid visual issues.
 
 #### Parameters
 

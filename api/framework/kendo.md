@@ -576,7 +576,7 @@ The format string which should be used to format the value.
 
 ##### culture `String`
 
-The name of the culture which should be used to format the value. [The culture should be registered on the page](http://docs.kendoui.com/getting-started/framework/globalization/overview#add culture scripts to the page).
+The name of the culture which should be used to format the value. [The culture should be registered on the page](/getting-started/framework/globalization/overview#add culture scripts to the page).
 
 ### unbind
 
