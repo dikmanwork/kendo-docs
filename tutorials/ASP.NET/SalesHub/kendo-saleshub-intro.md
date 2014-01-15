@@ -12,14 +12,14 @@ ordinal: 1
 
 In this tutorial, we will review portions of the **SalesHub** sample project.
 
-SalesHub is an Order Management System that demonstrates the usage of the Kendo UI MVC extensions in
+SalesHub is an Order Management System that demonstrates the usage of the **UI for ASP.NET MVC** in
 an enterprise environment.
 
-The goal of this sample project to is show how to use a subset of Kendo UI widgets using the Kendo UI MVC extensions, as well as
+The goal of this sample project to is show how to use a subset of Kendo UI widgets using **UI for ASP.NET MVC**, as well as
 to show how to easily implement server-side filtering for [DataSource](/api/framework/datasource) requests, using the
-server-side components that the Kendo UI MVC extensions provide.
+server-side components that the **UI for ASP.NET MVC** provide.
 
-This sample is not feature-complete and is only meant to be used as a reference for how to use the Kendo UI MVC extensions.
+This sample is not feature-complete and is only meant to be used as a reference for how to use the **UI for ASP.NET MVC**.
 
 ## View the live site
 
@@ -27,7 +27,7 @@ The live SalesHub demo can be viewed at [www.kendouisaleshub.com](http://kendoui
 
 # Getting Started
 
-This sample project is for Microsoft Visual Studio 2012, and requires MVC4, NuGet, Kendo UI MVC extensions, and SQLExpress in order to run.
+This sample project is for Microsoft Visual Studio 2012, and requires MVC4, NuGet, **UI for ASP.NET MVC**, and SQLExpress in order to run.
 
 ## Get the Source Code
 
@@ -35,16 +35,16 @@ Start by getting the source for [SalesHub from GitHub](https://github.com/teleri
 
 ## Adding Kendo UI MVC Extensions to the Project
 
-Due to licensing restrictions, the sample project does not include the dll for the Kendo UI MVC extensions.
+Due to licensing restrictions, the sample project does not include the dll for the **UI for ASP.NET MVC**.
 
-If you have a license for the Kendo UI MVC extensions, you can use the [Telerik Control Panel](http://www.telerik.com/download-trial-file.aspx?pid=972)
+If you have a license for the **UI for ASP.NET MVC**, you can use the [Telerik Control Panel](http://www.telerik.com/download-trial-file.aspx?pid=972)
 to download and install the extensions. If you haven't purchased a license yet, you can download and install the 30 day [free trial](http://www.kendoui.com/download.aspx)
 for the extensions.
 
 Once you've downloaded and installed the extensions, all that is required is for `\wrappers\aspnetmvc\Binaries\Mvc3\Kendo.Mvc.dll` to be copied from the installation
-directory of the Kendo UI MVC extensions into the `SalesHub\libs` directory.
+directory of the **UI for ASP.NET MVC** into the `SalesHub\libs` directory.
 
-> The standard installation directory for the extensions is **`c:\Program Files (x86)\Telerik\Kendo UI for ASP.NET MVC <version>`**.
+> The standard installation directory for the extensions is **`C:\Program Files (x86)\Telerik\UI for ASP.NET MVC <version>`**.
 
 ## Building and Running the Application
 
@@ -62,14 +62,14 @@ There are three main projects in this sample application. They are:
 
 1. **SalesHub.Client**:
 
-	This is a standard MVC project and uses the default MVC project structure with one exception. The data services, which
-	are MVC controllers that return JSON results, are in their own namespace (**SalesHub.Client.Api**), so as to avoid confusion
-	with which controllers return Views and which ones return JSON.
+    This is a standard MVC project and uses the default MVC project structure with one exception. The data services, which
+    are MVC controllers that return JSON results, are in their own namespace (**SalesHub.Client.Api**), so as to avoid confusion
+    with which controllers return Views and which ones return JSON.
 
 2. **SalesHub.Data**:
 
-	This project contains the Entity Framework repositories for data models.
+    This project contains the Entity Framework repositories for data models.
 
 3. **SalesHub.Core**:
 
-	This project contains the data models and the repository interfaces used by SalesHub.Data.
+    This project contains the data models and the repository interfaces used by SalesHub.Data.

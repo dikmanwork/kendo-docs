@@ -37,7 +37,7 @@ Run the **Kendo UI Complete for ASP.NET MVC** installer. The automatic setup wil
 
 ### Install Location
 
-The setup will install Kendo UI Complete for ASP.NET MVC in **C:\Program Files (x86)\Telerik\Kendo UI for ASP.NET MVC <version>**.
+The setup will install Kendo UI Complete for ASP.NET MVC in **C:\Program Files (x86)\Telerik\UI for ASP.NET MVC<version>**.
 
 ### Distribution contents
 
@@ -87,7 +87,7 @@ The sample application Visual Studio solution contains the following.
 
 After you run the sample application you can continue with the following articles.
 
-* [Kendo UI for ASP.NET MVC fundamentals](/getting-started/using-kendo-with/aspnet-mvc/fundamentals)
+* [Fundamentals](/getting-started/using-kendo-with/aspnet-mvc/fundamentals)
 * [Kendo UI in ASP.NET MVC 3 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-3)
 * [Kendo UI in ASP.NET MVC 4 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-4)
 * [Kendo UI in ASP.NET MVC 5 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-5)
