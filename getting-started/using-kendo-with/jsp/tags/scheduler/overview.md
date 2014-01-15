@@ -8,8 +8,6 @@ publish: true
 
 The Scheduler tag is a server-side wrapper for the [Kendo UI Scheduler](/getting-started/web/scheduler) widget.
 
-
-
 ## Getting Started
 
 Here is how to configure the Kendo UI Scheduler for displaying and editing scheduler events.
@@ -126,7 +124,7 @@ Here is how to configure the Kendo UI Scheduler for displaying and editing sched
             }
 
         }
-1. Register the Kendo UI JSP taglib in your JSP page
+1. Register the **UI for JSP** taglib in your JSP page
 
         <%@taglib prefix="kendo" uri="http://www.kendoui.com/jsp/tags"%>
 1. Declare a scheduler tag. Configure it's data source model's fields.

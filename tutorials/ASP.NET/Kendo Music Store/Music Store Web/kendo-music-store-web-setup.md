@@ -63,7 +63,7 @@ You can see and modify which files the ASP.NET bundler will ignore by inspecting
 
     // Clear all items from the default ignore list to allow minified CSS and JavaScript files to be included in debug mode
     bundles.IgnoreList.Clear();
-    
+
     // Do not include intellisense files
     bundles.IgnoreList.Ignore("*.intellisense.js");
 
@@ -138,7 +138,7 @@ We need to make sure that Kendo's JavaScript files come after jQuery. For stylin
     </head>
     <body>
         // ...
-        
+
         @Scripts.Render("~/bundles/jquery")
         <script src="~/Scripts/kendo.all.min.js"></script> // <-- Added Here.
         @RenderSection("scripts", required: false)
@@ -146,7 +146,7 @@ We need to make sure that Kendo's JavaScript files come after jQuery. For stylin
 
 Typical practice is to include as much JavaScript at the bottom of the **&lt;body&gt;** element as possible.
 In the Music Store project, we are actually including jQuery in the **&lt;head&gt;**.
-This will be discussed later in the tutorial, but it is because we later use some of the [Kendo UI ASP.NET MVC Helpers](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction#using-kendo-ui-in-aspnet-mvc-4-application) which insert **&lt;script&gt;** tags into the **&lt;body&gt;** of the page, and require that jQuery already be defined.
+This will be discussed later in the tutorial, but it is because we later use some of [UI for ASP.NET MVC](http://docs.kendoui.com/getting-started/using-kendo-with/aspnet-mvc/introduction#using-kendo-ui-in-aspnet-mvc-4-application) which insert **&lt;script&gt;** tags into the **&lt;body&gt;** of the page, and require that jQuery already be defined.
 
 ## Database
 

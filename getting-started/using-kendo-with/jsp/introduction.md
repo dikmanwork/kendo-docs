@@ -114,7 +114,7 @@ You can include the JavaScript and CSS files from CDN. Don't forget to specify t
 
 You can watch the videos in the [Kendo UI YouTube channel](http://www.youtube.com/kendouitv):
 
-1. [Getting Started With The Kendo UI JSP Wrappers - Episode 1](http://www.youtube.com/watch?v=3VH75XVhLCI)
-1. [Getting Started With The Kendo UI JSP Wrappers - Episode 2](http://www.youtube.com/watch?v=LyGHeRMmq5I)
-1. [Getting Started With The Kendo UI JSP Wrappers - Episode 3](http://www.youtube.com/watch?v=sCwqj_ZRGI8)
-1. [Getting Started With The Kendo UI JSP Wrappers - Episode 4](http://www.youtube.com/watch?v=fcbw4YR4P2I)
+1. [Getting Started With UI for JSP - Episode 1](http://www.youtube.com/watch?v=3VH75XVhLCI)
+1. [Getting Started With UI for JSP - Episode 2](http://www.youtube.com/watch?v=LyGHeRMmq5I)
+1. [Getting Started With UI for JSP - Episode 3](http://www.youtube.com/watch?v=sCwqj_ZRGI8)
+1. [Getting Started With UI for JSP - Episode 4](http://www.youtube.com/watch?v=fcbw4YR4P2I)
