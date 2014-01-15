@@ -198,7 +198,7 @@ This documenat has demonstrated the following:
 - How to initlize an external template after it has loaded
 - How to name and organize external template files in a project
 
-Following these steps will help create a more maintainable and DRY JavaScript application. The pattern outlined in this document can be seen live in the [Kendo UI Feed Reader demo](http://blogs.telerik.com/posts/posts/11-09-29/rss_feed_reader_built_with_kendo_ui_yql_amp_less.aspx).
+Following these steps will help create a more maintainable and DRY JavaScript application. The pattern outlined in this document can be seen live in the [Kendo UI Feed Reader demo](http://blogs.telerik.com/kendoui/posts/11-09-29/rss_feed_reader_built_with_kendo_ui_yql_amp_less).
 
 
 
