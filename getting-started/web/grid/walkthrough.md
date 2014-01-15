@@ -38,25 +38,25 @@ Add an HTML table. Specify the table header. Each of the `th` elements you speci
 Fields and templates are defined via data attributes:
 
     <table id="grid">
-		<colgroup>
-			<col style="width:100px" />
-			<col style="width:200px" />
-			<col />
-		</colgroup>
-		<thead>
-			<tr>
-				<th data-field="firstName">First Name</th>
-				<th data-field="lastName">Last Name</th>
-				<th data-field="email" data-template="<a href='mailto:#= email #'>#= email #</a>">Email</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Nancy</td>
-				<td>Davolio</td>
-				<td>email@domain.com</td>
-			</tr>
-		</tbody>
+        <colgroup>
+            <col style="width:100px" />
+            <col style="width:200px" />
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th data-field="firstName">First Name</th>
+                <th data-field="lastName">Last Name</th>
+                <th data-field="email" data-template="<a href='mailto:#= email #'>#= email #</a>">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nancy</td>
+                <td>Davolio</td>
+                <td>email@domain.com</td>
+            </tr>
+        </tbody>
     </table>
 
 The table can now describe the entire structure of the grid. The field that the column is bound to in the data set, is specified in the `data-field` attribute of each `th` element. Using `data-field` attributes is highly
@@ -73,16 +73,16 @@ At this point, either way the grid was created you will have an empty grid.
 The next step is to bind the grid to data.  The grid can be bound to local data very simply by setting the `dataSource` option of the kendoGrid object.
     var people = [ { firstName: "John",
                      lastName: "Smith",
-                     email: "john.smith@kendoui.com" },
+                     email: "john.smith@telerik.com" },
                    { firstName: "Jane",
                      lastName: "Smith",
-                     email: "jane.smith@kendoui.com" },
+                     email: "jane.smith@telerik.com" },
                    { firstName: "Josh",
                      lastName: "Davis",
-                     email: "josh.davis@kendoui.com" },
+                     email: "josh.davis@telerik.com" },
                    { firstName: "Cindy",
                      lastName: "Jones",
-                     email: "cindy.jones@kendoui.com" } ];
+                     email: "cindy.jones@telerik.com" } ];
 
      $("#grid").kendoGrid({
          dataSource: people
@@ -161,7 +161,7 @@ If virtual scrolling is **not used**, there are several options:
 * The Grid should be initialized when its element becomes visible;
 * The Grid's layout must be adjusted manually, using code from the above example (no need to attach a window resize handler);
 * Instead of setting an overall height for the Grid in its configuration, you can define height for the scrollable data area only. In this case no height calculations will be made:
-        
+
         #GridID .k-grid-content
         {
             height: 270px;
@@ -169,7 +169,7 @@ If virtual scrolling is **not used**, there are several options:
 
 If **virtual scrolling is used** and the Grid is initialized while hidden, its dataSource should be refetched when the widget becomes visible. This will also readjust the scrollable data area's height and no other coding is required.
 
-	$("#GridID").data("kendoGrid").dataSource.fetch();
+    $("#GridID").data("kendoGrid").dataSource.fetch();
 
 ### Column widths
 
@@ -212,31 +212,31 @@ Scenarios 1. and 2. can be controlled independently.
 When enabled, scrolling causes the Grid to render **two** tables - one for the header area and one for the scrollable data area.
 This may need to be taken into account when making some manual Javascript or CSS manipulations to the Grid tables.
 
-	<div class="k-widget k-grid">
-		<div class="k-grid-header">
-			<div class="k-grid-header-wrap">
-				<table>...</table>
-			</div>
-		</div>
-		<div class="k-grid-content">
-			<table>...</table>
-		</div>
-	</div>
+    <div class="k-widget k-grid">
+        <div class="k-grid-header">
+            <div class="k-grid-header-wrap">
+                <table>...</table>
+            </div>
+        </div>
+        <div class="k-grid-content">
+            <table>...</table>
+        </div>
+    </div>
 
 When virtual scrolling is used, the HTML output is a little different:
 
-	<div class="k-widget k-grid">
-		<div class="k-grid-header">
-			<div class="k-grid-header-wrap">
-				<table>...</table>
-			</div>
-		</div>
-		<div class="k-grid-content">
-			<div class="k-virtual-scrollable-wrap">
-				<table>...</table>
-			</div>
-		</div>
-	</div>
+    <div class="k-widget k-grid">
+        <div class="k-grid-header">
+            <div class="k-grid-header-wrap">
+                <table>...</table>
+            </div>
+        </div>
+        <div class="k-grid-content">
+            <div class="k-virtual-scrollable-wrap">
+                <table>...</table>
+            </div>
+        </div>
+    </div>
 
 #### Disable scrolling in the grid
 
@@ -255,7 +255,7 @@ Virtual Scrolling will load in data from the remote data source as you scroll do
         },
         // other configuration
     });
-	
+
 > Using virtual scrolling together with grouping, hierarchy, batch editing and inline editing is not recommended.
 The feature relies on calculating average row height, based on already loaded data, so having a large variance of row heights may cause unexpected behavior.
 
@@ -272,7 +272,7 @@ needed, it can be removed with CSS like this:
     {
        padding: 0 !important;
     }
-     
+
     #GridID .k-grid-content
     {
        overflow-y: visible;
@@ -446,10 +446,10 @@ First, the [ID field should be defined in the model configuration](/api/framewor
 
 Then, the row model, the model UID and the Grid table row can be retrieved consecutively in the following way:
 
-	var rowModel = gridObject.dataSource.get(10249); // get method of the Kendo UI DataSource object
-	var modelUID = rowModel.get("uid"); // get method of the Kendo UI Model object
-	var tableRow = $("[data-uid='" + modelUID + "']"); // the data-uid attribute is applied to the desired table row element. This UID is rendered by the Grid automatically.
-	
+    var rowModel = gridObject.dataSource.get(10249); // get method of the Kendo UI DataSource object
+    var modelUID = rowModel.get("uid"); // get method of the Kendo UI Model object
+    var tableRow = $("[data-uid='" + modelUID + "']"); // the data-uid attribute is applied to the desired table row element. This UID is rendered by the Grid automatically.
+
 ## Applying Templates To Cells
 
 Using templates within either a script tag, or the template option on the column object if the grid is being initialized from a div can format each cell in the grid.
@@ -488,69 +488,69 @@ Since the browser cannot understand the relationship between the two Grid tables
 
 **HTML**
 
-	<div id="grid"></div>
+    <div id="grid"></div>
 
-	<script type="text/x-kendo-template" id="toolbar-template">
-		<button type="button" class="k-button" id="printGrid">Print Grid</button>
-	</script>
-	
+    <script type="text/x-kendo-template" id="toolbar-template">
+        <button type="button" class="k-button" id="printGrid">Print Grid</button>
+    </script>
+
 **Javascript**
-	
-	function printGrid() {
-		var gridElement = $("#grid"),
-			win = window.open('', '', 'width=800, height=500'),
-			doc = win.document.open(),
-			htmlStart = 
-				'<!DOCTYPE html>' +
-				'<html>' +
-				'<head>' +
-				'<meta charset="utf-8" />' +
-				'<title>Kendo UI Grid</title>' +
-				'<link href="http://cdn.kendostatic.com/' + kendo.version + '/styles/kendo.common.min.css" rel="stylesheet" /> '+
-				'<style>' +
-				'html { font: 11pt sans-serif; }' +
-				'.k-grid, .k-grid-content { height: auto !important; }' +
-				'.k-grid-toolbar, .k-grid-pager > .k-link { display: none; }' +
-				'</style>' +
-				'</head>' +
-				'<body>',
-			htmlEnd = 
-				'</body>' +
-				'</html>';
 
-		doc.write(htmlStart + gridElement.clone()[0].outerHTML + htmlEnd);
-		doc.close();
-		win.print();
-	}
+    function printGrid() {
+        var gridElement = $("#grid"),
+            win = window.open('', '', 'width=800, height=500'),
+            doc = win.document.open(),
+            htmlStart =
+                '<!DOCTYPE html>' +
+                '<html>' +
+                '<head>' +
+                '<meta charset="utf-8" />' +
+                '<title>Kendo UI Grid</title>' +
+                '<link href="http://cdn.kendostatic.com/' + kendo.version + '/styles/kendo.common.min.css" rel="stylesheet" /> '+
+                '<style>' +
+                'html { font: 11pt sans-serif; }' +
+                '.k-grid, .k-grid-content { height: auto !important; }' +
+                '.k-grid-toolbar, .k-grid-pager > .k-link { display: none; }' +
+                '</style>' +
+                '</head>' +
+                '<body>',
+            htmlEnd =
+                '</body>' +
+                '</html>';
 
-	$(document).ready(function() {
-		var grid = $("#grid").kendoGrid({
-			dataSource: {
-				type: "odata",
-				transport: {
-					read: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
-				},
-				pageSize: 20,
-				serverPaging: true,
-				serverSorting: true,
-				serverFiltering: true
-			},
-			toolbar: kendo.template($("#toolbar-template").html()),
-			height: 400,
-			pageable: true,
-			columns: [
-				{ field: "ProductID", title: "Product ID", width: 100 },
-				{ field: "ProductName", title: "Product Name" },
-				{ field: "UnitPrice", title: "Unit Price", width: 100 },
-				{ field: "QuantityPerUnit", title: "Quantity Per Unit" }
-			]
-		});
+        doc.write(htmlStart + gridElement.clone()[0].outerHTML + htmlEnd);
+        doc.close();
+        win.print();
+    }
 
-		$("#printGrid").click(function(){
-			printGrid();
-		});
+    $(document).ready(function() {
+        var grid = $("#grid").kendoGrid({
+            dataSource: {
+                type: "odata",
+                transport: {
+                    read: "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Products"
+                },
+                pageSize: 20,
+                serverPaging: true,
+                serverSorting: true,
+                serverFiltering: true
+            },
+            toolbar: kendo.template($("#toolbar-template").html()),
+            height: 400,
+            pageable: true,
+            columns: [
+                { field: "ProductID", title: "Product ID", width: 100 },
+                { field: "ProductName", title: "Product Name" },
+                { field: "UnitPrice", title: "Unit Price", width: 100 },
+                { field: "QuantityPerUnit", title: "Quantity Per Unit" }
+            ]
+        });
 
-	});
+        $("#printGrid").click(function(){
+            printGrid();
+        });
+
+    });
 
 ## Adding a custom row when no records are loaded
 
@@ -558,10 +558,10 @@ When the datasource does not return any data (e.g. as a result of filtering) a t
 
 ### Example - adding a table row in the Grid's [dataBound](/api/web/grid/#events-dataBound) event handler
 
-	function onGridDataBound(e) {
-		if (!e.sender.dataSource.view().length) {
-			var colspan = e.sender.thead.find("th:visible").length,
-				emptyRow = '<tr><td colspan="' + colspan + '">... no records ...</td></tr>';
-			e.sender.tbody.parent().width(e.sender.thead.width()).end().html(emptyRow);
-		}
-	}
+    function onGridDataBound(e) {
+        if (!e.sender.dataSource.view().length) {
+            var colspan = e.sender.thead.find("th:visible").length,
+                emptyRow = '<tr><td colspan="' + colspan + '">... no records ...</td></tr>';
+            e.sender.tbody.parent().width(e.sender.thead.width()).end().html(emptyRow);
+        }
+    }

@@ -52,7 +52,7 @@ You must include at least one, the rest are optional.
 See also:
 
 * [JavaScript dependencies](/getting-started/javascript-dependencies)
-* [Custom Download Builder](http://www.kendoui.com/custom-download) (requires login)
+* [Custom Download Builder](http://www.telerik.com/kendo-ui/custom-download) (requires login)
 
 ## Limitations
 

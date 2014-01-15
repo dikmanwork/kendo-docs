@@ -47,7 +47,7 @@ and check the [JavaScript Dependencies](/getting-started/javascript-dependencies
 
     > If you want to use Kendo UI Web and DataViz at the same time you should include **kendo.all.min.js** instead of **kendo.web.min.js** and
 **kendo.dataviz.min.js**. You can also create a custom JavaScript file using the
-[Custom Download Builder](http://www.kendoui.com/custom-download).
+[Custom Download Builder](http://www.telerik.com/kendo-ui/custom-download).
 
 4. Include the Kendo PHP [Autoload](http://php.net/manual/en/language.oop5.autoload.php) file.
 

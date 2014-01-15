@@ -18,20 +18,20 @@ The following combined scripts are provided in order to simplify development and
 
 > **Important**: kendo.all.min.js is available in the Kendo UI Complete, **UI for ASP.NET MVC**, **UI for JSP** and **UI for PHP** distributions. The contents of
 **kendo.aspnetmvc.min.js** are **not** included in kendo.all.min.js - you need to include kendo.aspnetmvc.min.js in addition to kendo.all.min.js or use the
-[custom download builder tool](http://www.kendoui.com/custom-download).
+[custom download builder tool](http://www.telerik.com/kendo-ui/custom-download).
 
 *   **kendo.web.min.js** contains a minified version of all scripts from Kendo UI Web.
 *   **kendo.dataviz.min.js** contains a minified version of all scripts from Kendo UI DataViz.
 *   **kendo.mobile.min.js** contains a minified version of all scripts from Kendo UI Mobile.
 
 > **Important:** Only one of the **web**, **dataviz**, **mobile** and **all** combined JavaScript files can be included at a time, because they contain some shared scripts. If widgets from
-different Kendo UI suites will be used simultaneously, one should either use **kendo.all.min.js** or create a custom combined JavaSript file via the [custom download builder tool](http://www.kendoui.com/custom-download).
+different Kendo UI suites will be used simultaneously, one should either use **kendo.all.min.js** or create a custom combined JavaSript file via the [custom download builder tool](http://www.telerik.com/kendo-ui/custom-download).
 In addition, each of the combined script files should not be registered together with an individual widget script from the same suite. For example, `kendo.grid.js` should not be registered together with
 `kendo.web.js` or `kendo.all.js`, because they already include the Grid scripts. **Registering duplicate scripts may cause Javascript errors and unexpected behavior.**
 
 ## Custom Combined Scripts
 
-Users who own a commercial license can use the [custom download builder tool](http://www.kendoui.com/custom-download)
+Users who own a commercial license can use the [custom download builder tool](http://www.telerik.com/kendo-ui/custom-download)
 to create a single JavaScript file which contains only the required widgets and features.
 
 ## CDN

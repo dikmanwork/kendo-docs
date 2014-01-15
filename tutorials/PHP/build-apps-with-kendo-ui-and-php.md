@@ -63,10 +63,10 @@ The next thing to do is to add in the CSS and JavaScript files to the head of
 the** index.php **page.
 
 
-    <!DOCTYPE html> 
-        <html> 
-            <head> 
-                <link href="css/kendo.metro.min.css" rel="stylesheet"> 
+    <!DOCTYPE html>
+        <html>
+            <head>
+                <link href="css/kendo.metro.min.css" rel="stylesheet">
                 <link href="css/kendo.common.min.css" rel="stylesheet">
                 <script src="js/jquery.min.js"></script>
                 <script src="js/kendo.all.min.js"></script> </head>
@@ -87,10 +87,10 @@ This is what the whole page looks like so far.  The grid has no columns and no
 data.  The next step is to create the .php file which will return the data
 from the MySQL database.
 
-    <!DOCTYPE html> 
-    <html> 
-        <head> 
-            <link href="css/kendo.metro.min.css"rel="stylesheet"> 
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link href="css/kendo.metro.min.css"rel="stylesheet">
             <link href="css/kendo.common.min.css" rel="stylesheet">
             <script src="js/jquery.min.js"></script>
             <script src="js/kendo.all.min.js"></script>
@@ -101,8 +101,8 @@ from the MySQL database.
                 $(function() {
                     $("#grid").kendoGrid();
                 });
-            </script> 
-        </body> 
+            </script>
+        </body>
     </html>
 
 ### Connect To The Database
@@ -163,12 +163,12 @@ provide the data when the grid is loaded.  Additionally, we are defining columns
 for the **LastName** and **FirstName**.
 
 
-    <body> 
-        
-        <div id="grid"></div> 
+    <body>
+
+        <div id="grid"></div>
 
         <script>
-            
+
             $(function() {
                 $("#grid").kendoGrid({
                     dataSource: {
@@ -183,7 +183,7 @@ for the **LastName** and **FirstName**.
                 });
             });
 
-        </script> 
+        </script>
 
     </body>
 
@@ -307,7 +307,7 @@ The **detailInit** function is fairly straightforward.
 
 
     function detailInit(e) {
-        // get a reference to the current row being initialized 
+        // get a reference to the current row being initialized
         var detailRow = e.detailRow;
 
         // create a subgrid for the current detail row, getting territory data for this employee
@@ -378,7 +378,7 @@ are passing and we know the operator is always equals.
     14:                          INNER JOIN EmployeeTerritories et ON t.TerritoryID = et.TerritoryID
     15:                          INNER JOIN Employees e ON et.EmployeeID = e.EmployeeID
     16:                          WHERE e.EmployeeID = " .$employeeID);
-    17: 
+    17:
     18:      while($obj = mysql_fetch_object($rs)) {
     19:          $arr[] = $obj;
     20:     }
@@ -441,9 +441,9 @@ This has been an example of how to get rolling with PHP and [Kendo UI][32].
 
    [9]: https://raw.github.com/telerik/kendo-docs/production/tutorials/PHP/images/ff819b019713_9A19-1_4_1.png
 
-   [10]: http://www.kendoui.com/videos.aspx
+   [10]: http://www.telerik.com/videos/kendo-ui-web
 
-   [11]: http://www.kendoui.com/documentation/ui-widgets/grid/walkthrough.aspx
+   [11]: /getting-started/web/grid/walkthrough
 
    [12]: http://localhost:8888/KendoUI/data/employees.php
 
@@ -469,7 +469,7 @@ This has been an example of how to get rolling with PHP and [Kendo UI][32].
 
    [23]: http://demos.telerik.com/kendo-ui/web/grid/detailtemplate.html
 
-   [24]:http://www.kendoui.com/documentation/framework/templates/overview.aspx
+   [24]:/getting-started/framework/templates/overview
 
    [25]: http://demos.telerik.com/kendo-ui/web/templates/index.html
 
@@ -485,5 +485,5 @@ This has been an example of how to get rolling with PHP and [Kendo UI][32].
 
    [31]: /Blogs_Libraries/Source_Code/KendoUI.sflb.ashx
 
-   [32]: http://www.kendoui.com/get-kendo-ui.aspx
+   [32]: http://www.telerik.com/download/kendo-ui-complete
 

@@ -50,7 +50,7 @@ that initialization the **TabStrip** occur within a handler is provided to $(doc
             dataSource:
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"               // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"               // Link URL if navigation is needed, optional.
             },
             {
                 text: "Item 2",
@@ -62,7 +62,7 @@ that initialization the **TabStrip** occur within a handler is provided to $(doc
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg" // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg" // Item image URL, optional.
             },
             {
                 text: "Item 5",

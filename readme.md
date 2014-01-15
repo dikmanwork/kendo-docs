@@ -52,7 +52,7 @@ There are two ways you can contribute to the public Kendo UI documentation: eith
 
 ## License
 
-The Kendo UI Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Kendo UI. For information about available licensed for the Kendo UI Library, visit our [license page](http://www.kendoui.com/faq/licensing.aspx) at [KendoUI.com](http://kendoui.com).
+The Kendo UI Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Kendo UI. For information about available licensed for the Kendo UI Library, visit our [license page](http://www.telerik.com/purchase/license-agreement/kendo-ui).
 
 ### MIT License
 

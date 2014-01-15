@@ -15,7 +15,7 @@ The `attr` binding populates DOM element attributes from View-Model fields or me
     <img id="logo" data-bind="attr: { src: imageSource, alt: imageAlt }" />
     <script>
     var viewModel = kendo.observable({
-        imageSource: "http://www.kendoui.com/image/kendo-logo.png",
+        imageSource: "http://www.telerik.com/image/kendo-logo.png",
         imageAlt: "Kendo Logo"
     });
 
@@ -25,7 +25,7 @@ The `attr` binding populates DOM element attributes from View-Model fields or me
 
 In this example the `src` and `alt` attributes of the image are bound to the View-Model. After calling `kendo.bind` the image would look like this (`data-bind` attribute is removed for clarity):
 
-    <img id="logo" src="http://www.kendoui.com/image/kendo-logo.png" alt="Kendo Logo"" />
+    <img id="logo" src="http://www.telerik.com/image/kendo-logo.png" alt="Kendo Logo"" />
 
 
 Changing the `imageSource` or `imageSource` fields would update the `src` and `alt` attributes respectively.

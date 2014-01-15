@@ -21,11 +21,11 @@ CORS works by adding a special header to responses from a server to the client. 
 
 Why just a chance?
 
-The header is capable of specifying *which* remote sites are allowed to load the cross-origin resources. For example, consider the following CORS header in a hypothetical response from kendoui.com:
+The header is capable of specifying *which* remote sites are allowed to load the cross-origin resources. For example, consider the following CORS header in a hypothetical response:
 
 **Access-Control-Allow-Origin: [http://htmlui.com](http://htmlui.com/)**
 
-With this configuration, only scripts that originate from [http://htmlui.com](http://htmlui.com/) are allowed to load resources from kendoui.com. Any other domain trying to use Ajax to load resources from kendoui.com will be given the standard security error message. In this way, site owners can limit which domains are allowed to load their resources with CORS.
+With this configuration, only scripts that originate from [http://htmlui.com](http://htmlui.com/) are allowed to load resources from telerik.com. Any other domain trying to use Ajax to load resources from telerik.com will be given the standard security error message. In this way, site owners can limit which domains are allowed to load their resources with CORS.
 
 Alternatively, site owners can grant wide-open access with the always ready to party asterisk:
 
@@ -138,7 +138,7 @@ We elected to use the later approach in the Feed Reader demo since it also helps
                 dialect: function (options) {
                     var result = ["callback=?","format=json"],
                         data = options || {};
-                  
+
                     return result.join("&");
                 }
             },
@@ -151,8 +151,6 @@ We elected to use the later approach in the Feed Reader demo since it also helps
     }
 
 Now, Opera (any other non-CORS browser) will use an alternate configuration of the Kendo UI data source pointed at a JSONP endpoint and expecting a JSON response. Not pretty code, but it's functional. Sometimes, that's what it takes to build software that runs in *every major browser and platform.*
-
-You can see everything in action by [visiting the updated Feed Reader demo](http://htmlui.com/demos/kendo/feedreader/index.html). Full source and context are a right-click, view source away.
 
 ## Bottom Line on CORS
 Hopefully this post helps highlight the value of CORS and how it can be used with most modern browsers. As more app code moves to the client, the need for CORS will only grow. Start playing with it today and help push web standards to the next level.

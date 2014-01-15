@@ -97,7 +97,7 @@ We recommend using a nested Splitter, which is a direct child of the parent Spli
 While any valid technique for loading content via AJAX may be used, **Splitter** provides built-in
 support for asynchronously loading content from URLs. These URLs should return HTML fragments that can be
 loaded in the pane of a **Splitter**. If you want to load a whole page in an IFRAME, you may do so
-by specifying the complete URL (i.e. http://kendoui.com/).
+by specifying the complete URL (i.e. http://telerik.com/).
 
 ### Loading Splitter content asynchronously
 
@@ -114,7 +114,7 @@ by specifying the complete URL (i.e. http://kendoui.com/).
             panes: [
                 {},
                 { contentUrl: "html-content-snippet.html" },
-                { contentUrl: "http://kendoui.com/" }
+                { contentUrl: "http://telerik.com/" }
             ]
         });
     });
@@ -168,7 +168,7 @@ cannot have borders, margins or paddings. In a nested Splitters scenario, the in
             </p>
         </div>
     </div>
-      
+
     </body>
 
 ### Javascript code
@@ -206,11 +206,11 @@ cannot have borders, margins or paddings. In a nested Splitters scenario, the in
     {
         height:100%;
     }
-	
-	#vertical
-	{
-		border-width: 0;
-	}
+
+    #vertical
+    {
+        border-width: 0;
+    }
 
 ## Resizing a Splitter manually
 
@@ -218,16 +218,16 @@ The Splitter `div` can be resized manually by applying new width or height style
 should be executed, so that the widget readjusts its layout and pane sizes.
 
     var splitterElement = $("#SplitterID"),
-	    splitterObject = splitterElement.data("kendoSplitter");
-		
+        splitterObject = splitterElement.data("kendoSplitter");
+
     splitterElement.css({width: "800px", height: "600px" });
     splitterObject.resize();
-    
+
     // for versions Q2 2013 SP1 and older use this instead:
-	//splitterObject.trigger("resize");
+    //splitterObject.trigger("resize");
 
 If the Splitter layout needs readjusting, but the dimensions of the Splitter wrapper `<div>` has not changed, the resize method must be executed with a parameter in order to take effect:
 
     splitterObject.resize(true);
-    
+
 Changing the the pane sizes manually is not recommended. Only the Splitter should control them.

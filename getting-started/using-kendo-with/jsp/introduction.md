@@ -83,7 +83,7 @@ copy **kendo.common.min.css**, the theme file (e.g. **kendo.default.min.css**), 
         <script src="resources/js/kendo.web.min.js"></script>
 
 7.  Configure your page to include the Kendo UI DataViz JavaScript and CSS files. **Important**: If you want to use Kendo UI Web and DataViz at the same time you should include **kendo.all.min.js** instead of **kendo.web.min.js** and **kendo.dataviz.min.js**. You
-    can also create a custom JavaScript file using the [Custom Download Builder](http://www.kendoui.com/custom-download).
+    can also create a custom JavaScript file using the [Custom Download Builder](http://www.telerik.com/kendo-ui/custom-download).
 
         <link href="resources/styles/kendo.common.min.css" rel="stylesheet" type="text/css" />
         <link href="resources/styles/kendo.dataviz.min.css" rel="stylesheet" type="text/css" />

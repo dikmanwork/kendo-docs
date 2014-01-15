@@ -67,7 +67,7 @@ A **PanelBar** will preserve the content defined within an item.
             {
                 text: "Item 1",
                 cssClass: "myClass",                            // Add custom CSS class to the item, optional, added 2012 Q3 SP1.
-                url: "http://www.kendoui.com/"                  // link URL if navigation is needed (optional)
+                url: "http://www.telerik.com/"                  // link URL if navigation is needed (optional)
             },
             {
                 text: "<b>Item 2</b>",
@@ -80,7 +80,7 @@ A **PanelBar** will preserve the content defined within an item.
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg",    // item image URL, optional
+                imageUrl: "http://www.telerik.com/test.jpg",    // item image URL, optional
                 expanded: true,                                 // item is rendered expanded
                 items: [{                                       // Sub item collection.
                     text: "Sub Item 1"
