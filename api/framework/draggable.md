@@ -217,7 +217,7 @@ Provides a way for customization of the drag indicator. If a function is supplie
         hint: function(element) {
           var hintElement = $("<div id='hint'></div>");
           hintElement.css({
-            "background-image": "url('http://www.kendoui.com/image/kendo-logo.png')",
+            "background-image": "url('http://www.telerik.com/image/kendo-logo.png')",
             "width": "230px",
             "height": "80px"
           });
@@ -253,7 +253,7 @@ The *draggable* will also be activated by pressing, holding and lifting the fing
         hint: function(element) {
           var hintElement = $("<div id='hint'></div>");
           hintElement.css({
-            "background-image": "url('http://www.kendoui.com/image/kendo-logo.png')",
+            "background-image": "url('http://www.telerik.com/image/kendo-logo.png')",
             "width": "230px",
             "height": "80px"
           });
@@ -296,7 +296,7 @@ Has effect only when `holdToDrag` is set to `true`. Cancels the activated state 
         hint: function(element) {
           var hintElement = $("<div id='hint'></div>");
           hintElement.css({
-            "background-image": "url('http://www.kendoui.com/image/kendo-logo.png')",
+            "background-image": "url('http://www.telerik.com/image/kendo-logo.png')",
             "width": "230px",
             "height": "80px"
           });
@@ -471,7 +471,7 @@ Triggered only when `holdToDrag` is set to `true`. Fires before the `dragStart` 
         hint: function(element) {
           var hintElement = $("<div id='hint'></div>");
           hintElement.css({
-            "background-image": "url('http://www.kendoui.com/image/kendo-logo.png')",
+            "background-image": "url('http://www.telerik.com/image/kendo-logo.png')",
             "width": "230px",
             "height": "80px"
           });

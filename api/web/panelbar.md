@@ -323,7 +323,7 @@ Appends an item/s to the PanelBar.
                 {
                     text: "Item 1",
                     cssClass: "myClass",                            // Add custom CSS class to the item, optional, added 2012 Q3 SP1.
-                    url: "http://www.kendoui.com/"                  // link URL if navigation is needed, optional.
+                    url: "http://www.telerik.com/"                  // link URL if navigation is needed, optional.
                 },
                 {
                     text: "<b>Item 2</b>",
@@ -336,7 +336,7 @@ Appends an item/s to the PanelBar.
                 },
                 {
                     text: "Item 4",
-                    imageUrl: "http://www.kendoui.com/test.jpg",    // item image URL, optional
+                    imageUrl: "http://www.telerik.com/test.jpg",    // item image URL, optional
                     expanded: true,                                 // item is rendered expanded
                     items: [{                                       // Sub item collection.
                         text: "Sub Item 1"
@@ -573,7 +573,7 @@ Inserts a PanelBar item after the specified referenceItem
         panelBar.insertAfter(
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"                // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"                // Link URL if navigation is needed, optional.
             },
             {
                 text: "<b>Item 2</b>",
@@ -586,7 +586,7 @@ Inserts a PanelBar item after the specified referenceItem
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg", // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg", // Item image URL, optional.
                 expanded: true,                              // item is rendered expanded
                 items: [{                                    // Sub item collection.
                      text: "Sub Item 1"
@@ -639,7 +639,7 @@ Inserts a PanelBar item before the specified referenceItem
         panelBar.insertBefore(
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"                // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"                // Link URL if navigation is needed, optional.
             },
             {
                 text: "<b>Item 2</b>",
@@ -652,7 +652,7 @@ Inserts a PanelBar item before the specified referenceItem
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg", // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg", // Item image URL, optional.
                 expanded: true,                              // item is rendered expanded
                 items: [{                                    // Sub item collection.
                      text: "Sub Item 1"

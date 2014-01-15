@@ -392,7 +392,7 @@ Appends a tab to the collection of tabs in a **TabStrip**.
         tabStrip.append(
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"               // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"               // Link URL if navigation is needed, optional.
             },
             {
                 text: "<b>Item 2</b>",
@@ -405,7 +405,7 @@ Appends a tab to the collection of tabs in a **TabStrip**.
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg" // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg" // Item image URL, optional.
             },
             {
                 text: "Item 5",
@@ -624,7 +624,7 @@ Inserts a newly-created tab after a specified tab.
         tabStrip.insertAfter(
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"               // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"               // Link URL if navigation is needed, optional.
             },
             {
                 text: "<b>Item 2</b>",
@@ -637,7 +637,7 @@ Inserts a newly-created tab after a specified tab.
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg" // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg" // Item image URL, optional.
             },
             {
                 text: "Item 5",
@@ -680,7 +680,7 @@ Inserts a newly-created tab before a specified tab.
         tabStrip.insertBefore(
             [{
                 text: "Item 1",
-                url: "http://www.kendoui.com"               // Link URL if navigation is needed, optional.
+                url: "http://www.telerik.com"               // Link URL if navigation is needed, optional.
             },
             {
                 text: "<b>Item 2</b>",
@@ -693,7 +693,7 @@ Inserts a newly-created tab before a specified tab.
             },
             {
                 text: "Item 4",
-                imageUrl: "http://www.kendoui.com/test.jpg" // Item image URL, optional.
+                imageUrl: "http://www.telerik.com/test.jpg" // Item image URL, optional.
             },
             {
                 text: "Item 5",

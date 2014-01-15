@@ -217,7 +217,7 @@ Explicitly states whether content iframe should be created.
     <div id="dialog"></div>
     <script>
     $("#dialog").kendoWindow({
-      content: "http://www.kendoui.com/",
+      content: "http://www.telerik.com/",
       iframe: true
     });
     </script>
