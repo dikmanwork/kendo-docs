@@ -28,7 +28,7 @@ Supported series types:
 
 Note that all of the above are also accessible from the Chart widget.
 
-Please visit the [Kendo UI Roadmap](http://www.kendoui.com/roadmap.aspx) for additional information about new Chart types and features.
+Please visit the [Kendo UI Roadmap](http://www.telerik.com/support/whats-new/kendo-ui-web/roadmap) for additional information about new Chart types and features.
 
 ### Creating a Stock Chart
 

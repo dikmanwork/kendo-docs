@@ -26,7 +26,7 @@ While sparklines are typically line charts, other types are supported as well:
 *   Pie
 *   Bullet
 
-Please visit the [Kendo UI Roadmap](http://www.kendoui.com/roadmap.aspx) for additional information about
+Please visit the [Kendo UI Roadmap](http://www.telerik.com/support/whats-new/kendo-ui-web/roadmap) for additional information about
 new Sparkline types and features.
 
 ### Creating a Sparkline
