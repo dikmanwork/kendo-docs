@@ -10,12 +10,12 @@ publish: true
 ## Adding Kendo UI to the project
 
 Start by adding Kendo UI to the project. There are a lot of ways to accomplish this.
-Kendo UI can be downloaded from [kendoui.com](http://www.kendoui.com/download), referenced from the CDN, or fetched with NuGet.
+Kendo UI can be downloaded from [kendoui.com](http://www.telerik.com/download/kendo-ui-complete), referenced from the CDN, or fetched with NuGet.
 
 ### Downloading Kendo UI
 
 KendoUI is divided into three parts: Web, Mobile, and DataViz.
-The preferred method of getting KendoUI is to browse to [kendoui.com](http://www.kendoui.com/download) and download Kendo UI as a .zip file.
+The preferred method of getting KendoUI is to browse to [kendoui.com](http://www.telerik.com/download/kendo-ui-complete) and download Kendo UI as a .zip file.
 Depending on whether you are using the Trial version or have purchased the full Commercial version,
 you will have a .zip file that follows one of these directory structures:
 

@@ -74,4 +74,4 @@ If you check out the "html" tab on the previous fiddle, you can see the templati
 
 I hope you were able to see the power of the Kendo UI [Grid](http://demos.telerik.com/kendo-ui/grid/index.html), [Data Source](http://demos.telerik.com/kendo-ui/datasource/index.html) and [Templating](http://demos.telerik.com/kendo-ui/templates/index.html) engine in this article. As well as providing you with a complete toolkit for your jQuery / HTML5 development, it helps you write cleaner JavaScript and lets the markup remain where it belongs.
 
-Download the toolkit [here](http://www.kendoui.com/download.aspx), or use the CDN references. Make sure you also hit up the [forums](http://www.kendoui.com/forums.aspx) if you have any questions or suggestions for Kendo UI.
+Download the toolkit [here](http://www.telerik.com/download/kendo-ui-complete), or use the CDN references. Make sure you also hit up the [forums](http://www.kendoui.com/forums.aspx) if you have any questions or suggestions for Kendo UI.

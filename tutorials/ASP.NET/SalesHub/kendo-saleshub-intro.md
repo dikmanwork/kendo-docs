@@ -38,7 +38,7 @@ Start by getting the source for [SalesHub from GitHub](https://github.com/teleri
 Due to licensing restrictions, the sample project does not include the dll for the **UI for ASP.NET MVC**.
 
 If you have a license for the **UI for ASP.NET MVC**, you can use the [Telerik Control Panel](http://www.telerik.com/download-trial-file.aspx?pid=972)
-to download and install the extensions. If you haven't purchased a license yet, you can download and install the 30 day [free trial](http://www.kendoui.com/download.aspx)
+to download and install the extensions. If you haven't purchased a license yet, you can download and install the 30 day [free trial](http://www.telerik.com/download/kendo-ui-complete)
 for the extensions.
 
 Once you've downloaded and installed the extensions, all that is required is for `\wrappers\aspnetmvc\Binaries\Mvc3\Kendo.Mvc.dll` to be copied from the installation

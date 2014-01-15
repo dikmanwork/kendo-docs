@@ -25,7 +25,7 @@ Kendo UI comes in different bundles:
 
 # Installing and Getting Started with Kendo UI
 
-You can download all Kendo UI bundles from the [download page](http://www.kendoui.com/download).
+You can download all Kendo UI bundles from the [download page](http://www.telerik.com/download/kendo-ui-complete).
 
 The distribution zip file contains the following:
 
