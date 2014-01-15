@@ -47,7 +47,7 @@ You need to provide an init method for your widget.  This method will be called 
 	    }
 	});
   
-The call to the base is what translates your widget in from [Declarative Initialization](http://docs.kendoui.com/documentation/howto/declarative_initialization) or the standard [Imperative Initialization](http://docs.kendoui.com/getting-started/using-kendo-widgets) and merges all the base options (if you are extending a widget) and custom options.
+The call to the base is what translates your widget in from [Declarative Initialization](/documentation/howto/declarative_initialization) or the standard [Imperative Initialization](/getting-started/using-kendo-widgets) and merges all the base options (if you are extending a widget) and custom options.
 
 Speaking of options, You are going to need to declare those right under the **init**.  Anything that you declare in the options object will be available for the user to pass as either a configuration value, or a data attribute.
 

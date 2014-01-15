@@ -23,7 +23,7 @@ The DataSource plays a central role in the applications and sites built with Ken
 * calculating and maintaining aggregates, sorting order, and page sizes;
 * and, providing a query mechanism via filter expressions.
 
-> To learn more about the capabilities of the DataSource, make sure to check out its [API reference](http://docs.kendoui.com/api/framework/datasource) or [demos](http://demos.kendoui.com/web/datasource/index.html).
+> To learn more about the capabilities of the DataSource, make sure to check out its [API reference](/api/framework/datasource) or [demos](http://demos.kendoui.com/web/datasource/index.html).
 
 ## Creating a DataSource for Local Data
 

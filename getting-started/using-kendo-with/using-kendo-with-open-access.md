@@ -8,7 +8,7 @@ related: gs-what-is-kendo, gs-downloading-kendo
 publish: true
 ---
 
-In this article you will learn how [OpenAccess ORM](http://www.telerik com/products/orm.aspx) can be leveraged on the backend, and [KendoUI](http://www kendoui.com) can take care of the UI.
+In this article you will learn how [OpenAccess ORM](http://www.telerik com/products/orm.aspx) can be leveraged on the backend, and [Kendo UI](http://www.telerik.com/kendo-ui) can take care of the UI.
 
 ## Getting Set Up
 
@@ -34,7 +34,7 @@ like this:![Solution After Installing jQuery And Kendo UI](images/oa2.png)
 Now we are ready to build the OpenAccess ORM model!
 
 *Note: If you are not familiar with NuGet, or would rather just download, and
-add the needed files manually.  KendoUI is available [*here*](http://www.kendoui com/get-kendo-ui.aspx), and Jquery is available [*here*](http://jquery.com/).*
+add the needed files manually. Kendo UI is available [here](http://www.telerik.com/download/kendo-ui-complete), and Jquery is available [here](http://jquery.com/).*
 
 ## Building The Model
 
@@ -150,7 +150,7 @@ The code needed is here:
                     serverFiltering: true,
                     serverSorting: true
                 },
-                filterable: true,   
+                filterable: true,
                 sortable: true,
                 pageable: true,
                 columns: [
@@ -158,7 +158,7 @@ The code needed is here:
                         field: "OrderID",
                         filterable: false
                     },
-                    "Freight", 
+                    "Freight",
                     {
                         field: "OrderDate",
                         template: '#= kendo.toString(toDate(OrderDate), "MM/dd/yyyy") #'

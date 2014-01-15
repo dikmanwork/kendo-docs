@@ -217,7 +217,7 @@ This is discussed in more details below.
 This can be used to mark individual columns as fitlerable, sortable and groupable.
 
 **format** defines a custom formatter to be used to display the cell data. In this case we use "{0:c}" to format the Price column as currency.
-The format takes the same values as the [kendo.format() function](http://docs.kendoui.com/api/framework/kendo#format).
+The format takes the same values as the [kendo.format() function](http:///api/framework/kendo#format).
 
 **values** sets a collection of key-value pair objects that are used as a foreign key to look up cell values.
 This is discussed in more detail below.

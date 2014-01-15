@@ -515,6 +515,6 @@ code for this module [**here**][3].
 
    [6]: http://demos.kendoui.com/web/grid/editing-custom.html
 
-   [9]: http://docs.kendoui.com/api/framework/model
+   [9]: http:///api/framework/model
 
    [10]: http://demos.kendoui.com/web/datepicker

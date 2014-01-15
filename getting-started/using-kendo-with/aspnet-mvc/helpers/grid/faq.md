@@ -153,44 +153,44 @@ The scripts must be evaluated manually in the [Grid's dataBound event](/api/web/
 
 **C#**
 
-	@(Html.Kendo().Grid<ModelType>()
-		.Name("GridID")
-		.Columns(columns => {
-			columns.Template(@<text></text>).HtmlAttributes(new { @class = "templateCell" }).ClientTemplate(
-	                Html.Kendo().Menu()
-	                    .Name("menu_#=OrderID#")
-	                    .Items(its =>
-	                    {
-	                        its.Add().Text("foo").Items(nested =>
-	                        {
-	                            nested.Add().Text("bar");
-	                            nested.Add().Text("baz");
-	                        });
-	
-	                    })
-	                    .ToClientTemplate().ToHtmlString()
-	                );    
-		})
-		.Events(ev => ev.DataBound("initMenus"))
-	)
+    @(Html.Kendo().Grid<ModelType>()
+        .Name("GridID")
+        .Columns(columns => {
+            columns.Template(@<text></text>).HtmlAttributes(new { @class = "templateCell" }).ClientTemplate(
+                    Html.Kendo().Menu()
+                        .Name("menu_#=OrderID#")
+                        .Items(its =>
+                        {
+                            its.Add().Text("foo").Items(nested =>
+                            {
+                                nested.Add().Text("bar");
+                                nested.Add().Text("baz");
+                            });
+
+                        })
+                        .ToClientTemplate().ToHtmlString()
+                    );
+        })
+        .Events(ev => ev.DataBound("initMenus"))
+    )
 
 **Javascript**
-	
-	function initMenus(e) {
-		$(".templateCell").each(function(){
-			eval($(this).children("script").last().html());
-		});
-	}
+
+    function initMenus(e) {
+        $(".templateCell").each(function(){
+            eval($(this).children("script").last().html());
+        });
+    }
 
 **CSS**
-	
+
 The Menu requires the Grid cells to allow overflowing, which is disabled by default:
 
-	.k-widget .templateCell
-	{
-		overflow: visible;
-	}
-	
+    .k-widget .templateCell
+    {
+        overflow: visible;
+    }
+
 ### How do I change the format of a bound column?
 
 Use the [Format](api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBoundColumnBuilder#formatsystem.string) method.

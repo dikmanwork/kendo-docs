@@ -7,7 +7,7 @@ publish: true
 
 # How-To: Use the ListView of Kendo UI Mobile with endless scrolling
 
-In this how-to, we will examine how to use the [ListView](http://docs.kendoui.com/api/mobile/listview) of Kendo UI Mobile with endless scrolling.
+In this how-to, we will examine how to use the [ListView](/api/mobile/listview) of Kendo UI Mobile with endless scrolling.
 
 The Kendo Mobile ListView widget is used to display flat or grouped list of items. It can be either used in unbound mode by enhancing an HTML ul element, or bound to a DataSource instance.
 
@@ -16,7 +16,7 @@ Endless scrolling provides a way to load additional content dinamically. When th
 
 ## Create a Mobile ListView with endless scrolling
 
-** In order to proceed with this "How-to", you will need to know how to build [Kendo Mobile application](http://docs.kendoui.com/howto/build-apps-with-kendo-ui-mobile).
+** In order to proceed with this "How-to", you will need to know how to build [Kendo Mobile application](/howto/build-apps-with-kendo-ui-mobile).
 
 First step is to decide what will be the best way to get the additional data. Here are the possible ways:
 

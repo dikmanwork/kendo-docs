@@ -113,7 +113,7 @@ This demonstrates that we can mix chart types on a single chart.
 **color** is the color used to represent the series on the chart and in the legend.
 
 **tooltip** defines what will be displayed if the user mouses over a data point or column.
-The format string follows the parameters for the [kendo.format](http://docs.kendoui.com/api/framework/kendo#format) function.
+The format string follows the parameters for the [kendo.format](http:///api/framework/kendo#format) function.
 
 ### Specify the Axis
 

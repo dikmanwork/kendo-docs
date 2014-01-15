@@ -95,7 +95,7 @@ options, while remote data binding is better for larger data sets.
 
 The mobile ListView leverages Kendo UI high-performance Templates to provide complete control
 over item rendering. For a complete overview of Kendo UI Template capabilities and syntax,
-please review the [Kendo UI Templates](http://www.kendoui.com/documentation/framework/templates/ "Kendo UI Template") documentation.
+please review the [Kendo UI Templates](/getting-started/framework/templates/overview) documentation.
 
 > The ListView automatically wraps the template content in `<li>` tag. Putting a `<li>` tag inside the template creates invalid nesting of elements.
 

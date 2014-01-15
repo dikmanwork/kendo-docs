@@ -7,7 +7,7 @@ publish: true
 
 # How-To: Use the ListView of Kendo UI Mobile with pull-to-refresh
 
-In this how-to, we will examine how to use the [ListView](http://docs.kendoui.com/api/mobile/listview) of Kendo UI Mobile with enabled pull-to-refresh.
+In this how-to, we will examine how to use the [ListView](/api/mobile/listview) of Kendo UI Mobile with enabled pull-to-refresh.
 
 The Kendo Mobile ListView widget is used to display flat or grouped list of items. It can be either used in unbound mode by enhancing an HTML ul element, or bound to a DataSource instance.
 
@@ -15,7 +15,7 @@ The Kendo Mobile ListView widget is used to display flat or grouped list of item
 
 ## Create a Mobile ListView with pull-to-refresh
 
-** In order to proceed with this "How-to", you will need to know how to build [Kendo Mobile application](http://docs.kendoui.com/howto/build-apps-with-kendo-ui-mobile).
+** In order to proceed with this "How-to", you will need to know how to build [Kendo Mobile application](/howto/build-apps-with-kendo-ui-mobile).
 
 Let's see how the Mobile ListView works by building a simple example that integrates the Twitter API.
 
@@ -70,8 +70,8 @@ Here's the live example of the representation (above):
 
 ## Send additional parameters
 
-The Mobile ListView provides a way to define [pullParameters](http://docs.kendoui.com/api/mobile/listview#pullparameters-function) function, which will add its result to the data send to the server.
-These data will be available in the DataSource's [parameterMap](http://docs.kendoui.com/api/framework/datasource#transportparametermap-function) function.
+The Mobile ListView provides a way to define [pullParameters](/api/mobile/listview#pullparameters-function) function, which will add its result to the data send to the server.
+These data will be available in the DataSource's [parameterMap](/api/framework/datasource#transportparametermap-function) function.
 
 Let's modify the above example to send [an additional parameter](https://dev.twitter.com/docs/api/1.1/get/search/tweets#api-param-since_id) to Twitter service:
 
