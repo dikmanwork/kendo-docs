@@ -52,7 +52,7 @@ You must include at least one, the rest are optional.
 See also:
 
 * [JavaScript dependencies](/kendo-ui/getting-started/javascript-dependencies)
-* [Custom Download Builder](http://www.telerik.com/kendo-ui/custom-download) (requires login)
+* [Custom Download Builder](http://www.telerik.com/download/custom-download) (requires login)
 
 ## Limitations
 
