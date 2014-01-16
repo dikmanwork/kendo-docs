@@ -27,7 +27,7 @@ to the **~/Scripts/cultures/** directory of your application. Let's use the Span
             <script src="@Url.Content("~/Scripts/kendo.all.min.js")"></script>
             <script src="@Url.Content("~/Scripts/kendo.aspnetmvc.min.js")"></script>
             <script src="@Url.Content("~/Scripts/cultures/kendo.culture.es-ES.min.js")"></script>
-1. Set the current culture by calling the [kendo.culture](/api/framework/kendo#methods-culture) method. The script block should come *after* the culture JavaScript file.
+1. Set the current culture by calling the [kendo.culture](/kendo-ui/api/framework/kendo#methods-culture) method. The script block should come *after* the culture JavaScript file.
 
         <script>
         kendo.culture("es-ES");
@@ -73,7 +73,7 @@ to the **~/Scripts/cultures/** directory of your application.
     - Razor
 
             <script src="@Url.Content("~/Scripts/cultures/kendo.culture." + culture + ".min.js")"></script>
-1. Set the current culture by calling the [kendo.culture](/api/framework/kendo#methods-culture) method. The script block should come *after* the culture JavaScript file.
+1. Set the current culture by calling the [kendo.culture](/kendo-ui/api/framework/kendo#methods-culture) method. The script block should come *after* the culture JavaScript file.
     - ASPX
 
             <script>

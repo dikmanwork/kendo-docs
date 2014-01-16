@@ -8,13 +8,13 @@ publish: true
 
 # RadialGauge
 
-The RadialGauge HtmlHelper extension is a server-side wrapper for the [Kendo DataViz RadialGaug](/api/dataviz/radialgauge)e widget.
+The RadialGauge HtmlHelper extension is a server-side wrapper for the [Kendo DataViz RadialGaug](/kendo-ui/api/dataviz/radialgauge)e widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo RadialGauge:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -51,7 +51,7 @@ Here is how to configure a simple Kendo RadialGauge:
 ## Accessing an Existing Radial Gauge
 
 You can reference an existing RadialGauge instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/dataviz/radialgauge#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/dataviz/radialgauge#methods) to control its behavior.
 
 
 

@@ -64,7 +64,7 @@ Configures the labels.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeRadialScaleLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeRadialScaleLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeRadialScaleLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeRadialScaleLabelsBuilder)>
 The configuration action.
 
 

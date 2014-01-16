@@ -10,14 +10,14 @@ publish: true
 
 # kendo.ui.Scheduler
 
-Represents the Kendo UI Scheduler widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI Scheduler widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 
 ## Configuration
 
 ### allDayEventTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the "all day" scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the "all day" scheduler events.
 
 The fields which can be used in the template are:
 
@@ -89,7 +89,7 @@ If set to `true` the scheduler will display a slot for "all day" events.
 
 ### autoBind `Boolean` *(default: true)*
 
-If set to `false` the widget will not bind to the data source during initialization. In this case data binding will occur when the [change](/api/framework/datasource#events-change) event of the
+If set to `false` the widget will not bind to the data source during initialization. In this case data binding will occur when the [change](/kendo-ui/api/framework/datasource#events-change) event of the
 data source is fired. By default the widget will bind to the data source specified in the configuration.
 
 > Setting `autoBind` to `false` is useful when multiple widgets are bound to the same data source. Disabling automatic binding ensures that the shared data source doesn't make more than one request to the remote service.
@@ -114,12 +114,12 @@ data source is fired. By default the widget will bind to the data source specifi
 
 ### dataSource `Object|Array|kendo.data.SchedulerDataSource`
 
-The data source of the widget which contains the scheduler events. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.SchedulerDataSource](/api/framework/schedulerdatasource)
+The data source of the widget which contains the scheduler events. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.SchedulerDataSource](/kendo-ui/api/framework/schedulerdatasource)
 instance.
 
-If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.SchedulerDataSource](/api/framework/schedulerdatasource) instance using that value as data source configuration.
+If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.SchedulerDataSource](/kendo-ui/api/framework/schedulerdatasource) instance using that value as data source configuration.
 
-If the `dataSource` option is an existing [kendo.data.SchedulerDataSource](/api/framework/schedulerdatasource) instance the widget will use that instance and will **not** initialize a new one.
+If the `dataSource` option is an existing [kendo.data.SchedulerDataSource](/kendo-ui/api/framework/schedulerdatasource) instance the widget will use that instance and will **not** initialize a new one.
 
 > The Kendo UI Scheduler widget can be bound *only* to a `kendo.data.SchedulerDataSource`. An exception will be thrown if the `dataSource` option is set to a `kendo.data.DataSource` instance.
 
@@ -237,7 +237,7 @@ The current date of the scheduler. Used to determine the period which is display
 
 ### dateHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the date header cells.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the date header cells.
 
 By default the scheduler renders the date using the current culture date format.
 
@@ -413,12 +413,12 @@ If set to `true` the scheduler allows event resizing. Dragging the resize handle
 
 ### editable.template `String|Function`
 
-The [template](/api/framework/kendo#methods-template) which renders the editor.
+The [template](/kendo-ui/api/framework/kendo#methods-template) which renders the editor.
 
 The template should contain elements whose `name` HTML attributes are set as the editable fields. This is how the grid will know
-which field to update. The other option is to use [MVVM](/getting-started/framework/mvvm/overview) bindings in order to bind HTML elements to data item fields.
+which field to update. The other option is to use [MVVM](/kendo-ui/getting-started/framework/mvvm/overview) bindings in order to bind HTML elements to data item fields.
 
-> Use the `role` data attribute to initialize Kendo UI widgets in the template. Check [data attribute initialization](/getting-started/data-attribute-initialization) for more info.
+> Use the `role` data attribute to initialize Kendo UI widgets in the template. Check [data attribute initialization](/kendo-ui/getting-started/data-attribute-initialization) for more info.
 
 #### Example - customize the popup editor
 
@@ -541,7 +541,7 @@ The end time of the week and day views. The scheduler will display events ending
 
 ### eventTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the scheduler events.
 
 The fields which can be used in the template are:
 
@@ -765,7 +765,7 @@ The number of minutes represented by a major tick.
 
 ### majorTimeHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the major ticks.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the major ticks.
 
 By default the scheduler renders the time using the current culture time format.
 
@@ -2694,7 +2694,7 @@ The number of time slots to display per major tick.
 
 ### minorTimeHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the minor ticks.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the minor ticks.
 
 By default the scheduler renders a `"&nbsp;"`.
 
@@ -2805,12 +2805,12 @@ The field of the resource data item which contains the resource color.
 
 ### resources.dataSource `Object|Array|kendo.data.DataSource`
 
-The data source which contains resource data items.  Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/api/framework/datasource)
+The data source which contains resource data items.  Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/kendo-ui/api/framework/datasource)
 instance.
 
-If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.DataSource](/api/framework/datasource) instance using that value as data source configuration.
+If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.DataSource](/kendo-ui/api/framework/datasource) instance using that value as data source configuration.
 
-If the `dataSource` option is an existing [kendo.data.DataSource](/api/framework/datasource) instance the widget will use that instance and will **not** initialize a new one.
+If the `dataSource` option is an existing [kendo.data.DataSource](/kendo-ui/api/framework/datasource) instance the widget will use that instance and will **not** initialize a new one.
 
 #### Example - set the resource data source
 
@@ -3348,7 +3348,7 @@ By default the Kendo UI Scheduler widget displays "day" and "week" view.
 
 ### views.allDayEventTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the "all day" scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the "all day" scheduler events.
 
 The fields which can be used in the template are:
 
@@ -3432,7 +3432,7 @@ If set to `true` the scheduler will display a slot for "all day" events.
 
 ### views.allDaySlotTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the all day slot cell.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the all day slot cell.
 
 The fields which can be used in the template are:
 
@@ -3464,7 +3464,7 @@ The fields which can be used in the template are:
 
 ### views.dateHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the date header cells.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the date header cells.
 
 By default the scheduler renders the date using the current culture date format.
 
@@ -3498,7 +3498,7 @@ The fields which can be used in the template are:
 
 ### views.dayTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the day slots in month view.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the day slots in month view.
 
 The fields which can be used in the template are:
 
@@ -3672,7 +3672,7 @@ The end time of the view. The scheduler will display events ending before the `e
 
 ### views.eventDateTemplate
 
-The [template](/api/framework/kendo#methods-template) used by the agenda view to render the date of the scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used by the agenda view to render the date of the scheduler events.
 
 The fields which can be used in the template are:
 
@@ -3735,7 +3735,7 @@ The height of the scheduler event rendered in month view.
 
 ### views.eventTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used by the view to render the scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used by the view to render the scheduler events.
 
 The fields which can be used in the template are:
 
@@ -3789,7 +3789,7 @@ The fields which can be used in the template are:
 
 ### views.eventTimeTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used by the agenda view to render the time of the scheduler events.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used by the agenda view to render the time of the scheduler events.
 
 The fields which can be used in the template are:
 
@@ -3917,7 +3917,7 @@ The number of minutes represented by a major tick.
 
 ### views.majorTimeHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the major ticks.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the major ticks.
 
 By default the scheduler renders the time using the current culture time format.
 
@@ -3981,7 +3981,7 @@ The number of time slots to display per major tick.
 
 ### views.minorTimeHeaderTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the minor ticks.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the minor ticks.
 
 By default the scheduler renders a `"&nbsp;"`.
 
@@ -4042,7 +4042,7 @@ If set to `true` the view will be initially selected by the scheduler widget.
 
 ### views.selectedDateFormat `String`
 
-The format used to display the selected date. Uses [kendo.format](/api/framework/kendo#methods-format).
+The format used to display the selected date. Uses [kendo.format](/kendo-ui/api/framework/kendo#methods-format).
 
 Contains two placeholders - "{0}" and "{1}" which represent the start and end date displayed by the view.
 
@@ -4095,7 +4095,7 @@ If set to true the view will be initially shown in business hours mode. By defau
 
 ### views.slotTemplate `String|Function`
 
-The [template](/api/framework/kendo#methods-template) used to render the time slot cells.
+The [template](/kendo-ui/api/framework/kendo#methods-template) used to render the time slot cells.
 
 The fields which can be used in the template are:
 
@@ -4370,7 +4370,7 @@ The end of working week (index based).
 
 ### dataSource `kendo.data.SchedulerDataSource`
 
-The [data source](/api/framework/schedulerdatasource) of the widget. Configured via the [dataSource](#configuration-dataSource) option.
+The [data source](/kendo-ui/api/framework/schedulerdatasource) of the widget. Configured via the [dataSource](#configuration-dataSource) option.
 
 > Changes of the data source will be reflected in the widget.
 
@@ -4866,7 +4866,7 @@ The selection end date.
 
 ##### e.events `Array`
 
-A list of the selected [scheduler events](/api/framework/schedulerevent).
+A list of the selected [scheduler events](/kendo-ui/api/framework/schedulerevent).
 
 ##### e.slots `Array`
 

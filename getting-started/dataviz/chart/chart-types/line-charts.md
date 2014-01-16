@@ -59,7 +59,7 @@ For example:
 
 ## Style
 
-The line chart supports rendering the lines between the points with different styles. The supported styles are "normal", "step" and "smooth" and can be set with the [style](/api/dataviz/chart#configuration-series.style) option. The default style is "normal" and will produce a straight line between the data points. When the style is set to "step", the data points will be connected only with vertical and horizontal lines. This style can be used to indicate that the value is constant between the changes. 
+The line chart supports rendering the lines between the points with different styles. The supported styles are "normal", "step" and "smooth" and can be set with the [style](/kendo-ui/api/dataviz/chart#configuration-series.style) option. The default style is "normal" and will produce a straight line between the data points. When the style is set to "step", the data points will be connected only with vertical and horizontal lines. This style can be used to indicate that the value is constant between the changes. 
  
 ![Step Line Chart](chart-step-line.png)
 

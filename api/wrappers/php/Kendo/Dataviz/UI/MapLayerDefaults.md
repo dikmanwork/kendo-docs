@@ -24,7 +24,7 @@ The default configuration for shape layers.
 ##### $value `\Kendo\Dataviz\UI\MapLayerDefaultsShape|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\MapLayerDefaultsShape](/api/wrappers/php/Kendo/Dataviz/UI/MapLayerDefaultsShape)
+#### Example - using [\Kendo\Dataviz\UI\MapLayerDefaultsShape](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/MapLayerDefaultsShape)
     <?php
     $layerDefaults = new \Kendo\Dataviz\UI\MapLayerDefaults();
     $shape = new \Kendo\Dataviz\UI\MapLayerDefaultsShape();
@@ -53,7 +53,7 @@ The default configuration for tile layers.
 ##### $value `\Kendo\Dataviz\UI\MapLayerDefaultsTile|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\MapLayerDefaultsTile](/api/wrappers/php/Kendo/Dataviz/UI/MapLayerDefaultsTile)
+#### Example - using [\Kendo\Dataviz\UI\MapLayerDefaultsTile](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/MapLayerDefaultsTile)
     <?php
     $layerDefaults = new \Kendo\Dataviz\UI\MapLayerDefaults();
     $tile = new \Kendo\Dataviz\UI\MapLayerDefaultsTile();

@@ -17,7 +17,7 @@ Sets the line configuration of the note
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNoteLineBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNoteLineBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNoteLineBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNoteLineBuilder)>
 The line configuration.
 
 
@@ -41,7 +41,7 @@ Sets the label configuration of the note
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNoteLabelBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNoteLabelBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNoteLabelBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNoteLabelBuilder)>
 The label configurator.
 
 
@@ -65,7 +65,7 @@ Sets the icon configuration of the note
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartMarkersBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartMarkersBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartMarkersBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartMarkersBuilder)>
 The icon configuration.
 
 
@@ -87,7 +87,7 @@ Sets the note position.
 
 #### Parameters
 
-##### position System.Nullable<[Kendo.Mvc.UI.ChartNotePosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartNotePosition)>
+##### position System.Nullable<[Kendo.Mvc.UI.ChartNotePosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartNotePosition)>
 The note position.
 
 

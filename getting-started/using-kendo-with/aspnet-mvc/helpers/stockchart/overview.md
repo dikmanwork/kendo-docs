@@ -6,7 +6,7 @@ publish: true
 
 # StockChart
 
-The StockChart HtmlHelper extension is a server-side wrapper for the [Kendo UI StockChart](/api/dataviz/stock-chart) widget.
+The StockChart HtmlHelper extension is a server-side wrapper for the [Kendo UI StockChart](/kendo-ui/api/dataviz/stock-chart) widget.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ There are two ways to bind a Kendo StockChart for ASP.NET MVC:
 
 Here is how to configure the Kendo StockChart for server binding:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method and pass the data list as the model:
 
@@ -69,7 +69,7 @@ Here is how to configure the Kendo StockChart for server binding:
 ## Accessing an Existing StockChart
 
 You can reference an existing stock chart instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/dataviz/stock-chart#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/dataviz/stock-chart#methods) to control its behavior.
 
 ### Accessing an existing StockChart instance
 
@@ -83,7 +83,7 @@ Once a reference has been established, you can use the [API](/api/dataviz/stock-
 
 ## Handling Kendo UI StockChart events
 
-You can subscribe to all [events](/api/dataviz/stock-chart#events) exposed by Kendo UI Chart:
+You can subscribe to all [events](/kendo-ui/api/dataviz/stock-chart#events) exposed by Kendo UI Chart:
 
 
 ### WebForms - subscribe by handler name

@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileSplitViewPane for ASP.NET
 ### Navigate(`System.String`)
 Triggered when pane navigates to a view.
 
-For additional information check the [navigate](/api/web/mobilesplitviewpane#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/mobilesplitviewpane#events-navigate) event documentation.
 
 
 #### Parameters
@@ -29,7 +29,7 @@ The name of the JavaScript function that will handle the navigate event.
 ### ViewShow(`System.String`)
 Triggered after the pane displays a view.
 
-For additional information check the [viewShow](/api/web/mobilesplitviewpane#events-viewShow) event documentation.
+For additional information check the [viewShow](/kendo-ui/api/web/mobilesplitviewpane#events-viewShow) event documentation.
 
 
 #### Parameters

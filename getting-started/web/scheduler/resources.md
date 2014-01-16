@@ -174,6 +174,6 @@ Kendo UI Scheduler supports unlimited resource types. For example we can combine
 
 ## Further reading
 
-Additional information about Kendo UI resources can be found in the documentation of the [resources](/api/web/scheduler#configuration-resources) option.
+Additional information about Kendo UI resources can be found in the documentation of the [resources](/kendo-ui/api/web/scheduler#configuration-resources) option.
 
 In addition you can check the [Resources](http://demos.telerik.com/kendo-ui/web/scheduler/resources.html) online demo.

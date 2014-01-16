@@ -23,7 +23,7 @@ The text of the filter operators displayed in the filter menu.
 
 The texts of the filter operators displayed for columns bound to date fields.
 
-More documentation is available at [kendo:grid-filterable-operators-date](/api/wrappers/jsp/grid/filterable-operators-date).
+More documentation is available at [kendo:grid-filterable-operators-date](/kendo-ui/api/wrappers/jsp/grid/filterable-operators-date).
 
 #### Example
 
@@ -35,7 +35,7 @@ More documentation is available at [kendo:grid-filterable-operators-date](/api/w
 
 The texts of the filter operators displayed for columns which have their values option set.
 
-More documentation is available at [kendo:grid-filterable-operators-enums](/api/wrappers/jsp/grid/filterable-operators-enums).
+More documentation is available at [kendo:grid-filterable-operators-enums](/kendo-ui/api/wrappers/jsp/grid/filterable-operators-enums).
 
 #### Example
 
@@ -47,7 +47,7 @@ More documentation is available at [kendo:grid-filterable-operators-enums](/api/
 
 The texts of the filter operators displayed for columns bound to number fields.
 
-More documentation is available at [kendo:grid-filterable-operators-number](/api/wrappers/jsp/grid/filterable-operators-number).
+More documentation is available at [kendo:grid-filterable-operators-number](/kendo-ui/api/wrappers/jsp/grid/filterable-operators-number).
 
 #### Example
 
@@ -59,7 +59,7 @@ More documentation is available at [kendo:grid-filterable-operators-number](/api
 
 The texts of the filter operators displayed for columns bound to string fields.
 
-More documentation is available at [kendo:grid-filterable-operators-string](/api/wrappers/jsp/grid/filterable-operators-string).
+More documentation is available at [kendo:grid-filterable-operators-string](/kendo-ui/api/wrappers/jsp/grid/filterable-operators-string).
 
 #### Example
 

@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileApplication for ASP.NET M
 ### Init(`System.String`)
 Fires after the mobile application is instantiated.
 
-For additional information check the [init](/api/web/mobileapplication#events-init) event documentation.
+For additional information check the [init](/kendo-ui/api/web/mobileapplication#events-init) event documentation.
 
 
 #### Parameters

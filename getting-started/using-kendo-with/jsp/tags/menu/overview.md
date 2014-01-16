@@ -6,13 +6,13 @@ publish: true
 
 # Menu
 
-The Menu JSP tag is a server-side wrapper for the [Kendo UI Menu](/api/web/menu) widget.
+The Menu JSP tag is a server-side wrapper for the [Kendo UI Menu](/kendo-ui/api/web/menu) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Menu:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -54,7 +54,7 @@ Here is how to configure a simple Kendo Menu:
 ## Accessing an Existing Menu
 
 You can reference an existing Menu instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/menu#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/menu#methods) to control its behavior.
 
 ### Accessing an existing Menu instance
 
@@ -68,7 +68,7 @@ Once a reference has been established, you can use the [API](/api/web/menu#metho
 
 ## Handling Kendo UI Menu events
 
-You can subscribe to all [events](/api/web/menu#events) exposed by Kendo UI Menu:
+You can subscribe to all [events](/kendo-ui/api/web/menu#events) exposed by Kendo UI Menu:
 
 ### Subscribe by handler name
 

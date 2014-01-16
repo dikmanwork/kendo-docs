@@ -6,13 +6,13 @@ publish: true
 
 # Upload
 
-The Upload HtmlHelper extension is a server-side wrapper for the [Kendo UI Upload](/getting-started/web/upload/overview) widget.
+The Upload HtmlHelper extension is a server-side wrapper for the [Kendo UI Upload](/kendo-ui/getting-started/web/upload/overview) widget.
 
 ## Getting Started
 
 The following example shows how to setup an asynchronous upload using the Spring MVC framework:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -45,7 +45,7 @@ The following example shows how to setup an asynchronous upload using the Spring
 ## Accessing an Existing Upload
 
 You can reference an existing Upload instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/upload#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/upload#methods) to control its behavior.
 
 ### Accessing an existing Upload instance
 
@@ -60,7 +60,7 @@ Once a reference has been established, you can use the [API](/api/web/upload#met
 
 ## Handling Kendo UI Upload events
 
-You can subscribe to all [events](/api/web/upload#events) exposed by Kendo UI Upload:
+You can subscribe to all [events](/kendo-ui/api/web/upload#events) exposed by Kendo UI Upload:
 
     <kendo:upload name="files" upload="onUpload" success="onSuccess">
         <kendo:upload-async autoUpload="true" saveUrl="${saveUrl}" removeUrl="${removeUrl}"/>

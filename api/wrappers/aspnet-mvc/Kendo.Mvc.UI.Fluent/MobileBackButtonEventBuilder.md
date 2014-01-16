@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileBackButton for ASP.NET MV
 ### Click(`System.String`)
 Fires when the user taps the button.
 
-For additional information check the [click](/api/web/mobilebackbutton#events-click) event documentation.
+For additional information check the [click](/kendo-ui/api/web/mobilebackbutton#events-click) event documentation.
 
 
 #### Parameters

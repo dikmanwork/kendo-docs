@@ -43,7 +43,7 @@ Default Kendo UI Tooltip options for this marker.
 ##### $value `\Kendo\Dataviz\UI\MapMarkerDefaultsTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\MapMarkerDefaultsTooltip](/api/wrappers/php/Kendo/Dataviz/UI/MapMarkerDefaultsTooltip)
+#### Example - using [\Kendo\Dataviz\UI\MapMarkerDefaultsTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/MapMarkerDefaultsTooltip)
     <?php
     $markerDefaults = new \Kendo\Dataviz\UI\MapMarkerDefaults();
     $tooltip = new \Kendo\Dataviz\UI\MapMarkerDefaultsTooltip();

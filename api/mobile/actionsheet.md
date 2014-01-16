@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.ActionSheet
 
-Represents the Kendo UI Mobile ActionSheet widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile ActionSheet widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## Configuration
 

@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:button\>
-A JSP wrapper for Kendo UI [Button](/api/web/button).
+A JSP wrapper for Kendo UI [Button](/kendo-ui/api/web/button).
 
 ## Configuration Attributes
 
@@ -61,7 +61,7 @@ In case you want to use an icon from the Kendo UI theme sprite background image,
 Fires when the Button is clicked with the mouse, touched on a touch device, or ENTER (or SPACE) is pressed while the Button is focused.
 
 
-For additional information check the [click](/api/web/button#events-click) event documentation.
+For additional information check the [click](/kendo-ui/api/web/button#events-click) event documentation.
 
 #### Example
     <kendo:button click="handle_click">
@@ -79,7 +79,7 @@ For additional information check the [click](/api/web/button#events-click) event
 Fires when the Button is clicked with the mouse, touched on a touch device, or ENTER (or SPACE) is pressed while the Button is focused.
 
 
-For additional information check the [click](/api/web/button#events-click) event documentation.
+For additional information check the [click](/kendo-ui/api/web/button#events-click) event documentation.
 
 #### Example
     <kendo:button>

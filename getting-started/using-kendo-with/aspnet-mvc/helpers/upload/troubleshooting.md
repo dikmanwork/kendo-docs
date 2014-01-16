@@ -56,4 +56,4 @@ See [Concurrent Requests In ASP.NET MVC](http://weblogs.asp.net/imranbaloch/arch
 
 ### See Also
 
-[Upload Troubleshooting (all platforms)](/getting-started/web/upload/troubleshooting)
+[Upload Troubleshooting (all platforms)](/kendo-ui/getting-started/web/upload/troubleshooting)

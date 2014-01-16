@@ -9,15 +9,15 @@ publish: true
 
 # kendo.data.SchedulerDataSource
 
-The data source used by the [kendo.ui.Scheduler](/api/web/scheduler) widget.
-Inherits from [kendo.data.DataSource](/api/framework/datasource). The SchedulerDataSource contains instances of the
-[kendo.data.SchedulerEvent](/api/framework/schedulerevent) class.
+The data source used by the [kendo.ui.Scheduler](/kendo-ui/api/web/scheduler) widget.
+Inherits from [kendo.data.DataSource](/kendo-ui/api/framework/datasource). The SchedulerDataSource contains instances of the
+[kendo.data.SchedulerEvent](/kendo-ui/api/framework/schedulerevent) class.
 
 
 
 ## Configuration
 
-See the [DataSource configuration](/api/framework/datasource#configuration) for all inherited configuration options.
+See the [DataSource configuration](/kendo-ui/api/framework/datasource#configuration) for all inherited configuration options.
 
 ### schema `Object`
 
@@ -25,7 +25,7 @@ The schema configuration of the SchedulerDataSource.
 
 ### schema.model `Object`
 
-The model configuration of the SchedulerDataSource. See [SchedulerEvent](/api/framework/schedulerevent#configuration) for more info.
+The model configuration of the SchedulerDataSource. See [SchedulerEvent](/kendo-ui/api/framework/schedulerevent#configuration) for more info.
 
 #### Example - configure the data source model model
 
@@ -78,7 +78,7 @@ The model configuration of the SchedulerDataSource. See [SchedulerEvent](/api/fr
 
 ## Methods
 
-See the [DataSource methods](/api/framework/datasource#methods) for all inherited methods.
+See the [DataSource methods](/kendo-ui/api/framework/datasource#methods) for all inherited methods.
 
 ### expand
 

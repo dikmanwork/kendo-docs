@@ -32,7 +32,7 @@ to the ID of the layout (specified by the `data-id` attribute):
       <div data-role="footer">Footer</div>
     </div>
 
-A default application layout can be set through the [`layout` configuration](/api/mobile/application#layout-string) option of the **Application**.
+A default application layout can be set through the [`layout` configuration](/kendo-ui/api/mobile/application#layout-string) option of the **Application**.
 A mobile **View** can remove the default application layout by setting `data-layout=""`.
 
 ## Default Application Layout

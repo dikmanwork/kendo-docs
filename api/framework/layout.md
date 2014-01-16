@@ -7,7 +7,7 @@ publish: true
 
 # kendo.Layout
 
-The Layout class inherits from the [View](/api/framework/view) and provides the additional functionality of rendering other views/layouts in the element.
+The Layout class inherits from the [View](/kendo-ui/api/framework/view) and provides the additional functionality of rendering other views/layouts in the element.
 
 ## Methods
 

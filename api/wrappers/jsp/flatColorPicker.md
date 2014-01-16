@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:flatColorPicker\>
-A JSP wrapper for Kendo UI [FlatColorPicker](/api/web/flatcolorpicker).
+A JSP wrapper for Kendo UI [FlatColorPicker](/kendo-ui/api/web/flatcolorpicker).
 
 ## Configuration Attributes
 
@@ -70,7 +70,7 @@ Specifies the initially selected color.
 Triggers when a new color has been selected.
 
 
-For additional information check the [change](/api/web/flatcolorpicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/flatcolorpicker#events-change) event documentation.
 
 #### Example
     <kendo:flatColorPicker change="handle_change">
@@ -88,7 +88,7 @@ For additional information check the [change](/api/web/flatcolorpicker#events-ch
 Triggers when a new color has been selected.
 
 
-For additional information check the [change](/api/web/flatcolorpicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/flatcolorpicker#events-change) event documentation.
 
 #### Example
     <kendo:flatColorPicker>

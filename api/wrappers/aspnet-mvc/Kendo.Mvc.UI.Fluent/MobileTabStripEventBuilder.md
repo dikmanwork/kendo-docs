@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileTabStrip for ASP.NET MVC 
 ### Select(`System.String`)
 Fires when tab is selected.
 
-For additional information check the [select](/api/web/mobiletabstrip#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/mobiletabstrip#events-select) event documentation.
 
 
 #### Parameters

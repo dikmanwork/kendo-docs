@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\Tooltip
 
-A PHP wrapper for Kendo UI [Tooltip](/api/web/tooltip).
+A PHP wrapper for Kendo UI [Tooltip](/kendo-ui/api/web/tooltip).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use Tooltip in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo Tooltip
 
@@ -46,7 +46,7 @@ will disable all animations in the widget.
 ##### $value `\Kendo\UI\TooltipAnimation|array`
 
 
-#### Example - using [\Kendo\UI\TooltipAnimation](/api/wrappers/php/Kendo/UI/TooltipAnimation)
+#### Example - using [\Kendo\UI\TooltipAnimation](/kendo-ui/api/wrappers/php/Kendo/UI/TooltipAnimation)
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');
     $animation = new \Kendo\UI\TooltipAnimation();
@@ -119,7 +119,7 @@ Sets the HTML content of the Tooltip.
 
 ### contentLoad
 Triggered when an AJAX request for content completes.
-For additional information check the [contentLoad](/api/web/tooltip#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/tooltip#events-contentLoad) event documentation.
 
 #### Returns
 `\Kendo\UI\Tooltip`
@@ -146,7 +146,7 @@ For additional information check the [contentLoad](/api/web/tooltip#events-conte
     $tooltip->contentLoad('onContentLoad');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');
@@ -170,7 +170,7 @@ Stops output bufferring and sets the preceding markup as the content of the Tool
 
 ### error
 Triggered when an AJAX request for content fails.
-For additional information check the [error](/api/web/tooltip#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/tooltip#events-error) event documentation.
 
 #### Returns
 `\Kendo\UI\Tooltip`
@@ -197,7 +197,7 @@ For additional information check the [error](/api/web/tooltip#events-error) even
     $tooltip->error('onError');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');
@@ -242,7 +242,7 @@ The height (in pixels) of the tooltip.
 
 ### hide
 Triggered when a Tooltip is hidden
-For additional information check the [hide](/api/web/tooltip#events-hide) event documentation.
+For additional information check the [hide](/kendo-ui/api/web/tooltip#events-hide) event documentation.
 
 #### Returns
 `\Kendo\UI\Tooltip`
@@ -269,7 +269,7 @@ For additional information check the [hide](/api/web/tooltip#events-hide) event 
     $tooltip->hide('onHide');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');
@@ -314,7 +314,7 @@ The position relative to the target element, at which the tooltip will be shown.
 
 ### requestStart
 Triggered before an AJAX request started. Note that this event is triggered only when an AJAX request, instead of an iframe, is used.
-For additional information check the [requestStart](/api/web/tooltip#events-requestStart) event documentation.
+For additional information check the [requestStart](/kendo-ui/api/web/tooltip#events-requestStart) event documentation.
 
 #### Returns
 `\Kendo\UI\Tooltip`
@@ -341,7 +341,7 @@ For additional information check the [requestStart](/api/web/tooltip#events-requ
     $tooltip->requestStart('onRequestStart');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');
@@ -350,7 +350,7 @@ For additional information check the [requestStart](/api/web/tooltip#events-requ
 
 ### show
 Triggered when a Tooltip is shown.
-For additional information check the [show](/api/web/tooltip#events-show) event documentation.
+For additional information check the [show](/kendo-ui/api/web/tooltip#events-show) event documentation.
 
 #### Returns
 `\Kendo\UI\Tooltip`
@@ -377,7 +377,7 @@ For additional information check the [show](/api/web/tooltip#events-show) event 
     $tooltip->show('onShow');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $tooltip = new \Kendo\UI\Tooltip('Tooltip');

@@ -49,7 +49,7 @@ A: This can happen when the mobile widget is initialized multiple times. A commo
 ### Q: I run a PhoneGap application in iOS7 and the status bar overlays my NavBar, what gives?
 
 A: According to the [official iOS7 design guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Bars.html#//apple_ref/doc/uid/TP40006556-CH12-SW1),
-the iOS7 status bar should be transparent and always visible. Kendo Mobile allows this by using the [Application's statusBarStyle option](/getting-started/mobile/application#seamless-status-bar-in-ios7)
+the iOS7 status bar should be transparent and always visible. Kendo Mobile allows this by using the [Application's statusBarStyle option](/kendo-ui/getting-started/mobile/application#seamless-status-bar-in-ios7)
 set to "black-transparent". If you still wish to use the old black non-transparent status bar style, you can change it through the PhoneGap XCode project's [plist](http://stackoverflow.com/a/4053237/258445).
 
 ### Q: My TabStrip looks different on different versions of the OS or even between iPad and iPhone, why?

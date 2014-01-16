@@ -12,7 +12,7 @@ publish: true
 
 ### How do I display HTML in a grid column?
 
-By default the Kendo UI Grid for ASP.NET MVC will encode the HTML entities present in the data. To prevent that call the [Encoded](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBoundColumnBuilderi#encodedsystem.boolean)
+By default the Kendo UI Grid for ASP.NET MVC will encode the HTML entities present in the data. To prevent that call the [Encoded](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBoundColumnBuilderi#encodedsystem.boolean)
 method and pass `false` as the argument.
 
 #### Example: Display HTML Entities In Grid Columns
@@ -21,7 +21,7 @@ method and pass `false` as the argument.
 
 ### How do I customize the way a property is displayed in a grid bound column?
 
-If the grid is [server bound](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding) use the `Template` method.
+If the grid is [server bound](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding) use the `Template` method.
 
 #### Example: Customize the Column Appearance of a Server Bound Grid (WebForms)
 
@@ -54,8 +54,8 @@ If the grid is [server bound](/getting-started/using-kendo-with/aspnet-mvc/helpe
 > The `Template` method needs a [templated razor delegate](http://haacked.com/archive/2011/02/27/templated-razor-delegates.aspx) when used in Razor views.
 The bound item is available using the `@item` parameter.
 
-If the grid is [ajax bound](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding) use the `ClientTemplate` method.
-The value should be a string which represents a valid [Kendo Template](/getting-started/framework/templates/overview).
+If the grid is [ajax bound](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding) use the `ClientTemplate` method.
+The value should be a string which represents a valid [Kendo Template](/kendo-ui/getting-started/framework/templates/overview).
 
 #### Example: Customize the Column Appearance of a Ajax Bound Grid
 
@@ -147,7 +147,7 @@ The Kendo Template has an implicit parameter called `data`. Use that as the argu
 ### How do I use a Kendo UI widget inside a Grid client column template?
 
 `script` tags are not automatically evaluated inside a Grid client column template, so any included widgets will not be initialized.
-The scripts must be evaluated manually in the [Grid's dataBound event](/api/web/grid#events-dataBound).
+The scripts must be evaluated manually in the [Grid's dataBound event](/kendo-ui/api/web/grid#events-dataBound).
 
 #### Example: Add a Kendo UI Menu inside a Grid client column template
 
@@ -194,7 +194,7 @@ The Menu requires the Grid cells to allow overflowing, which is disabled by defa
 ### How do I change the format of a bound column?
 
 Use the [Format](api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBoundColumnBuilder#formatsystem.string) method.
-The value should be a valid [number](/api/framework/kendo#standard-number-formats) or [date](/api/framework/kendo#standard-date-formats) format.
+The value should be a valid [number](/kendo-ui/api/framework/kendo#standard-number-formats) or [date](/kendo-ui/api/framework/kendo#standard-date-formats) format.
 
 #### Example: Specify the Format Of a Bound Column
 
@@ -206,13 +206,13 @@ The value should be a valid [number](/api/framework/kendo#standard-number-format
 
 If your model supports the `IQueryable` interface or is `DataTable` the grid will do paging, sorting, filtering, grouping and aggregates automatically.
 For server binding scenarios no additional steps are required - just pass the IQueryable to the `Grid` constructor. Check the
-[server binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding) help topic for additional info.
+[server binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding) help topic for additional info.
 
 For ajax binding scenarios the `ToDataSourceResult` extension method must be used to perform the data processing.
-Check the [ajax binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding) help topic for additional information.
+Check the [ajax binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding) help topic for additional information.
 
 If your model does not implement `IQueryable` custom binding should be implemented. This means that the developer is responsible for
-paging, sorting, filtering and grouping the data. More info can be found in the [custom binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/custom-binding) help topic.
+paging, sorting, filtering and grouping the data. More info can be found in the [custom binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/custom-binding) help topic.
 
 > **Important**: All data operations will be performed at database server level if the underlying IQueryable provider supports translation of expression trees to SQL. Kendo Grid for ASP.NET MVC has been tested with the following frameworks:
 
@@ -254,7 +254,7 @@ If the grid is ajax bound the `Data` method should be used to specify the name o
 
 ### How do I reload the data in an ajax bound grid?
 
-The [read](/api/framework/datasource#read) method of the DataSource should be used.
+The [read](/kendo-ui/api/framework/datasource#read) method of the DataSource should be used.
 
 #### Example: Reload Ajax Bound Grid
 
@@ -319,7 +319,7 @@ properties which create the circular references.
 
 ### How do I handle errors in ajax binding mode?
 
-The [error](/api/framework/datasource#error) event of the DataSource should be used.
+The [error](/kendo-ui/api/framework/datasource#error) event of the DataSource should be used.
 Use the `Error` method from the fluent API to specify the name of the JavaScript function which will handle the event.
 
 #### Example: Handle Errors In Ajax Binding

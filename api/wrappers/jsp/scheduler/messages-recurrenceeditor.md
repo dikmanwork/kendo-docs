@@ -23,7 +23,7 @@ The configuration of the scheduler recurrence editor messages. Use this option t
 
 The configuration of the scheduler recurrence editor daily messages. Use this option to customize or localize the scheduler recurrence editor daily messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-daily](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-daily).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-daily](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-daily).
 
 #### Example
 
@@ -35,7 +35,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-da
 
 The configuration of the scheduler recurrence editor end messages. Use this option to customize or localize the scheduler recurrence editor end messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-end](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-end).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-end](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-end).
 
 #### Example
 
@@ -47,7 +47,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-en
 
 The configuration of the scheduler recurrence editor frequencies messages. Use this option to customize or localize the scheduler recurrence editor frequencies messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-frequencies](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-frequencies).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-frequencies](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-frequencies).
 
 #### Example
 
@@ -59,7 +59,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-fr
 
 The configuration of the scheduler recurrence editor monthly messages. Use this option to customize or localize the scheduler recurrence editor monthly messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-monthly](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-monthly).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-monthly](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-monthly).
 
 #### Example
 
@@ -71,7 +71,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-mo
 
 The configuration of the scheduler recurrence editor offsetPositions messages. Use this option to customize or localize the scheduler recurrence editor offsetPositions messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-offsetPositions](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-offsetpositions).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-offsetPositions](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-offsetpositions).
 
 #### Example
 
@@ -83,7 +83,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-of
 
 The configuration of the scheduler recurrence editor week days messages. Use these options to customize or localize the scheduler recurrence editor weekdays messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-weekdays](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-weekdays).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-weekdays](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-weekdays).
 
 #### Example
 
@@ -95,7 +95,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-we
 
 The configuration of the scheduler recurrence editor weekly messages. Use this option to customize or localize the scheduler recurrence editor weekly messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-weekly](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-weekly).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-weekly](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-weekly).
 
 #### Example
 
@@ -107,7 +107,7 @@ More documentation is available at [kendo:scheduler-messages-recurrenceEditor-we
 
 The configuration of the scheduler recurrence editor yearly messages. Use this option to customize or localize the scheduler recurrence editor yearly messages.
 
-More documentation is available at [kendo:scheduler-messages-recurrenceEditor-yearly](/api/wrappers/jsp/scheduler/messages-recurrenceeditor-yearly).
+More documentation is available at [kendo:scheduler-messages-recurrenceEditor-yearly](/kendo-ui/api/wrappers/jsp/scheduler/messages-recurrenceeditor-yearly).
 
 #### Example
 

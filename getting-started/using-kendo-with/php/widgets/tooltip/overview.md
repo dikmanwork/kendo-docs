@@ -9,20 +9,20 @@ relatedDocs: php-ui-tooltip
 
 # Tooltip
 
-The Kendo Tooltip for PHP is a server-side wrapper for the [Kendo UI Tooltip](/api/web/tooltip) widget.
+The Kendo Tooltip for PHP is a server-side wrapper for the [Kendo UI Tooltip](/kendo-ui/api/web/tooltip) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Tooltip:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-2. Create a [tooltip](/api/wrappers/php/Kendo/UI/Tooltip), set its container and add filter to target all child anchor elements with title attribute for which the tooltip will be shown
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+2. Create a [tooltip](/kendo-ui/api/wrappers/php/Kendo/UI/Tooltip), set its container and add filter to target all child anchor elements with title attribute for which the tooltip will be shown
 
         <?php
         $tooltip = new \Kendo\UI\Tooltip('#container');
         $tooltip->filter("a[title]");
         ?>
-3. Output the tooltip by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+3. Output the tooltip by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $tooltip->render();
@@ -31,7 +31,7 @@ Here is how to configure a simple Kendo Tooltip:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Tooltip instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/tooltip#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/tooltip#methods) to control its behavior.
 
 ### Example
 
@@ -48,7 +48,7 @@ Once a reference has been established, you can use the [API](/api/web/tooltip#me
 
 ## Handling Events
 
-You can subscribe to all tooltip [events](/api/web/tooltip#events).
+You can subscribe to all tooltip [events](/kendo-ui/api/web/tooltip#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

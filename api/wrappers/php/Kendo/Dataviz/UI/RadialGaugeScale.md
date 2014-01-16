@@ -43,7 +43,7 @@ Configures the scale labels.
 ##### $value `\Kendo\Dataviz\UI\RadialGaugeScaleLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleLabels](/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleLabels)
+#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleLabels)
     <?php
     $scale = new \Kendo\Dataviz\UI\RadialGaugeScale();
     $labels = new \Kendo\Dataviz\UI\RadialGaugeScaleLabels();
@@ -72,7 +72,7 @@ Configures the scale major ticks.
 ##### $value `\Kendo\Dataviz\UI\RadialGaugeScaleMajorTicks|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleMajorTicks](/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleMajorTicks)
+#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleMajorTicks](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleMajorTicks)
     <?php
     $scale = new \Kendo\Dataviz\UI\RadialGaugeScale();
     $majorTicks = new \Kendo\Dataviz\UI\RadialGaugeScaleMajorTicks();
@@ -155,7 +155,7 @@ Configures the scale minor ticks.
 ##### $value `\Kendo\Dataviz\UI\RadialGaugeScaleMinorTicks|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleMinorTicks](/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleMinorTicks)
+#### Example - using [\Kendo\Dataviz\UI\RadialGaugeScaleMinorTicks](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/RadialGaugeScaleMinorTicks)
     <?php
     $scale = new \Kendo\Dataviz\UI\RadialGaugeScale();
     $minorTicks = new \Kendo\Dataviz\UI\RadialGaugeScaleMinorTicks();

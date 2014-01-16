@@ -9,21 +9,21 @@ relatedDocs: php-ui-slider
 
 # Slider
 
-The Kendo Slider for PHP is a server-side wrapper for the [Kendo UI Slider](/api/web/slider) widget.
+The Kendo Slider for PHP is a server-side wrapper for the [Kendo UI Slider](/kendo-ui/api/web/slider) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Slider:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-1. Create a [slider](/api/wrappers/php/Kendo/UI/Slider).
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Create a [slider](/kendo-ui/api/wrappers/php/Kendo/UI/Slider).
 
         <?php
         $slider = new \Kendo\UI\Slider('slider');
         $slider->value(42);
         ?>
 
-1. Output the slider by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the slider by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $slider->render();
@@ -32,7 +32,7 @@ Here is how to configure a simple Kendo Slider:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Slider instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/slider#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/slider#methods) to control its behavior.
 
 ### Example
 
@@ -49,7 +49,7 @@ Once a reference has been established, you can use the [API](/api/web/slider#met
 
 ## Handling Events
 
-You can subscribe to all slider [events](/api/web/slider#events).
+You can subscribe to all slider [events](/kendo-ui/api/web/slider#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

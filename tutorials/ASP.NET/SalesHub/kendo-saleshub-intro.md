@@ -16,7 +16,7 @@ SalesHub is an Order Management System that demonstrates the usage of the **UI f
 an enterprise environment.
 
 The goal of this sample project to is show how to use a subset of Kendo UI widgets using **UI for ASP.NET MVC**, as well as
-to show how to easily implement server-side filtering for [DataSource](/api/framework/datasource) requests, using the
+to show how to easily implement server-side filtering for [DataSource](/kendo-ui/api/framework/datasource) requests, using the
 server-side components that the **UI for ASP.NET MVC** provide.
 
 This sample is not feature-complete and is only meant to be used as a reference for how to use the **UI for ASP.NET MVC**.

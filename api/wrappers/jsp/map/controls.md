@@ -38,7 +38,7 @@ Enables or disables the built-in navigator control (directional pad). Further co
 
 Enables or disables the built-in attribution control.
 
-More documentation is available at [kendo:map-controls-attribution](/api/wrappers/jsp/map/controls-attribution).
+More documentation is available at [kendo:map-controls-attribution](/kendo-ui/api/wrappers/jsp/map/controls-attribution).
 
 #### Example
 
@@ -50,7 +50,7 @@ More documentation is available at [kendo:map-controls-attribution](/api/wrapper
 
 Enables or disables the built-in navigator control (directional pad).
 
-More documentation is available at [kendo:map-controls-navigator](/api/wrappers/jsp/map/controls-navigator).
+More documentation is available at [kendo:map-controls-navigator](/kendo-ui/api/wrappers/jsp/map/controls-navigator).
 
 #### Example
 

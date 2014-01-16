@@ -20,7 +20,7 @@ This demo shows how to use [PDO]() to perform create, update and destroy operati
 
 ### Configure ListView for editing
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Define item template for listview:
 
 		<!-- The following markup contains the `Add new record` button -->
@@ -189,7 +189,7 @@ This demo shows how to use [PDO]() to perform create, update and destroy operati
         <?php
         $db = new PDO('sqlite:../sample.db');
         ?>
-1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
+1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
 
         <?php
         $request = json_decode(file_get_contents('php://input'));
@@ -309,7 +309,7 @@ It is distributed with the **UI for PHP** demos and can be found in the **/wrapp
 First we will configure a Kendo ListView for PHP binding and then we will implement the remote service.
 
 ### Configure ListView for editing (using DataSourceResult)
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Define item template for listview:
 
 		<!-- The following markup contains the `Add new record` button -->
@@ -475,7 +475,7 @@ First we will configure a Kendo ListView for PHP binding and then we will implem
 1. Copy **/wrappers/php/lib/DataSourceResult.php** to your web site root and include it.
 
         <?php require_once 'lib/DataSourceResult.php'; ?>
-1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
+1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
 
         <?php
         $request = json_decode(file_get_contents('php://input'));

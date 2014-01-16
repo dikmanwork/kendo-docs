@@ -9,15 +9,15 @@ ordinal: 01
 
 # Grid
 
-The Grid HtmlHelper extension is a server-side wrapper for the [Kendo UI Grid](/api/web/grid) widget. It allows you to configure the Kendo UI grid
+The Grid HtmlHelper extension is a server-side wrapper for the [Kendo UI Grid](/kendo-ui/api/web/grid) widget. It allows you to configure the Kendo UI grid
 from server-side code, helps with data binding and editing.
 
 ## Introduction
 
 Kendo UI Grid for ASP.NET MVC supports two ways of data-binding:
 
-*   [server](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding)- the widget makes HTTP GET requests when binding
-*   [ajax](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding)- the widget will make ajax requests when binding
+*   [server](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding)- the widget makes HTTP GET requests when binding
+*   [ajax](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding)- the widget will make ajax requests when binding
 
 Here are some of the differences between server and ajax bound modes:
 
@@ -33,8 +33,8 @@ Here are some of the differences between server and ajax bound modes:
 
 The following tutorial shows how to configure Kendo UI Grid for ASP.NET MVC to do server binding to the Northwind database (the Products table).
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)). Name the application "KendoGridServerBinding".
-If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)). Name the application "KendoGridServerBinding".
+If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Add a new "Entity Framework Data Model". Right click the `~/Models` folder in the solution explorer and pick "Add new item". Choose "Data->ADO.NET Entity Data Model" in the "Add New Item" dialog.
 Name the model "Northwind.edmx" and click "Next". This will start the "Entity Data Model Wizard".
@@ -92,7 +92,7 @@ Name the model "Northwind.edmx" and click "Next". This will start the "Entity Da
 ## Getting reference to the Kendo UI Grid widget
 
 To get a reference to a grid instance use the [jQuery.data()](http://api.jquery.com/jQuery.data/) method and the value specified via the `Name()` method.
-Then you can use you can use the JavaScript [API](/api/web/grid#methods) of the grid.
+Then you can use you can use the JavaScript [API](/kendo-ui/api/web/grid#methods) of the grid.
 
 ### Example - get reference to a Kendo UI Grid instance
 
@@ -115,7 +115,7 @@ Then you can use you can use the JavaScript [API](/api/web/grid#methods) of the 
 
 ## Handling Kendo UI Grid events
 
-You can subscribe to all [events](/api/web/grid#events) exposed by the widget:
+You can subscribe to all [events](/kendo-ui/api/web/grid#events) exposed by the widget:
 
 ### Example - subscribe to event by handler name (ASPX)
 
@@ -177,9 +177,9 @@ You can subscribe to all [events](/api/web/grid#events) exposed by the widget:
 
 ## Further reading
 
-1. [API reference](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder)
-1. [Configuration](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/configuration)
-1. [FAQ](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/faq)
-1. [Ajax Binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding)
-1. [Server Binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding)
-1. [Troubleshooting](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/troubleshooting)
+1. [API reference](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder)
+1. [Configuration](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/configuration)
+1. [FAQ](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/faq)
+1. [Ajax Binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding)
+1. [Server Binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/server-binding)
+1. [Troubleshooting](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/troubleshooting)

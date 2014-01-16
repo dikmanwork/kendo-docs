@@ -10,13 +10,13 @@ publish: true
 
 # kendo.ui.ListView
 
-Represents the Kendo UI ListView widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI ListView widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 
 ### autoBind `Boolean` *(default: true)*
 
-If set to `false` the widget will not bind to the data source during initialization. In this case data binding will occur when the [change](/api/framework/datasource#events-change) event of the
+If set to `false` the widget will not bind to the data source during initialization. In this case data binding will occur when the [change](/kendo-ui/api/framework/datasource#events-change) event of the
 data source is fired. By default the widget will bind to the data source specified in the configuration.
 
 > Setting `autoBind` to `false` is useful when multiple widgets are bound to the same data source. Disabling automatic binding ensures that the shared data source does not make more than one request to the remote service.
@@ -38,12 +38,12 @@ data source is fired. By default the widget will bind to the data source specifi
 
 ### dataSource `Object|Array|kendo.data.DataSource`
 
-The data source of the widget which is used render table rows. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/api/framework/datasource)
+The data source of the widget which is used render table rows. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/kendo-ui/api/framework/datasource)
 instance.
 
-If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.DataSource](/api/framework/datasource) instance using that value as data source configuration.
+If the `dataSource` option is set to a JavaScript object or array the widget will initialize a new [kendo.data.DataSource](/kendo-ui/api/framework/datasource) instance using that value as data source configuration.
 
-If the `dataSource` option is an existing [kendo.data.DataSource](/api/framework/datasource) instance the widget will use that instance and will **not** initialize a new one.
+If the `dataSource` option is an existing [kendo.data.DataSource](/kendo-ui/api/framework/datasource) instance the widget will use that instance and will **not** initialize a new one.
 
 #### Example - set dataSource as a JavaScript object
 
@@ -407,7 +407,7 @@ Reloads the data and repaints the list view.
 
 ### remove
 
-Removes specified ListView item. Triggers [remove](#events-remove) event and if not prevented calls DataSource [sync](/api/framework/datasource#methods-sync) method.
+Removes specified ListView item. Triggers [remove](#events-remove) event and if not prevented calls DataSource [sync](/kendo-ui/api/framework/datasource#methods-sync) method.
 
 #### Example
 
@@ -436,7 +436,7 @@ jQuery object which represents the item to be removed.
 
 ### save
 
-Saves edited ListView item. Triggers [save](#events-save) event. If save event is not prevented and validation succeeds will call DataSource [sync](/api/framework/datasource#methods-sync) method.
+Saves edited ListView item. Triggers [save](#events-save) event. If save event is not prevented and validation succeeds will call DataSource [sync](/kendo-ui/api/framework/datasource#methods-sync) method.
 
 #### Example
 
@@ -856,7 +856,7 @@ The model to be edited.
 
 ### remove
 
-Fires before the list view item is removed. If it is not prevented will call DataSource [sync](/api/framework/datasource#methods-sync) method.
+Fires before the list view item is removed. If it is not prevented will call DataSource [sync](/kendo-ui/api/framework/datasource#methods-sync) method.
 
 The event handler function context (available via the `this` keyword) will be set to the widget instance.
 

@@ -17,7 +17,7 @@ Configures the child items of a PanelBarItem.
 
 #### Parameters
 
-##### addAction System.Action<[Kendo.Mvc.UI.Fluent.PanelBarItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PanelBarItemFactory)>
+##### addAction System.Action<[Kendo.Mvc.UI.Fluent.PanelBarItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PanelBarItemFactory)>
 The add action.
 
 

@@ -22,7 +22,7 @@ First we will configure a Kendo Chart for PHP binding and then we will implement
 
 > The following demo is using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a PDO connection
 
         <?php
@@ -35,7 +35,7 @@ First we will configure a Kendo Chart for PHP binding and then we will implement
         $statement->execute();
         $weather = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
-1. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data) and [schema](/api/wrappers/php/Kendo/Data/DataSource#schema). Setting the schema is required to specify the model fields. Those fields are required for filtering and editing.
+1. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data) and [schema](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#schema). Setting the schema is required to specify the model fields. Those fields are required for filtering and editing.
 
         <?php
         // Create the schema model
@@ -64,7 +64,7 @@ First we will configure a Kendo Chart for PHP binding and then we will implement
         $dataSource->data($weather)
                    ->schema($schema);
         ?>
-1. Create a [chart](/api/wrappers/php/Kendo/Dataviz/UI/Chart), configure its [series](/api/wrappers/php/Kendo/Dataviz/UI/Chart#addSeriesItem), [categoryAxis](/api/wrappers/php/Kendo/Dataviz/UI/Chart#addCategoryAxisItem) and set its [data source](/api/wrappers/php/Kendo/Dataviz/UI/Chart#datasource).
+1. Create a [chart](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart), configure its [series](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#addSeriesItem), [categoryAxis](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#addCategoryAxisItem) and set its [data source](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#datasource).
 
         <?php
         $chart = new \Kendo\Dataviz\UI\Chart('chart');
@@ -79,7 +79,7 @@ First we will configure a Kendo Chart for PHP binding and then we will implement
               ->addCategoryAxisItem($categoryAxis)
               ->dataSource($dataSource);
         ?>
-1. Output the chart by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the chart by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $chart->render();

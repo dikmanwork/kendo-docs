@@ -12,8 +12,8 @@ publish: true
 
 The following tutorial shows how to configure Kendo UI Grid for ASP.NET MVC to do ajax editing of the Northwind database (the Products table).
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-Name the application "KendoGridAjaxEditing". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+Name the application "KendoGridAjaxEditing". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Add a new "Entity Framework Data Model". Right click the `~/Models` folder in the solution explorer and pick "Add ->  New Item". Choose "Data -> ADO.NET Entity Data Model" in the "Add New Item" dialog.
 Name the model "Northwind.edmx" and click "Next". This will start the "Entity Data Model Wizard".
@@ -233,8 +233,8 @@ Server validation is often needed when performing editing. The following tutoria
             // Return the updated product. Also return any validation errors.
             return Json(new[] { product }.ToDataSourceResult(request, ModelState));
         }
-1. Subscribe to the [error](/api/framework/datasource#events-error) event of the data source. It is fired when there are model state errors or some other unexpected problem occurred when making the ajax request.
-In the event handler display the errors and call the [cancelChanges](/api/web/grid#methods-cancelChanges) method of the grid.
+1. Subscribe to the [error](/kendo-ui/api/framework/datasource#events-error) event of the data source. It is fired when there are model state errors or some other unexpected problem occurred when making the ajax request.
+In the event handler display the errors and call the [cancelChanges](/kendo-ui/api/web/grid#methods-cancelChanges) method of the grid.
     - Index.aspx (ASPX)
 
             <%: Html.Kendo().Grid<KendoGridAjaxEditing.Models.ProductViewModel>()

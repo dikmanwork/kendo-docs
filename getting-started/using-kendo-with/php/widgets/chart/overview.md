@@ -9,18 +9,18 @@ relatedDocs: php-dataviz-ui-chart
 
 # Chart
 
-The Kendo Chart for PHP is a server-side wrapper for the [Kendo UI Chart](/api/dataviz/chart) widget.
+The Kendo Chart for PHP is a server-side wrapper for the [Kendo UI Chart](/kendo-ui/api/dataviz/chart) widget.
 
 ## Getting Started
 
 There are two ways to bind Kendo Chart for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/chart/local-binding) - the chart is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/chart/remote-binding) - the chart makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/chart/local-binding) - the chart is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/chart/remote-binding) - the chart makes AJAX requests and is bound to JSON result
 
 Here is how to configure the chart for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the chart will be bound to
 
         <?php
@@ -29,13 +29,13 @@ Here is how to configure the chart for local binding:
             array('name' => 'Jane Doe', 'age' => 29)
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
         $dataSource->data($data);
         ?>
-4. Create a [chart](/api/wrappers/php/Kendo/Dataviz/UI/Chart), configure its [series](/api/wrappers/php/Kendo/Dataviz/UI/Chart#addSeriesItem), [categoryAxis](/api/wrappers/php/Kendo/Dataviz/UI/Chart#addCategoryAxisItem) and set its [data source](/api/wrappers/php/Kendo/Dataviz/UI/Chart#datasource).
+4. Create a [chart](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart), configure its [series](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#addSeriesItem), [categoryAxis](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#addCategoryAxisItem) and set its [data source](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Chart#datasource).
 
         <?php
         $ageSeries = new \Kendo\Dataviz\UI\ChartSeriesItem();
@@ -49,7 +49,7 @@ Here is how to configure the chart for local binding:
               ->addCategoryAxisItem($categoryAxis)
               ->dataSource($dataSource);
         ?>
-5. Output the chart by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the chart by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $chart->render();
@@ -58,7 +58,7 @@ Here is how to configure the chart for local binding:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo Chart instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/dataviz/chart#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/dataviz/chart#methods) to control its behavior.
 
 
 ### Example
@@ -76,7 +76,7 @@ Once a reference has been established, you can use the [API](/api/dataviz/chart#
 
 ## Handling Events
 
-You can subscribe to all Chart [events](/api/dataviz/chart#events).
+You can subscribe to all Chart [events](/kendo-ui/api/dataviz/chart#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

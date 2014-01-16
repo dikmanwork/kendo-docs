@@ -8,7 +8,7 @@ publish: true
 
 # Scheduler Resources
 
-The Scheduler HtmlHelper extension supports assigning scheduler events to a set of predefined [resources](/getting-started/web/scheduler/resources).
+The Scheduler HtmlHelper extension supports assigning scheduler events to a set of predefined [resources](/kendo-ui/getting-started/web/scheduler/resources).
 
 
 

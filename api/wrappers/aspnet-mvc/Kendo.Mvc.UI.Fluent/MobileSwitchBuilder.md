@@ -69,7 +69,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSwitchEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSwitchEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSwitchEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSwitchEventBuilder)>
 The client events action.
 
 

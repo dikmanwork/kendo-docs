@@ -49,7 +49,7 @@ The position (relative to the target) at which the Tooltip will be shown
 
 #### Parameters
 
-##### position [Kendo.Mvc.UI.TooltipPosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TooltipPosition)
+##### position [Kendo.Mvc.UI.TooltipPosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TooltipPosition)
 The position
 
 
@@ -262,7 +262,7 @@ Configures the animation effects of the panelbar.
 
 #### Parameters
 
-##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
+##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
 The action that configures the animation.
 
 

@@ -99,7 +99,7 @@ A value indicating if the series should be stacked.
 
 The border of the series.
 
-More documentation is available at [kendo:sparkline-seriesDefaults-border](/api/wrappers/jsp/sparkline/seriesdefaults-border).
+More documentation is available at [kendo:sparkline-seriesDefaults-border](/kendo-ui/api/wrappers/jsp/sparkline/seriesdefaults-border).
 
 #### Example
 
@@ -111,7 +111,7 @@ More documentation is available at [kendo:sparkline-seriesDefaults-border](/api/
 
 Configures the series data labels.
 
-More documentation is available at [kendo:sparkline-seriesDefaults-labels](/api/wrappers/jsp/sparkline/seriesdefaults-labels).
+More documentation is available at [kendo:sparkline-seriesDefaults-labels](/kendo-ui/api/wrappers/jsp/sparkline/seriesdefaults-labels).
 
 #### Example
 
@@ -123,7 +123,7 @@ More documentation is available at [kendo:sparkline-seriesDefaults-labels](/api/
 
 The data point tooltip configuration options.
 
-More documentation is available at [kendo:sparkline-seriesDefaults-tooltip](/api/wrappers/jsp/sparkline/seriesdefaults-tooltip).
+More documentation is available at [kendo:sparkline-seriesDefaults-tooltip](/kendo-ui/api/wrappers/jsp/sparkline/seriesdefaults-tooltip).
 
 #### Example
 

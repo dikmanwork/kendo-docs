@@ -39,7 +39,7 @@ The value of the note.
 
 The icon of the note.
 
-More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-icon](/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-icon).
+More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-icon](/kendo-ui/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-icon).
 
 #### Example
 
@@ -51,7 +51,7 @@ More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataI
 
 The label of the note.
 
-More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-label](/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-label).
+More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-label](/kendo-ui/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-label).
 
 #### Example
 
@@ -63,7 +63,7 @@ More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataI
 
 The line of the note.
 
-More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-line](/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-line).
+More documentation is available at [kendo:sparkline-categoryAxisItem-notes-dataItem-line](/kendo-ui/api/wrappers/jsp/sparkline/categoryaxisitem-notes-dataitem-line).
 
 #### Example
 

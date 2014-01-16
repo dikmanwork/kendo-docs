@@ -39,7 +39,7 @@ The target color.
 
 The border of the target.
 
-More documentation is available at [kendo:stockChart-seriesItem-target-border](/api/wrappers/jsp/stockchart/seriesitem-target-border).
+More documentation is available at [kendo:stockChart-seriesItem-target-border](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-target-border).
 
 #### Example
 
@@ -51,7 +51,7 @@ More documentation is available at [kendo:stockChart-seriesItem-target-border](/
 
 The target line.
 
-More documentation is available at [kendo:stockChart-seriesItem-target-line](/api/wrappers/jsp/stockchart/seriesitem-target-line).
+More documentation is available at [kendo:stockChart-seriesItem-target-line](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-target-line).
 
 #### Example
 

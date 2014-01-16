@@ -105,7 +105,7 @@ The gauge is rendered clockwise(0 degrees are the 180 degrees in the polar coord
 
 Configures the scale labels.
 
-More documentation is available at [kendo:radialGauge-scale-labels](/api/wrappers/jsp/radialgauge/scale-labels).
+More documentation is available at [kendo:radialGauge-scale-labels](/kendo-ui/api/wrappers/jsp/radialgauge/scale-labels).
 
 #### Example
 
@@ -117,7 +117,7 @@ More documentation is available at [kendo:radialGauge-scale-labels](/api/wrapper
 
 Configures the scale major ticks.
 
-More documentation is available at [kendo:radialGauge-scale-majorTicks](/api/wrappers/jsp/radialgauge/scale-majorticks).
+More documentation is available at [kendo:radialGauge-scale-majorTicks](/kendo-ui/api/wrappers/jsp/radialgauge/scale-majorticks).
 
 #### Example
 
@@ -129,7 +129,7 @@ More documentation is available at [kendo:radialGauge-scale-majorTicks](/api/wra
 
 Configures the scale minor ticks.
 
-More documentation is available at [kendo:radialGauge-scale-minorTicks](/api/wrappers/jsp/radialgauge/scale-minorticks).
+More documentation is available at [kendo:radialGauge-scale-minorTicks](/kendo-ui/api/wrappers/jsp/radialgauge/scale-minorticks).
 
 #### Example
 
@@ -141,7 +141,7 @@ More documentation is available at [kendo:radialGauge-scale-minorTicks](/api/wra
 
 The ranges of the scale.
 
-More documentation is available at [kendo:radialGauge-scale-ranges](/api/wrappers/jsp/radialgauge/scale-ranges).
+More documentation is available at [kendo:radialGauge-scale-ranges](/kendo-ui/api/wrappers/jsp/radialgauge/scale-ranges).
 
 #### Example
 

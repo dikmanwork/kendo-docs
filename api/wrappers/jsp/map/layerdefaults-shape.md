@@ -31,7 +31,7 @@ The attribution for all shape layers.
 
 The default style for shapes.
 
-More documentation is available at [kendo:map-layerDefaults-shape-style](/api/wrappers/jsp/map/layerdefaults-shape-style).
+More documentation is available at [kendo:map-layerDefaults-shape-style](/kendo-ui/api/wrappers/jsp/map/layerdefaults-shape-style).
 
 #### Example
 

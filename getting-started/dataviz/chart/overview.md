@@ -106,7 +106,7 @@ This will render a column chart by default.
 ![Column Chart without categories](chart-column-no-categories.png)</img>
 
 You will notice that the columns have no label across the category axis.
-You specify the labeling for the series in the [`categoryAxis` property](/api/dataviz/chart#categoryAxis).
+You specify the labeling for the series in the [`categoryAxis` property](/kendo-ui/api/dataviz/chart#categoryAxis).
 
 #### Example
 
@@ -171,7 +171,7 @@ The category name can also be bound to a field of the data item:
 
 The Chart currently supports only Numeric value axes.
 
-Configuration options are accessible through the [`valueAxis` object](/api/dataviz/chart#valueaxis-object):
+Configuration options are accessible through the [`valueAxis` object](/kendo-ui/api/dataviz/chart#valueaxis-object):
 
     $("#chart").kendoChart({
         series: [{
@@ -396,7 +396,7 @@ For example:
 
 ## Global settings
 
-Sometimes you need to apply settings to all axes. In this case it is convenient to use the [`axisDefaults` object](/api/dataviz/chart#axisdefaults-object):
+Sometimes you need to apply settings to all axes. In this case it is convenient to use the [`axisDefaults` object](/kendo-ui/api/dataviz/chart#axisdefaults-object):
 
     $("#chart").kendoChart({
         series: [{

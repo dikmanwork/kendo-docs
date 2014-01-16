@@ -9,14 +9,14 @@ relatedDocs: php-ui-tabstrip
 
 # TabStrip
 
-The Kendo TabStrip for PHP is a server-side wrapper for the [Kendo UI TabStrip](/api/web/tabstrip) widget.
+The Kendo TabStrip for PHP is a server-side wrapper for the [Kendo UI TabStrip](/kendo-ui/api/web/tabstrip) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo TabStrip:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-1. Create a [tabstrip](/api/wrappers/php/Kendo/UI/TabStrip) and set its [items](/api/wrappers/php/Kendo/UI/TabStrip#addItem)
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Create a [tabstrip](/kendo-ui/api/wrappers/php/Kendo/UI/TabStrip) and set its [items](/kendo-ui/api/wrappers/php/Kendo/UI/TabStrip#addItem)
 
         <?php
         $tabstrip = new \Kendo\UI\TabStrip('tabstrip');
@@ -44,7 +44,7 @@ Here is how to configure a simple Kendo TabStrip:
         $tabstrip.addItem($item1, $item2);
         ?>
 
-1. Output the tabstrip by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the tabstrip by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $tabstrip->render();
@@ -53,7 +53,7 @@ Here is how to configure a simple Kendo TabStrip:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo TabStrip instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/tabstrip#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/tabstrip#methods) to control its behavior.
 
 ### Example
 
@@ -70,7 +70,7 @@ Once a reference has been established, you can use the [API](/api/web/tabstrip#m
 
 ## Handling Events
 
-You can subscribe to all tabstrip [events](/api/web/tabstrip#events).
+You can subscribe to all tabstrip [events](/kendo-ui/api/web/tabstrip#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

@@ -9,11 +9,11 @@ publish: true
 
 # kendo.data.Node
 
-The `Node` is an extended type of [Model](/api/framework/model) that works with hierarchical data. The [HierarchicalDataSource](/api/framework/hierarchicaldatasource) contains instances of the `Node` type.
+The `Node` is an extended type of [Model](/kendo-ui/api/framework/model) that works with hierarchical data. The [HierarchicalDataSource](/kendo-ui/api/framework/hierarchicaldatasource) contains instances of the `Node` type.
 
 ## Fields
 
-See the [Model fields](/api/framework/model#fields) for all inherited fields.
+See the [Model fields](/kendo-ui/api/framework/model#fields) for all inherited fields.
 
 ### children
 
@@ -31,7 +31,7 @@ or when the [load](#methods-load) or [append](#methods-append) methods have been
 
 ## Methods
 
-See the [Model methods](/api/framework/model#methods) for all inherited methods.
+See the [Model methods](/kendo-ui/api/framework/model#methods) for all inherited methods.
 
 ### append
 
@@ -172,4 +172,4 @@ Gets the parent node.
 
 ## Events
 
-See the [Model events](/api/framework/model#events) for all inherited events.
+See the [Model events](/kendo-ui/api/framework/model#events) for all inherited events.

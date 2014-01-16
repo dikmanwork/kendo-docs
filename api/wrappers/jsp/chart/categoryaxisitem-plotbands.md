@@ -23,7 +23,7 @@ The plot bands of the category axis.
 
 The plot bands of the category axis.
 
-More documentation is available at [kendo:chart-categoryAxisItem-plotBand](/api/wrappers/jsp/chart/categoryaxisitem-plotband).
+More documentation is available at [kendo:chart-categoryAxisItem-plotBand](/kendo-ui/api/wrappers/jsp/chart/categoryaxisitem-plotband).
 
 #### Example
 

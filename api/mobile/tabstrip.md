@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.TabStrip
 
-Represents the Kendo UI Mobile TabStrip widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile TabStrip widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## Configuration
 
@@ -140,7 +140,7 @@ Prepares the **TabStrip** for safe removal from DOM. Detaches all event handlers
 
 ### switchTo
 
-Set the mobile TabStrip active tab to the tab with the specified URL. This method doesn't change the current View. To change the View, use Application's [navigate](/api/mobile/application#navigate) method instead.
+Set the mobile TabStrip active tab to the tab with the specified URL. This method doesn't change the current View. To change the View, use Application's [navigate](/kendo-ui/api/mobile/application#navigate) method instead.
 
 #### Parameters
 
@@ -170,7 +170,7 @@ The URL or zero based index of the tab.
 
 ### switchByFullUrl
 
-Set the mobile TabStrip active tab to the tab with the specified full URL. This method doesn't change the current View. To change the View, use Application's [navigate](/api/mobile/application#navigate) method instead.
+Set the mobile TabStrip active tab to the tab with the specified full URL. This method doesn't change the current View. To change the View, use Application's [navigate](/kendo-ui/api/mobile/application#navigate) method instead.
 
 > Use switchByFullUrl when you want to active a tab that has URL with query string parameters.
 

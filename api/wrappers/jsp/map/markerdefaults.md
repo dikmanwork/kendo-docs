@@ -32,7 +32,7 @@ For example "pinTarget" is rendered as "k-marker-pin-target".
 
 Default Kendo UI Tooltip options for this marker.
 
-More documentation is available at [kendo:map-markerDefaults-tooltip](/api/wrappers/jsp/map/markerdefaults-tooltip).
+More documentation is available at [kendo:map-markerDefaults-tooltip](/kendo-ui/api/wrappers/jsp/map/markerdefaults-tooltip).
 
 #### Example
 

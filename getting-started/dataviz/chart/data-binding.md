@@ -195,7 +195,7 @@ In addition to value field(s), each series can specify a category field.
 The category values from all series will be concatenated and each point will be mapped to its category.
 Point order is not significant.
 
-Series points will be [aggregated](/api/dataviz/chart#configuration-series.aggregate) to produce one value per category.
+Series points will be [aggregated](/kendo-ui/api/dataviz/chart#configuration-series.aggregate) to produce one value per category.
 
 ##### Example: Binding with categoryField
     <div id="chart"></div>

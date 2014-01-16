@@ -50,7 +50,7 @@ Please consult the documentation of your specific server technology regarding th
 
 ## See Also
 
-[Upload Modes](/getting-started/web/upload/modes)
+[Upload Modes](/kendo-ui/getting-started/web/upload/modes)
 
 ## Accessing an Existing Upload
 

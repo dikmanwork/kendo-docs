@@ -89,7 +89,7 @@ Configures the pie chart labels.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieLabelsBuilder)>
 The configuration action.
 
 
@@ -142,7 +142,7 @@ The pie segments border width.
 ##### color `System.String`
 The pie segments border color (CSS syntax).
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The pie segments border dash type.
 
 
@@ -162,7 +162,7 @@ Configures the pie border
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
 The border configuration action
 
 
@@ -175,7 +175,7 @@ Sets the pie segments effects overlay
 
 #### Parameters
 
-##### overlay [Kendo.Mvc.UI.ChartPieSeriesOverlay](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartPieSeriesOverlay)
+##### overlay [Kendo.Mvc.UI.ChartPieSeriesOverlay](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartPieSeriesOverlay)
 The pie segment effects overlay.
             The default value is set in the theme.
 
@@ -196,7 +196,7 @@ Configures the pie chart connectors.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieConnectorsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieConnectorsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieConnectorsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieConnectorsBuilder)>
 The configuration action.
 
 
@@ -220,7 +220,7 @@ Configures the pie highlight
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieSeriesHighlightBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieSeriesHighlightBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPieSeriesHighlightBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPieSeriesHighlightBuilder)>
 The configuration action.
 
 

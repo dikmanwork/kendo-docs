@@ -83,7 +83,7 @@ The visibility of the legend.
 
 The border of the legend.
 
-More documentation is available at [kendo:stockChart-legend-border](/api/wrappers/jsp/stockchart/legend-border).
+More documentation is available at [kendo:stockChart-legend-border](/kendo-ui/api/wrappers/jsp/stockchart/legend-border).
 
 #### Example
 
@@ -95,7 +95,7 @@ More documentation is available at [kendo:stockChart-legend-border](/api/wrapper
 
 Configures the legend inactive items.
 
-More documentation is available at [kendo:stockChart-legend-inactiveItems](/api/wrappers/jsp/stockchart/legend-inactiveitems).
+More documentation is available at [kendo:stockChart-legend-inactiveItems](/kendo-ui/api/wrappers/jsp/stockchart/legend-inactiveitems).
 
 #### Example
 
@@ -107,7 +107,7 @@ More documentation is available at [kendo:stockChart-legend-inactiveItems](/api/
 
 Configures the legend labels.
 
-More documentation is available at [kendo:stockChart-legend-labels](/api/wrappers/jsp/stockchart/legend-labels).
+More documentation is available at [kendo:stockChart-legend-labels](/kendo-ui/api/wrappers/jsp/stockchart/legend-labels).
 
 #### Example
 

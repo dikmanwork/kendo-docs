@@ -104,7 +104,7 @@ Determines if columns should be automatically generated.
 
 #### Parameters
 
-##### columnAction System.Action<[Kendo.Mvc.UI.GridColumnBase](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/GridColumnBase)<T>>
+##### columnAction System.Action<[Kendo.Mvc.UI.GridColumnBase](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/GridColumnBase)<T>>
 Action which will be executed for each generated column.
 
 
@@ -133,7 +133,7 @@ Defines a command column.
 
 #### Parameters
 
-##### commandAction System.Action<[Kendo.Mvc.UI.Fluent.GridActionCommandFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridActionCommandFactory)<T>>
+##### commandAction System.Action<[Kendo.Mvc.UI.Fluent.GridActionCommandFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridActionCommandFactory)<T>>
 
 
 

@@ -48,7 +48,7 @@ The border of the series.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaultsBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsBorder](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsBorder)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsBorder)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
     $border = new \Kendo\Dataviz\UI\ChartSeriesDefaultsBorder();
@@ -143,7 +143,7 @@ The chart series label configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaultsLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsLabels](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsLabels)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsLabels)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
     $labels = new \Kendo\Dataviz\UI\ChartSeriesDefaultsLabels();
@@ -184,7 +184,7 @@ The seriesDefaults notes configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaultsNotes|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsNotes](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsNotes)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsNotes](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsNotes)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
     $notes = new \Kendo\Dataviz\UI\ChartSeriesDefaultsNotes();
@@ -225,7 +225,7 @@ The chart series overlay options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaultsOverlay|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsOverlay](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsOverlay)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsOverlay](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsOverlay)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
     $overlay = new \Kendo\Dataviz\UI\ChartSeriesDefaultsOverlay();
@@ -326,7 +326,7 @@ The chart series tooltip configuration options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaultsTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsTooltip](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsTooltip)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaultsTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaultsTooltip)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
     $tooltip = new \Kendo\Dataviz\UI\ChartSeriesDefaultsTooltip();

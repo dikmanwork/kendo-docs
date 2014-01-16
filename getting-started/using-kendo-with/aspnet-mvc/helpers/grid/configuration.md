@@ -21,15 +21,15 @@ All code examples assume the following model:
         public double UnitPrice { get; set; }
     }
 
-The Kendo UI Grid fluent API is exposed via the [Kendo.Mvc.UI.Fluent.GridBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder) class.
+The Kendo UI Grid fluent API is exposed via the [Kendo.Mvc.UI.Fluent.GridBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder) class.
 You don't need to instantiate that class though. You need to use the `Grid` HtmlHelper extension method instead:
 
     @(Html.Kendo().Grid<Product>().Name("grid"))
 
 ## Common DataSource Settings
 
-The [DataSource](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder#methods-DataSource(System.Action<Kendo.Mvc.UI.Fluent.DataSourceBuilder<T>>))
-method of Kendo UI Grid for ASP.NET MVC configures the [data source](/api/web/grid#configuration-dataSource).
+The [DataSource](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder#methods-DataSource(System.Action<Kendo.Mvc.UI.Fluent.DataSourceBuilder<T>>))
+method of Kendo UI Grid for ASP.NET MVC configures the [data source](/kendo-ui/api/web/grid#configuration-dataSource).
 
 ### Aggregates
 
@@ -64,7 +64,7 @@ Sets the action method which is responsible for saving new data items.
         .DataSource(dataSource => dataSource
             .Ajax() // or .Server()
             .Model(model => model.Id(product => product.ProductID))
-            .Create(create => create.Action(/* action */"Products_Create", /* controller */ "Home"))
+            .Create(create => create.Action(/kendo-ui/* action */"Products_Create", /* controller */ "Home"))
             .Read(read => read.Action("Products_Read", "Home"))
         )
     )
@@ -86,14 +86,14 @@ Sets the action method which is responsible for destroying data items.
         .DataSource(dataSource => dataSource
             .Ajax() // or .Server()
             .Model(model => model.Id(product => product.ProductID))
-            .Destroy(destroy => destroy.Action(/* action */"Products_Destroy", /* controller */ "Home"))
+            .Destroy(destroy => destroy.Action(/kendo-ui/* action */"Products_Destroy", /* controller */ "Home"))
             .Read(read => read.Action("Products_Read", "Home"))
         )
     )
 
 ### Events
 
-Specifies the event handlers for the data source [events](/api/framework/datasource#events).
+Specifies the event handlers for the data source [events](/kendo-ui/api/framework/datasource#events).
 
 #### Example - handle data source events
 
@@ -213,7 +213,7 @@ Sets the action method which is responsible for reading data items and returning
         .Name("grid")
         .DataSource(dataSource => dataSource
             .Ajax() // or .Server()
-            .Read(read => read.Action(/* action */"Products_Read", /* controller */"Home"))
+            .Read(read => read.Action(/kendo-ui/* action */"Products_Read", /* controller */"Home"))
         )
     )
 
@@ -253,7 +253,7 @@ Sets the action method which is responsible for saving updated data items
         .DataSource(dataSource => dataSource
             .Ajax() // or .Server()
             .Model(model => model.Id(product => product.ProductID))
-            .Update(update => update.Action(/* action */"Products_Update", /* controller */ "Home"))
+            .Update(update => update.Action(/kendo-ui/* action */"Products_Update", /* controller */ "Home"))
             .Read(read => read.Action("Products_Read", "Home"))
         )
     )
@@ -277,14 +277,14 @@ Enable or disable batch create, update and destroy operations. By default batch 
             .Ajax() // or .Server()
             .Batch(true)
             .Model(model => model.Id(product => product.ProductID))
-            .Update(update => update.Action(/* action */"Products_Update", /* controller */ "Home"))
+            .Update(update => update.Action(/kendo-ui/* action */"Products_Update", /* controller */ "Home"))
             .Read(read => read.Action("Products_Read", "Home"))
         )
     )
 
 ## Column Configuration
 
-The [Columns](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder#methods-Columns(System.Action<Kendo.Mvc.UI.Fluent.GridColumnFactory<T>>)) method configures the grid columns. If not used the grid will create a column for every public property of the model.
+The [Columns](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GridBuilder#methods-Columns(System.Action<Kendo.Mvc.UI.Fluent.GridColumnFactory<T>>)) method configures the grid columns. If not used the grid will create a column for every public property of the model.
 
 ### Example - configure the grid columns (WebForms)
 
@@ -349,8 +349,8 @@ A bound column is declared via the `Bound` method. It has the following settings
 
 ### ClientTemplate
 
-A [Kendo template](/getting-started/framework/templates/overview) which specifies the way the column is displayed.
-> The `ClientTemplate` is used when he grid is configured for [ajax binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
+A [Kendo template](/kendo-ui/getting-started/framework/templates/overview) which specifies the way the column is displayed.
+> The `ClientTemplate` is used when he grid is configured for [ajax binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
 
 #### Example - set the column client template
 
@@ -426,7 +426,7 @@ Specifies the format used when displaying the value of the bound property. Empty
         )
     )
 
-The supported formats are described in the [globalization](/getting-started/framework/globalization/overview)
+The supported formats are described in the [globalization](/kendo-ui/getting-started/framework/globalization/overview)
 help topic.
 
 ### Groupable
@@ -469,7 +469,7 @@ Enables or disables sorting by that column.
 
 ###  Template
 Sets the server template which will be used when displaying the bound field.
-> The `Template` is used when he grid is configured for [server binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
+> The `Template` is used when he grid is configured for [server binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
 
 In WebForms the template is a [server side code block](http://msdn.microsoft.com/en-us/library/ms178135%28vs.80%29.aspx).
 In Razor the template is a [templated razor delegate](http://haacked.com/archive/2011/02/27/templated-razor-delegates.aspx).
@@ -548,8 +548,8 @@ A template column is declared via the `Template` method. It has the following se
 
 ### ClientTemplate
 
-A [Kendo template](/getting-started/framework/templates/overview) which specifies the way the column is displayed.
-> The `ClientTemplate` is used when he grid is configured for [ajax binding](/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
+A [Kendo template](/kendo-ui/getting-started/framework/templates/overview) which specifies the way the column is displayed.
+> The `ClientTemplate` is used when he grid is configured for [ajax binding](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/helpers/grid/ajax-binding).
 
 #### Example - set the template column client template
 

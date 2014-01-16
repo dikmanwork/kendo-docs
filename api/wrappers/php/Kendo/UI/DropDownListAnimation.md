@@ -24,7 +24,7 @@ A PHP class representing the animation setting of DropDownList.
 ##### $value `\Kendo\UI\DropDownListAnimationClose|array`
 
 
-#### Example - using [\Kendo\UI\DropDownListAnimationClose](/api/wrappers/php/Kendo/UI/DropDownListAnimationClose)
+#### Example - using [\Kendo\UI\DropDownListAnimationClose](/kendo-ui/api/wrappers/php/Kendo/UI/DropDownListAnimationClose)
     <?php
     $animation = new \Kendo\UI\DropDownListAnimation();
     $close = new \Kendo\UI\DropDownListAnimationClose();
@@ -53,7 +53,7 @@ The animation played when the suggestion popup is opened.
 ##### $value `\Kendo\UI\DropDownListAnimationOpen|array`
 
 
-#### Example - using [\Kendo\UI\DropDownListAnimationOpen](/api/wrappers/php/Kendo/UI/DropDownListAnimationOpen)
+#### Example - using [\Kendo\UI\DropDownListAnimationOpen](/kendo-ui/api/wrappers/php/Kendo/UI/DropDownListAnimationOpen)
     <?php
     $animation = new \Kendo\UI\DropDownListAnimation();
     $open = new \Kendo\UI\DropDownListAnimationOpen();

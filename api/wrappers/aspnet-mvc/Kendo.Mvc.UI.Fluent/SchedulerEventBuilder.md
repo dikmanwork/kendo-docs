@@ -14,7 +14,7 @@ The fluent API for subscribing to Kendo UI Scheduler events.
 ### Remove(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the remove event.
 
-For additional information check the [remove](/api/web/scheduler#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/scheduler#events-remove) event documentation.
 
 
 #### Parameters
@@ -48,7 +48,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Remove(`System.String`)
 Defines the name of the JavaScript function that will handle the the remove event.
 
-For additional information check the [remove](/api/web/scheduler#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/scheduler#events-remove) event documentation.
 
 
 #### Parameters
@@ -76,7 +76,7 @@ The name of the JavaScript function that will handle the event.
 ### Add(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the add event.
 
-For additional information check the [add](/api/web/scheduler#events-add) event documentation.
+For additional information check the [add](/kendo-ui/api/web/scheduler#events-add) event documentation.
 
 
 #### Parameters
@@ -110,7 +110,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Add(`System.String`)
 Defines the name of the JavaScript function that will handle the add event.
 
-For additional information check the [add](/api/web/scheduler#events-add) event documentation.
+For additional information check the [add](/kendo-ui/api/web/scheduler#events-add) event documentation.
 
 
 #### Parameters
@@ -138,7 +138,7 @@ The name of the JavaScript function that will handle the event.
 ### Edit(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the edit event.
 
-For additional information check the [edit](/api/web/scheduler#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/scheduler#events-edit) event documentation.
 
 
 #### Parameters
@@ -172,7 +172,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Edit(`System.String`)
 Defines the name of the JavaScript function that will handle the the edit event.
 
-For additional information check the [edit](/api/web/scheduler#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/scheduler#events-edit) event documentation.
 
 
 #### Parameters
@@ -200,7 +200,7 @@ The name of the JavaScript function that will handle the event.
 ### Cancel(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the cancel event.
 
-For additional information check the [cancel](/api/web/scheduler#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/scheduler#events-cancel) event documentation.
 
 
 #### Parameters
@@ -234,7 +234,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Cancel(`System.String`)
 Defines the name of the JavaScript function that will handle the the cancel event.
 
-For additional information check the [cancel](/api/web/scheduler#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/scheduler#events-cancel) event documentation.
 
 
 #### Parameters
@@ -262,7 +262,7 @@ The name of the JavaScript function that will handle the event.
 ### Save(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the save event.
 
-For additional information check the [save](/api/web/scheduler#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/scheduler#events-save) event documentation.
 
 
 #### Parameters
@@ -296,7 +296,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Save(`System.String`)
 Defines the name of the JavaScript function that will handle the the save event.
 
-For additional information check the [save](/api/web/scheduler#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/scheduler#events-save) event documentation.
 
 
 #### Parameters
@@ -324,7 +324,7 @@ The name of the JavaScript function that will handle the event.
 ### DataBound(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the dataBound event.
 
-For additional information check the [dataBound](/api/web/scheduler#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/scheduler#events-dataBound) event documentation.
 
 
 #### Parameters
@@ -358,7 +358,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DataBound(`System.String`)
 Defines the name of the JavaScript function that will handle the the dataBound event.
 
-For additional information check the [dataBound](/api/web/scheduler#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/scheduler#events-dataBound) event documentation.
 
 
 #### Parameters
@@ -386,7 +386,7 @@ The name of the JavaScript function that will handle the event.
 ### DataBinding(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the dataBinding event.
 
-For additional information check the [dataBinding](/api/web/scheduler#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/scheduler#events-dataBinding) event documentation.
 
 
 #### Parameters
@@ -420,7 +420,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DataBinding(`System.String`)
 Defines the name of the JavaScript function that will handle the the dataBinding event.
 
-For additional information check the [dataBinding](/api/web/scheduler#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/scheduler#events-dataBinding) event documentation.
 
 
 #### Parameters
@@ -448,7 +448,7 @@ The name of the JavaScript function that will handle the event.
 ### MoveStart(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the moveStart event.
 
-For additional information check the [moveStart](/api/web/scheduler#events-moveStart) event documentation.
+For additional information check the [moveStart](/kendo-ui/api/web/scheduler#events-moveStart) event documentation.
 
 
 #### Parameters
@@ -482,7 +482,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### MoveStart(`System.String`)
 Defines the name of the JavaScript function that will handle the the moveStart event.
 
-For additional information check the [moveStart](/api/web/scheduler#events-moveStart) event documentation.
+For additional information check the [moveStart](/kendo-ui/api/web/scheduler#events-moveStart) event documentation.
 
 
 #### Parameters
@@ -510,7 +510,7 @@ The name of the JavaScript function that will handle the event.
 ### Move(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the move event.
 
-For additional information check the [move](/api/web/scheduler#events-move) event documentation.
+For additional information check the [move](/kendo-ui/api/web/scheduler#events-move) event documentation.
 
 
 #### Parameters
@@ -544,7 +544,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Move(`System.String`)
 Defines the name of the JavaScript function that will handle the the move event.
 
-For additional information check the [move](/api/web/scheduler#events-move) event documentation.
+For additional information check the [move](/kendo-ui/api/web/scheduler#events-move) event documentation.
 
 
 #### Parameters
@@ -572,7 +572,7 @@ The name of the JavaScript function that will handle the event.
 ### MoveEnd(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the moveEnd event.
 
-For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd) event documentation.
+For additional information check the [moveEnd](/kendo-ui/api/web/scheduler#events-moveEnd) event documentation.
 
 
 #### Parameters
@@ -606,7 +606,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### MoveEnd(`System.String`)
 Defines the name of the JavaScript function that will handle the the moveEnd event.
 
-For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd) event documentation.
+For additional information check the [moveEnd](/kendo-ui/api/web/scheduler#events-moveEnd) event documentation.
 
 
 #### Parameters
@@ -634,7 +634,7 @@ The name of the JavaScript function that will handle the event.
 ### ResizeStart(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the resizeStart event.
 
-For additional information check the [resizeStart](/api/web/scheduler#events-resizeStart) event documentation.
+For additional information check the [resizeStart](/kendo-ui/api/web/scheduler#events-resizeStart) event documentation.
 
 
 #### Parameters
@@ -668,7 +668,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ResizeStart(`System.String`)
 Defines the name of the JavaScript function that will handle the the resizeStart event.
 
-For additional information check the [resizeStart](/api/web/scheduler#events-resizeStart) event documentation.
+For additional information check the [resizeStart](/kendo-ui/api/web/scheduler#events-resizeStart) event documentation.
 
 
 #### Parameters
@@ -696,7 +696,7 @@ The name of the JavaScript function that will handle the event.
 ### Resize(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the resize event.
 
-For additional information check the [resize](/api/web/scheduler#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/scheduler#events-resize) event documentation.
 
 
 #### Parameters
@@ -730,7 +730,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Resize(`System.String`)
 Defines the name of the JavaScript function that will handle the the resize event.
 
-For additional information check the [resize](/api/web/scheduler#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/scheduler#events-resize) event documentation.
 
 
 #### Parameters
@@ -758,7 +758,7 @@ The name of the JavaScript function that will handle the event.
 ### ResizeEnd(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the resizeEnd event.
 
-For additional information check the [resizeEnd](/api/web/scheduler#events-resizeEnd) event documentation.
+For additional information check the [resizeEnd](/kendo-ui/api/web/scheduler#events-resizeEnd) event documentation.
 
 
 #### Parameters
@@ -792,7 +792,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ResizeEnd(`System.String`)
 Defines the name of the JavaScript function that will handle the the resizeEnd event.
 
-For additional information check the [resizeEnd](/api/web/scheduler#events-resizeEnd) event documentation.
+For additional information check the [resizeEnd](/kendo-ui/api/web/scheduler#events-resizeEnd) event documentation.
 
 
 #### Parameters
@@ -820,7 +820,7 @@ The name of the JavaScript function that will handle the event.
 ### Navigate(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the navigate event.
 
-For additional information check the [navigate](/api/web/scheduler#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/scheduler#events-navigate) event documentation.
 
 
 #### Parameters
@@ -854,7 +854,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Navigate(`System.String`)
 Defines the name of the JavaScript function that will handle the the navigate event.
 
-For additional information check the [navigate](/api/web/scheduler#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/scheduler#events-navigate) event documentation.
 
 
 #### Parameters

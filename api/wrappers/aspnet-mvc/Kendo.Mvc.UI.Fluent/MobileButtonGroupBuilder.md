@@ -44,7 +44,7 @@ Contains the items of the button group widget
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileButtonGroupItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileButtonGroupItemFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileButtonGroupItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileButtonGroupItemFactory)>
 The action that configures the items.
 
 
@@ -57,7 +57,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileButtonGroupEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileButtonGroupEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileButtonGroupEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileButtonGroupEventBuilder)>
 The client events action.
 
 

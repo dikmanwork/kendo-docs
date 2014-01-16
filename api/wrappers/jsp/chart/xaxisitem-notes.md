@@ -31,7 +31,7 @@ The position of the x axis note.
 
 The items of the notes.
 
-More documentation is available at [kendo:chart-xAxisItem-notes-data](/api/wrappers/jsp/chart/xaxisitem-notes-data).
+More documentation is available at [kendo:chart-xAxisItem-notes-data](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-notes-data).
 
 #### Example
 
@@ -43,7 +43,7 @@ More documentation is available at [kendo:chart-xAxisItem-notes-data](/api/wrapp
 
 The icon of the notes.
 
-More documentation is available at [kendo:chart-xAxisItem-notes-icon](/api/wrappers/jsp/chart/xaxisitem-notes-icon).
+More documentation is available at [kendo:chart-xAxisItem-notes-icon](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-notes-icon).
 
 #### Example
 
@@ -55,7 +55,7 @@ More documentation is available at [kendo:chart-xAxisItem-notes-icon](/api/wrapp
 
 The label of the notes.
 
-More documentation is available at [kendo:chart-xAxisItem-notes-label](/api/wrappers/jsp/chart/xaxisitem-notes-label).
+More documentation is available at [kendo:chart-xAxisItem-notes-label](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-notes-label).
 
 #### Example
 
@@ -67,7 +67,7 @@ More documentation is available at [kendo:chart-xAxisItem-notes-label](/api/wrap
 
 The line of the notes.
 
-More documentation is available at [kendo:chart-xAxisItem-notes-line](/api/wrappers/jsp/chart/xaxisitem-notes-line).
+More documentation is available at [kendo:chart-xAxisItem-notes-line](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-notes-line).
 
 #### Example
 

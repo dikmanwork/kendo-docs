@@ -17,7 +17,7 @@ Sets the View messages of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerViewMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerViewMessagesBuilder)>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerViewMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerViewMessagesBuilder)>
 The lambda which configures the scheduler view messages
 
 
@@ -30,7 +30,7 @@ Sets the Recurrence messages of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerRecurrenceMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerRecurrenceMessagesBuilder)>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerRecurrenceMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerRecurrenceMessagesBuilder)>
 The lambda which configures the scheduler recurrence messages
 
 
@@ -43,7 +43,7 @@ Sets the Editor messages of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerRecurrenceEditorMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerRecurrenceEditorMessagesBuilder)>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerRecurrenceEditorMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerRecurrenceEditorMessagesBuilder)>
 The lambda which configures the scheduler editor messages
 
 
@@ -56,7 +56,7 @@ Sets the Editor messages of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEditorMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEditorMessagesBuilder)>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEditorMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEditorMessagesBuilder)>
 The lambda which configures the scheduler editor messages
 
 

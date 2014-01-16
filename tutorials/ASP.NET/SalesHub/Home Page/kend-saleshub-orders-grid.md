@@ -38,7 +38,7 @@ for each CustomerOrderViewModel object that is bound to the grid.
 
 For some fields we also want to format the values a little before we display them to the user.
 That's where the `Format` function comes in handy. The `Format` function takes a string that
-contains [Kendo's formatting syntax](/api/framework/kendo#methods-format).
+contains [Kendo's formatting syntax](/kendo-ui/api/framework/kendo#methods-format).
 
 The last column of the Grid works a little differently than the other columns. This is because
 we're not actually displaying information from a property on the **CustomerOrderViewModel**. The

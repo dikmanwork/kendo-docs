@@ -10,4 +10,4 @@ publish: true
 
 # Cascading DropDownLists
 
-Cascading functionality described in the [ComboBox](/getting-started/web/combobox/cascading) are applicable to the DropDownList.
+Cascading functionality described in the [ComboBox](/kendo-ui/getting-started/web/combobox/cascading) are applicable to the DropDownList.

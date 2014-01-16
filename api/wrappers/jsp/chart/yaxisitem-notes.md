@@ -31,7 +31,7 @@ The position of the y axis notes.
 
 The items of the notes.
 
-More documentation is available at [kendo:chart-yAxisItem-notes-data](/api/wrappers/jsp/chart/yaxisitem-notes-data).
+More documentation is available at [kendo:chart-yAxisItem-notes-data](/kendo-ui/api/wrappers/jsp/chart/yaxisitem-notes-data).
 
 #### Example
 
@@ -43,7 +43,7 @@ More documentation is available at [kendo:chart-yAxisItem-notes-data](/api/wrapp
 
 The icon of the notes.
 
-More documentation is available at [kendo:chart-yAxisItem-notes-icon](/api/wrappers/jsp/chart/yaxisitem-notes-icon).
+More documentation is available at [kendo:chart-yAxisItem-notes-icon](/kendo-ui/api/wrappers/jsp/chart/yaxisitem-notes-icon).
 
 #### Example
 
@@ -55,7 +55,7 @@ More documentation is available at [kendo:chart-yAxisItem-notes-icon](/api/wrapp
 
 The label of the notes.
 
-More documentation is available at [kendo:chart-yAxisItem-notes-label](/api/wrappers/jsp/chart/yaxisitem-notes-label).
+More documentation is available at [kendo:chart-yAxisItem-notes-label](/kendo-ui/api/wrappers/jsp/chart/yaxisitem-notes-label).
 
 #### Example
 
@@ -67,7 +67,7 @@ More documentation is available at [kendo:chart-yAxisItem-notes-label](/api/wrap
 
 The line of the notes.
 
-More documentation is available at [kendo:chart-yAxisItem-notes-line](/api/wrappers/jsp/chart/yaxisitem-notes-line).
+More documentation is available at [kendo:chart-yAxisItem-notes-line](/kendo-ui/api/wrappers/jsp/chart/yaxisitem-notes-line).
 
 #### Example
 

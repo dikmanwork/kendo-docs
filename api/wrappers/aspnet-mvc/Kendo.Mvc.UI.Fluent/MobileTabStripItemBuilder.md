@@ -95,7 +95,7 @@ Specifies the widget to be open when is tapped (the href must be set too)
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileButtonRel](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonRel)
+##### value [Kendo.Mvc.UI.MobileButtonRel](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonRel)
 The value that configures the rel.
 
 

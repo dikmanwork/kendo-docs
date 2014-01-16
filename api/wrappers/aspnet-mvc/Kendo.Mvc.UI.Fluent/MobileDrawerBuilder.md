@@ -43,7 +43,7 @@ The position of the drawer. Can be left (default) or right.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileDrawerPosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileDrawerPosition)
+##### value [Kendo.Mvc.UI.MobileDrawerPosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileDrawerPosition)
 The value that configures the position.
 
 
@@ -186,7 +186,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileDrawerEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileDrawerEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileDrawerEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileDrawerEventBuilder)>
 The client events action.
 
 

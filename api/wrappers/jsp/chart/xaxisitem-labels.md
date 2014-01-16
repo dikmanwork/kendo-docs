@@ -127,7 +127,7 @@ If set to true the chart will display the x axis labels. By default the x axis l
 
 The border of the labels.
 
-More documentation is available at [kendo:chart-xAxisItem-labels-border](/api/wrappers/jsp/chart/xaxisitem-labels-border).
+More documentation is available at [kendo:chart-xAxisItem-labels-border](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-labels-border).
 
 #### Example
 
@@ -139,7 +139,7 @@ More documentation is available at [kendo:chart-xAxisItem-labels-border](/api/wr
 
 The format used to display the labels when the x values are dates. Uses kendo.format. Contains one placeholder ("{0}") which represents the category value.
 
-More documentation is available at [kendo:chart-xAxisItem-labels-dateFormats](/api/wrappers/jsp/chart/xaxisitem-labels-dateformats).
+More documentation is available at [kendo:chart-xAxisItem-labels-dateFormats](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-labels-dateformats).
 
 #### Example
 
@@ -151,7 +151,7 @@ More documentation is available at [kendo:chart-xAxisItem-labels-dateFormats](/a
 
 The margin of the labels. A numeric value will set all margins.
 
-More documentation is available at [kendo:chart-xAxisItem-labels-margin](/api/wrappers/jsp/chart/xaxisitem-labels-margin).
+More documentation is available at [kendo:chart-xAxisItem-labels-margin](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-labels-margin).
 
 #### Example
 
@@ -163,7 +163,7 @@ More documentation is available at [kendo:chart-xAxisItem-labels-margin](/api/wr
 
 The padding of the labels. A numeric value will set all paddings.
 
-More documentation is available at [kendo:chart-xAxisItem-labels-padding](/api/wrappers/jsp/chart/xaxisitem-labels-padding).
+More documentation is available at [kendo:chart-xAxisItem-labels-padding](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-labels-padding).
 
 #### Example
 

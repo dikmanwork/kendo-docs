@@ -9,8 +9,8 @@ publish: true
 
 # kendo.data.Model
 
-The `Model` inherits from the [ObservableObject](/api/framework/observableobject) and extends it with the ability to define schema - fields and methods. The
-[DataSource](/api/framework/datasource) contains instances of the `Model` when the [schema.model](/api/framework/datasource#schema.model-object) setting is specified.
+The `Model` inherits from the [ObservableObject](/kendo-ui/api/framework/observableobject) and extends it with the ability to define schema - fields and methods. The
+[DataSource](/kendo-ui/api/framework/datasource) contains instances of the `Model` when the [schema.model](/kendo-ui/api/framework/datasource#schema.model-object) setting is specified.
 
 ## Configuration
 
@@ -41,7 +41,7 @@ To define a new model use the `Model.define` method.
 
 ### uid
 
-The unique identifier of the `Model`. Inherited from `ObservableObject`. More info can be found in the [uid](/api/framework/observableobject#fields-uid) section of the
+The unique identifier of the `Model`. Inherited from `ObservableObject`. More info can be found in the [uid](/kendo-ui/api/framework/observableobject#fields-uid) section of the
 ObservableObject API reference.
 
 ### dirty `Boolean`
@@ -63,7 +63,7 @@ Indicates whether the model is modified.
 
 ### bind
 
-Attaches a handler to an event. Examples and more info can be found in the [bind](/api/framework/observable#methods-bind) section of the `kendo.Observable` API reference.
+Attaches a handler to an event. Examples and more info can be found in the [bind](/kendo-ui/api/framework/observable#methods-bind) section of the `kendo.Observable` API reference.
 
 ### Model.define
 
@@ -112,7 +112,7 @@ Specifies the field of the original record which value to be used for population
 
 ##### options.fields.fieldName.validation `Object`
 
-Specifies the validation options which will be used by [Kendo Validator](/api/framework/validator).
+Specifies the validation options which will be used by [Kendo Validator](/kendo-ui/api/framework/validator).
 
 #### Example - define the fields of a model
 
@@ -181,7 +181,7 @@ The field to check.
 
 ### get
 
-Gets the value of the specified field. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [get](/api/framework/observableobject#methods-get) section of the
+Gets the value of the specified field. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [get](/kendo-ui/api/framework/observableobject#methods-get) section of the
 ObservableObject API reference.
 
 ### isNew
@@ -211,27 +211,27 @@ If the value of the field specified is equal to the default value (specified thr
 
 ### set
 
-Sets the value of the specified field. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [set](/api/framework/observableobject#methods-set) section of the
+Sets the value of the specified field. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [set](/kendo-ui/api/framework/observableobject#methods-set) section of the
 ObservableObject API reference.
 
 ### toJSON
 
-Creates a plain JavaScript object which contains all fields of the `Model`. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [toJSON](/api/framework/observableobject#methods-toJSON) section of the
+Creates a plain JavaScript object which contains all fields of the `Model`. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [toJSON](/kendo-ui/api/framework/observableobject#methods-toJSON) section of the
 ObservableObject API reference.
 
 ## Events
 
 ### change event
 
-Raised when a field value is updated via the `set` method. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [change](/api/framework/observableobject#events-change) section of the
+Raised when a field value is updated via the `set` method. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [change](/kendo-ui/api/framework/observableobject#events-change) section of the
 ObservableObject API reference.
 
 ### get event
 
-Raised when the `get` method is invoked. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [get](/api/framework/observableobject#events-get) section of the
+Raised when the `get` method is invoked. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [get](/kendo-ui/api/framework/observableobject#events-get) section of the
 ObservableObject API reference.
 
 ### set event
 
-Raised when the `set` method is invoked. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [set](/api/framework/observableobject#events-set) section of the
+Raised when the `set` method is invoked. Inherited from `kendo.data.ObservableObject`. Examples and more info can be found in the [set](/kendo-ui/api/framework/observableobject#events-set) section of the
 ObservableObject API reference.

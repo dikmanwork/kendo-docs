@@ -88,7 +88,7 @@ Allows paging of the data.
 
 #### Parameters
 
-##### pagerAction System.Action<[Kendo.Mvc.UI.Fluent.PageableBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PageableBuilder)>
+##### pagerAction System.Action<[Kendo.Mvc.UI.Fluent.PageableBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PageableBuilder)>
 Use builder to define paging settings.
 
 
@@ -135,7 +135,7 @@ Enables item selection.
 
 #### Parameters
 
-##### selectionAction System.Action<[Kendo.Mvc.UI.Fluent.ListViewSelectionSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ListViewSelectionSettingsBuilder)>
+##### selectionAction System.Action<[Kendo.Mvc.UI.Fluent.ListViewSelectionSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ListViewSelectionSettingsBuilder)>
 Use builder to define the selection mode.
 
 
@@ -210,7 +210,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ListViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ListViewEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ListViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ListViewEventBuilder)>
 The client events action.
 
 

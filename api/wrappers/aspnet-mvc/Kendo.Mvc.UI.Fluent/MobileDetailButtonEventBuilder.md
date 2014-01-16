@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileDetailButton for ASP.NET 
 ### Click(`System.String`)
 Fires when the user taps the button.
 
-For additional information check the [click](/api/web/mobiledetailbutton#events-click) event documentation.
+For additional information check the [click](/kendo-ui/api/web/mobiledetailbutton#events-click) event documentation.
 
 
 #### Parameters

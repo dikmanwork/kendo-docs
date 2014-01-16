@@ -8,7 +8,7 @@ publish: true
 
 # Window
 
-The Window HtmlHelper extension is a server-side wrapper for the [Kendo UI Window](/api/web/window) widget.
+The Window HtmlHelper extension is a server-side wrapper for the [Kendo UI Window](/kendo-ui/api/web/window) widget.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ There are two ways to populate the content of the Kendo Window for ASP.NET MVC
 
 Here is how to configure the Kendo Window:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -63,7 +63,7 @@ Here is how to configure the Kendo Window:
 
 Here is how to configure the Kendo Window:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -96,7 +96,7 @@ Here is how to configure the Kendo Window:
 ## Accessing an Existing Window
 
 You can reference an existing Window instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/window#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/window#methods) to control its behavior.
 
 ### Accessing an existing Window instance
 
@@ -111,7 +111,7 @@ Once a reference has been established, you can use the [API](/api/web/window#met
 
 ## Handling Kendo UI Window events
 
-You can subscribe to all [events](/api/web/window#events) exposed by Kendo UI Window:
+You can subscribe to all [events](/kendo-ui/api/web/window#events) exposed by Kendo UI Window:
 
 ### WebForms - subscribe by handler name
 
@@ -176,7 +176,7 @@ You can subscribe to all [events](/api/web/window#events) exposed by Kendo UI Wi
 When a complete form should be inserted inside a Window, the correct approach is to end the Window declaration with `.Render();` and wrap it in a **non-rendering** code block.
 This requirement does not apply if the form is defined via plain HTML tags (`&lt;form&gt;...&lt;/form&gt;`).
 
-See also [Using Kendo UI Window with a form](/getting-started/web/window/overview#using-kendo-ui-window-with-a-form).
+See also [Using Kendo UI Window with a form](/kendo-ui/getting-started/web/window/overview#using-kendo-ui-window-with-a-form).
 
 ### WebForms - inserting a complete form inside the Window
 

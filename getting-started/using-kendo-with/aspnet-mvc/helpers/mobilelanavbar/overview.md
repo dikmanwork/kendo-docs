@@ -8,15 +8,15 @@ publish: true
 
 # MobileNavBar
 
-The MobileNavBar HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile NavBar](/api/mobile/navbar) widget. It allows you to configure the Kendo UI Mobile NavBar
+The MobileNavBar HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile NavBar](/kendo-ui/api/mobile/navbar) widget. It allows you to configure the Kendo UI Mobile NavBar
 from server-side code.
 
 ## Getting started
 
 The following tutorial shows how to configure Kendo UI MobileNavBar for ASP.NET MVC.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
@@ -95,7 +95,7 @@ to add **UI for ASP.NET MVC** to the application.
 ## Getting reference to the Kendo UI MobileNavBar widget
 
 To get a reference to a navbar instance use the [jQuery.data()](http://api.jquery.com/jQuery.data/) method and the value specified via the `Name()` method.
-Then you can use you can use the JavaScript [API](/api/mobile/navbar#methods) of the navbar.
+Then you can use you can use the JavaScript [API](/kendo-ui/api/mobile/navbar#methods) of the navbar.
 
 ### Example - get reference to a Kendo UI MobileNavBar instance
 

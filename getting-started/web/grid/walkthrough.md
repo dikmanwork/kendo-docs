@@ -60,7 +60,7 @@ Fields and templates are defined via data attributes:
     </table>
 
 The table can now describe the entire structure of the grid. The field that the column is bound to in the data set, is specified in the `data-field` attribute of each `th` element. Using `data-field` attributes is highly
-recommended, otherwise the header cell content should meet the [requirements for data field names](/api/web/grid#configuration-columns.field).
+recommended, otherwise the header cell content should meet the [requirements for data field names](/kendo-ui/api/web/grid#configuration-columns.field).
 
 Since the layout of the grid is defined by the HTML it’s only necessary to call the kendoGrid() function to create a grid.
 
@@ -442,7 +442,7 @@ This is achieved by preventing event bubbling of the custom hyperlinks' **keydow
 
 In order to get a Grid table row by the data item ID can be achieved in the following way.
 
-First, the [ID field should be defined in the model configuration](/api/framework/model#configuration-Example) of the Grid datasource.
+First, the [ID field should be defined in the model configuration](/kendo-ui/api/framework/model#configuration-Example) of the Grid datasource.
 
 Then, the row model, the model UID and the Grid table row can be retrieved consecutively in the following way:
 
@@ -556,7 +556,7 @@ Since the browser cannot understand the relationship between the two Grid tables
 
 When the datasource does not return any data (e.g. as a result of filtering) a table row with some user-friendly message can be added manually:
 
-### Example - adding a table row in the Grid's [dataBound](/api/web/grid/#events-dataBound) event handler
+### Example - adding a table row in the Grid's [dataBound](/kendo-ui/api/web/grid/#events-dataBound) event handler
 
     function onGridDataBound(e) {
         if (!e.sender.dataSource.view().length) {

@@ -6,13 +6,13 @@ publish: true
 
 # FlatColorPicker
 
-The FlatColorPicker JSP tag is a server-side wrapper for the [Kendo UI FlatColorPicker](/api/web/flatcolorpicker) widget.
+The FlatColorPicker JSP tag is a server-side wrapper for the [Kendo UI FlatColorPicker](/kendo-ui/api/web/flatcolorpicker) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo FlatColorPicker:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -34,7 +34,7 @@ Here is how to configure a simple Kendo FlatColorPicker:
 ## Accessing an Existing FlatColorPicker
 
 You can reference an existing FlatColorPicker instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/flatcolorpicker#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/flatcolorpicker#methods) to control its behavior.
 
 ### Accessing an existing FlatColorPicker instance
 
@@ -48,7 +48,7 @@ Once a reference has been established, you can use the [API](/api/web/flatcolorp
 
 ## Handling Kendo UI FlatColorPicker events
 
-You can subscribe to all [events](/api/web/flatcolorpicker#events) exposed by Kendo UI FlatColorPicker:
+You can subscribe to all [events](/kendo-ui/api/web/flatcolorpicker#events) exposed by Kendo UI FlatColorPicker:
 
 ### Subscribe by handler name
 

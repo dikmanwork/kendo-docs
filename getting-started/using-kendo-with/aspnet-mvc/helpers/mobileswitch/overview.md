@@ -8,15 +8,15 @@ publish: true
 
 # MobileSwitch
 
-The MobileSwitch HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Switch](/api/mobile/switch) widget. It allows you to configure the Kendo UI Mobile Switch
+The MobileSwitch HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Switch](/kendo-ui/api/mobile/switch) widget. It allows you to configure the Kendo UI Mobile Switch
 from server-side code.
 
 ## Getting started
 
 The following tutorial shows how to configure Kendo UI MobileSwitch for ASP.NET MVC.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
@@ -83,7 +83,7 @@ to add **UI for ASP.NET MVC** to the application.
 ## Getting reference to the Kendo UI MobileSwitch widget
 
 To get a reference to a switch instance use the [jQuery.data()](http://api.jquery.com/jQuery.data/) method and the value specified via the `Name()` method.
-Then you can use you can use the JavaScript [API](/api/mobile/switch#methods) of the switch.
+Then you can use you can use the JavaScript [API](/kendo-ui/api/mobile/switch#methods) of the switch.
 
 ### Example - get reference to a Kendo UI MobileSwitch instance
 
@@ -103,7 +103,7 @@ Then you can use you can use the JavaScript [API](/api/mobile/switch#methods) of
 
 ## Handling Kendo UI MobileSwitch events
 
-You can subscribe to all [events](/api/mobile/switch#events) exposed by the widget:
+You can subscribe to all [events](/kendo-ui/api/mobile/switch#events) exposed by the widget:
 
 ### Example - subscribe to event by handler name (ASPX)
 

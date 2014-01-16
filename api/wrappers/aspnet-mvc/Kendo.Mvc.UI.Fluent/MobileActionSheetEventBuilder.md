@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileActionSheet for ASP.NET M
 ### Close(`System.String`)
 Fires when the ActionSheet is closed.
 
-For additional information check the [close](/api/web/mobileactionsheet#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/mobileactionsheet#events-close) event documentation.
 
 
 #### Parameters
@@ -29,7 +29,7 @@ The name of the JavaScript function that will handle the close event.
 ### Open(`System.String`)
 Fires when the ActionSheet is opened.
 
-For additional information check the [open](/api/web/mobileactionsheet#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/mobileactionsheet#events-open) event documentation.
 
 
 #### Parameters

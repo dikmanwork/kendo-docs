@@ -23,7 +23,7 @@ Configures the opening and closing animations of the suggestion popup. Setting t
 
 
 
-More documentation is available at [kendo:dropDownList-animation-close](/api/wrappers/jsp/dropdownlist/animation-close).
+More documentation is available at [kendo:dropDownList-animation-close](/kendo-ui/api/wrappers/jsp/dropdownlist/animation-close).
 
 #### Example
 
@@ -35,7 +35,7 @@ More documentation is available at [kendo:dropDownList-animation-close](/api/wra
 
 The animation played when the suggestion popup is opened.
 
-More documentation is available at [kendo:dropDownList-animation-open](/api/wrappers/jsp/dropdownlist/animation-open).
+More documentation is available at [kendo:dropDownList-animation-open](/kendo-ui/api/wrappers/jsp/dropdownlist/animation-open).
 
 #### Example
 

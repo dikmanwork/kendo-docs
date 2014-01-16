@@ -295,7 +295,7 @@ By default the tooltip is added right after the input so if the input is used to
         @Html.Kendo().NumericTextBoxFor(model => model.UnitPrice)
         @Html.ValidationMessageFor(model => model.UnitPrice)
 
-* Use the approach demonstrated [here](/getting-started/framework/validator/overview#customizing-the-tooltip-position) to add a placeholder.
+* Use the approach demonstrated [here](/kendo-ui/getting-started/framework/validator/overview#customizing-the-tooltip-position) to add a placeholder.
 
 ###The widgets are hidden after a postback when using the jQuery Validation
 If the client-side validation does not prevent the form to be posted and the server-side validation fails for a property, the `input-validation-error` class will be added to the input. For styling purposes, custom classes assigned to the inputs are copied to the wrapper element and because all elements with the error class will be hidden on validation, the widget will be hidden. In order to avoid this behavior you should either implement a client-side validation for the rule that has caused the validation to fail on the server or remove the class from the wrapper elements after the widgets initialization.
@@ -311,7 +311,7 @@ If the client-side validation does not prevent the form to be posted and the ser
     </script>
 
 ###Globalized dates and numbers are not recognized as valid when using the Kendo Validator.
-The Kendo Validator uses the current Kendo culture to determine if a value is in a valid format. In order for the values to be recognized as valid, you should use the same culture on the client and on the server as described in the [Globalization](/getting-started/using-kendo-with/aspnet-mvc/globalization#use-the-same-culture-on-the-server-and-client-side) documentation.
+The Kendo Validator uses the current Kendo culture to determine if a value is in a valid format. In order for the values to be recognized as valid, you should use the same culture on the client and on the server as described in the [Globalization](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/globalization#use-the-same-culture-on-the-server-and-client-side) documentation.
 
 ###Globalized dates and numbers are not recognized as valid when using the jQuery validation.
 The jQuery validation does not support globalized dates and numbers. In order for the values to be recognized as valid when using a not default culture, you should override the validator date and number methods.

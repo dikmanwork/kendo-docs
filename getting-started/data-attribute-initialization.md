@@ -11,7 +11,7 @@ related: gs-widgets
 # Data Attribute Initialization
 
 In addition to the jQuery plugin initialization, each kendo widget can be initialized and configured via data attributes. You need to set the `role` data attribute
-of the target element and call [kendo.init](/api/framework/kendo#methods-init).
+of the target element and call [kendo.init](/kendo-ui/api/framework/kendo#methods-init).
 
 Data attribute initialization is convenient when there are a lot of Kendo UI widgets in the page. First the widget configuration stays with the target element. Second
 there is no need to find all elements to invoke the Kendo jQuery plugins - you only need to call `kendo.init` once.
@@ -31,7 +31,7 @@ The `kendo.init($("#container"))` statement finds all elements that have the `ro
 
 > The value of the `role` data attribute is the name of the widget in lower case e.g. "autocomplete", "dropdownlist" etc.
 
-By default, `kendo.init` initializes only Kendo UI Web and Kendo UI DataViz widgets (in that order). This behavior can be changed by passing additional namespaces as parameters. The Kendo UI Mobile [Application](/getting-started/mobile/application)
+By default, `kendo.init` initializes only Kendo UI Web and Kendo UI DataViz widgets (in that order). This behavior can be changed by passing additional namespaces as parameters. The Kendo UI Mobile [Application](/kendo-ui/getting-started/mobile/application)
 initializes first Kendo UI Mobile widgets, then Kendo UI Web widgets and finally Kendo UI DataViz widgets. This means that an element with `data-role="listview"` will be initialized as a Kendo UI Mobile ListView in a Kendo UI Mobile Application.
 
 The data-role attribute also accepts full widget class name (with its namespace) as value.
@@ -59,7 +59,7 @@ The data-role attribute also accepts full widget class name (with its namespace)
 
 Each widget configuration option can be set via a data attribute of the target element. Just add the "data-" prefix to the name of the configuration option and specify its value e.g. `data-delay="100"`.
 
-> Camel-cased options are set via dash-separated attributes. For example, the [ignoreCase](/api/web/autocomplete#configuration-ignoreCase) option of the AutoComplete is set via `data-ignore-case`.
+> Camel-cased options are set via dash-separated attributes. For example, the [ignoreCase](/kendo-ui/api/web/autocomplete#configuration-ignoreCase) option of the AutoComplete is set via `data-ignore-case`.
 
 Options, which start with `data` do not require an additional "data" in the attribute name e.g. the `dataTextField` option is set via the `data-text-field` attribute and `dataSource` is set via the
 `data-source` attribute.

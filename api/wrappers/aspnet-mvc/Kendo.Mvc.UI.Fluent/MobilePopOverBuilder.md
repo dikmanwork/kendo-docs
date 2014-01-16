@@ -17,7 +17,7 @@ The pane configuration options.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverPaneSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverPaneSettingsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverPaneSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverPaneSettingsBuilder)>
 The action that configures the pane.
 
 
@@ -30,7 +30,7 @@ The popup configuration options (tablet only)
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverPopupSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverPopupSettingsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverPopupSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverPopupSettingsBuilder)>
 The action that configures the popup.
 
 
@@ -82,7 +82,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobilePopOverEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobilePopOverEventBuilder)>
 The client events action.
 
 

@@ -34,7 +34,7 @@ Alternatively, it can be initialized using jQuery plugin syntax in the containin
 
 ## Checking/Unchecking the Mobile Switch
 
-The checked state of the mobile Switch depends on the [`checked` configuration option](/api/mobile/switch#checked)
+The checked state of the mobile Switch depends on the [`checked` configuration option](/kendo-ui/api/mobile/switch#checked)
 or the `checked` attribute of the widget element.
 
 ### Initialize Kendo mobile Switch from checked `input`

@@ -80,7 +80,7 @@ A value indicating if the tooltip should be displayed.
 
 The border configuration options.
 
-More documentation is available at [kendo:stockChart-seriesItem-tooltip-border](/api/wrappers/jsp/stockchart/seriesitem-tooltip-border).
+More documentation is available at [kendo:stockChart-seriesItem-tooltip-border](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-tooltip-border).
 
 #### Example
 

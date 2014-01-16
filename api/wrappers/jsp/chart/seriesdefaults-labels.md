@@ -107,7 +107,7 @@ The visibility of the labels.
 
 The border of the labels.
 
-More documentation is available at [kendo:chart-seriesDefaults-labels-border](/api/wrappers/jsp/chart/seriesdefaults-labels-border).
+More documentation is available at [kendo:chart-seriesDefaults-labels-border](/kendo-ui/api/wrappers/jsp/chart/seriesdefaults-labels-border).
 
 #### Example
 

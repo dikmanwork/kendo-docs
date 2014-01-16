@@ -56,7 +56,7 @@ Sets the aggregate function for date series.
 
 #### Parameters
 
-##### aggregate [Kendo.Mvc.UI.ChartSeriesAggregate](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartSeriesAggregate)
+##### aggregate [Kendo.Mvc.UI.ChartSeriesAggregate](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartSeriesAggregate)
 Aggregate function name.
 
 
@@ -112,7 +112,7 @@ Configures the bar chart labels.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBarLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBarLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBarLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBarLabelsBuilder)>
 The configuration action.
 
 
@@ -165,7 +165,7 @@ The bars border width.
 ##### color `System.String`
 The bars border color (CSS syntax).
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The bars border dash type.
 
 
@@ -185,7 +185,7 @@ Configures the bar border
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
 The border configuration action
 
 
@@ -198,7 +198,7 @@ Sets the bar effects overlay
 
 #### Parameters
 
-##### overlay [Kendo.Mvc.UI.ChartBarSeriesOverlay](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartBarSeriesOverlay)
+##### overlay [Kendo.Mvc.UI.ChartBarSeriesOverlay](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartBarSeriesOverlay)
 The bar effects overlay. The default is ChartBarSeriesOverlay.Glass
 
 

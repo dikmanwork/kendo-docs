@@ -17,8 +17,8 @@ This help topic shows how to use detail template which is used in ajax binding s
 
 The following tutorial shows how to configure Kendo UI Grid for ASP.NET MVC to display additional details of the **Product** entity from the **Northwind** database.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-Name the application "KendoGridClientDetailTemplate". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+Name the application "KendoGridClientDetailTemplate". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Add a new "Entity Framework Data Model". Right click the `~/Models` folder in the solution explorer and pick "Add ->  New Item". Choose "Data -> ADO.NET Entity Data Model" in the "Add New Item" dialog.
 Name the model "Northwind.edmx" and click "Next". This will start the "Entity Data Model Wizard".
@@ -91,7 +91,7 @@ Decorate that parameter with the `Kendo.Mvc.UI.DataSourceRequestAttribute`. That
                   })
                   .Pageable()
             )
-1.  Define the client template using [Kendo UI Template](/getting-started/framework/templates/overview) syntax. The context of the template is the data item (Product entity) to which the current grid row is bound.
+1.  Define the client template using [Kendo UI Template](/kendo-ui/getting-started/framework/templates/overview) syntax. The context of the template is the data item (Product entity) to which the current grid row is bound.
 > Any "#" symbols that are not part of a template expression (#: #, # # or #= #) must be escaped ("\\#").
 
         <script id="client-template" type="text/x-kendo-template">
@@ -143,8 +143,8 @@ Decorate that parameter with the `Kendo.Mvc.UI.DataSourceRequestAttribute`. That
 
 The following tutorial shows how to configure Kendo UI Grid for ASP.NET MVC to display all **Product** entities available per **Category** entity from the **Northwind** database.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-Name the application "KendoGridClientHierarchy". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+Name the application "KendoGridClientHierarchy". If you decided not to use the UI for ASP.NET MVC Visual Studio Extensions followe the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Add a new "Entity Framework Data Model". Right click the `~/Models` folder in the solution explorer and pick "Add ->  New Item". Choose "Data -> ADO.NET Entity Data Model" in the "Add New Item" dialog.
 Name the model "Northwind.edmx" and click "Next". This will start the "Entity Data Model Wizard".
@@ -236,7 +236,7 @@ Decorate that parameter with the `Kendo.Mvc.UI.DataSourceRequestAttribute`. That
                     dataSource.Ajax().Read(read => read.Action("Categories_Read", "Home"))
                   )
             )
-1. Define the client template using [Kendo UI Template](/getting-started/framework/templates/overview) syntax. The context of the template is the Category entity to which the current grid row is bound. The template itself
+1. Define the client template using [Kendo UI Template](/kendo-ui/getting-started/framework/templates/overview) syntax. The context of the template is the Category entity to which the current grid row is bound. The template itself
 contains another grid which is bound to the `Products_Read` action.
 > **Always** call the `ToClientTemplate` method when using **UI for ASP.NET MVC** widgets in a client template.
 > 

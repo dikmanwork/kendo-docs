@@ -69,7 +69,7 @@ The direction to which the popup will expand, relative to the target that opened
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobilePopupDirection](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobilePopupDirection)
+##### value [Kendo.Mvc.UI.MobilePopupDirection](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobilePopupDirection)
 The value that configures the direction.
 
 

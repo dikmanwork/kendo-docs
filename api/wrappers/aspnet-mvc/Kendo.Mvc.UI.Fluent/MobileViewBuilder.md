@@ -227,7 +227,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileViewEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileViewEventBuilder)>
 The client events action.
 
 

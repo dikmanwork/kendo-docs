@@ -17,7 +17,7 @@ Configures the crosshair tooltip
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartAxisCrosshairTooltipBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartAxisCrosshairTooltipBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartAxisCrosshairTooltipBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartAxisCrosshairTooltipBuilder)>
 The tooltip configuration action
 
 

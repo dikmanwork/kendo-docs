@@ -158,7 +158,7 @@ for all columns when filtering is enabled via the filterable option.Can be set t
     ?>
 
 
-#### Example - using [\Kendo\UI\GridColumnFilterable](/api/wrappers/php/Kendo/UI/GridColumnFilterable)
+#### Example - using [\Kendo\UI\GridColumnFilterable](/kendo-ui/api/wrappers/php/Kendo/UI/GridColumnFilterable)
     <?php
     $column = new \Kendo\UI\GridColumn();
     $filterable = new \Kendo\UI\GridColumnFilterable();

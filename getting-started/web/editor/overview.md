@@ -27,7 +27,7 @@ The Editor allows users to create rich text content by means of a WYSIWYG interf
 
 ## Configuring the Editor
 
-The editor tools can be configured through the [`tools` configuration option](/api/web/editor#tools).
+The editor tools can be configured through the [`tools` configuration option](/kendo-ui/api/web/editor#tools).
 
 ### Specifying a set of Editor tools
 

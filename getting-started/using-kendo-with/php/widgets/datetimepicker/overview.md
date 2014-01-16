@@ -9,14 +9,14 @@ relatedDocs: php-ui-datetimepicker
 
 # DateTimePicker
 
-The Kendo DateTimePicker for PHP is a server-side wrapper for the [Kendo UI DateTimePicker](/api/web/datetimepicker) widget.
+The Kendo DateTimePicker for PHP is a server-side wrapper for the [Kendo UI DateTimePicker](/kendo-ui/api/web/datetimepicker) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo DateTimePicker:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-2. Create a [datetimepicker](/api/wrappers/php/Kendo/UI/DateTimePicker).
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+2. Create a [datetimepicker](/kendo-ui/api/wrappers/php/Kendo/UI/DateTimePicker).
 
         <?php
         $datetimepicker = new \Kendo\UI\DateTimePicker('datetimepicker');
@@ -28,7 +28,7 @@ Here is how to configure a simple Kendo DateTimePicker:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo DateTimePicker instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/datetimepicker#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/datetimepicker#methods) to control its behavior.
 
 
 ### Example
@@ -46,7 +46,7 @@ Once a reference has been established, you can use the [API](/api/web/datetimepi
 
 ## Handling Events
 
-You can subscribe to all datetimepicker [events](/api/web/datetimepicker#events).
+You can subscribe to all datetimepicker [events](/kendo-ui/api/web/datetimepicker#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

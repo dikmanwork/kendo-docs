@@ -33,7 +33,7 @@ The border of the target.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTargetBorder](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTargetBorder)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTargetBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTargetBorder)
     <?php
     $target = new \Kendo\Dataviz\UI\ChartSeriesItemTarget();
     $border = new \Kendo\Dataviz\UI\ChartSeriesItemTargetBorder();
@@ -86,7 +86,7 @@ The target line options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemTargetLine|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTargetLine](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTargetLine)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTargetLine](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTargetLine)
     <?php
     $target = new \Kendo\Dataviz\UI\ChartSeriesItemTarget();
     $line = new \Kendo\Dataviz\UI\ChartSeriesItemTargetLine();

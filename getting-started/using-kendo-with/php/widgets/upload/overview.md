@@ -9,19 +9,19 @@ relatedDocs: php-ui-upload
 
 # Upload
 
-The Kendo Upload for PHP is a server-side wrapper for the [Kendo UI Upload](/api/web/upload) widget.
+The Kendo Upload for PHP is a server-side wrapper for the [Kendo UI Upload](/kendo-ui/api/web/upload) widget.
 
 ## Getting Started
 
 The Upload supports two main modes:
 
-* [sync](/getting-started/using-kendo-with/php/widgets/upload/modes#sync) - files are uploaded when the form is submitted
-* [async](/getting-started/using-kendo-with/php/widgets/upload/modes#async) - files are uploaded out-of-band using AJAX requests
+* [sync](/kendo-ui/getting-started/using-kendo-with/php/widgets/upload/modes#sync) - files are uploaded when the form is submitted
+* [async](/kendo-ui/getting-started/using-kendo-with/php/widgets/upload/modes#async) - files are uploaded out-of-band using AJAX requests
 
 Here is how to configure the Upload for asynchronous operation:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-2. Create an [upload](/api/wrappers/php/Kendo/UI/Upload), configure its [async](/api/wrappers/php/Kendo/UI/Upload#async) options
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+2. Create an [upload](/kendo-ui/api/wrappers/php/Kendo/UI/Upload), configure its [async](/kendo-ui/api/wrappers/php/Kendo/UI/Upload#async) options
 
         <?php
         $upload = new \Kendo\UI\Upload('files[]');
@@ -29,7 +29,7 @@ Here is how to configure the Upload for asynchronous operation:
                 'saveUrl' => 'save.php'
         ));
         ?>
-3. Output the upload by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+3. Output the upload by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $upload->render();
@@ -50,7 +50,7 @@ Here is how to configure the Upload for asynchronous operation:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Upload instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/upload#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/upload#methods) to control its behavior.
 
 
 ### Example
@@ -68,7 +68,7 @@ Once a reference has been established, you can use the [API](/api/web/upload#met
 
 ## Handling Events
 
-You can subscribe to all upload [events](/api/web/upload#events).
+You can subscribe to all upload [events](/kendo-ui/api/web/upload#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

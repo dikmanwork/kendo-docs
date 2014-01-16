@@ -36,7 +36,7 @@ Configures the animation effects.
 
 #### Parameters
 
-##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.ProgressBarAnimationBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ProgressBarAnimationBuilder)>
+##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.ProgressBarAnimationBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ProgressBarAnimationBuilder)>
 The action which configures the animation effects.
 
 
@@ -94,7 +94,7 @@ Configures the client-side events
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ProgressBarEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ProgressBarEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ProgressBarEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ProgressBarEventBuilder)>
 The client events configuration action.
 
 
@@ -152,7 +152,7 @@ Sets the orientation of the ProgressBar
 
 #### Parameters
 
-##### orientation [Kendo.Mvc.UI.ProgressBarOrientation](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ProgressBarOrientation)
+##### orientation [Kendo.Mvc.UI.ProgressBarOrientation](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ProgressBarOrientation)
 ProgressBarOrientation enumeration specifying the orientation
 
 
@@ -209,7 +209,7 @@ Specifies the type of the ProgressBar
 
 #### Parameters
 
-##### type [Kendo.Mvc.UI.ProgressBarType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ProgressBarType)
+##### type [Kendo.Mvc.UI.ProgressBarType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ProgressBarType)
 ProgressBarType enumeration specifying the type
 
 

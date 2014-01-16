@@ -84,7 +84,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### events System.Action<[Kendo.Mvc.UI.Fluent.ButtonEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ButtonEventBuilder)>
+##### events System.Action<[Kendo.Mvc.UI.Fluent.ButtonEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ButtonEventBuilder)>
 The client events action.
 
 

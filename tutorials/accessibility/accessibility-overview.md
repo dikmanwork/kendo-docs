@@ -24,10 +24,10 @@ Starting with the Q3 2012 Release of Kendo UI, we're striving to not only embrac
 
 In the Summer of 2012, we performed an exhaustive review of the WC3's [WAI-ARIA](http://www.w3.org/WAI/PF/aria-practices/) and [WCAG 2.0](http://www.w3.org/TR/WCAG20/) specifications, as well as the US Federal Government's [Section 508](http://www.section508.gov) guidelines. Our goal was to determine which accessibility features were most important to provide and, for our Q3 release, we decided to focus on the following Accessibility improvements:
 
-- [WAI-ARIA Support for Kendo UI Web](/tutorials/accessibility/wai-aria-support-in-kendo)
-- [Full Keyboard Support for Kendo UI Web](/tutorials/accessibility/keyboard-support)
-- [A WCAG 2.0 AAA Compliant High-Contrast Theme](/tutorials/accessibility/high-contrast-theme)
-- [RTL Support for right-to-left languages](/tutorials/accessibility/supporting-rtl-languages)
+- [WAI-ARIA Support for Kendo UI Web](/kendo-ui/tutorials/accessibility/wai-aria-support-in-kendo)
+- [Full Keyboard Support for Kendo UI Web](/kendo-ui/tutorials/accessibility/keyboard-support)
+- [A WCAG 2.0 AAA Compliant High-Contrast Theme](/kendo-ui/tutorials/accessibility/high-contrast-theme)
+- [RTL Support for right-to-left languages](/kendo-ui/tutorials/accessibility/supporting-rtl-languages)
 
 We believe that these improvements make Kendo UI Web an industry leader in terms of accessibility support, but this is just the beginning. Our long-term goal is to provide full WAI-ARI support as well as WCAG and Section 508 compliance for all of Kendo UI, and we'll be pursuing that goal in future releases.
 
@@ -35,8 +35,8 @@ We believe that these improvements make Kendo UI Web an industry leader in terms
 
 The documents in this section provide additional detail and guidance for leveraging Accessibility features in Kendo UI. Click any of the links below to learn more:
 
-- [Five Tips for Accessible Charts with Kendo UI DataViz](/tutorials/accessibility/five-tips-for-accessible-charts-with-dataviz)
-- [Keyboard Support in Kendo UI Web](/tutorials/accessibility/keyboard-support)
-- [Supporting RTL Languages with Kendo UI](/tutorials/accessibility/supporting-rtl-languages)
-- [WAI-ARIA Support in Kendo UI Web](/tutorials/accessibility/wai-aria-support-in-kendo)
-- [Working with the Kendo UI High-Contrast Theme](/tutorials/accessibility/high-contrast-theme)
+- [Five Tips for Accessible Charts with Kendo UI DataViz](/kendo-ui/tutorials/accessibility/five-tips-for-accessible-charts-with-dataviz)
+- [Keyboard Support in Kendo UI Web](/kendo-ui/tutorials/accessibility/keyboard-support)
+- [Supporting RTL Languages with Kendo UI](/kendo-ui/tutorials/accessibility/supporting-rtl-languages)
+- [WAI-ARIA Support in Kendo UI Web](/kendo-ui/tutorials/accessibility/wai-aria-support-in-kendo)
+- [Working with the Kendo UI High-Contrast Theme](/kendo-ui/tutorials/accessibility/high-contrast-theme)

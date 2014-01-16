@@ -13,7 +13,7 @@ publish: true
 
 ### errorTemplate `String`
 
-The [template](/api/framework/kendo#methods-template) which renders the validation message.
+The [template](/kendo-ui/api/framework/kendo#methods-template) which renders the validation message.
 
 ### Defining custom error template
     <form id="myform">
@@ -72,7 +72,7 @@ By setting already existing key the appropriate built-in message will be overrid
 
 ### rules `Object`
 
-Set of custom validation rules. Those rules will extend the [built-in ones](/getting-started/framework/validator/overview#default-validation-rules).
+Set of custom validation rules. Those rules will extend the [built-in ones](/kendo-ui/getting-started/framework/validator/overview#default-validation-rules).
 
 #### Defining custom rules
 

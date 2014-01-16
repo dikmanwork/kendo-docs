@@ -44,7 +44,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.ComboBoxEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ComboBoxEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.ComboBoxEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ComboBoxEventBuilder)>
 The client events action.
 
 
@@ -91,7 +91,7 @@ Defines the items in the ComboBox
 
 #### Parameters
 
-##### addAction System.Action<[Kendo.Mvc.UI.Fluent.DropDownListItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DropDownListItemFactory)>
+##### addAction System.Action<[Kendo.Mvc.UI.Fluent.DropDownListItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DropDownListItemFactory)>
 The add action.
 
 

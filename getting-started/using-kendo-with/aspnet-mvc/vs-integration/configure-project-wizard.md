@@ -15,5 +15,5 @@ This help topic shows how to configure a **UI for ASP.NET MVC** Application.
 You can modify the following project-wide settings:
 
 - **Theme** - Choose the visual theme for your **UI for ASP.NET MVC** Application
-- **Use CDN Support** - Enable or disable [CDN](/getting-started/javascript-dependencies#cdn) support.
+- **Use CDN Support** - Enable or disable [CDN](/kendo-ui/getting-started/javascript-dependencies#cdn) support.
 - **Copy Global Resources** - Copy the localization files to ~/Scripts/kendo/{version}/cultures

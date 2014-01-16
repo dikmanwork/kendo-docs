@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:scheduler\>
-A JSP wrapper for Kendo UI [Scheduler](/api/web/scheduler).
+A JSP wrapper for Kendo UI [Scheduler](/kendo-ui/api/web/scheduler).
 
 ## Configuration Attributes
 
@@ -236,7 +236,7 @@ The start of working week (index based).
 
 If set to true the user would be able to create new scheduler events and modify or delete existing ones.
 
-More documentation is available at [kendo:scheduler-editable](/api/wrappers/jsp/scheduler/editable).
+More documentation is available at [kendo:scheduler-editable](/kendo-ui/api/wrappers/jsp/scheduler/editable).
 
 #### Example
 
@@ -248,7 +248,7 @@ More documentation is available at [kendo:scheduler-editable](/api/wrappers/jsp/
 
 If set to false the footer of the scheduler would not be displayed.
 
-More documentation is available at [kendo:scheduler-footer](/api/wrappers/jsp/scheduler/footer).
+More documentation is available at [kendo:scheduler-footer](/kendo-ui/api/wrappers/jsp/scheduler/footer).
 
 #### Example
 
@@ -260,7 +260,7 @@ More documentation is available at [kendo:scheduler-footer](/api/wrappers/jsp/sc
 
 The configuration of the scheduler resource(s) grouping.
 
-More documentation is available at [kendo:scheduler-group](/api/wrappers/jsp/scheduler/group).
+More documentation is available at [kendo:scheduler-group](/kendo-ui/api/wrappers/jsp/scheduler/group).
 
 #### Example
 
@@ -272,7 +272,7 @@ More documentation is available at [kendo:scheduler-group](/api/wrappers/jsp/sch
 
 The configuration of the scheduler messages. Use this option to customize or localize the scheduler messages.
 
-More documentation is available at [kendo:scheduler-messages](/api/wrappers/jsp/scheduler/messages).
+More documentation is available at [kendo:scheduler-messages](/kendo-ui/api/wrappers/jsp/scheduler/messages).
 
 #### Example
 
@@ -285,7 +285,7 @@ More documentation is available at [kendo:scheduler-messages](/api/wrappers/jsp/
 The configuration of the scheduler resource(s). A scheduler resource is optional metadata that can be associated
 with a scheduler event.
 
-More documentation is available at [kendo:scheduler-resources](/api/wrappers/jsp/scheduler/resources).
+More documentation is available at [kendo:scheduler-resources](/kendo-ui/api/wrappers/jsp/scheduler/resources).
 
 #### Example
 
@@ -298,7 +298,7 @@ More documentation is available at [kendo:scheduler-resources](/api/wrappers/jsp
 The views displayed by the scheduler and their configuration. The array items can be either objects specifying the view configuration or strings representing the view types (assuming default configuration).
 By default the Kendo UI Scheduler widget displays "day" and "week" view.
 
-More documentation is available at [kendo:scheduler-views](/api/wrappers/jsp/scheduler/views).
+More documentation is available at [kendo:scheduler-views](/kendo-ui/api/wrappers/jsp/scheduler/views).
 
 #### Example
 
@@ -314,7 +314,7 @@ More documentation is available at [kendo:scheduler-views](/api/wrappers/jsp/sch
 Fired when the a new event is about to be added.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [add](/api/web/scheduler#events-add) event documentation.
+For additional information check the [add](/kendo-ui/api/web/scheduler#events-add) event documentation.
 
 #### Example
     <kendo:scheduler add="handle_add">
@@ -330,7 +330,7 @@ For additional information check the [add](/api/web/scheduler#events-add) event 
 Fired when the user cancels editing by clicking the "cancel" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [cancel](/api/web/scheduler#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/scheduler#events-cancel) event documentation.
 
 #### Example
     <kendo:scheduler cancel="handle_cancel">
@@ -346,7 +346,7 @@ For additional information check the [cancel](/api/web/scheduler#events-cancel) 
 Fired when the user selects a cell or event in the scheduler.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/scheduler#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/scheduler#events-change) event documentation.
 
 #### Example
     <kendo:scheduler change="handle_change">
@@ -362,7 +362,7 @@ For additional information check the [change](/api/web/scheduler#events-change) 
 Fired before the widget binds to its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBinding](/api/web/scheduler#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/scheduler#events-dataBinding) event documentation.
 
 #### Example
     <kendo:scheduler dataBinding="handle_dataBinding">
@@ -378,7 +378,7 @@ For additional information check the [dataBinding](/api/web/scheduler#events-dat
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/scheduler#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/scheduler#events-dataBound) event documentation.
 
 #### Example
     <kendo:scheduler dataBound="handle_dataBound">
@@ -394,7 +394,7 @@ For additional information check the [dataBound](/api/web/scheduler#events-dataB
 Fired when the user opens a scheduler event in edit mode by or creates a new event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [edit](/api/web/scheduler#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/scheduler#events-edit) event documentation.
 
 #### Example
     <kendo:scheduler edit="handle_edit">
@@ -410,7 +410,7 @@ For additional information check the [edit](/api/web/scheduler#events-edit) even
 Fired when the user starts to drag an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [moveStart](/api/web/scheduler#events-moveStart) event documentation.
+For additional information check the [moveStart](/kendo-ui/api/web/scheduler#events-moveStart) event documentation.
 
 #### Example
     <kendo:scheduler moveStart="handle_moveStart">
@@ -426,7 +426,7 @@ For additional information check the [moveStart](/api/web/scheduler#events-moveS
 Fired when the user is moving an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [move](/api/web/scheduler#events-move) event documentation.
+For additional information check the [move](/kendo-ui/api/web/scheduler#events-move) event documentation.
 
 #### Example
     <kendo:scheduler move="handle_move">
@@ -442,7 +442,7 @@ For additional information check the [move](/api/web/scheduler#events-move) even
 Fired when the user stops moving an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd) event documentation.
+For additional information check the [moveEnd](/kendo-ui/api/web/scheduler#events-moveEnd) event documentation.
 
 #### Example
     <kendo:scheduler moveEnd="handle_moveEnd">
@@ -458,7 +458,7 @@ For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd
 Fired when the user changes selected date, view or of the schedulerThe event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [navigate](/api/web/scheduler#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/scheduler#events-navigate) event documentation.
 
 #### Example
     <kendo:scheduler navigate="handle_navigate">
@@ -474,7 +474,7 @@ For additional information check the [navigate](/api/web/scheduler#events-naviga
 Fired when the user clicks the "destroy" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [remove](/api/web/scheduler#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/scheduler#events-remove) event documentation.
 
 #### Example
     <kendo:scheduler remove="handle_remove">
@@ -490,7 +490,7 @@ For additional information check the [remove](/api/web/scheduler#events-remove) 
 Fired when the user starts to resize an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resizeStart](/api/web/scheduler#events-resizeStart) event documentation.
+For additional information check the [resizeStart](/kendo-ui/api/web/scheduler#events-resizeStart) event documentation.
 
 #### Example
     <kendo:scheduler resizeStart="handle_resizeStart">
@@ -506,7 +506,7 @@ For additional information check the [resizeStart](/api/web/scheduler#events-res
 Fired when the user is resizing an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resize](/api/web/scheduler#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/scheduler#events-resize) event documentation.
 
 #### Example
     <kendo:scheduler resize="handle_resize">
@@ -522,7 +522,7 @@ For additional information check the [resize](/api/web/scheduler#events-resize) 
 Fired when the user releases the mouse after resizing an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resizeEnd](/api/web/scheduler#events-resizeEnd) event documentation.
+For additional information check the [resizeEnd](/kendo-ui/api/web/scheduler#events-resizeEnd) event documentation.
 
 #### Example
     <kendo:scheduler resizeEnd="handle_resizeEnd">
@@ -538,7 +538,7 @@ For additional information check the [resizeEnd](/api/web/scheduler#events-resiz
 Fired when the user saves a scheduler event by clicking the "save" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [save](/api/web/scheduler#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/scheduler#events-save) event documentation.
 
 #### Example
     <kendo:scheduler save="handle_save">
@@ -556,7 +556,7 @@ For additional information check the [save](/api/web/scheduler#events-save) even
 Fired when the a new event is about to be added.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [add](/api/web/scheduler#events-add) event documentation.
+For additional information check the [add](/kendo-ui/api/web/scheduler#events-add) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -574,7 +574,7 @@ For additional information check the [add](/api/web/scheduler#events-add) event 
 Fired when the user cancels editing by clicking the "cancel" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [cancel](/api/web/scheduler#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/scheduler#events-cancel) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -592,7 +592,7 @@ For additional information check the [cancel](/api/web/scheduler#events-cancel) 
 Fired when the user selects a cell or event in the scheduler.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/scheduler#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/scheduler#events-change) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -610,7 +610,7 @@ For additional information check the [change](/api/web/scheduler#events-change) 
 Fired before the widget binds to its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBinding](/api/web/scheduler#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/scheduler#events-dataBinding) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -628,7 +628,7 @@ For additional information check the [dataBinding](/api/web/scheduler#events-dat
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/scheduler#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/scheduler#events-dataBound) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -646,7 +646,7 @@ For additional information check the [dataBound](/api/web/scheduler#events-dataB
 Fired when the user opens a scheduler event in edit mode by or creates a new event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [edit](/api/web/scheduler#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/scheduler#events-edit) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -664,7 +664,7 @@ For additional information check the [edit](/api/web/scheduler#events-edit) even
 Fired when the user starts to drag an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [moveStart](/api/web/scheduler#events-moveStart) event documentation.
+For additional information check the [moveStart](/kendo-ui/api/web/scheduler#events-moveStart) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -682,7 +682,7 @@ For additional information check the [moveStart](/api/web/scheduler#events-moveS
 Fired when the user is moving an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [move](/api/web/scheduler#events-move) event documentation.
+For additional information check the [move](/kendo-ui/api/web/scheduler#events-move) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -700,7 +700,7 @@ For additional information check the [move](/api/web/scheduler#events-move) even
 Fired when the user stops moving an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd) event documentation.
+For additional information check the [moveEnd](/kendo-ui/api/web/scheduler#events-moveEnd) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -718,7 +718,7 @@ For additional information check the [moveEnd](/api/web/scheduler#events-moveEnd
 Fired when the user changes selected date, view or of the schedulerThe event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [navigate](/api/web/scheduler#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/scheduler#events-navigate) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -736,7 +736,7 @@ For additional information check the [navigate](/api/web/scheduler#events-naviga
 Fired when the user clicks the "destroy" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [remove](/api/web/scheduler#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/scheduler#events-remove) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -754,7 +754,7 @@ For additional information check the [remove](/api/web/scheduler#events-remove) 
 Fired when the user starts to resize an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resizeStart](/api/web/scheduler#events-resizeStart) event documentation.
+For additional information check the [resizeStart](/kendo-ui/api/web/scheduler#events-resizeStart) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -772,7 +772,7 @@ For additional information check the [resizeStart](/api/web/scheduler#events-res
 Fired when the user is resizing an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resize](/api/web/scheduler#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/scheduler#events-resize) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -790,7 +790,7 @@ For additional information check the [resize](/api/web/scheduler#events-resize) 
 Fired when the user releases the mouse after resizing an event.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [resizeEnd](/api/web/scheduler#events-resizeEnd) event documentation.
+For additional information check the [resizeEnd](/kendo-ui/api/web/scheduler#events-resizeEnd) event documentation.
 
 #### Example
     <kendo:scheduler>
@@ -808,7 +808,7 @@ For additional information check the [resizeEnd](/api/web/scheduler#events-resiz
 Fired when the user saves a scheduler event by clicking the "save" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [save](/api/web/scheduler#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/scheduler#events-save) event documentation.
 
 #### Example
     <kendo:scheduler>

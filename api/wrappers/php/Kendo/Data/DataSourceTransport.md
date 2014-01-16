@@ -39,7 +39,7 @@ The configuration used when the data source saves newly created data items. Thos
     ?>
 
 
-#### Example - using [\Kendo\Data\DataSourceTransportCreate](/api/wrappers/php/Kendo/Data/DataSourceTransportCreate)
+#### Example - using [\Kendo\Data\DataSourceTransportCreate](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportCreate)
     <?php
     $transport = new \Kendo\Data\DataSourceTransport();
     $create = new \Kendo\Data\DataSourceTransportCreate();
@@ -83,7 +83,7 @@ The configuration used when the data source destroys data items. Those are items
     ?>
 
 
-#### Example - using [\Kendo\Data\DataSourceTransportDestroy](/api/wrappers/php/Kendo/Data/DataSourceTransportDestroy)
+#### Example - using [\Kendo\Data\DataSourceTransportDestroy](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportDestroy)
     <?php
     $transport = new \Kendo\Data\DataSourceTransport();
     $destroy = new \Kendo\Data\DataSourceTransportDestroy();
@@ -146,7 +146,7 @@ The configuration used when the data source loads data items from a remote servi
     ?>
 
 
-#### Example - using [\Kendo\Data\DataSourceTransportRead](/api/wrappers/php/Kendo/Data/DataSourceTransportRead)
+#### Example - using [\Kendo\Data\DataSourceTransportRead](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportRead)
     <?php
     $transport = new \Kendo\Data\DataSourceTransport();
     $read = new \Kendo\Data\DataSourceTransportRead();
@@ -190,7 +190,7 @@ The configuration used when the data source saves updated data items. Those are 
     ?>
 
 
-#### Example - using [\Kendo\Data\DataSourceTransportUpdate](/api/wrappers/php/Kendo/Data/DataSourceTransportUpdate)
+#### Example - using [\Kendo\Data\DataSourceTransportUpdate](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportUpdate)
     <?php
     $transport = new \Kendo\Data\DataSourceTransport();
     $update = new \Kendo\Data\DataSourceTransportUpdate();

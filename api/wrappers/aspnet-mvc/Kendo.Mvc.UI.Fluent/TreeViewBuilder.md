@@ -101,7 +101,7 @@ Configures rendering of checkboxes in the treeview.
 
 #### Parameters
 
-##### configure System.Action<[Kendo.Mvc.UI.Fluent.TreeViewCheckboxesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewCheckboxesBuilder)>
+##### configure System.Action<[Kendo.Mvc.UI.Fluent.TreeViewCheckboxesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewCheckboxesBuilder)>
 Builder of the treeview checkboxes configuration.
 
 
@@ -122,7 +122,7 @@ Defines the items in the TreeView
 
 #### Parameters
 
-##### addAction System.Action<[Kendo.Mvc.UI.Fluent.TreeViewItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewItemFactory)>
+##### addAction System.Action<[Kendo.Mvc.UI.Fluent.TreeViewItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewItemFactory)>
 The add action.
 
 
@@ -145,7 +145,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.TreeViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.TreeViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/TreeViewEventBuilder)>
 The client events action.
 
 
@@ -170,7 +170,7 @@ Binds the TreeView to a sitemap
 ##### viewDataKey `System.String`
 The view data key.
 
-##### siteMapAction System.Action<[Kendo.Mvc.UI.TreeViewItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem),Kendo.Mvc.SiteMapNode>
+##### siteMapAction System.Action<[Kendo.Mvc.UI.TreeViewItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem),Kendo.Mvc.SiteMapNode>
 The action to configure the item.
 
 
@@ -211,7 +211,7 @@ Binds the TreeView to a list of items.
 
 #### Parameters
 
-##### items System.Collections.Generic.IEnumerable<[Kendo.Mvc.UI.TreeViewItemModel](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItemModel)>
+##### items System.Collections.Generic.IEnumerable<[Kendo.Mvc.UI.TreeViewItemModel](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItemModel)>
 The list of items
 
 
@@ -234,7 +234,7 @@ Binds the TreeView to a list of objects. The TreeView will be "flat" which means
 ##### dataSource `System.Collections.Generic.IEnumerable<T1>`
 The data source.
 
-##### itemDataBound System.Action<[Kendo.Mvc.UI.TreeViewItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem),T1>
+##### itemDataBound System.Action<[Kendo.Mvc.UI.TreeViewItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem),T1>
 The action executed for every data bound item.
 
 
@@ -259,7 +259,7 @@ Binds the TreeView to a list of objects. The TreeView will create a hierarchy of
 ##### dataSource `System.Collections.IEnumerable`
 The data source.
 
-##### factoryAction System.Action<[Kendo.Mvc.UI.Fluent.NavigationBindingFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/NavigationBindingFactory)<Kendo.Mvc.UI.TreeViewItem>>
+##### factoryAction System.Action<[Kendo.Mvc.UI.Fluent.NavigationBindingFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/NavigationBindingFactory)<Kendo.Mvc.UI.TreeViewItem>>
 The action which will configure the mappings
 
 
@@ -287,7 +287,7 @@ Callback for each item.
 
 #### Parameters
 
-##### action System.Action<[Kendo.Mvc.UI.TreeViewItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem)>
+##### action System.Action<[Kendo.Mvc.UI.TreeViewItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/TreeViewItem)>
 Action, which will be executed for each item.
 
 
@@ -349,7 +349,7 @@ Configures the animation effects of the widget.
 
 #### Parameters
 
-##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.ExpandableAnimationBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ExpandableAnimationBuilder)>
+##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.ExpandableAnimationBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ExpandableAnimationBuilder)>
 The action which configures the animation effects.
 
 
@@ -436,7 +436,7 @@ Defines the security trimming functionality of the component
 
 #### Parameters
 
-##### securityTrimmingAction System.Action<[Kendo.Mvc.UI.SecurityTrimmingBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SecurityTrimmingBuilder)>
+##### securityTrimmingAction System.Action<[Kendo.Mvc.UI.SecurityTrimmingBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SecurityTrimmingBuilder)>
 The securityTrimming action.
 
 
@@ -534,7 +534,7 @@ Configure the DataSource of the component
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyDataSourceBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyDataSourceBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyDataSourceBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyDataSourceBuilder)>
 The action that configures the M:Kendo.Mvc.UI.Fluent.TreeViewBuilder.DataSource(System.Action{Kendo.Mvc.UI.Fluent.ReadOnlyDataSourceBuilder}).
 
 

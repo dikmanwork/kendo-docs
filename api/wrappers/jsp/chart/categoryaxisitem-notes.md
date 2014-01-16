@@ -31,7 +31,7 @@ The position of the category axis note.
 
 The items of the notes.
 
-More documentation is available at [kendo:chart-categoryAxisItem-notes-data](/api/wrappers/jsp/chart/categoryaxisitem-notes-data).
+More documentation is available at [kendo:chart-categoryAxisItem-notes-data](/kendo-ui/api/wrappers/jsp/chart/categoryaxisitem-notes-data).
 
 #### Example
 
@@ -43,7 +43,7 @@ More documentation is available at [kendo:chart-categoryAxisItem-notes-data](/ap
 
 The icon of the notes.
 
-More documentation is available at [kendo:chart-categoryAxisItem-notes-icon](/api/wrappers/jsp/chart/categoryaxisitem-notes-icon).
+More documentation is available at [kendo:chart-categoryAxisItem-notes-icon](/kendo-ui/api/wrappers/jsp/chart/categoryaxisitem-notes-icon).
 
 #### Example
 
@@ -55,7 +55,7 @@ More documentation is available at [kendo:chart-categoryAxisItem-notes-icon](/ap
 
 The label of the notes.
 
-More documentation is available at [kendo:chart-categoryAxisItem-notes-label](/api/wrappers/jsp/chart/categoryaxisitem-notes-label).
+More documentation is available at [kendo:chart-categoryAxisItem-notes-label](/kendo-ui/api/wrappers/jsp/chart/categoryaxisitem-notes-label).
 
 #### Example
 
@@ -67,7 +67,7 @@ More documentation is available at [kendo:chart-categoryAxisItem-notes-label](/a
 
 The line of the notes.
 
-More documentation is available at [kendo:chart-categoryAxisItem-notes-line](/api/wrappers/jsp/chart/categoryaxisitem-notes-line).
+More documentation is available at [kendo:chart-categoryAxisItem-notes-line](/kendo-ui/api/wrappers/jsp/chart/categoryaxisitem-notes-line).
 
 #### Example
 

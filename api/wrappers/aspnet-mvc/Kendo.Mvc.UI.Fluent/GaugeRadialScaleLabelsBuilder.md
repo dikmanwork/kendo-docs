@@ -17,7 +17,7 @@ Sets the labels position
 
 #### Parameters
 
-##### position [Kendo.Mvc.UI.GaugeRadialScaleLabelsPosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/GaugeRadialScaleLabelsPosition)
+##### position [Kendo.Mvc.UI.GaugeRadialScaleLabelsPosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/GaugeRadialScaleLabelsPosition)
 The labels position.
 
 

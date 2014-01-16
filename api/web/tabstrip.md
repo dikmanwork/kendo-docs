@@ -10,7 +10,7 @@ publish: true
 
 # kendo.ui.TabStrip
 
-Represents the Kendo UI TabStrip. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI TabStrip. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 

@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobilePopOver for ASP.NET MVC e
 ### Close(`System.String`)
 Fires when popover is closed.
 
-For additional information check the [close](/api/web/mobilepopover#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/mobilepopover#events-close) event documentation.
 
 
 #### Parameters
@@ -29,7 +29,7 @@ The name of the JavaScript function that will handle the close event.
 ### Open(`System.String`)
 Fires when popover is opened.
 
-For additional information check the [open](/api/web/mobilepopover#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/mobilepopover#events-open) event documentation.
 
 
 #### Parameters

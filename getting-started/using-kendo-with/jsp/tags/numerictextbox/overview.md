@@ -6,13 +6,13 @@ publish: true
 
 # NumericTextBox
 
-The NumericTextBox JSP tag is a server-side wrapper for the [Kendo UI NumericTextBox](/api/web/numerictextbox) widget.
+The NumericTextBox JSP tag is a server-side wrapper for the [Kendo UI NumericTextBox](/kendo-ui/api/web/numerictextbox) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo NumericTextBox:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -34,7 +34,7 @@ Here is how to configure a simple Kendo NumericTextBox:
 ## Accessing an Existing NumericTextBox
 
 You can reference an existing NumericTextBox instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/numerictextbox#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/numerictextbox#methods) to control its behavior.
 
 ### Accessing an existing NumericTextBox instance
 
@@ -48,7 +48,7 @@ Once a reference has been established, you can use the [API](/api/web/numerictex
 
 ## Handling Kendo UI NumericTextBox events
 
-You can subscribe to all [events](/api/web/numerictextbox#events) exposed by Kendo UI NumericTextBox:
+You can subscribe to all [events](/kendo-ui/api/web/numerictextbox#events) exposed by Kendo UI NumericTextBox:
 
 ### Subscribe by handler name
 

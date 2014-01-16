@@ -24,7 +24,7 @@ user interactions. Setting this option to false will disable all animations.
 
 The visual animation(s) that will be used when the current tab is closed.
 
-More documentation is available at [kendo:tabStrip-animation-close](/api/wrappers/jsp/tabstrip/animation-close).
+More documentation is available at [kendo:tabStrip-animation-close](/kendo-ui/api/wrappers/jsp/tabstrip/animation-close).
 
 #### Example
 
@@ -36,7 +36,7 @@ More documentation is available at [kendo:tabStrip-animation-close](/api/wrapper
 
 The visual animation(s) that will be used when the new tab is shown.
 
-More documentation is available at [kendo:tabStrip-animation-open](/api/wrappers/jsp/tabstrip/animation-open).
+More documentation is available at [kendo:tabStrip-animation-open](/kendo-ui/api/wrappers/jsp/tabstrip/animation-open).
 
 #### Example
 

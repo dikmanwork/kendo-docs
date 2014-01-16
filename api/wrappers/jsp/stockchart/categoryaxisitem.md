@@ -185,7 +185,7 @@ The discrete categoryAxis.baseUnitStep values when
 either categoryAxis.baseUnit is set to "fit" or
 categoryAxis.baseUnitStep is set to "auto".
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-autoBaseUnitSteps](/api/wrappers/jsp/stockchart/categoryaxisitem-autobaseunitsteps).
+More documentation is available at [kendo:stockChart-categoryAxisItem-autoBaseUnitSteps](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-autobaseunitsteps).
 
 #### Example
 
@@ -197,7 +197,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-autoBaseUn
 
 The crosshair configuration options.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-crosshair](/api/wrappers/jsp/stockchart/categoryaxisitem-crosshair).
+More documentation is available at [kendo:stockChart-categoryAxisItem-crosshair](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-crosshair).
 
 #### Example
 
@@ -209,7 +209,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-crosshair]
 
 Configures the axis labels.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-labels](/api/wrappers/jsp/stockchart/categoryaxisitem-labels).
+More documentation is available at [kendo:stockChart-categoryAxisItem-labels](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-labels).
 
 #### Example
 
@@ -221,7 +221,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-labels](/a
 
 Configures the axis line. This will also effect major and minor ticks, but not gridlines.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-line](/api/wrappers/jsp/stockchart/categoryaxisitem-line).
+More documentation is available at [kendo:stockChart-categoryAxisItem-line](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-line).
 
 #### Example
 
@@ -234,7 +234,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-line](/api
 Configures the major grid lines. These are the lines that are an extension of the major ticks through the
 body of the chart.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-majorGridLines](/api/wrappers/jsp/stockchart/categoryaxisitem-majorgridlines).
+More documentation is available at [kendo:stockChart-categoryAxisItem-majorGridLines](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-majorgridlines).
 
 #### Example
 
@@ -246,7 +246,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-majorGridL
 
 The major ticks of the axis.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-majorTicks](/api/wrappers/jsp/stockchart/categoryaxisitem-majorticks).
+More documentation is available at [kendo:stockChart-categoryAxisItem-majorTicks](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-majorticks).
 
 #### Example
 
@@ -259,7 +259,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-majorTicks
 Configures the minor grid lines.  These are the lines that are an extension of the minor ticks through
 the body of the chart.Note that minor grid lines are not visible by default, therefore none of these settings will take effect with the minor grid lines visibility being set to true.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-minorGridLines](/api/wrappers/jsp/stockchart/categoryaxisitem-minorgridlines).
+More documentation is available at [kendo:stockChart-categoryAxisItem-minorGridLines](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-minorgridlines).
 
 #### Example
 
@@ -271,7 +271,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-minorGridL
 
 The minor ticks of the axis.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-minorTicks](/api/wrappers/jsp/stockchart/categoryaxisitem-minorticks).
+More documentation is available at [kendo:stockChart-categoryAxisItem-minorTicks](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-minorticks).
 
 #### Example
 
@@ -283,7 +283,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-minorTicks
 
 The category axis notes configuration.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-notes](/api/wrappers/jsp/stockchart/categoryaxisitem-notes).
+More documentation is available at [kendo:stockChart-categoryAxisItem-notes](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-notes).
 
 #### Example
 
@@ -295,7 +295,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-notes](/ap
 
 The plot bands of the category axis.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-plotBands](/api/wrappers/jsp/stockchart/categoryaxisitem-plotbands).
+More documentation is available at [kendo:stockChart-categoryAxisItem-plotBands](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-plotbands).
 
 #### Example
 
@@ -307,7 +307,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-plotBands]
 
 The selected axis range. If configured, axis selection will be enabled.** Available only for vertical axes **The range units are:
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-select](/api/wrappers/jsp/stockchart/categoryaxisitem-select).
+More documentation is available at [kendo:stockChart-categoryAxisItem-select](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-select).
 
 #### Example
 
@@ -319,7 +319,7 @@ More documentation is available at [kendo:stockChart-categoryAxisItem-select](/a
 
 The title of the category axis.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-title](/api/wrappers/jsp/stockchart/categoryaxisitem-title).
+More documentation is available at [kendo:stockChart-categoryAxisItem-title](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-title).
 
 #### Example
 

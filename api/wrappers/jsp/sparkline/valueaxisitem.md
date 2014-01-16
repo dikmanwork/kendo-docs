@@ -108,7 +108,7 @@ The visibility of the axis.
 
 The crosshair configuration options.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-crosshair](/api/wrappers/jsp/sparkline/valueaxisitem-crosshair).
+More documentation is available at [kendo:sparkline-valueAxisItem-crosshair](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-crosshair).
 
 #### Example
 
@@ -120,7 +120,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-crosshair](/ap
 
 Configures the axis labels.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-labels](/api/wrappers/jsp/sparkline/valueaxisitem-labels).
+More documentation is available at [kendo:sparkline-valueAxisItem-labels](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-labels).
 
 #### Example
 
@@ -132,7 +132,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-labels](/api/w
 
 Configures the axis line. This will also affect the major and minor ticks, but not the grid lines.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-line](/api/wrappers/jsp/sparkline/valueaxisitem-line).
+More documentation is available at [kendo:sparkline-valueAxisItem-line](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-line).
 
 #### Example
 
@@ -145,7 +145,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-line](/api/wra
 Configures the major grid lines. These are the lines that are an extension of the major ticks through the
 body of the chart.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-majorGridLines](/api/wrappers/jsp/sparkline/valueaxisitem-majorgridlines).
+More documentation is available at [kendo:sparkline-valueAxisItem-majorGridLines](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-majorgridlines).
 
 #### Example
 
@@ -157,7 +157,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-majorGridLines
 
 The major ticks of the axis.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-majorTicks](/api/wrappers/jsp/sparkline/valueaxisitem-majorticks).
+More documentation is available at [kendo:sparkline-valueAxisItem-majorTicks](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-majorticks).
 
 #### Example
 
@@ -169,7 +169,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-majorTicks](/a
 
 Configures the minor grid lines.  These are the lines that are an extension of the minor ticks through the
 
-More documentation is available at [kendo:sparkline-valueAxisItem-minorGridLines](/api/wrappers/jsp/sparkline/valueaxisitem-minorgridlines).
+More documentation is available at [kendo:sparkline-valueAxisItem-minorGridLines](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-minorgridlines).
 
 #### Example
 
@@ -181,7 +181,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-minorGridLines
 
 The minor ticks of the axis.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-minorTicks](/api/wrappers/jsp/sparkline/valueaxisitem-minorticks).
+More documentation is available at [kendo:sparkline-valueAxisItem-minorTicks](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-minorticks).
 
 #### Example
 
@@ -193,7 +193,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-minorTicks](/a
 
 The value axis notes configuration.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-notes](/api/wrappers/jsp/sparkline/valueaxisitem-notes).
+More documentation is available at [kendo:sparkline-valueAxisItem-notes](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-notes).
 
 #### Example
 
@@ -205,7 +205,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-notes](/api/wr
 
 The plot bands of the value axis.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-plotBands](/api/wrappers/jsp/sparkline/valueaxisitem-plotbands).
+More documentation is available at [kendo:sparkline-valueAxisItem-plotBands](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-plotbands).
 
 #### Example
 
@@ -217,7 +217,7 @@ More documentation is available at [kendo:sparkline-valueAxisItem-plotBands](/ap
 
 The title of the value axis.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-title](/api/wrappers/jsp/sparkline/valueaxisitem-title).
+More documentation is available at [kendo:sparkline-valueAxisItem-title](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-title).
 
 #### Example
 

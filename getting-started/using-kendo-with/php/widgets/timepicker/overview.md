@@ -9,14 +9,14 @@ relatedDocs: php-ui-timepicker
 
 # Timepicker
 
-The Kendo TimePicker for PHP is a server-side wrapper for the [Kendo UI TimePicker](/api/web/timepicker) widget.
+The Kendo TimePicker for PHP is a server-side wrapper for the [Kendo UI TimePicker](/kendo-ui/api/web/timepicker) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Timepicker:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-1. Create a [timepicker](/api/wrappers/php/Kendo/UI/TimePicker).
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Create a [timepicker](/kendo-ui/api/wrappers/php/Kendo/UI/TimePicker).
 
         <?php
         $timePicker = new \Kendo\UI\TimePicker('timepicker');
@@ -24,7 +24,7 @@ Here is how to configure a simple Kendo Timepicker:
         $timePicker->value('10:00 AM');
         ?>
 
-1. Output the timepicker by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the timepicker by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $timePicker->render();
@@ -33,7 +33,7 @@ Here is how to configure a simple Kendo Timepicker:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo TimePicker instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/timepicker#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/timepicker#methods) to control its behavior.
 
 ### Example
 
@@ -50,7 +50,7 @@ Once a reference has been established, you can use the [API](/api/web/timepicker
 
 ## Handling Events
 
-You can subscribe to all timepicker [events](/api/web/timepicker#events).
+You can subscribe to all timepicker [events](/kendo-ui/api/web/timepicker#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

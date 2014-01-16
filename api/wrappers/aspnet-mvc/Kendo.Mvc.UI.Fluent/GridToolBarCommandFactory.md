@@ -67,7 +67,7 @@ Sets the toolbar template.
 
 #### Parameters
 
-##### template System.Action<[Kendo.Mvc.UI.Grid](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/Grid)<T>>
+##### template System.Action<[Kendo.Mvc.UI.Grid](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/Grid)<T>>
 The action defining the template.
 
 
@@ -80,7 +80,7 @@ Sets the toolbar template.
 
 #### Parameters
 
-##### template System.Func<[Kendo.Mvc.UI.Grid](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/Grid)<T>,System.Object>
+##### template System.Func<[Kendo.Mvc.UI.Grid](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/Grid)<T>,System.Object>
 The action defining the template.
 
 

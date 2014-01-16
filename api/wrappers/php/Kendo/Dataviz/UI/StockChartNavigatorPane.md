@@ -42,7 +42,7 @@ The border of the navigator pane.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorPaneBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneBorder](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneBorder)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneBorder)
     <?php
     $pane = new \Kendo\Dataviz\UI\StockChartNavigatorPane();
     $border = new \Kendo\Dataviz\UI\StockChartNavigatorPaneBorder();
@@ -98,7 +98,7 @@ The margin of the pane. A numeric value will set all margins.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneMargin](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneMargin)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneMargin)
     <?php
     $pane = new \Kendo\Dataviz\UI\StockChartNavigatorPane();
     $margin = new \Kendo\Dataviz\UI\StockChartNavigatorPaneMargin();
@@ -154,7 +154,7 @@ The padding of the pane. A numeric value will set all paddings.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPanePadding](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPanePadding)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPanePadding](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPanePadding)
     <?php
     $pane = new \Kendo\Dataviz\UI\StockChartNavigatorPane();
     $padding = new \Kendo\Dataviz\UI\StockChartNavigatorPanePadding();
@@ -192,7 +192,7 @@ The title configuration of the navigator pane.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneTitle](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneTitle)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorPaneTitle](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorPaneTitle)
     <?php
     $pane = new \Kendo\Dataviz\UI\StockChartNavigatorPane();
     $title = new \Kendo\Dataviz\UI\StockChartNavigatorPaneTitle();

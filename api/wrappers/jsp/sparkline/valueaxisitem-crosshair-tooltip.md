@@ -80,7 +80,7 @@ A value indicating if the tooltip should be displayed.
 
 The border configuration options.
 
-More documentation is available at [kendo:sparkline-valueAxisItem-crosshair-tooltip-border](/api/wrappers/jsp/sparkline/valueaxisitem-crosshair-tooltip-border).
+More documentation is available at [kendo:sparkline-valueAxisItem-crosshair-tooltip-border](/kendo-ui/api/wrappers/jsp/sparkline/valueaxisitem-crosshair-tooltip-border).
 
 #### Example
 

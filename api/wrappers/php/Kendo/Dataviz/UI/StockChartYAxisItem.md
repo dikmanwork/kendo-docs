@@ -93,7 +93,7 @@ The crosshair configuration options.
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemCrosshair|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemCrosshair](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemCrosshair)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemCrosshair](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemCrosshair)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $crosshair = new \Kendo\Dataviz\UI\StockChartYAxisItemCrosshair();
@@ -122,7 +122,7 @@ Configures the axis labels.
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemLabels](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemLabels)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemLabels)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $labels = new \Kendo\Dataviz\UI\StockChartYAxisItemLabels();
@@ -151,7 +151,7 @@ Configures the axis line. This will also affect the major and minor ticks, but n
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemLine|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemLine](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemLine)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemLine](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemLine)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $line = new \Kendo\Dataviz\UI\StockChartYAxisItemLine();
@@ -181,7 +181,7 @@ body of the chart.
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemMajorGridLines|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemMajorGridLines](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemMajorGridLines)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemMajorGridLines](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemMajorGridLines)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $majorGridLines = new \Kendo\Dataviz\UI\StockChartYAxisItemMajorGridLines();
@@ -210,7 +210,7 @@ The major ticks of the axis.
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemMajorTicks|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemMajorTicks](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemMajorTicks)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemMajorTicks](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemMajorTicks)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $majorTicks = new \Kendo\Dataviz\UI\StockChartYAxisItemMajorTicks();
@@ -408,7 +408,7 @@ The title of the value axis.
 ##### $value `\Kendo\Dataviz\UI\StockChartYAxisItemTitle|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemTitle](/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemTitle)
+#### Example - using [\Kendo\Dataviz\UI\StockChartYAxisItemTitle](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartYAxisItemTitle)
     <?php
     $yAxisItem = new \Kendo\Dataviz\UI\StockChartYAxisItem();
     $title = new \Kendo\Dataviz\UI\StockChartYAxisItemTitle();

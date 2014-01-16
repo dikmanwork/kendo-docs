@@ -8,7 +8,7 @@ publish: true
 
 # Overview
 
-The HierarchicalDataSource component extends the [DataSource component](/api/framework/datasource), allowing
+The HierarchicalDataSource component extends the [DataSource component](/kendo-ui/api/framework/datasource), allowing
 representation of hierarchical data. This help topic assumes that you are familiar with the
 Kendo UI DataSource, and builds upon that knowledge with information that is specific to
 hierarchical data.
@@ -61,7 +61,7 @@ After executing `homogeneous.read()`, the service end-point is hit without a Emp
 
     => [ { "EmployeeId": 2, "Name": "Andrew", "HasEmployees": true } ]
 
-Reading the children of the returned item is achieved by calling the [`load` method](/api/framework/node#load) of the data item:
+Reading the children of the returned item is achieved by calling the [`load` method](/kendo-ui/api/framework/node#load) of the data item:
 
     var ceo = homogeneous.view()[0];
 
@@ -140,7 +140,7 @@ You can either hard-code it, map it to another property, or compute it with a fu
     });
 
 The configuration above creates a two-level HierarchicalDataSource (categories and products) that
-fetches data from two different end-points (/service/Categories and /service/Products, respectively).
+fetches data from two different end-points (/kendo-ui/service/Categories and /service/Products, respectively).
 
 ## Binding UI widgets to HierarchicalDataSource
 

@@ -63,7 +63,7 @@ Sets the line dashType.
 
 #### Parameters
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The line dashType.
 
 
@@ -109,7 +109,7 @@ Configures the style for line series.
 
 #### Parameters
 
-##### style [Kendo.Mvc.UI.ChartAreaStyle](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartAreaStyle)
+##### style [Kendo.Mvc.UI.ChartAreaStyle](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartAreaStyle)
 The style. The default is normal.
 
 

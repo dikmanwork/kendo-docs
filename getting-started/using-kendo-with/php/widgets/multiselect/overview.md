@@ -9,18 +9,18 @@ relatedDocs: php-ui-multiselect
 
 # MultiSelect
 
-The Kendo MultiSelect for PHP is a server-side wrapper for the [Kendo UI MultiSelect](/api/web/multiselect) widget.
+The Kendo MultiSelect for PHP is a server-side wrapper for the [Kendo UI MultiSelect](/kendo-ui/api/web/multiselect) widget.
 
 ## Getting Started
 
 There are two ways to bind Kendo MultiSelect for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/multiselect/local-binding) - the multiselect is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/multiselect/remote-binding) - the multiselect makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/multiselect/local-binding) - the multiselect is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/multiselect/remote-binding) - the multiselect makes AJAX requests and is bound to JSON result
 
 Here is how to configure the multiselect for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the multiselect will be bound to
 
         <?php
@@ -30,13 +30,13 @@ Here is how to configure the multiselect for local binding:
             array('name' => 'Jane Doe', 'age' => 27)
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
         $dataSource->data($data);
         ?>
-4. Create a [multiselect](/api/wrappers/php/Kendo/UI/MultiSelect).
+4. Create a [multiselect](/kendo-ui/api/wrappers/php/Kendo/UI/MultiSelect).
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
@@ -48,7 +48,7 @@ Here is how to configure the multiselect for local binding:
         $multiSelect->dataValueField('age');
         $multiSelect->value(array(27, 29));
         ?>
-5. Output the multiselect by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the multiselect by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $multiSelect->render();
@@ -75,7 +75,7 @@ This functionality is supported in Q1 SP1 2013 release and later versions of Ken
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo MultiSelect instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/multiselect#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/multiselect#methods) to control its behavior.
 
 
 ### Example
@@ -93,7 +93,7 @@ Once a reference has been established, you can use the [API](/api/web/multiselec
 
 ## Handling Events
 
-You can subscribe to all multiselect [events](/api/web/multiselect#events).
+You can subscribe to all multiselect [events](/kendo-ui/api/web/multiselect#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

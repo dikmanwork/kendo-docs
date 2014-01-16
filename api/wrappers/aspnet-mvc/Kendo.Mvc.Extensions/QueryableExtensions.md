@@ -20,7 +20,7 @@ Sorts the elements of a sequence using the specified sort descriptors.
 ##### source `System.Linq.IQueryable`
 A sequence of values to sort.
 
-##### sortDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.SortDescriptor](/api/wrappers/aspnet-mvc/Kendo.Mvc/SortDescriptor)>
+##### sortDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.SortDescriptor](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc/SortDescriptor)>
 The sort descriptors used for sorting.
 
 
@@ -163,7 +163,7 @@ Groups the elements of a sequence according to a specified .
 ##### source `System.Linq.IQueryable`
 An IQueryable whose elements to group.
 
-##### groupDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.GroupDescriptor](/api/wrappers/aspnet-mvc/Kendo.Mvc/GroupDescriptor)>
+##### groupDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.GroupDescriptor](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc/GroupDescriptor)>
 The group descriptors used for grouping.
 
 
@@ -184,7 +184,7 @@ Calculates the results of given aggregates functions on a sequence of elements.
 An IQueryable whose elements will 
             be used for aggregate calculation.
 
-##### aggregateFunctions System.Collections.Generic.IEnumerable<[Kendo.Mvc.AggregateFunction](/api/wrappers/aspnet-mvc/Kendo.Mvc/AggregateFunction)>
+##### aggregateFunctions System.Collections.Generic.IEnumerable<[Kendo.Mvc.AggregateFunction](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc/AggregateFunction)>
 The aggregate functions.
 
 
@@ -223,7 +223,7 @@ Filters a sequence of values based on a collection of IFilterDescriptor.
 ##### source `System.Linq.IQueryable`
 The source.
 
-##### filterDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.IFilterDescriptor](/api/wrappers/aspnet-mvc/Kendo.Mvc/IFilterDescriptor)>
+##### filterDescriptors System.Collections.Generic.IEnumerable<[Kendo.Mvc.IFilterDescriptor](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc/IFilterDescriptor)>
 The filter descriptors.
 
 

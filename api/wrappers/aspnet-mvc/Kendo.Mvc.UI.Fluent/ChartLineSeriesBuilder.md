@@ -37,7 +37,7 @@ Sets the aggregate function for date series.
 
 #### Parameters
 
-##### aggregate [Kendo.Mvc.UI.ChartSeriesAggregate](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartSeriesAggregate)
+##### aggregate [Kendo.Mvc.UI.ChartSeriesAggregate](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartSeriesAggregate)
 Aggregate function name.
 
 
@@ -56,7 +56,7 @@ Configures the line chart labels.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPointLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPointLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartPointLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartPointLabelsBuilder)>
 The configuration action.
 
 
@@ -123,7 +123,7 @@ Sets the line chart line dash type.
 
 #### Parameters
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The line dash type.
 
 
@@ -143,7 +143,7 @@ Configures the line chart markers.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartMarkersBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartMarkersBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartMarkersBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartMarkersBuilder)>
 The configuration action.
 
 
@@ -189,7 +189,7 @@ Configures the behavior for handling missing values in line series.
 
 #### Parameters
 
-##### missingValues [Kendo.Mvc.UI.ChartLineMissingValues](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLineMissingValues)
+##### missingValues [Kendo.Mvc.UI.ChartLineMissingValues](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLineMissingValues)
 The missing values behavior. The default is to leave gaps.
 
 
@@ -211,7 +211,7 @@ Configures the style for line series.
 
 #### Parameters
 
-##### style [Kendo.Mvc.UI.ChartLineStyle](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLineStyle)
+##### style [Kendo.Mvc.UI.ChartLineStyle](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLineStyle)
 The style. The default is normal.
 
 

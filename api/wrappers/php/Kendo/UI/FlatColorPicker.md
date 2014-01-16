@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\FlatColorPicker
 
-A PHP wrapper for Kendo UI [FlatColorPicker](/api/web/flatcolorpicker).
+A PHP wrapper for Kendo UI [FlatColorPicker](/kendo-ui/api/web/flatcolorpicker).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use FlatColorPicker in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo FlatColorPicker
 
@@ -73,7 +73,7 @@ Specifies whether the widget should display the Apply / Cancel buttons.
 
 ### change
 Triggers when a new color has been selected.
-For additional information check the [change](/api/web/flatcolorpicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/flatcolorpicker#events-change) event documentation.
 
 #### Returns
 `\Kendo\UI\FlatColorPicker`
@@ -100,7 +100,7 @@ For additional information check the [change](/api/web/flatcolorpicker#events-ch
     $flatColorPicker->change('onChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $flatColorPicker = new \Kendo\UI\FlatColorPicker('FlatColorPicker');

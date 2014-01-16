@@ -42,7 +42,7 @@ The border of the title.
 ##### $value `\Kendo\Dataviz\UI\ChartValueAxisItemTitleBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitleBorder](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitleBorder)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitleBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitleBorder)
     <?php
     $title = new \Kendo\Dataviz\UI\ChartValueAxisItemTitle();
     $border = new \Kendo\Dataviz\UI\ChartValueAxisItemTitleBorder();
@@ -116,7 +116,7 @@ The margin of the title. A numeric value will set all margins.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitleMargin](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitleMargin)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitleMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitleMargin)
     <?php
     $title = new \Kendo\Dataviz\UI\ChartValueAxisItemTitle();
     $margin = new \Kendo\Dataviz\UI\ChartValueAxisItemTitleMargin();
@@ -154,7 +154,7 @@ The padding of the title. A numeric value will set all paddings.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitlePadding](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitlePadding)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemTitlePadding](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemTitlePadding)
     <?php
     $title = new \Kendo\Dataviz\UI\ChartValueAxisItemTitle();
     $padding = new \Kendo\Dataviz\UI\ChartValueAxisItemTitlePadding();

@@ -70,9 +70,9 @@ You can configure a Kendo UI widget by passing a configuration object as an argu
     });
     </script>
 
-This example sets the [height](/api/web/grid#height-numberstring), [columns](/api/web/grid#columns-array) and [dataSource](/api/web/grid#datasource-kendodatadatasource--object) configuration options of the grid widget.
+This example sets the [height](/kendo-ui/api/web/grid#height-numberstring), [columns](/kendo-ui/api/web/grid#columns-array) and [dataSource](/kendo-ui/api/web/grid#datasource-kendodatadatasource--object) configuration options of the grid widget.
 
-> The [api](/api) documentation lists all configuration options supported by each Kendo UI widget.
+> The [api](/kendo-ui/api) documentation lists all configuration options supported by each Kendo UI widget.
 
 ## Getting reference to a Kendo UI widget
 
@@ -112,7 +112,7 @@ In some rare occasions, you may need to check whether a given DOM element is par
 	// 5. What is the Kendo UI widget name?
 	var widgetName = widgetObject.options.name;
 
-Here is some more information about the [kendo.widgetInstance method](/api/framework/kendo#methods-widgetInstance).
+Here is some more information about the [kendo.widgetInstance method](/kendo-ui/api/framework/kendo#methods-widgetInstance).
 
 ## Using the API of a Kendo UI widget
 
@@ -133,10 +133,10 @@ This example does the following:
 
 1. Initializes a Kendo AutoComplete widget.
 1. Gets a reference to the AutoComplete. The reference is required for invoking methods.
-1. Sets the value of the AutoComplete by invoking the [value](/api/web/autocomplete#value) method and passing the string `"Cherries"` as the argument.
-1. Gets the value of the AutoComplete by invoking the [value](/api/web/autocomplete#value) without arguments.
+1. Sets the value of the AutoComplete by invoking the [value](/kendo-ui/api/web/autocomplete#value) method and passing the string `"Cherries"` as the argument.
+1. Gets the value of the AutoComplete by invoking the [value](/kendo-ui/api/web/autocomplete#value) without arguments.
 
-> The [api](/api) documentation lists all methods supported by each Kendo UI widget.
+> The [api](/kendo-ui/api) documentation lists all methods supported by each Kendo UI widget.
 
 ## Subscribing to the events of a Kendo UI widget
 
@@ -174,7 +174,7 @@ This example initializes a Kendo AutoComplete widget and configures it to invoke
 This `autocomplete.bind("change", autocomplete_change)` statement attaches the `autocomplete_change` JavaScript function to the **change** event. As a result, the `autocomplete_change`
 function will be invoked when the **change** event is fired.
 
-> The [api](/api) documentation lists all events supported by each Kendo UI widget.
+> The [api](/kendo-ui/api) documentation lists all events supported by each Kendo UI widget.
 
 ### Event Handler
 
@@ -270,5 +270,5 @@ Kendo UI widgets are destroyed automatically when the web page is unloaded.
 		$("#grid").data("kendoGrid").destroy(); // destroy the Grid
 	</script>
 
-In addition to destroying a particular Kendo UI widget, the Kendo UI framework provides a [`kendo.destroy()` method](/api/framework/kendo#methods-destroy),
+In addition to destroying a particular Kendo UI widget, the Kendo UI framework provides a [`kendo.destroy()` method](/kendo-ui/api/framework/kendo#methods-destroy),
 which can destroy multiple widgets, which are placed inside a given container.

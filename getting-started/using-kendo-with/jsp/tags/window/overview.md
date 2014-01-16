@@ -6,13 +6,13 @@ publish: true
 
 # Window
 
-The Window JSP tag is a server-side wrapper for the [Kendo UI Window](/api/web/window) widget.
+The Window JSP tag is a server-side wrapper for the [Kendo UI Window](/kendo-ui/api/web/window) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Window:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -38,7 +38,7 @@ Here is how to configure a simple Kendo Window:
 ## Accessing an Existing Window
 
 You can reference an existing Window instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/window#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/window#methods) to control its behavior.
 
 ### Accessing an existing Window instance
 
@@ -60,7 +60,7 @@ You can load views asynchronously through the `content` attribute:
 
 ## Handling Kendo UI Window events
 
-You can subscribe to all [events](/api/web/window#events) exposed by Kendo UI Window:
+You can subscribe to all [events](/kendo-ui/api/web/window#events) exposed by Kendo UI Window:
 
 ### Subscribe by handler name
 

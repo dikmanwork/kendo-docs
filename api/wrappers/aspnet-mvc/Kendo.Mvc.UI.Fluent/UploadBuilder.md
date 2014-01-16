@@ -17,7 +17,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadEventBuilder)>
 The client events configuration action.
 
 
@@ -89,7 +89,7 @@ Use it to configure asynchronous uploading.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadAsyncSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadAsyncSettingsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadAsyncSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadAsyncSettingsBuilder)>
 Use builder to set different asynchronous uploading options.
 
 
@@ -111,7 +111,7 @@ Use it to configure asynchronous uploading.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadMessagesBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadMessagesBuilder)>
 Use builder to set different asynchronous uploading options.
 
 
@@ -167,7 +167,7 @@ Sets the initially rendered files
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadFileFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadFileFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.UploadFileFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/UploadFileFactory)>
 The lambda which configures initial files
 
 

@@ -43,7 +43,7 @@ The popup configuration options (tablet only)
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetPopupSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetPopupSettingsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetPopupSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetPopupSettingsBuilder)>
 The action that configures the popup.
 
 
@@ -56,7 +56,7 @@ Contains the items of the actionsheet widget
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetItemFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetItemFactory)>
 The action that configures the items.
 
 
@@ -69,7 +69,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileActionSheetEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileActionSheetEventBuilder)>
 The client events action.
 
 

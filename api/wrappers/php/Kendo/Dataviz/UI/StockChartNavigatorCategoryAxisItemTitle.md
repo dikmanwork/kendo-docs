@@ -42,7 +42,7 @@ The border of the title.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleBorder](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleBorder)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleBorder)
     <?php
     $title = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitle();
     $border = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleBorder();
@@ -116,7 +116,7 @@ The margin of the title. A numeric value will set all margins.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleMargin](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleMargin)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitleMargin)
     <?php
     $title = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitle();
     $margin = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitleMargin();
@@ -154,7 +154,7 @@ The padding of the title. A numeric value will set all paddings.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitlePadding](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitlePadding)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitlePadding](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorCategoryAxisItemTitlePadding)
     <?php
     $title = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitle();
     $padding = new \Kendo\Dataviz\UI\StockChartNavigatorCategoryAxisItemTitlePadding();

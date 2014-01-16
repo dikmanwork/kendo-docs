@@ -16,9 +16,9 @@ The Kendo UI Scheduler widget displays a set of events (a.k.a. appointments or t
 
 ## Getting Started
 
-The first steps are to include the Kendo UI JavaScript and CSS files. Those steps are described in detail in the [introduction](/getting-started/introduction#kendo-ui-web) help topic so we won't repeat them here.
-The next thing a Kendo UI Scheduler needs is a data source to be bound to. The scheduler uses a special type of Kendo UI DataSource - the [kendo.data.SchedulerDataSource](/api/framework/schedulerdatasource).
-The `SchedulerDataSource` contains instances of a custom Kendo UI model - [kendo.data.SchedulerEvent](/api/framework/schedulerevent) - which represent the scheduler event data items.
+The first steps are to include the Kendo UI JavaScript and CSS files. Those steps are described in detail in the [introduction](/kendo-ui/getting-started/introduction#kendo-ui-web) help topic so we won't repeat them here.
+The next thing a Kendo UI Scheduler needs is a data source to be bound to. The scheduler uses a special type of Kendo UI DataSource - the [kendo.data.SchedulerDataSource](/kendo-ui/api/framework/schedulerdatasource).
+The `SchedulerDataSource` contains instances of a custom Kendo UI model - [kendo.data.SchedulerEvent](/kendo-ui/api/framework/schedulerevent) - which represent the scheduler event data items.
 
 ## Binding to local JavaScript array
 
@@ -59,7 +59,7 @@ In most cases the Kendo UI Scheduler widget would be bound to a remote service w
 a demo remote service which returns sample scheduler events. That service uses [JSONP](http://en.wikipedia.org/wiki/JSONP) in order to support cross-domain requests.
 
 > The demo service uses JSONP in order to be accessible cross-domain. If your own service lives in the same domain as the web site you don't need to use JSONP - you can use JSON instead. More information
-about cross-domain requests can be found [here](/howto/use-cors-with-all-modern-browsers).
+about cross-domain requests can be found [here](/kendo-ui/howto/use-cors-with-all-modern-browsers).
 
 ### Example - binding to remote service
 
@@ -118,7 +118,7 @@ It is important to note how the fields of the scheduler event are configured (in
 
 When binding to a remote service the following are recommended (but not mandatory):
 
-1. Set the [timezone](/api/web/scheduler#configuration-timezone) option of the scheduler. It is used to tell the scheduler in what timezone the scheduler events are created and stored on the server. If the timezone is not
+1. Set the [timezone](/kendo-ui/api/web/scheduler#configuration-timezone) option of the scheduler. It is used to tell the scheduler in what timezone the scheduler events are created and stored on the server. If the timezone is not
 set the scheduler will use the current timezone. This means that users with different timezone settings will see different start and end timezones. Setting the timezone of the scheduler would make it display the same
 start and end times regardless of the current user timezone.
 1. Send the scheduler event date fields (start and end) in [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time) to the remote service. The `parameterMap` option from the previous example does the same:
@@ -191,7 +191,7 @@ Kendo UI Scheduler can display its events in different "views". The following vi
 - month - display the events in single month.
 - agenda - display the events from the current date till next week (7 days).
 
-The "day" and "week" views are enabled by default. To enable other views or configure them use the [views](/api/web/scheduler#configuration-views) option:
+The "day" and "week" views are enabled by default. To enable other views or configure them use the [views](/kendo-ui/api/web/scheduler#configuration-views) option:
 
 ### Example - enable all scheduler views
 
@@ -247,7 +247,7 @@ To get a reference to a Kendo UI Scheduler instance, use the jQuery `data` and p
 
 ## Using the API of Kendo UI Scheduler
 
-The scheduler widget exposes a set of [methods](/api/web/scheduler#methods) and [fields](/api/web/scheduler#fields) which the developer can use.
+The scheduler widget exposes a set of [methods](/kendo-ui/api/web/scheduler#methods) and [fields](/kendo-ui/api/web/scheduler#fields) which the developer can use.
 
 ### Example - using the API of Kendo UI Scheduler
 
@@ -271,7 +271,7 @@ The scheduler widget exposes a set of [methods](/api/web/scheduler#methods) and 
 
 ## Subscribing to the events of Kendo UI Scheduler
 
-The scheduler widget supports a set of [events](/api/web/scheduler#events) which the developer can subscribe to. There are two ways to handle events:
+The scheduler widget supports a set of [events](/kendo-ui/api/web/scheduler#events) which the developer can subscribe to. There are two ways to handle events:
 
 * Specify the JavaScript function which will handle the event during widget initialization.
 * Use the `bind` method of the widget.

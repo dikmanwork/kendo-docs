@@ -17,7 +17,7 @@ Defines the SplitView style - horizontal or vertical.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileSplitViewStyle](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileSplitViewStyle)
+##### value [Kendo.Mvc.UI.MobileSplitViewStyle](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileSplitViewStyle)
 The value that configures the style.
 
 
@@ -30,7 +30,7 @@ Contains the panes of the splitview widget
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSplitViewPaneFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSplitViewPaneFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSplitViewPaneFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSplitViewPaneFactory)>
 The action that configures the panes.
 
 
@@ -43,7 +43,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSplitViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSplitViewEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileSplitViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileSplitViewEventBuilder)>
 The client events action.
 
 

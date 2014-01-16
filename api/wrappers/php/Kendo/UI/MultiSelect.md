@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\MultiSelect
 
-A PHP wrapper for Kendo UI [MultiSelect](/api/web/multiselect).
+A PHP wrapper for Kendo UI [MultiSelect](/kendo-ui/api/web/multiselect).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use MultiSelect in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo MultiSelect
 
@@ -45,7 +45,7 @@ Configures the opening and closing animations of the suggestion popup. Setting t
 ##### $value `\Kendo\UI\MultiSelectAnimation|array`
 
 
-#### Example - using [\Kendo\UI\MultiSelectAnimation](/api/wrappers/php/Kendo/UI/MultiSelectAnimation)
+#### Example - using [\Kendo\UI\MultiSelectAnimation](/kendo-ui/api/wrappers/php/Kendo/UI/MultiSelectAnimation)
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
     $animation = new \Kendo\UI\MultiSelectAnimation();
@@ -100,7 +100,7 @@ Controls whether to close the widget suggestion list on item selection.
 
 ### change
 Fired when the value of the widget is changed by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [change](/api/web/multiselect#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/multiselect#events-change) event documentation.
 
 #### Returns
 `\Kendo\UI\MultiSelect`
@@ -127,7 +127,7 @@ For additional information check the [change](/api/web/multiselect#events-change
     $multiSelect->change('onChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
@@ -136,7 +136,7 @@ For additional information check the [change](/api/web/multiselect#events-change
 
 ### close
 Fired when the popup of the widget is closed.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [close](/api/web/multiselect#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/multiselect#events-close) event documentation.
 
 #### Returns
 `\Kendo\UI\MultiSelect`
@@ -163,7 +163,7 @@ For additional information check the [close](/api/web/multiselect#events-close) 
     $multiSelect->close('onClose');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
@@ -172,7 +172,7 @@ For additional information check the [close](/api/web/multiselect#events-close) 
 
 ### dataBound
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [dataBound](/api/web/multiselect#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/multiselect#events-dataBound) event documentation.
 
 #### Returns
 `\Kendo\UI\MultiSelect`
@@ -199,7 +199,7 @@ For additional information check the [dataBound](/api/web/multiselect#events-dat
     $multiSelect->dataBound('onDataBound');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
@@ -217,7 +217,7 @@ Sets the data source of the dataSource.
 
 ##### $value `\Kendo\Data\DataSource|array`
 
-#### Example - using [\Kendo\Data\DataSource](/api/wrappers/php/kendo/data/datasource)
+#### Example - using [\Kendo\Data\DataSource](/kendo-ui/api/wrappers/php/kendo/data/datasource)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
@@ -464,7 +464,7 @@ The minimum number of characters the user must type before a search is performed
 
 ### open
 Fired when the popup of the widget is opened by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [open](/api/web/multiselect#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/multiselect#events-open) event documentation.
 
 #### Returns
 `\Kendo\UI\MultiSelect`
@@ -491,7 +491,7 @@ For additional information check the [open](/api/web/multiselect#events-open) ev
     $multiSelect->open('onOpen');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');
@@ -518,7 +518,7 @@ The hint displayed by the widget when it is empty. Not set by default.
 
 ### select
 Fired when an item from the popup is selected by the user.
-For additional information check the [select](/api/web/multiselect#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/multiselect#events-select) event documentation.
 
 #### Returns
 `\Kendo\UI\MultiSelect`
@@ -545,7 +545,7 @@ For additional information check the [select](/api/web/multiselect#events-select
     $multiSelect->select('onSelect');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $multiSelect = new \Kendo\UI\MultiSelect('MultiSelect');

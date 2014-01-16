@@ -10,7 +10,7 @@ publish: true
 
 # kendo.ui.Editor
 
-Represents the Kendo UI Editor widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI Editor widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 
@@ -1519,9 +1519,9 @@ Fires when the user releases a keyboard key.
     <div id="words"></div>
     <script>
     function wordCount(value) {
-      return $.trim(value.replace(/<.*?>/g, " "))
-        .replace(/['";:,.?\-!]+/g, '')
-        .match(/\S+/g).length;
+      return $.trim(value.replace(/kendo-ui/<.*?>/g, " "))
+        .replace(/kendo-ui/['";:,.?\-!]+/g, '')
+        .match(/kendo-ui/\S+/g).length;
     }
 
     $("#editor").kendoEditor({

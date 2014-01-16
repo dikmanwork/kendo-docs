@@ -6,7 +6,7 @@ publish: true
 
 # Tooltip
 
-The Tooltip HtmlHelper extension is a server-side wrapper for the [Kendo UI Tooltip](/api/web/tooltip) widget.
+The Tooltip HtmlHelper extension is a server-side wrapper for the [Kendo UI Tooltip](/kendo-ui/api/web/tooltip) widget.
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ There are several ways to define content for the Kendo Tooltip for ASP.NET MVC:
 
 Here is how to configure the Kendo AutoComplete:
 
- 1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+ 1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
  2.  Create a new action method:
 
         public ActionResult Index()
@@ -49,7 +49,7 @@ Here is how to configure the Kendo AutoComplete:
 
 Here is how to configure the Kendo Tooltip:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -82,7 +82,7 @@ Here is how to configure the Kendo Tooltip:
 ## Accessing an Existing Tooltip
 
 You can reference an existing Tooltip instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/tooltip#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/tooltip#methods) to control its behavior.
 
 ### Accessing an existing Tooltip instance
 
@@ -97,7 +97,7 @@ Once a reference has been established, you can use the [API](/api/web/tooltip#me
 
 ## Handling Kendo UI Tooltip events
 
-You can subscribe to all [events](/api/web/tooltip#events) exposed by Kendo UI Tooltip:
+You can subscribe to all [events](/kendo-ui/api/web/tooltip#events) exposed by Kendo UI Tooltip:
 
 ### WebForms - subscribe by handler name
 

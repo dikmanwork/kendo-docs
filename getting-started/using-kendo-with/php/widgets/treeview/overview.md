@@ -9,15 +9,15 @@ relatedDocs: php-ui-treeview
 
 # TreeView
 
-The Kendo TreeView for PHP is a server-side wrapper for the [Kendo UI TreeView](/api/web/treeview) widget.
+The Kendo TreeView for PHP is a server-side wrapper for the [Kendo UI TreeView](/kendo-ui/api/web/treeview) widget.
 
 ## Getting Started
 
 Here is how to configure simple treeview:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 
-1. Create a [treeview](/api/wrappers/php/Kendo/UI/TreeView), configure its [items](/api/wrappers/php/Kendo/UI/TreeView#addItem).
+1. Create a [treeview](/kendo-ui/api/wrappers/php/Kendo/UI/TreeView), configure its [items](/kendo-ui/api/wrappers/php/Kendo/UI/TreeView#addItem).
 
         <?php
         $treeview = new \Kendo\UI\TreeView('treeview');
@@ -31,7 +31,7 @@ Here is how to configure simple treeview:
         $treeview->addItem($root);
         ?>
 
-1. Output the treeview by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the treeview by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $treeview->render();
@@ -40,7 +40,7 @@ Here is how to configure simple treeview:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo TreeView instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/treeview#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/treeview#methods) to control its behavior.
 
 
 ### Example
@@ -58,7 +58,7 @@ Once a reference has been established, you can use the [API](/api/web/treeview#m
 
 ## Handling Events
 
-You can subscribe to all treeview [events](/api/web/treeview#events).
+You can subscribe to all treeview [events](/kendo-ui/api/web/treeview#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

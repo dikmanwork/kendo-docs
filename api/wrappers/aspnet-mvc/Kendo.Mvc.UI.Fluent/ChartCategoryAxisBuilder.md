@@ -35,7 +35,7 @@ Overrides the category axis type.
 
 #### Parameters
 
-##### type [Kendo.Mvc.UI.ChartCategoryAxisType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartCategoryAxisType)
+##### type [Kendo.Mvc.UI.ChartCategoryAxisType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartCategoryAxisType)
 The axis type. The default is determined by the category items type.
 
 
@@ -185,7 +185,7 @@ Configures the selection
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartAxisSelectionBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartAxisSelectionBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartAxisSelectionBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartAxisSelectionBuilder)>
 The configuration action.
 
 

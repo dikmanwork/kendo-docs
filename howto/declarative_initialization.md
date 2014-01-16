@@ -51,33 +51,33 @@ the **h2**.
 
 But the question now becomes, what else can I bind and how do I do it?
 
-This is well documented in our [Getting Started](/getting-started/framework/mvvm/overview) section of the documentation.
+This is well documented in our [Getting Started](/kendo-ui/getting-started/framework/mvvm/overview) section of the documentation.
 On the *mvvm* section, you will find a high level explanation of how to
-bind with the Kendo UI MVVM framework.  Under the [Bindings](/getting-started/framework/mvvm/bindings/attr) sub-topic, you
+bind with the Kendo UI MVVM framework.  Under the [Bindings](/kendo-ui/getting-started/framework/mvvm/bindings/attr) sub-topic, you
 will find a complete list of what you can bind to.  For reference, I have
 included that list here as well.
 
-  * [Attr](/getting-started/framework/mvvm/bindings/attr)
+  * [Attr](/kendo-ui/getting-started/framework/mvvm/bindings/attr)
 
-  * [Checked](/getting-started/framework/mvvm/bindings/checked)
+  * [Checked](/kendo-ui/getting-started/framework/mvvm/bindings/checked)
 
-  * [Click](/getting-started/framework/mvvm/bindings/click)
+  * [Click](/kendo-ui/getting-started/framework/mvvm/bindings/click)
 
-  * [Disabled](/getting-started/framework/mvvm/bindings/disabled)
+  * [Disabled](/kendo-ui/getting-started/framework/mvvm/bindings/disabled)
 
-  * [Enabled](/getting-started/framework/mvvm/bindings/enabled)
+  * [Enabled](/kendo-ui/getting-started/framework/mvvm/bindings/enabled)
 
-  * [Events](/getting-started/framework/mvvm/bindings/events)
+  * [Events](/kendo-ui/getting-started/framework/mvvm/bindings/events)
 
-  * [Html](/getting-started/framework/mvvm/bindings/html)
+  * [Html](/kendo-ui/getting-started/framework/mvvm/bindings/html)
 
-  * [Source](/getting-started/framework/mvvm/bindings/source)
+  * [Source](/kendo-ui/getting-started/framework/mvvm/bindings/source)
 
-  * [Style](/getting-started/framework/mvvm/bindings/style)
+  * [Style](/kendo-ui/getting-started/framework/mvvm/bindings/style)
 
-  * [Text](/getting-started/framework/mvvm/bindings/text)
+  * [Text](/kendo-ui/getting-started/framework/mvvm/bindings/text)
 
-  * [Value](/getting-started/framework/mvvm/bindings/value)
+  * [Value](/kendo-ui/getting-started/framework/mvvm/bindings/value)
 
 We have provided samples with each of these binding declarations to help you
 understand how and when you can use them.
@@ -98,7 +98,7 @@ yourself in the above fiddle.
 
 Whenever you are referencing a css property that has a dash, you eliminate the
 dash and use lower camel case notation (i.e. fontSize instead of font-size) as
-is documented [here](/getting-started/framework/mvvm/bindings/style#using-style-attributes-which-contain-a-dash).
+is documented [here](/kendo-ui/getting-started/framework/mvvm/bindings/style#using-style-attributes-which-contain-a-dash).
 
 ## Declarative Initialization
 
@@ -181,7 +181,7 @@ provide a namespace for Kendo UI and then reference that namespace instead.
 
 It’s easy when you start using these bindings to try and guess what you can
 and can’t do.  Instead, refer to the docs for the MVVM framework bindings
-[here](/getting-started/framework/mvvm/overview), and the standard widget declarative bindings [here](/getting-started/framework/mvvm/bindings/attr).  When
+[here](/kendo-ui/getting-started/framework/mvvm/overview), and the standard widget declarative bindings [here](/kendo-ui/getting-started/framework/mvvm/bindings/attr).  When
 doing initialization of widgets using configuration attributes in the
 declarative bindings, simply look up the configuration values so you know what
 you can and can’t use to configure the widget.

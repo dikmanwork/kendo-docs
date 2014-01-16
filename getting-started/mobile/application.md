@@ -40,7 +40,7 @@ Each **immediate** child of the application element (`<body>` by default) with `
 is considered a mobile view.
 
 When a mobile View is initialized (the first time the user visits it), it initializes all Mobile, Web, and DataViz Kendo widgets it contains.
-Please refer to the [Data Attribute Initialization section](/getting-started/data-attribute-initialization) for more details regarding declarative widget initialization.
+Please refer to the [Data Attribute Initialization section](/kendo-ui/getting-started/data-attribute-initialization) for more details regarding declarative widget initialization.
 
 ### Mobile View with Mobile Button widget
 

@@ -19,7 +19,7 @@ returned by PDO.
 
 > The following demo is using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a PDO connection
 
         <?php
@@ -31,7 +31,7 @@ returned by PDO.
         $statement = $db->prepare('SELECT * FROM Products');
         $products = $statement->fetchAll(PDO::FETCH_ASSOC);
         ?>
-1. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data) and [schema](/api/wrappers/php/Kendo/Data/DataSource#schema). Setting the schema is required
+1. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data) and [schema](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#schema). Setting the schema is required
 to specify the model fields. Those fields are required for filtering.
 
         <?php
@@ -57,14 +57,14 @@ to specify the model fields. Those fields are required for filtering.
         $dataSource->data($products)
                    ->schema($schema);
         ?>
-4. Create a [autocomplete](/api/wrappers/php/Kendo/UI/AutoComplete), configure its [dataTextField](/api/wrappers/php/Kendo/UI/AutoComplete#datatextfield) option and set its [data source](/api/wrappers/php/Kendo/UI/AutoComplete#datasource).
+4. Create a [autocomplete](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete), configure its [dataTextField](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete#datatextfield) option and set its [data source](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete#datasource).
 
         <?php
         $autoComplete = new \Kendo\UI\AutoComplete('AutoComplete');
         $autoComplete->dataSource($dataSource);
         $autoComplete->dataTextField('ProductName');
         ?>
-5. Output the autocomplete by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the autocomplete by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $autoComplete->render();
@@ -76,7 +76,7 @@ to specify the model fields. Those fields are required for filtering.
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
 It is distributed with the **UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **UI for PHP** distribution.
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Copy **/wrappers/php/lib/DataSourceResult.php** to your web site root and include it.
 
         <?php require_once 'lib/DataSourceResult.php'; ?>

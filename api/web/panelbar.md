@@ -10,7 +10,7 @@ publish: true
 
 # kendo.ui.PanelBar
 
-Represents the Kendo UI PanelBar widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI PanelBar widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 

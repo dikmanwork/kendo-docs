@@ -30,7 +30,7 @@ The orientation of the group headers.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.SchedulerGroupOrientation](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SchedulerGroupOrientation)
+##### value [Kendo.Mvc.UI.SchedulerGroupOrientation](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SchedulerGroupOrientation)
 The orientation
 
 

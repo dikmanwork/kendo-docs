@@ -17,7 +17,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.SimpleColorPickerEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SimpleColorPickerEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.SimpleColorPickerEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SimpleColorPickerEventBuilder)>
 The client events action.
 
 
@@ -95,7 +95,7 @@ Sets the size of the palette tiles
 
 #### Parameters
 
-##### columns System.Action<[Kendo.Mvc.UI.Fluent.PaletteSizeBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PaletteSizeBuilder)>
+##### columns System.Action<[Kendo.Mvc.UI.Fluent.PaletteSizeBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PaletteSizeBuilder)>
 The tile size (for square tiles)
 
 
@@ -133,7 +133,7 @@ Sets the range of colors that the user can pick from.
 
 #### Parameters
 
-##### palette [Kendo.Mvc.UI.ColorPickerPalette](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ColorPickerPalette)
+##### palette [Kendo.Mvc.UI.ColorPickerPalette](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ColorPickerPalette)
 One of the preset palettes of colors
 
 

@@ -10,7 +10,7 @@ publish: true
 The Upload supports two modes of operation - synchronous and asynchronous.
 
 This help topic explains how to use these modes with ASP.NET MVC.
-Please review the main [Upload Modes](/getting-started/web/upload/modes) help topic for general information.
+Please review the main [Upload Modes](/kendo-ui/getting-started/web/upload/modes) help topic for general information.
 
 ## Synchronous mode
 

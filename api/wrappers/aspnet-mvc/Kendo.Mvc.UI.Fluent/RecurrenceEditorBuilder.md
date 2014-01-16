@@ -93,7 +93,7 @@ The Frequencies of the RecurrenceEditor.
 
 #### Parameters
 
-##### addFrequencyAction System.Action<[Kendo.Mvc.UI.Fluent.RecurrenceEditorFrequencyBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/RecurrenceEditorFrequencyBuilder)>
+##### addFrequencyAction System.Action<[Kendo.Mvc.UI.Fluent.RecurrenceEditorFrequencyBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/RecurrenceEditorFrequencyBuilder)>
 The addFrequencyAction
 
 

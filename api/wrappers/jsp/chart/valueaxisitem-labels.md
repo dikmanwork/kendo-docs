@@ -120,7 +120,7 @@ If set to true the chart will display the value axis labels. By default the cate
 
 The border of the labels.
 
-More documentation is available at [kendo:chart-valueAxisItem-labels-border](/api/wrappers/jsp/chart/valueaxisitem-labels-border).
+More documentation is available at [kendo:chart-valueAxisItem-labels-border](/kendo-ui/api/wrappers/jsp/chart/valueaxisitem-labels-border).
 
 #### Example
 
@@ -132,7 +132,7 @@ More documentation is available at [kendo:chart-valueAxisItem-labels-border](/ap
 
 The margin of the labels. A numeric value will set all margins.
 
-More documentation is available at [kendo:chart-valueAxisItem-labels-margin](/api/wrappers/jsp/chart/valueaxisitem-labels-margin).
+More documentation is available at [kendo:chart-valueAxisItem-labels-margin](/kendo-ui/api/wrappers/jsp/chart/valueaxisitem-labels-margin).
 
 #### Example
 
@@ -144,7 +144,7 @@ More documentation is available at [kendo:chart-valueAxisItem-labels-margin](/ap
 
 The padding of the labels. A numeric value will set all margins.
 
-More documentation is available at [kendo:chart-valueAxisItem-labels-padding](/api/wrappers/jsp/chart/valueaxisitem-labels-padding).
+More documentation is available at [kendo:chart-valueAxisItem-labels-padding](/kendo-ui/api/wrappers/jsp/chart/valueaxisitem-labels-padding).
 
 #### Example
 

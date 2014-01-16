@@ -614,7 +614,7 @@ Sets the editing configuration of the scheduler.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEditableSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEditableSettingsBuilder)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEditableSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEditableSettingsBuilder)<T>>
 The lambda which configures the editing
 
 
@@ -669,7 +669,7 @@ Sets the resources grouping configuration of the scheduler.
 
 #### Parameters
 
-##### addResourceAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerGroupBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerGroupBuilder)<T>>
+##### addResourceAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerGroupBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerGroupBuilder)<T>>
 The lambda which configures the scheduler grouping
 
 
@@ -698,7 +698,7 @@ Sets the resources configuration of the scheduler.
 
 #### Parameters
 
-##### addResourceAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerResourceFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerResourceFactory)<T>>
+##### addResourceAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerResourceFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerResourceFactory)<T>>
 The lambda which configures the scheduler resources
 
 
@@ -727,7 +727,7 @@ Sets the views configuration of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerViewFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerViewFactory)<T>>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerViewFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerViewFactory)<T>>
 The lambda which configures the scheduler views
 
 
@@ -751,7 +751,7 @@ Sets the messages of the scheduler.
 
 #### Parameters
 
-##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerMessagesBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerMessagesBuilder)>
+##### addViewAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerMessagesBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerMessagesBuilder)>
 The lambda which configures the scheduler messages
 
 
@@ -764,7 +764,7 @@ Sets the events configuration of the scheduler.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.SchedulerEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/SchedulerEventBuilder)>
 The lambda which configures the scheduler events
 
 
@@ -818,7 +818,7 @@ Configures the DataSource options.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.AjaxSchedulerDataSourceBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/AjaxSchedulerDataSourceBuilder)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.AjaxSchedulerDataSourceBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/AjaxSchedulerDataSourceBuilder)<T>>
 The DataSource configurator action.
 
 

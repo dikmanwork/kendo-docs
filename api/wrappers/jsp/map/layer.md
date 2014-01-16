@@ -74,7 +74,7 @@ The URL template for tile layers. Template variables:
 
 The default style for shapes.
 
-More documentation is available at [kendo:map-layer-style](/api/wrappers/jsp/map/layer-style).
+More documentation is available at [kendo:map-layer-style](/kendo-ui/api/wrappers/jsp/map/layer-style).
 
 #### Example
 

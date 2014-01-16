@@ -8,7 +8,7 @@ publish: true
 
 # kendo.Observable
 
-Provides support for firing events. Inherits from [kendo.Class](/api/framework/class).
+Provides support for firing events. Inherits from [kendo.Class](/kendo-ui/api/framework/class).
 
 ## Methods
 

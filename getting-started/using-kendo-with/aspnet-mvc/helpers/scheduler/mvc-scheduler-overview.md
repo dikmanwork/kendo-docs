@@ -8,7 +8,7 @@ publish: true
 
 # Scheduler
 
-The Scheduler HtmlHelper extension is a server-side wrapper for the [Kendo UI Scheduler](/api/web/scheduler) widget.
+The Scheduler HtmlHelper extension is a server-side wrapper for the [Kendo UI Scheduler](/kendo-ui/api/web/scheduler) widget.
 
 
 
@@ -16,7 +16,7 @@ The Scheduler HtmlHelper extension is a server-side wrapper for the [Kendo UI Sc
 
 Here is how to configure a simple Kendo Scheduler:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic.
 
 2.  Create a new Projection class which to inherit the ISchedulerEvent interface:
 
@@ -85,7 +85,7 @@ Here is how to configure a simple Kendo Scheduler:
 ## Accessing an Existing Scheduler
 
 You can reference an existing Scheduler instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/scheduler#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/scheduler#methods) to control its behavior.
 
 
 ### Accessing an existing Scheduler instance
@@ -101,7 +101,7 @@ Once a reference has been established, you can use the [API](/api/web/scheduler#
 
 ### Handling Kendo UI Scheduler events
 
-You can subscribe to all [events](/api/web/scheduler#events) exposed by Kendo UI Scheduler:
+You can subscribe to all [events](/kendo-ui/api/web/scheduler#events) exposed by Kendo UI Scheduler:
 
 
 

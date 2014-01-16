@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\Dataviz\UI\Chart
 
-A PHP wrapper for Kendo UI [Chart](/api/dataviz/chart).
+A PHP wrapper for Kendo UI [Chart](/kendo-ui/api/dataviz/chart).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use Chart in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo Chart
 
@@ -66,7 +66,7 @@ The default options for all chart axes. Accepts the options supported by categor
 
 ### axisLabelClick
 Fired when the user clicks an axis label.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [axisLabelClick](/api/web/chart#events-axisLabelClick) event documentation.
+For additional information check the [axisLabelClick](/kendo-ui/api/web/chart#events-axisLabelClick) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -93,7 +93,7 @@ For additional information check the [axisLabelClick](/api/web/chart#events-axis
     $chart->axisLabelClick('onAxisLabelClick');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -150,7 +150,7 @@ The chart area configuration options. Represents the entire visible area of the 
 ##### $value `\Kendo\Dataviz\UI\ChartArea|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartArea](/api/wrappers/php/Kendo/Dataviz/UI/ChartArea)
+#### Example - using [\Kendo\Dataviz\UI\ChartArea](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartArea)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $chartArea = new \Kendo\Dataviz\UI\ChartArea();
@@ -169,7 +169,7 @@ The chart area configuration options. Represents the entire visible area of the 
 
 ### dataBound
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [dataBound](/api/web/chart#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/chart#events-dataBound) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -196,7 +196,7 @@ For additional information check the [dataBound](/api/web/chart#events-dataBound
     $chart->dataBound('onDataBound');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -214,7 +214,7 @@ Sets the data source of the dataSource.
 
 ##### $value `\Kendo\Data\DataSource|array`
 
-#### Example - using [\Kendo\Data\DataSource](/api/wrappers/php/kendo/data/datasource)
+#### Example - using [\Kendo\Data\DataSource](/kendo-ui/api/wrappers/php/kendo/data/datasource)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -232,7 +232,7 @@ Sets the data source of the dataSource.
 
 ### drag
 Fired as long as the user is dragging the chart using the mouse or swipe gestures.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [drag](/api/web/chart#events-drag) event documentation.
+For additional information check the [drag](/kendo-ui/api/web/chart#events-drag) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -259,7 +259,7 @@ For additional information check the [drag](/api/web/chart#events-drag) event do
     $chart->drag('onDrag');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -268,7 +268,7 @@ For additional information check the [drag](/api/web/chart#events-drag) event do
 
 ### dragEnd
 Fired when the user stops dragging the chart.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [dragEnd](/api/web/chart#events-dragEnd) event documentation.
+For additional information check the [dragEnd](/kendo-ui/api/web/chart#events-dragEnd) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -295,7 +295,7 @@ For additional information check the [dragEnd](/api/web/chart#events-dragEnd) ev
     $chart->dragEnd('onDragEnd');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -304,7 +304,7 @@ For additional information check the [dragEnd](/api/web/chart#events-dragEnd) ev
 
 ### dragStart
 Fired when the user starts dragging the chart.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [dragStart](/api/web/chart#events-dragStart) event documentation.
+For additional information check the [dragStart](/kendo-ui/api/web/chart#events-dragStart) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -331,7 +331,7 @@ For additional information check the [dragStart](/api/web/chart#events-dragStart
     $chart->dragStart('onDragStart');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -350,7 +350,7 @@ The chart legend configuration options.
 ##### $value `\Kendo\Dataviz\UI\ChartLegend|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegend](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegend)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegend](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegend)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $legend = new \Kendo\Dataviz\UI\ChartLegend();
@@ -369,7 +369,7 @@ The chart legend configuration options.
 
 ### legendItemClick
 Fires when an legend item is clicked.
-For additional information check the [legendItemClick](/api/web/chart#events-legendItemClick) event documentation.
+For additional information check the [legendItemClick](/kendo-ui/api/web/chart#events-legendItemClick) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -396,7 +396,7 @@ For additional information check the [legendItemClick](/api/web/chart#events-leg
     $chart->legendItemClick('onLegendItemClick');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -405,7 +405,7 @@ For additional information check the [legendItemClick](/api/web/chart#events-leg
 
 ### legendItemHover
 Fires when an legend item is hovered.
-For additional information check the [legendItemHover](/api/web/chart#events-legendItemHover) event documentation.
+For additional information check the [legendItemHover](/kendo-ui/api/web/chart#events-legendItemHover) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -432,7 +432,7 @@ For additional information check the [legendItemHover](/api/web/chart#events-leg
     $chart->legendItemHover('onLegendItemHover');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -489,7 +489,7 @@ The plot area configuration options. The plot area is the area which displays th
 ##### $value `\Kendo\Dataviz\UI\ChartPlotArea|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartPlotArea](/api/wrappers/php/Kendo/Dataviz/UI/ChartPlotArea)
+#### Example - using [\Kendo\Dataviz\UI\ChartPlotArea](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartPlotArea)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $plotArea = new \Kendo\Dataviz\UI\ChartPlotArea();
@@ -508,7 +508,7 @@ The plot area configuration options. The plot area is the area which displays th
 
 ### plotAreaClick
 Fired when the user clicks the plot area.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [plotAreaClick](/api/web/chart#events-plotAreaClick) event documentation.
+For additional information check the [plotAreaClick](/kendo-ui/api/web/chart#events-plotAreaClick) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -535,7 +535,7 @@ For additional information check the [plotAreaClick](/api/web/chart#events-plotA
     $chart->plotAreaClick('onPlotAreaClick');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -563,7 +563,7 @@ If it is not supported by the browser, the Chart will switch to the first availa
 
 ### select
 Fired when the user modifies the selection.The range units are:The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [select](/api/web/chart#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/chart#events-select) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -590,7 +590,7 @@ For additional information check the [select](/api/web/chart#events-select) even
     $chart->select('onSelect');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -599,7 +599,7 @@ For additional information check the [select](/api/web/chart#events-select) even
 
 ### selectEnd
 Fired when the user completes modifying the selection.The range units are:The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [selectEnd](/api/web/chart#events-selectEnd) event documentation.
+For additional information check the [selectEnd](/kendo-ui/api/web/chart#events-selectEnd) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -626,7 +626,7 @@ For additional information check the [selectEnd](/api/web/chart#events-selectEnd
     $chart->selectEnd('onSelectEnd');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -635,7 +635,7 @@ For additional information check the [selectEnd](/api/web/chart#events-selectEnd
 
 ### selectStart
 Fired when the user starts modifying the axis selection.The range units are:The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [selectStart](/api/web/chart#events-selectStart) event documentation.
+For additional information check the [selectStart](/kendo-ui/api/web/chart#events-selectStart) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -662,7 +662,7 @@ For additional information check the [selectStart](/api/web/chart#events-selectS
     $chart->selectStart('onSelectStart');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -709,7 +709,7 @@ Adds one or more ChartSeriesItem to the Chart.
 
 ### seriesClick
 Fired when the user clicks the chart series.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [seriesClick](/api/web/chart#events-seriesClick) event documentation.
+For additional information check the [seriesClick](/kendo-ui/api/web/chart#events-seriesClick) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -736,7 +736,7 @@ For additional information check the [seriesClick](/api/web/chart#events-seriesC
     $chart->seriesClick('onSeriesClick');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -773,7 +773,7 @@ The default options for all series.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesDefaults|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaults](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaults)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesDefaults](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesDefaults)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $seriesDefaults = new \Kendo\Dataviz\UI\ChartSeriesDefaults();
@@ -792,7 +792,7 @@ The default options for all series.
 
 ### seriesHover
 Fired when the user hovers the chart series.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [seriesHover](/api/web/chart#events-seriesHover) event documentation.
+For additional information check the [seriesHover](/kendo-ui/api/web/chart#events-seriesHover) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -819,7 +819,7 @@ For additional information check the [seriesHover](/api/web/chart#events-seriesH
     $chart->seriesHover('onSeriesHover');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -865,7 +865,7 @@ The chart title configuration options or text.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartTitle](/api/wrappers/php/Kendo/Dataviz/UI/ChartTitle)
+#### Example - using [\Kendo\Dataviz\UI\ChartTitle](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartTitle)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $title = new \Kendo\Dataviz\UI\ChartTitle();
@@ -894,7 +894,7 @@ The chart series tooltip configuration options.
 ##### $value `\Kendo\Dataviz\UI\ChartTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartTooltip](/api/wrappers/php/Kendo/Dataviz/UI/ChartTooltip)
+#### Example - using [\Kendo\Dataviz\UI\ChartTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartTooltip)
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
     $tooltip = new \Kendo\Dataviz\UI\ChartTooltip();
@@ -1045,7 +1045,7 @@ Adds one or more ChartYAxisItem to the Chart.
 
 ### zoom
 Fired as long as the user is zooming the chart using the mousewheel.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [zoom](/api/web/chart#events-zoom) event documentation.
+For additional information check the [zoom](/kendo-ui/api/web/chart#events-zoom) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -1072,7 +1072,7 @@ For additional information check the [zoom](/api/web/chart#events-zoom) event do
     $chart->zoom('onZoom');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -1081,7 +1081,7 @@ For additional information check the [zoom](/api/web/chart#events-zoom) event do
 
 ### zoomEnd
 Fired when the user stops zooming the chart.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [zoomEnd](/api/web/chart#events-zoomEnd) event documentation.
+For additional information check the [zoomEnd](/kendo-ui/api/web/chart#events-zoomEnd) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -1108,7 +1108,7 @@ For additional information check the [zoomEnd](/api/web/chart#events-zoomEnd) ev
     $chart->zoomEnd('onZoomEnd');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');
@@ -1117,7 +1117,7 @@ For additional information check the [zoomEnd](/api/web/chart#events-zoomEnd) ev
 
 ### zoomStart
 Fired when the user uses the mousewheel to zoom the chart.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [zoomStart](/api/web/chart#events-zoomStart) event documentation.
+For additional information check the [zoomStart](/kendo-ui/api/web/chart#events-zoomStart) event documentation.
 
 #### Returns
 `\Kendo\Dataviz\UI\Chart`
@@ -1144,7 +1144,7 @@ For additional information check the [zoomStart](/api/web/chart#events-zoomStart
     $chart->zoomStart('onZoomStart');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $chart = new \Kendo\Dataviz\UI\Chart('Chart');

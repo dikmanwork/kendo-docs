@@ -9,30 +9,30 @@ relatedDocs: php-dataviz-ui-sparkline
 
 # Sparkline
 
-The Kendo Sparkline for PHP is a server-side wrapper for the [Kendo UI Sparkline](/api/dataviz/sparkline) widget.
+The Kendo Sparkline for PHP is a server-side wrapper for the [Kendo UI Sparkline](/kendo-ui/api/dataviz/sparkline) widget.
 
 ## Getting Started
 
 There are two main ways to bind Kendo Sparkline for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/sparkline/local-binding) - the sparkline is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/sparkline/remote-binding) - the sparkline makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/sparkline/local-binding) - the sparkline is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/sparkline/remote-binding) - the sparkline makes AJAX requests and is bound to JSON result
 
 Here is how to configure the sparkline for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the sparkline will be bound to
 
         <?php
         $data = array(1, 3, 5, 4, 2);
         ?>
-4. Create a [sparkline](/api/wrappers/php/Kendo/Dataviz/UI/Sparkline), configure its [data](/api/wrappers/php/Kendo/Dataviz/UI/Sparkline#data).
+4. Create a [sparkline](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Sparkline), configure its [data](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/Sparkline#data).
 
         <?php
         $sparkline = new \Kendo\Dataviz\UI\Sparkline('sparkline');
         $sparkline->data($data);
         ?>
-5. Output the sparkline by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the sparkline by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $sparkline->render();
@@ -41,7 +41,7 @@ Here is how to configure the sparkline for local binding:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo Sparkline instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/dataviz/sparkline#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/dataviz/sparkline#methods) to control its behavior.
 
 
 ### Example
@@ -59,7 +59,7 @@ Once a reference has been established, you can use the [API](/api/dataviz/sparkl
 
 ## Handling Events
 
-You can subscribe to all Sparkline [events](/api/dataviz/sparkline#events).
+You can subscribe to all Sparkline [events](/kendo-ui/api/dataviz/sparkline#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

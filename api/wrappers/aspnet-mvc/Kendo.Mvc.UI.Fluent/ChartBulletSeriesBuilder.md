@@ -65,7 +65,7 @@ The bullets border width.
 ##### color `System.String`
 The bullets border color (CSS syntax).
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The bullets border dash type.
 
 
@@ -85,7 +85,7 @@ Sets the bullet effects overlay
 
 #### Parameters
 
-##### overlay [Kendo.Mvc.UI.ChartBarSeriesOverlay](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartBarSeriesOverlay)
+##### overlay [Kendo.Mvc.UI.ChartBarSeriesOverlay](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartBarSeriesOverlay)
 The bullet effects overlay. The default is ChartBarSeriesOverlay.Glass
 
 
@@ -164,7 +164,7 @@ Configure the data point tooltip for the series.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartTooltipBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartTooltipBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartTooltipBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartTooltipBuilder)>
 Use the configurator to set data tooltip options.
 
 
@@ -230,7 +230,7 @@ Configure the data point tooltip for the series.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBulletTargetBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBulletTargetBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBulletTargetBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBulletTargetBuilder)>
 Use the configurator to set data tooltip options.
 
 

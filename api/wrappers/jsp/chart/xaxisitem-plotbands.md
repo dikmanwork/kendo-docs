@@ -23,7 +23,7 @@ The plot bands of the x axis.
 
 The plot bands of the x axis.
 
-More documentation is available at [kendo:chart-xAxisItem-plotBand](/api/wrappers/jsp/chart/xaxisitem-plotband).
+More documentation is available at [kendo:chart-xAxisItem-plotBand](/kendo-ui/api/wrappers/jsp/chart/xaxisitem-plotband).
 
 #### Example
 

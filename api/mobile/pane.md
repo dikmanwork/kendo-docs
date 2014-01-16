@@ -14,7 +14,7 @@ publish: true
 
 ### collapsible `Boolean` *(default: false)*
 
-Applicable when the pane is inside a SplitView. If set to `true`, the pane will be hidden when the device is in portrait position. The [expandPanes](/api/mobile/splitview#methods-expandPanes) SplitView method displays the hidden panes.
+Applicable when the pane is inside a SplitView. If set to `true`, the pane will be hidden when the device is in portrait position. The [expandPanes](/kendo-ui/api/mobile/splitview#methods-expandPanes) SplitView method displays the hidden panes.
 
 > In order for the collapsible to size itself correctly, the `portraitWidth` configuration option should be set too.
 
@@ -193,7 +193,7 @@ The id or URL of the view.
 
 ##### transition `String`
 
-The transition to apply when navigating. See [View Transitions](/getting-started/mobile/application#view-transitions) for more information.
+The transition to apply when navigating. See [View Transitions](/kendo-ui/getting-started/mobile/application#view-transitions) for more information.
 
 ### showLoading
 

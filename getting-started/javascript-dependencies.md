@@ -63,7 +63,7 @@ with Kendo UI service packs. We can do this for major releases. The following li
 There should be no problem to use another minor jQuery version instead of the specified above, e.g. 1.7.2 instead of 1.7.1.
 
 > Registering a new jQuery instance after the Kendo UI script files will delete all Kendo UI jQuery plugins and Javascript errors will occur.
-For more information, please refer to the [Troubleshooting page](/getting-started/troubleshooting#javascript-error-that-jquery-is-unavailable-or-undefined).
+For more information, please refer to the [Troubleshooting page](/kendo-ui/getting-started/troubleshooting#javascript-error-that-jquery-is-unavailable-or-undefined).
 
 ## Script tag placement
 

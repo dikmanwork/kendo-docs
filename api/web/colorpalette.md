@@ -19,7 +19,7 @@ a drop-down.
 ### palette `String|Array` *(default: "basic")*
 
 Specifies the color palette to display.
-It can be a string with comma-separated colors in hex representation, an array of [`kendo.Color` object](/api/framework/color) objects or of strings that [parseColor](/api/framework/kendo#parseColor) understands.  As a shortcut, you can pass "basic" to get the simple palette (this is the default) or "websafe" to get the Web-safe palette.
+It can be a string with comma-separated colors in hex representation, an array of [`kendo.Color` object](/kendo-ui/api/framework/color) objects or of strings that [parseColor](/kendo-ui/api/framework/kendo#parseColor) understands.  As a shortcut, you can pass "basic" to get the simple palette (this is the default) or "websafe" to get the Web-safe palette.
 
 #### Example - use "websafe" palette
 
@@ -116,7 +116,7 @@ Specifies the initially selected color.
 
 Get or set the selected color. If no argument is given, this returns the currently selected color as a string in format `#FFFFFF`.
 
-If one argument is given, it selects the new color and updates the UI. The argument can be a string in hex, rgb or rgba format, or a [`kendo.Color` object](/api/framework/color) object.
+If one argument is given, it selects the new color and updates the UI. The argument can be a string in hex, rgb or rgba format, or a [`kendo.Color` object](/kendo-ui/api/framework/color) object.
 
 > This method does not trigger the "change" event.
 
@@ -144,7 +144,7 @@ If one argument is given, it selects the new color and updates the UI. The argum
 
 ### color
 
-Get or set the selected color. If no argument is given, this returns the currently selected color as a [`kendo.Color` object](/api/framework/color).
+Get or set the selected color. If no argument is given, this returns the currently selected color as a [`kendo.Color` object](/kendo-ui/api/framework/color).
 
 #### Parameters
 

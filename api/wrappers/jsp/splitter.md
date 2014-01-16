@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:splitter\>
-A JSP wrapper for Kendo UI [Splitter](/api/web/splitter).
+A JSP wrapper for Kendo UI [Splitter](/kendo-ui/api/web/splitter).
 
 ## Configuration Attributes
 
@@ -25,7 +25,7 @@ Specifies the orientation of the widget. Supported values are "horizontal" and "
 
 Defines the panes of the splitter
 
-More documentation is available at [kendo:splitter-panes](/api/wrappers/jsp/splitter/panes).
+More documentation is available at [kendo:splitter-panes](/kendo-ui/api/wrappers/jsp/splitter/panes).
 
 #### Example
 
@@ -41,7 +41,7 @@ More documentation is available at [kendo:splitter-panes](/api/wrappers/jsp/spli
 Triggered when a pane of a Splitter is collapsed.
 
 
-For additional information check the [collapse](/api/web/splitter#events-collapse) event documentation.
+For additional information check the [collapse](/kendo-ui/api/web/splitter#events-collapse) event documentation.
 
 #### Example
     <kendo:splitter collapse="handle_collapse">
@@ -57,7 +57,7 @@ For additional information check the [collapse](/api/web/splitter#events-collaps
 Triggered when the content for a pane has finished loading.
 
 
-For additional information check the [contentLoad](/api/web/splitter#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/splitter#events-contentLoad) event documentation.
 
 #### Example
     <kendo:splitter contentLoad="handle_contentLoad">
@@ -73,7 +73,7 @@ For additional information check the [contentLoad](/api/web/splitter#events-cont
 Triggered when the AJAX request that fetches a pane content has failed.
 
 
-For additional information check the [error](/api/web/splitter#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/splitter#events-error) event documentation.
 
 #### Example
     <kendo:splitter error="handle_error">
@@ -89,7 +89,7 @@ For additional information check the [error](/api/web/splitter#events-error) eve
 Triggered when a pane of a Splitter is expanded.
 
 
-For additional information check the [expand](/api/web/splitter#events-expand) event documentation.
+For additional information check the [expand](/kendo-ui/api/web/splitter#events-expand) event documentation.
 
 #### Example
     <kendo:splitter expand="handle_expand">
@@ -105,7 +105,7 @@ For additional information check the [expand](/api/web/splitter#events-expand) e
 This event is now obsolete and will be removed in the future. Please use the resize event instead.Fires when the splitter layout has changed
 
 
-For additional information check the [layoutChange](/api/web/splitter#events-layoutChange) event documentation.
+For additional information check the [layoutChange](/kendo-ui/api/web/splitter#events-layoutChange) event documentation.
 
 #### Example
     <kendo:splitter layoutChange="handle_layoutChange">
@@ -121,7 +121,7 @@ For additional information check the [layoutChange](/api/web/splitter#events-lay
 Triggered when a pane is resized.
 
 
-For additional information check the [resize](/api/web/splitter#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/splitter#events-resize) event documentation.
 
 #### Example
     <kendo:splitter resize="handle_resize">
@@ -139,7 +139,7 @@ For additional information check the [resize](/api/web/splitter#events-resize) e
 Triggered when a pane of a Splitter is collapsed.
 
 
-For additional information check the [collapse](/api/web/splitter#events-collapse) event documentation.
+For additional information check the [collapse](/kendo-ui/api/web/splitter#events-collapse) event documentation.
 
 #### Example
     <kendo:splitter>
@@ -157,7 +157,7 @@ For additional information check the [collapse](/api/web/splitter#events-collaps
 Triggered when the content for a pane has finished loading.
 
 
-For additional information check the [contentLoad](/api/web/splitter#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/splitter#events-contentLoad) event documentation.
 
 #### Example
     <kendo:splitter>
@@ -175,7 +175,7 @@ For additional information check the [contentLoad](/api/web/splitter#events-cont
 Triggered when the AJAX request that fetches a pane content has failed.
 
 
-For additional information check the [error](/api/web/splitter#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/splitter#events-error) event documentation.
 
 #### Example
     <kendo:splitter>
@@ -193,7 +193,7 @@ For additional information check the [error](/api/web/splitter#events-error) eve
 Triggered when a pane of a Splitter is expanded.
 
 
-For additional information check the [expand](/api/web/splitter#events-expand) event documentation.
+For additional information check the [expand](/kendo-ui/api/web/splitter#events-expand) event documentation.
 
 #### Example
     <kendo:splitter>
@@ -211,7 +211,7 @@ For additional information check the [expand](/api/web/splitter#events-expand) e
 This event is now obsolete and will be removed in the future. Please use the resize event instead.Fires when the splitter layout has changed
 
 
-For additional information check the [layoutChange](/api/web/splitter#events-layoutChange) event documentation.
+For additional information check the [layoutChange](/kendo-ui/api/web/splitter#events-layoutChange) event documentation.
 
 #### Example
     <kendo:splitter>
@@ -229,7 +229,7 @@ For additional information check the [layoutChange](/api/web/splitter#events-lay
 Triggered when a pane is resized.
 
 
-For additional information check the [resize](/api/web/splitter#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/splitter#events-resize) event documentation.
 
 #### Example
     <kendo:splitter>

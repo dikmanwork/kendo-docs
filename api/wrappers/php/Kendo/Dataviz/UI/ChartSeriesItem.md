@@ -61,7 +61,7 @@ The border of the chart series.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemBorder](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemBorder)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemBorder)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $border = new \Kendo\Dataviz\UI\ChartSeriesItemBorder();
@@ -168,7 +168,7 @@ The label connectors options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemConnectors|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemConnectors](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemConnectors)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemConnectors](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemConnectors)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $connectors = new \Kendo\Dataviz\UI\ChartSeriesItemConnectors();
@@ -330,7 +330,7 @@ The error bars of the chart series.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemErrorBars|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemErrorBars](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemErrorBars)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemErrorBars](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemErrorBars)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $errorBars = new \Kendo\Dataviz\UI\ChartSeriesItemErrorBars();
@@ -413,7 +413,7 @@ The chart series extremes configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemExtremes|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemExtremes](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemExtremes)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemExtremes](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemExtremes)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $extremes = new \Kendo\Dataviz\UI\ChartSeriesItemExtremes();
@@ -496,7 +496,7 @@ The chart series highlighting configuration options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemHighlight|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemHighlight](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemHighlight)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemHighlight](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemHighlight)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $highlight = new \Kendo\Dataviz\UI\ChartSeriesItemHighlight();
@@ -543,7 +543,7 @@ The chart series label configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemLabels](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemLabels)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemLabels)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $labels = new \Kendo\Dataviz\UI\ChartSeriesItemLabels();
@@ -581,7 +581,7 @@ The chart line configuration options.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemLine](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemLine)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemLine](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemLine)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $line = new \Kendo\Dataviz\UI\ChartSeriesItemLine();
@@ -655,7 +655,7 @@ The margin around each donut series (ring). A numeric value will set all margins
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemMargin](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemMargin)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemMargin)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $margin = new \Kendo\Dataviz\UI\ChartSeriesItemMargin();
@@ -684,7 +684,7 @@ The chart series marker configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemMarkers|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemMarkers](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemMarkers)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemMarkers](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemMarkers)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $markers = new \Kendo\Dataviz\UI\ChartSeriesItemMarkers();
@@ -857,7 +857,7 @@ The options for displaying the chart negative bubble values.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemNegativeValues|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemNegativeValues](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemNegativeValues)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemNegativeValues](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemNegativeValues)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $negativeValues = new \Kendo\Dataviz\UI\ChartSeriesItemNegativeValues();
@@ -904,7 +904,7 @@ The series notes configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemNotes|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemNotes](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemNotes)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemNotes](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemNotes)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $notes = new \Kendo\Dataviz\UI\ChartSeriesItemNotes();
@@ -969,7 +969,7 @@ The chart series outliers configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemOutliers|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemOutliers](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemOutliers)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemOutliers](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemOutliers)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $outliers = new \Kendo\Dataviz\UI\ChartSeriesItemOutliers();
@@ -1016,7 +1016,7 @@ The chart series overlay options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemOverlay|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemOverlay](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemOverlay)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemOverlay](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemOverlay)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $overlay = new \Kendo\Dataviz\UI\ChartSeriesItemOverlay();
@@ -1231,7 +1231,7 @@ The configuration options of the target
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemTarget|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTarget](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTarget)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTarget](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTarget)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $target = new \Kendo\Dataviz\UI\ChartSeriesItemTarget();
@@ -1278,7 +1278,7 @@ The chart series tooltip configuration options.
 ##### $value `\Kendo\Dataviz\UI\ChartSeriesItemTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTooltip](/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTooltip)
+#### Example - using [\Kendo\Dataviz\UI\ChartSeriesItemTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartSeriesItemTooltip)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\ChartSeriesItem();
     $tooltip = new \Kendo\Dataviz\UI\ChartSeriesItemTooltip();

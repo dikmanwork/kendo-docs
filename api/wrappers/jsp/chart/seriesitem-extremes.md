@@ -75,7 +75,7 @@ If set to true the chart will display the series extremes. By default chart seri
 
 The border of the extremes.
 
-More documentation is available at [kendo:chart-seriesItem-extremes-border](/api/wrappers/jsp/chart/seriesitem-extremes-border).
+More documentation is available at [kendo:chart-seriesItem-extremes-border](/kendo-ui/api/wrappers/jsp/chart/seriesitem-extremes-border).
 
 #### Example
 

@@ -9,18 +9,18 @@ relatedDocs: php-ui-autocomplete
 
 # AutoComplete
 
-The Kendo AutoComplete for PHP is a server-side wrapper for the [Kendo UI AutoComplete](/api/web/autocomplete) widget.
+The Kendo AutoComplete for PHP is a server-side wrapper for the [Kendo UI AutoComplete](/kendo-ui/api/web/autocomplete) widget.
 
 ## Getting Started
 
 There are two ways to bind Kendo AutoComplete for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/autocomplete/local-binding) - the autocomplete is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/autocomplete/remote-binding) - the autocomplete makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/autocomplete/local-binding) - the autocomplete is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/autocomplete/remote-binding) - the autocomplete makes AJAX requests and is bound to JSON result
 
 Here is how to configure the autocomplete for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the autocomplete will be bound to
 
         <?php
@@ -29,13 +29,13 @@ Here is how to configure the autocomplete for local binding:
             array('name' => 'Jane Doe', 'age' => 29)
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
         $dataSource->data($data);
         ?>
-4. Create a [autocomplete](/api/wrappers/php/Kendo/UI/AutoComplete), configure its [dataTextField](/api/wrappers/php/Kendo/UI/AutoComplete#datatextfield) option and set its [data source](/api/wrappers/php/Kendo/UI/AutoComplete#datasource).
+4. Create a [autocomplete](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete), configure its [dataTextField](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete#datatextfield) option and set its [data source](/kendo-ui/api/wrappers/php/Kendo/UI/AutoComplete#datasource).
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
@@ -45,7 +45,7 @@ Here is how to configure the autocomplete for local binding:
         $autoComplete->dataSource($dataSource);
         $autoComplete->dataTextField('name');
         ?>
-5. Output the autocomplete by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the autocomplete by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $autoComplete->render();
@@ -54,7 +54,7 @@ Here is how to configure the autocomplete for local binding:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo AutoComplete instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/autocomplete#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/autocomplete#methods) to control its behavior.
 
 
 ### Example
@@ -72,7 +72,7 @@ Once a reference has been established, you can use the [API](/api/web/autocomple
 
 ## Handling Events
 
-You can subscribe to all autocomplete [events](/api/web/autocomplete#events).
+You can subscribe to all autocomplete [events](/kendo-ui/api/web/autocomplete#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

@@ -10,7 +10,7 @@ publish: true
 
 # kendo.ui.Pager
 
-Represents the Kendo UI Pager widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI Pager widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 
@@ -66,7 +66,7 @@ Defines the number of buttons displayed in the numeric pager.
     </script>
 
 ### dataSource `Object|kendo.data.DataSource`
-Instance of kendo DataSource. See the [**kendo.data.DataSource**](/api/framework/datasource).
+Instance of kendo DataSource. See the [**kendo.data.DataSource**](/kendo-ui/api/framework/datasource).
 
 This option is mandatory because the Pager is tightly connected with DataSource. The pager is UI widget for managing paging over the DataSource. The Pager gets values like page size or total count of items from DataSource.
 
@@ -346,7 +346,7 @@ Defines if a refresh button will be displayed. Click on that button will call Da
 Defines texts shown within the pager. Use this option to customize or localize the pager messages.
 
 ### messages.display `String`*(default: "{0} - {1} of {2} items")*
-The pager info text. Uses [kendo.format](/api/framework/kendo#methods-format).
+The pager info text. Uses [kendo.format](/kendo-ui/api/framework/kendo#methods-format).
 
 Contains three placeholders:
 - {0} - the first data item index
@@ -433,7 +433,7 @@ The label displayed before the pager input.
     </script>
 
 ### messages.of `String`*(default: "of {0}")*,
-The label displayed before the pager input. Uses [kendo.format](/api/framework/kendo#methods-format). Contains one optional placeholder {0} which represents the total number of pages.
+The label displayed before the pager input. Uses [kendo.format](/kendo-ui/api/framework/kendo#methods-format). Contains one optional placeholder {0} which represents the total number of pages.
 
 #### Example - set the label after the pager input
     <div id="pager"></div>

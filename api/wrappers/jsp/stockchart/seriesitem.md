@@ -250,7 +250,7 @@ The line width.** Applicable for area and line series. **
 
 The border of the points.** Applicable to column, ohlc and candlestick series **
 
-More documentation is available at [kendo:stockChart-seriesItem-border](/api/wrappers/jsp/stockchart/seriesitem-border).
+More documentation is available at [kendo:stockChart-seriesItem-border](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-border).
 
 #### Example
 
@@ -262,7 +262,7 @@ More documentation is available at [kendo:stockChart-seriesItem-border](/api/wra
 
 Configures the appearance of highlighted points.
 
-More documentation is available at [kendo:stockChart-seriesItem-highlight](/api/wrappers/jsp/stockchart/seriesitem-highlight).
+More documentation is available at [kendo:stockChart-seriesItem-highlight](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-highlight).
 
 #### Example
 
@@ -274,7 +274,7 @@ More documentation is available at [kendo:stockChart-seriesItem-highlight](/api/
 
 Configures the series data labels.
 
-More documentation is available at [kendo:stockChart-seriesItem-labels](/api/wrappers/jsp/stockchart/seriesitem-labels).
+More documentation is available at [kendo:stockChart-seriesItem-labels](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-labels).
 
 #### Example
 
@@ -286,7 +286,7 @@ More documentation is available at [kendo:stockChart-seriesItem-labels](/api/wra
 
 Line options.** Applicable to area, candlestick and ohlc series. **
 
-More documentation is available at [kendo:stockChart-seriesItem-line](/api/wrappers/jsp/stockchart/seriesitem-line).
+More documentation is available at [kendo:stockChart-seriesItem-line](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-line).
 
 #### Example
 
@@ -298,7 +298,7 @@ More documentation is available at [kendo:stockChart-seriesItem-line](/api/wrapp
 
 Marker options.** Applicable for area and line series. **
 
-More documentation is available at [kendo:stockChart-seriesItem-markers](/api/wrappers/jsp/stockchart/seriesitem-markers).
+More documentation is available at [kendo:stockChart-seriesItem-markers](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-markers).
 
 #### Example
 
@@ -310,7 +310,7 @@ More documentation is available at [kendo:stockChart-seriesItem-markers](/api/wr
 
 The series notes configuration.
 
-More documentation is available at [kendo:stockChart-seriesItem-notes](/api/wrappers/jsp/stockchart/seriesitem-notes).
+More documentation is available at [kendo:stockChart-seriesItem-notes](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-notes).
 
 #### Example
 
@@ -322,7 +322,7 @@ More documentation is available at [kendo:stockChart-seriesItem-notes](/api/wrap
 
 The effects overlay.
 
-More documentation is available at [kendo:stockChart-seriesItem-overlay](/api/wrappers/jsp/stockchart/seriesitem-overlay).
+More documentation is available at [kendo:stockChart-seriesItem-overlay](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-overlay).
 
 #### Example
 
@@ -334,7 +334,7 @@ More documentation is available at [kendo:stockChart-seriesItem-overlay](/api/wr
 
 The target of the bullet chart.
 
-More documentation is available at [kendo:stockChart-seriesItem-target](/api/wrappers/jsp/stockchart/seriesitem-target).
+More documentation is available at [kendo:stockChart-seriesItem-target](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-target).
 
 #### Example
 
@@ -346,7 +346,7 @@ More documentation is available at [kendo:stockChart-seriesItem-target](/api/wra
 
 The data point tooltip configuration options.
 
-More documentation is available at [kendo:stockChart-seriesItem-tooltip](/api/wrappers/jsp/stockchart/seriesitem-tooltip).
+More documentation is available at [kendo:stockChart-seriesItem-tooltip](/kendo-ui/api/wrappers/jsp/stockchart/seriesitem-tooltip).
 
 #### Example
 

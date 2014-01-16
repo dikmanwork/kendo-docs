@@ -31,7 +31,7 @@ If set to true the filter menu allows the user to input a second criteria.
 
 The text messages displayed in the filter menu. Use it to customize or localize the filter menu messages.
 
-More documentation is available at [kendo:grid-filterable-messages](/api/wrappers/jsp/grid/filterable-messages).
+More documentation is available at [kendo:grid-filterable-messages](/kendo-ui/api/wrappers/jsp/grid/filterable-messages).
 
 #### Example
 
@@ -43,7 +43,7 @@ More documentation is available at [kendo:grid-filterable-messages](/api/wrapper
 
 The text of the filter operators displayed in the filter menu.
 
-More documentation is available at [kendo:grid-filterable-operators](/api/wrappers/jsp/grid/filterable-operators).
+More documentation is available at [kendo:grid-filterable-operators](/kendo-ui/api/wrappers/jsp/grid/filterable-operators).
 
 #### Example
 

@@ -8,25 +8,25 @@ publish: true
 
 # Troubleshooting
 
-This page provides solutions for common problems you may encounter while working with **UI for ASP.NET MVC**. In addition you could check the general [Kendo UI troubleshooting help topic](/getting-started/troubleshooting).
+This page provides solutions for common problems you may encounter while working with **UI for ASP.NET MVC**. In addition you could check the general [Kendo UI troubleshooting help topic](/kendo-ui/getting-started/troubleshooting).
 
 ## JavaScript error that jQuery is unavailable or undefined
 
 If jQuery is not included, or is included after the Kendo UI JavaScript files, or is included after Kendo UI widget declarations, the Kendo UI widgets will not function as expected.
-Check the [Kendo UI troubleshooting help topic](/getting-started/troubleshooting#javascript-error-that-jquery-is-unavailable-or-undefined) for more symptoms.
+Check the [Kendo UI troubleshooting help topic](/kendo-ui/getting-started/troubleshooting#javascript-error-that-jquery-is-unavailable-or-undefined) for more symptoms.
 
 Make sure that jQuery is included **before** the Kendo UI JavaScript files, and before any Kendo UI widget declarations,
-unless [deferred initialization](/getting-started/using-kendo-with/aspnet-mvc/introduction#deferring-kendo-ui-initialization-scripts) is used.
+unless [deferred initialization](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#deferring-kendo-ui-initialization-scripts) is used.
 If using ASP.NET bundles move the `Scripts.Render("~/bundles/jquery")` block **before** the Kendo JavaScript files.
 
 ## JavaScript error that Kendo widgets are unavailable or undefined
 
 If jQuery is included more than once in the page all existing jQuery plugins (including Kendo UI) will be wiped out. Will also occur
-if the [required Kendo JavaScript files](/getting-started/javascript-dependencies) are not included.
+if the [required Kendo JavaScript files](/kendo-ui/getting-started/javascript-dependencies) are not included.
 
-Check the [Kendo UI troubleshooting help topic](/getting-started/troubleshooting#javascript-error-that-kendo-widgets-are-unavailable-or-undefined) for more symptoms.
+Check the [Kendo UI troubleshooting help topic](/kendo-ui/getting-started/troubleshooting#javascript-error-that-kendo-widgets-are-unavailable-or-undefined) for more symptoms.
 
-Make sure jQuery is not included more than once in your page. Remove any duplicate `script` references to jQuery. Include all [required Kendo JavaScript files](/getting-started/javascript-dependencies).
+Make sure jQuery is not included more than once in your page. Remove any duplicate `script` references to jQuery. Include all [required Kendo JavaScript files](/kendo-ui/getting-started/javascript-dependencies).
 
 If the application is also using Telerik Extensions for ASP.NET MVC tell the `ScriptRegistrar` not to include jQuery:
 
@@ -205,7 +205,7 @@ Omit specifying Name() or use the same Name() as the name of the property.
 ## Kendo UI wrappers do not work inside client templates
 
 This can happen if the wrapper is declared without ToClientTemplate(). For more information please refer to
-[Using Kendo UI MVC wrappers inside client templates](/getting-started/using-kendo-with/aspnet-mvc/introduction#using-kendo-ui-mvc-wrappers-inside-client-templates-with-toclienttemplate())
+[Using Kendo UI MVC wrappers inside client templates](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#using-kendo-ui-mvc-wrappers-inside-client-templates-with-toclienttemplate())
 
 ## Nesting Kendo UI wrappers produces a server-side exception when using the WebForms view engine
 

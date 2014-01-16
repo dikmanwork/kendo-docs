@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\PanelBar
 
-A PHP wrapper for Kendo UI [PanelBar](/api/web/panelbar).
+A PHP wrapper for Kendo UI [PanelBar](/kendo-ui/api/web/panelbar).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use PanelBar in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo PanelBar
 
@@ -35,7 +35,7 @@ configuration [methods](#methods) and output it by `echo`-ing the result of the 
 
 ### activate
 Triggered when an item of a PanelBar is activated.
-For additional information check the [activate](/api/web/panelbar#events-activate) event documentation.
+For additional information check the [activate](/kendo-ui/api/web/panelbar#events-activate) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -62,7 +62,7 @@ For additional information check the [activate](/api/web/panelbar#events-activat
     $panelBar->activate('onActivate');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
@@ -91,7 +91,7 @@ user interactions. Setting this option to false will disable all animations.
     ?>
 
 
-#### Example - using [\Kendo\UI\PanelBarAnimation](/api/wrappers/php/Kendo/UI/PanelBarAnimation)
+#### Example - using [\Kendo\UI\PanelBarAnimation](/kendo-ui/api/wrappers/php/Kendo/UI/PanelBarAnimation)
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
     $animation = new \Kendo\UI\PanelBarAnimation();
@@ -110,7 +110,7 @@ user interactions. Setting this option to false will disable all animations.
 
 ### collapse
 Triggered when an item of a PanelBar is collapsed.
-For additional information check the [collapse](/api/web/panelbar#events-collapse) event documentation.
+For additional information check the [collapse](/kendo-ui/api/web/panelbar#events-collapse) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -137,7 +137,7 @@ For additional information check the [collapse](/api/web/panelbar#events-collaps
     $panelBar->collapse('onCollapse');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
@@ -146,7 +146,7 @@ For additional information check the [collapse](/api/web/panelbar#events-collaps
 
 ### contentLoad
 Fires when content is fetched from an AJAX request.
-For additional information check the [contentLoad](/api/web/panelbar#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/panelbar#events-contentLoad) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -173,7 +173,7 @@ For additional information check the [contentLoad](/api/web/panelbar#events-cont
     $panelBar->contentLoad('onContentLoad');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
@@ -182,7 +182,7 @@ For additional information check the [contentLoad](/api/web/panelbar#events-cont
 
 ### error
 Fires when AJAX request results in an error.
-For additional information check the [error](/api/web/panelbar#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/panelbar#events-error) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -209,7 +209,7 @@ For additional information check the [error](/api/web/panelbar#events-error) eve
     $panelBar->error('onError');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
@@ -218,7 +218,7 @@ For additional information check the [error](/api/web/panelbar#events-error) eve
 
 ### expand
 Triggered when an item of a PanelBar is expanded.
-For additional information check the [expand](/api/web/panelbar#events-expand) event documentation.
+For additional information check the [expand](/kendo-ui/api/web/panelbar#events-expand) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -245,7 +245,7 @@ For additional information check the [expand](/api/web/panelbar#events-expand) e
     $panelBar->expand('onExpand');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');
@@ -311,7 +311,7 @@ Adds one or more PanelBarItem to the PanelBar.
 
 ### select
 Triggered when an item of a PanelBar is selected.
-For additional information check the [select](/api/web/panelbar#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/panelbar#events-select) event documentation.
 
 #### Returns
 `\Kendo\UI\PanelBar`
@@ -338,7 +338,7 @@ For additional information check the [select](/api/web/panelbar#events-select) e
     $panelBar->select('onSelect');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $panelBar = new \Kendo\UI\PanelBar('PanelBar');

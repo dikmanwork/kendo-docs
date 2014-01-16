@@ -9,14 +9,14 @@ relatedDocs: php-ui-panelbar
 
 #PanelBar
 
-The Kendo PanelBar for PHP is a server-side wrapper for the [Kendo UI PanelBar](/api/web/panelbar) widget.
+The Kendo PanelBar for PHP is a server-side wrapper for the [Kendo UI PanelBar](/kendo-ui/api/web/panelbar) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo PanelBar:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
-1. Create a [panelbar](/api/wrappers/php/Kendo/UI/PanelBar) and set its [items](/api/wrappers/php/Kendo/UI/PanelBar#addItem)
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Create a [panelbar](/kendo-ui/api/wrappers/php/Kendo/UI/PanelBar) and set its [items](/kendo-ui/api/wrappers/php/Kendo/UI/PanelBar#addItem)
 
         <?php
         $panelbar = new \Kendo\UI\PanelBar('panelbar');
@@ -40,7 +40,7 @@ Here is how to configure a simple Kendo PanelBar:
         $panelbar->addItem($item1, $item2);
         ?>
 
-1. Output the panelbar by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the panelbar by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $panelbar->render();
@@ -49,7 +49,7 @@ Here is how to configure a simple Kendo PanelBar:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo PanelBar instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/panelbar#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/panelbar#methods) to control its behavior.
 
 ### Example
 
@@ -66,7 +66,7 @@ Once a reference has been established, you can use the [API](/api/web/panelbar#m
 
 ## Handling Events
 
-You can subscribe to all panelbar [events](/api/web/panelbar#events).
+You can subscribe to all panelbar [events](/kendo-ui/api/web/panelbar#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

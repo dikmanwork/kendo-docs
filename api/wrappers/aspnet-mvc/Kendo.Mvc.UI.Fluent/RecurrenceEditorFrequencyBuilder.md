@@ -17,7 +17,7 @@ Adds RecurrenceEditorFrequency to the RecurrenceEditor.
 
 #### Parameters
 
-##### frequency [Kendo.Mvc.UI.RecurrenceEditorFrequency](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/RecurrenceEditorFrequency)
+##### frequency [Kendo.Mvc.UI.RecurrenceEditorFrequency](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/RecurrenceEditorFrequency)
 The frequency
 
 

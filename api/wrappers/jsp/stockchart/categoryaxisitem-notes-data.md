@@ -23,7 +23,7 @@ The items of the notes.
 
 The items of the notes.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem-notes-dataItem](/api/wrappers/jsp/stockchart/categoryaxisitem-notes-dataitem).
+More documentation is available at [kendo:stockChart-categoryAxisItem-notes-dataItem](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem-notes-dataitem).
 
 #### Example
 

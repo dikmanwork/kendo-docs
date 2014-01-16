@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:listView\>
-A JSP wrapper for Kendo UI [ListView](/api/web/listview).
+A JSP wrapper for Kendo UI [ListView](/kendo-ui/api/web/listview).
 
 ## Configuration Attributes
 
@@ -82,7 +82,7 @@ The id of the template used for rendering the items in the listview.
 
 Indicates whether paging is enabled/disabled.
 
-More documentation is available at [kendo:listView-pageable](/api/wrappers/jsp/listview/pageable).
+More documentation is available at [kendo:listView-pageable](/kendo-ui/api/wrappers/jsp/listview/pageable).
 
 #### Example
 
@@ -98,7 +98,7 @@ More documentation is available at [kendo:listView-pageable](/api/wrappers/jsp/l
 Fired when the user clicks the "cancel" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [cancel](/api/web/listview#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/listview#events-cancel) event documentation.
 
 #### Example
     <kendo:listView cancel="handle_cancel">
@@ -114,7 +114,7 @@ For additional information check the [cancel](/api/web/listview#events-cancel) e
 Fires when the list view selection has changed.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/listview#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/listview#events-change) event documentation.
 
 #### Example
     <kendo:listView change="handle_change">
@@ -130,7 +130,7 @@ For additional information check the [change](/api/web/listview#events-change) e
 Fires when the list view has received data from the data source and it is already rendered.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/listview#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/listview#events-dataBound) event documentation.
 
 #### Example
     <kendo:listView dataBound="handle_dataBound">
@@ -146,7 +146,7 @@ For additional information check the [dataBound](/api/web/listview#events-dataBo
 Fires when the list view is about to be rendered.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBinding](/api/web/listview#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/listview#events-dataBinding) event documentation.
 
 #### Example
     <kendo:listView dataBinding="handle_dataBinding">
@@ -162,7 +162,7 @@ For additional information check the [dataBinding](/api/web/listview#events-data
 Fires when the list view enters edit mode.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [edit](/api/web/listview#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/listview#events-edit) event documentation.
 
 #### Example
     <kendo:listView edit="handle_edit">
@@ -178,7 +178,7 @@ For additional information check the [edit](/api/web/listview#events-edit) event
 Fires before the list view item is removed. If it is not prevented will call DataSource sync method.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [remove](/api/web/listview#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/listview#events-remove) event documentation.
 
 #### Example
     <kendo:listView remove="handle_remove">
@@ -194,7 +194,7 @@ For additional information check the [remove](/api/web/listview#events-remove) e
 Fired when a data item is saved.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [save](/api/web/listview#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/listview#events-save) event documentation.
 
 #### Example
     <kendo:listView save="handle_save">
@@ -212,7 +212,7 @@ For additional information check the [save](/api/web/listview#events-save) event
 Fired when the user clicks the "cancel" button.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [cancel](/api/web/listview#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/listview#events-cancel) event documentation.
 
 #### Example
     <kendo:listView>
@@ -230,7 +230,7 @@ For additional information check the [cancel](/api/web/listview#events-cancel) e
 Fires when the list view selection has changed.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/listview#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/listview#events-change) event documentation.
 
 #### Example
     <kendo:listView>
@@ -248,7 +248,7 @@ For additional information check the [change](/api/web/listview#events-change) e
 Fires when the list view has received data from the data source and it is already rendered.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/listview#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/listview#events-dataBound) event documentation.
 
 #### Example
     <kendo:listView>
@@ -266,7 +266,7 @@ For additional information check the [dataBound](/api/web/listview#events-dataBo
 Fires when the list view is about to be rendered.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBinding](/api/web/listview#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/listview#events-dataBinding) event documentation.
 
 #### Example
     <kendo:listView>
@@ -284,7 +284,7 @@ For additional information check the [dataBinding](/api/web/listview#events-data
 Fires when the list view enters edit mode.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [edit](/api/web/listview#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/listview#events-edit) event documentation.
 
 #### Example
     <kendo:listView>
@@ -302,7 +302,7 @@ For additional information check the [edit](/api/web/listview#events-edit) event
 Fires before the list view item is removed. If it is not prevented will call DataSource sync method.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [remove](/api/web/listview#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/listview#events-remove) event documentation.
 
 #### Example
     <kendo:listView>
@@ -320,7 +320,7 @@ For additional information check the [remove](/api/web/listview#events-remove) e
 Fired when a data item is saved.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [save](/api/web/listview#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/listview#events-save) event documentation.
 
 #### Example
     <kendo:listView>

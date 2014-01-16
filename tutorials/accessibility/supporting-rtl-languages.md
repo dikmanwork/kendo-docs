@@ -68,4 +68,4 @@ For Rails apps, you can use the `request.env` object:
 
 It's important to note that the `Accept-Language` header may return a comma-separated list of languages, ordered by preference. In these cases, you should be prepared to split the returned value into an array or list and inspect the first element to determine if adding the "`k-rtl`" class to the returned markup is necessary. 
 
-For additional information on Kendo UI RTL support, including its built-in behavior and layout considerations, see the [RTL Support](/getting-started/web/appearance-rtl) document in the Getting Started section.
+For additional information on Kendo UI RTL support, including its built-in behavior and layout considerations, see the [RTL Support](/kendo-ui/getting-started/web/appearance-rtl) document in the Getting Started section.

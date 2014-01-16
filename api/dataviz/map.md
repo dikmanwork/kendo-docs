@@ -618,7 +618,7 @@ The layer type is determined by the value of the type field.
 
 ### layers.autoBind `Boolean` *(default: true)*
 
-If set to `false` the layer will not bind to the data source during initialization. In this case data binding will occur when the [change](/api/framework/datasource#events-change) event of the
+If set to `false` the layer will not bind to the data source during initialization. In this case data binding will occur when the [change](/kendo-ui/api/framework/datasource#events-change) event of the
 data source is fired. By default the widget will bind to the data source specified in the configuration.
 
 > Setting `autoBind` to `false` is useful when multiple layers (widgets) are bound to the same data source. Disabling automatic binding ensures that the shared data source doesn't make more than one request to the remote service.
@@ -668,7 +668,7 @@ The layer type. Supported types are:
 
 ### layers.dataSource `Object|Array|kendo.data.DataSource`
 
-The data source of the layer. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/api/framework/datasource)
+The data source of the layer. Can be a JavaScript object which represents a valid data source configuration, a JavaScript array or an existing [kendo.data.DataSource](/kendo-ui/api/framework/datasource)
 instance.
 
 #### Example - binding to inline GeoJSON data
@@ -1493,7 +1493,7 @@ versions, so it is advisable to always use the [iframe configuration option](#if
 
 ### markerDefaults.tooltip.template `String|Template`
 
-The [template](/api/framework/kendo#methods-template) which renders the tooltip content.
+The [template](/kendo-ui/api/framework/kendo#methods-template) which renders the tooltip content.
 
 The fields which can be used in the template are:
 
@@ -2077,7 +2077,7 @@ versions, so it is advisable to always use the [iframe configuration option](#if
 
 ### markers.tooltip.template `String|Template`
 
-The [template](/api/framework/kendo#methods-template) which renders the tooltip content.
+The [template](/kendo-ui/api/framework/kendo#methods-template) which renders the tooltip content.
 
 The fields which can be used in the template are:
 
@@ -2613,7 +2613,7 @@ The DOM or jQuery mouse event.
 
 ### extent
 
-Gets the map current [map extent](/api/dataviz/map/extent).
+Gets the map current [map extent](/kendo-ui/api/dataviz/map/extent).
 
 #### Parameters
 

@@ -9,22 +9,22 @@ relatedDocs: php-ui-editor
 
 # Editor
 
-The Kendo Editor for PHP is a server-side wrapper for the [Kendo UI Editor](/api/web/editor) widget.
+The Kendo Editor for PHP is a server-side wrapper for the [Kendo UI Editor](/kendo-ui/api/web/editor) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Editor:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 
-2. Create a [editor](/api/wrappers/php/Kendo/UI/Editor).
+2. Create a [editor](/kendo-ui/api/wrappers/php/Kendo/UI/Editor).
 
         <?php
         $editor = new \Kendo\UI\Editor('editor');
         $editor->value('#ff0000');
         ?>
 
-3. Output the editor by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+3. Output the editor by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $editor->render();
@@ -33,13 +33,13 @@ Here is how to configure a simple Kendo Editor:
 ## Getting the editor value on the server
 
 The editor posts its value HTML-encoded by default.
-You can either disable this functionality through the [encoded](/api/web/editor#encoded-boolean-default) configuration option,
+You can either disable this functionality through the [encoded](/kendo-ui/api/web/editor#encoded-boolean-default) configuration option,
 or use [html_entity_decode](http://php.net/manual/en/function.html-entity-decode.php).
 
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Editor instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/editor#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/editor#methods) to control its behavior.
 
 
 ### Example
@@ -57,7 +57,7 @@ Once a reference has been established, you can use the [API](/api/web/editor#met
 
 ## Handling Events
 
-You can subscribe to all editor [events](/api/web/editor#events).
+You can subscribe to all editor [events](/kendo-ui/api/web/editor#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

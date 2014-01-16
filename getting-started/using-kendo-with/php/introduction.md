@@ -37,7 +37,7 @@ To run the web site copy this directory to your web root. Then navigate to **ind
 
 1. Copy **/wrappers/php/lib/Kendo** to your web site root (for example in your **lib** directory).
 2. Copy the Kendo UI JavaScript and CSS files from **/js** and **/styles** to your web site root. If you prefer to use Kendo CDN skip this and the next steps
-and check the [JavaScript Dependencies](/getting-started/javascript-dependencies#cdn) help topic.
+and check the [JavaScript Dependencies](/kendo-ui/getting-started/javascript-dependencies#cdn) help topic.
 3. Include the Kendo UI JavaScript and CSS files in your PHP page:
 
         <link href="styles/kendo.common.min.css" rel="stylesheet" type="text/css" />

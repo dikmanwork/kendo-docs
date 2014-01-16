@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.Drawer
 
-Represents the Kendo UI Mobile Drawer widget. Inherits from [kendo.mobile.ui.View](/api/framework/view).
+Represents the Kendo UI Mobile Drawer widget. Inherits from [kendo.mobile.ui.View](/kendo-ui/api/framework/view).
 
 ## Configuration
 

@@ -17,7 +17,7 @@ Builds nested MobileListView items.
 
 #### Parameters
 
-##### action System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewItemFactory)>
+##### action System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewItemFactory)>
 Action for declaratively building MobileListView items.
 
 

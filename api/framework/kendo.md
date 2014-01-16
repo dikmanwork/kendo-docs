@@ -576,7 +576,7 @@ The format string which should be used to format the value.
 
 ##### culture `String`
 
-The name of the culture which should be used to format the value. [The culture should be registered on the page](/getting-started/framework/globalization/overview#add culture scripts to the page).
+The name of the culture which should be used to format the value. [The culture should be registered on the page](/kendo-ui/getting-started/framework/globalization/overview#add culture scripts to the page).
 
 ### unbind
 
@@ -640,10 +640,10 @@ The DOM element that may have a Kendo UI instance attached to it.
 	var widget = kendo.widgetInstance(textbox);
 	if (widget) {
 		// execute an API method
-		widget.value(/* ... */);
+		widget.value(/kendo-ui/* ... */);
 	} else {
 		// execute generic jQuery method
-		textbox.val(/* ... */);
+		textbox.val(/kendo-ui/* ... */);
 	}
 
 ## Fields

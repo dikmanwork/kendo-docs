@@ -39,7 +39,7 @@ Defines the navigator series. At least one series should be configured.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartSeriesFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartSeriesFactory)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartSeriesFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartSeriesFactory)<T>>
 The add action.
 
 
@@ -88,7 +88,7 @@ Defines the navigator hint.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNavigatorHintBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNavigatorHintBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartNavigatorHintBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartNavigatorHintBuilder)>
 The add action.
 
 
@@ -113,7 +113,7 @@ Data Source configuration for the Navigator.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyAjaxDataSourceBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyAjaxDataSourceBuilder)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyAjaxDataSourceBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyAjaxDataSourceBuilder)<T>>
 Use the configurator to set different data binding options.
 
 
@@ -185,7 +185,7 @@ Configures the navigator category axis
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartCategoryAxisBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartCategoryAxisBuilder)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartCategoryAxisBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartCategoryAxisBuilder)<T>>
 The configurator
 
 

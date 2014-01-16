@@ -36,7 +36,7 @@ Configures the animation effects of the widget.
 
 #### Parameters
 
-##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
+##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
 The action which configures the animation effects.
 
 
@@ -74,7 +74,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.DatePickerEventBuilderBase](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DatePickerEventBuilderBase)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.DatePickerEventBuilderBase](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DatePickerEventBuilderBase)>
 The client events action.
 
 

@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:dateTimePicker\>
-A JSP wrapper for Kendo UI [DateTimePicker](/api/web/datetimepicker).
+A JSP wrapper for Kendo UI [DateTimePicker](/kendo-ui/api/web/datetimepicker).
 
 ## Configuration Attributes
 
@@ -123,7 +123,7 @@ Specifies the selected value.
 
 Configures the opening and closing animations of the popups. Setting the animation option to false will disable the opening and closing animations. As a result the popup will open and close instantly.
 
-More documentation is available at [kendo:dateTimePicker-animation](/api/wrappers/jsp/datetimepicker/animation).
+More documentation is available at [kendo:dateTimePicker-animation](/kendo-ui/api/wrappers/jsp/datetimepicker/animation).
 
 #### Example
 
@@ -135,7 +135,7 @@ More documentation is available at [kendo:dateTimePicker-animation](/api/wrapper
 
 Templates for the cells rendered in the calendar "month" view.
 
-More documentation is available at [kendo:dateTimePicker-month](/api/wrappers/jsp/datetimepicker/month).
+More documentation is available at [kendo:dateTimePicker-month](/kendo-ui/api/wrappers/jsp/datetimepicker/month).
 
 #### Example
 
@@ -151,7 +151,7 @@ More documentation is available at [kendo:dateTimePicker-month](/api/wrappers/js
 Triggered when the underlying value of a DateTimePicker is changed.
 
 
-For additional information check the [change](/api/web/datetimepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/datetimepicker#events-change) event documentation.
 
 #### Example
     <kendo:dateTimePicker change="handle_change">
@@ -167,7 +167,7 @@ For additional information check the [change](/api/web/datetimepicker#events-cha
 Fires when the calendar or the time drop-down list is closed
 
 
-For additional information check the [close](/api/web/datetimepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/datetimepicker#events-close) event documentation.
 
 #### Example
     <kendo:dateTimePicker close="handle_close">
@@ -183,7 +183,7 @@ For additional information check the [close](/api/web/datetimepicker#events-clos
 Fires when the calendar or the time drop-down list is opened
 
 
-For additional information check the [open](/api/web/datetimepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/datetimepicker#events-open) event documentation.
 
 #### Example
     <kendo:dateTimePicker open="handle_open">
@@ -201,7 +201,7 @@ For additional information check the [open](/api/web/datetimepicker#events-open)
 Triggered when the underlying value of a DateTimePicker is changed.
 
 
-For additional information check the [change](/api/web/datetimepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/datetimepicker#events-change) event documentation.
 
 #### Example
     <kendo:dateTimePicker>
@@ -219,7 +219,7 @@ For additional information check the [change](/api/web/datetimepicker#events-cha
 Fires when the calendar or the time drop-down list is closed
 
 
-For additional information check the [close](/api/web/datetimepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/datetimepicker#events-close) event documentation.
 
 #### Example
     <kendo:dateTimePicker>
@@ -237,7 +237,7 @@ For additional information check the [close](/api/web/datetimepicker#events-clos
 Fires when the calendar or the time drop-down list is opened
 
 
-For additional information check the [open](/api/web/datetimepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/datetimepicker#events-open) event documentation.
 
 #### Example
     <kendo:dateTimePicker>

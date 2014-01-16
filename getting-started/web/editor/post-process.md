@@ -32,8 +32,8 @@ If the editor is within a `<form>` element, a good moment to post-process its co
 
       // strip all paragraphs
       value = value
-        .replace(/<p[^>]*>/g, "")
-        .replace(/<\/p>/g, "<br />");
+        .replace(/kendo-ui/<p[^>]*>/g, "")
+        .replace(/kendo-ui/<\/p>/g, "<br />");
 
       comments.val(value);
     });

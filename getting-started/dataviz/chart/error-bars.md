@@ -26,7 +26,7 @@ The low and high value for the error bars can either be bound to the data or be 
 ##Data binding
 
 ###Binding to categorical series
-To bind the error bars low and high value when using categorical series, you should set the [errorLowField](/api/dataviz/chart#configuration-series.errorLowField) and [errorHighField](/api/dataviz/chart#configuration-series.errorHighField) options to the fields in the data that hold the low and high value.
+To bind the error bars low and high value when using categorical series, you should set the [errorLowField](/kendo-ui/api/dataviz/chart#configuration-series.errorLowField) and [errorHighField](/kendo-ui/api/dataviz/chart#configuration-series.errorHighField) options to the fields in the data that hold the low and high value.
 
 #### Example
 
@@ -44,7 +44,7 @@ To bind the error bars low and high value when using categorical series, you sho
     </script>
 
 ###Binding to scatter series
-Error bars can be displayed for the series x value, y value or both. To set the low and high fields for the series x value, you should set the [xErrorLowField](/api/dataviz/chart#configuration-series.xErrorLowField) and [xErrorHighField](/api/dataviz/chart#configuration-series.xErrorHighField) series options. The low and high fields for the series y value, can be specified with the [yErrorLowField](/api/dataviz/chart#configuration-series.yErrorLowField) and [yErrorHighField](/api/dataviz/chart#configuration-series.yErrorHighField) options.
+Error bars can be displayed for the series x value, y value or both. To set the low and high fields for the series x value, you should set the [xErrorLowField](/kendo-ui/api/dataviz/chart#configuration-series.xErrorLowField) and [xErrorHighField](/kendo-ui/api/dataviz/chart#configuration-series.xErrorHighField) series options. The low and high fields for the series y value, can be specified with the [yErrorLowField](/kendo-ui/api/dataviz/chart#configuration-series.yErrorLowField) and [yErrorHighField](/kendo-ui/api/dataviz/chart#configuration-series.yErrorHighField) options.
 
 #### Example: binding the error bars for the series x value
 
@@ -77,7 +77,7 @@ Error bars can be displayed for the series x value, y value or both. To set the 
     </script>
 
 ##Setting the error bars value
-The error bars low and high value can be calculated based on the series point values. To set the error bars value for categorical series, you should specify the [series.errorBars.value](/api/dataviz/chart#configuration-series.errorBars.value) option. For scatter series, you should set the [series.errorBars.xValue](/api/dataviz/chart#configuration-series.errorBars.xValue) or [series.errorBars.yValue](/api/dataviz/chart#configuration-series.errorBars.yValue) options or both.
+The error bars low and high value can be calculated based on the series point values. To set the error bars value for categorical series, you should specify the [series.errorBars.value](/kendo-ui/api/dataviz/chart#configuration-series.errorBars.value) option. For scatter series, you should set the [series.errorBars.xValue](/kendo-ui/api/dataviz/chart#configuration-series.errorBars.xValue) or [series.errorBars.yValue](/kendo-ui/api/dataviz/chart#configuration-series.errorBars.yValue) options or both.
 
 ###Setting a numeric value
 

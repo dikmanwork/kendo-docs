@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo Grid for ASP.NET MVC events.
 ### Change(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the Change client-side event.
 
-For additional information check the [change](/api/web/grid#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/grid#events-change) event documentation.
 
 
 #### Parameters
@@ -41,7 +41,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Change(`System.String`)
 Defines the name of the JavaScript function that will handle the the Change client-side event.
 
-For additional information check the [change](/api/web/grid#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/grid#events-change) event documentation.
 
 
 #### Parameters
@@ -62,7 +62,7 @@ The name of the JavaScript function that will handle the event.
 ### Cancel(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the Cancel client-side event.
 
-For additional information check the [cancel](/api/web/grid#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/grid#events-cancel) event documentation.
 
 
 #### Parameters
@@ -89,7 +89,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Cancel(`System.String`)
 Defines the name of the JavaScript function that will handle the the Cancel client-side event.
 
-For additional information check the [cancel](/api/web/grid#events-cancel) event documentation.
+For additional information check the [cancel](/kendo-ui/api/web/grid#events-cancel) event documentation.
 
 
 #### Parameters
@@ -110,7 +110,7 @@ The name of the JavaScript function that will handle the event.
 ### Edit(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the Edit client-side event.
 
-For additional information check the [edit](/api/web/grid#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/grid#events-edit) event documentation.
 
 
 #### Parameters
@@ -137,7 +137,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Edit(`System.String`)
 Defines the name of the JavaScript function that will handle the the Edit client-side event.
 
-For additional information check the [edit](/api/web/grid#events-edit) event documentation.
+For additional information check the [edit](/kendo-ui/api/web/grid#events-edit) event documentation.
 
 
 #### Parameters
@@ -158,7 +158,7 @@ The name of the JavaScript function that will handle the event.
 ### Save(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the Save client-side event.
 
-For additional information check the [save](/api/web/grid#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/grid#events-save) event documentation.
 
 
 #### Parameters
@@ -185,7 +185,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Save(`System.String`)
 Defines the name of the JavaScript function that will handle the the Save client-side event.
 
-For additional information check the [save](/api/web/grid#events-save) event documentation.
+For additional information check the [save](/kendo-ui/api/web/grid#events-save) event documentation.
 
 
 #### Parameters
@@ -206,7 +206,7 @@ The name of the JavaScript function that will handle the event.
 ### SaveChanges(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the SaveChanges client-side event.
 
-For additional information check the [saveChanges](/api/web/grid#events-saveChanges) event documentation.
+For additional information check the [saveChanges](/kendo-ui/api/web/grid#events-saveChanges) event documentation.
 
 
 #### Parameters
@@ -233,7 +233,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### SaveChanges(`System.String`)
 Defines the name of the JavaScript function that will handle the the SaveChanges client-side event.
 
-For additional information check the [saveChanges](/api/web/grid#events-saveChanges) event documentation.
+For additional information check the [saveChanges](/kendo-ui/api/web/grid#events-saveChanges) event documentation.
 
 
 #### Parameters
@@ -254,7 +254,7 @@ The name of the JavaScript function that will handle the event.
 ### DetailExpand(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the DetailExpand client-side event.
 
-For additional information check the [detailExpand](/api/web/grid#events-detailExpand) event documentation.
+For additional information check the [detailExpand](/kendo-ui/api/web/grid#events-detailExpand) event documentation.
 
 
 #### Parameters
@@ -281,7 +281,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DetailExpand(`System.String`)
 Defines the name of the JavaScript function that will handle the the DetailExpand client-side event.
 
-For additional information check the [detailExpand](/api/web/grid#events-detailExpand) event documentation.
+For additional information check the [detailExpand](/kendo-ui/api/web/grid#events-detailExpand) event documentation.
 
 
 #### Parameters
@@ -302,7 +302,7 @@ The name of the JavaScript function that will handle the event.
 ### DetailInit(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the DetailInit client-side event.
 
-For additional information check the [detailInit](/api/web/grid#events-detailInit) event documentation.
+For additional information check the [detailInit](/kendo-ui/api/web/grid#events-detailInit) event documentation.
 
 
 #### Parameters
@@ -329,7 +329,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DetailInit(`System.String`)
 Defines the name of the JavaScript function that will handle the the DetailInit client-side event.
 
-For additional information check the [detailInit](/api/web/grid#events-detailInit) event documentation.
+For additional information check the [detailInit](/kendo-ui/api/web/grid#events-detailInit) event documentation.
 
 
 #### Parameters
@@ -350,7 +350,7 @@ The name of the JavaScript function that will handle the event.
 ### DetailCollapse(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the DetailCollapse client-side event.
 
-For additional information check the [detailCollapse](/api/web/grid#events-detailCollapse) event documentation.
+For additional information check the [detailCollapse](/kendo-ui/api/web/grid#events-detailCollapse) event documentation.
 
 
 #### Parameters
@@ -377,7 +377,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DetailCollapse(`System.String`)
 Defines the name of the JavaScript function that will handle the the DetailCollapse client-side event.
 
-For additional information check the [detailCollapse](/api/web/grid#events-detailCollapse) event documentation.
+For additional information check the [detailCollapse](/kendo-ui/api/web/grid#events-detailCollapse) event documentation.
 
 
 #### Parameters
@@ -398,7 +398,7 @@ The name of the JavaScript function that will handle the event.
 ### Remove(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the Remove client-side event.
 
-For additional information check the [remove](/api/web/grid#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/grid#events-remove) event documentation.
 
 
 #### Parameters
@@ -425,7 +425,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Remove(`System.String`)
 Defines the name of the JavaScript function that will handle the the Remove client-side event.
 
-For additional information check the [remove](/api/web/grid#events-remove) event documentation.
+For additional information check the [remove](/kendo-ui/api/web/grid#events-remove) event documentation.
 
 
 #### Parameters
@@ -446,7 +446,7 @@ The name of the JavaScript function that will handle the event.
 ### DataBound(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the DataBound client-side event.
 
-For additional information check the [dataBound](/api/web/grid#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/grid#events-dataBound) event documentation.
 
 
 #### Parameters
@@ -473,7 +473,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DataBound(`System.String`)
 Defines the name of the JavaScript function that will handle the the DataBound client-side event.
 
-For additional information check the [dataBound](/api/web/grid#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/grid#events-dataBound) event documentation.
 
 
 #### Parameters
@@ -494,7 +494,7 @@ The name of the JavaScript function that will handle the event.
 ### DataBinding(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the DataBinding client-side event.
 
-For additional information check the [dataBinding](/api/web/grid#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/grid#events-dataBinding) event documentation.
 
 
 #### Parameters
@@ -521,7 +521,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### DataBinding(`System.String`)
 Defines the name of the JavaScript function that will handle the the DataBinding client-side event.
 
-For additional information check the [dataBinding](/api/web/grid#events-dataBinding) event documentation.
+For additional information check the [dataBinding](/kendo-ui/api/web/grid#events-dataBinding) event documentation.
 
 
 #### Parameters
@@ -542,7 +542,7 @@ The name of the JavaScript function that will handle the event.
 ### ColumnResize(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the ColumnResize client-side event.
 
-For additional information check the [columnResize](/api/web/grid#events-columnResize) event documentation.
+For additional information check the [columnResize](/kendo-ui/api/web/grid#events-columnResize) event documentation.
 
 
 #### Parameters
@@ -569,7 +569,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ColumnResize(`System.String`)
 Defines the name of the JavaScript function that will handle the the ColumnResize client-side event.
 
-For additional information check the [columnResize](/api/web/grid#events-columnResize) event documentation.
+For additional information check the [columnResize](/kendo-ui/api/web/grid#events-columnResize) event documentation.
 
 
 #### Parameters
@@ -590,7 +590,7 @@ The name of the JavaScript function that will handle the event.
 ### ColumnReorder(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the ColumnReorder client-side event.
 
-For additional information check the [columnReorder](/api/web/grid#events-columnReorder) event documentation.
+For additional information check the [columnReorder](/kendo-ui/api/web/grid#events-columnReorder) event documentation.
 
 
 #### Parameters
@@ -617,7 +617,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ColumnReorder(`System.String`)
 Defines the name of the JavaScript function that will handle the the ColumnReorder client-side event.
 
-For additional information check the [columnReorder](/api/web/grid#events-columnReorder) event documentation.
+For additional information check the [columnReorder](/kendo-ui/api/web/grid#events-columnReorder) event documentation.
 
 
 #### Parameters
@@ -638,7 +638,7 @@ The name of the JavaScript function that will handle the event.
 ### ColumnHide(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the ColumnHide client-side event.
 
-For additional information check the [columnHide](/api/web/grid#events-columnHide) event documentation.
+For additional information check the [columnHide](/kendo-ui/api/web/grid#events-columnHide) event documentation.
 
 
 #### Parameters
@@ -665,7 +665,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ColumnHide(`System.String`)
 Defines the name of the JavaScript function that will handle the the ColumnHide client-side event.
 
-For additional information check the [columnHide](/api/web/grid#events-columnHide) event documentation.
+For additional information check the [columnHide](/kendo-ui/api/web/grid#events-columnHide) event documentation.
 
 
 #### Parameters
@@ -686,7 +686,7 @@ The name of the JavaScript function that will handle the event.
 ### ColumnShow(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the the ColumnShow client-side event.
 
-For additional information check the [columnShow](/api/web/grid#events-columnShow) event documentation.
+For additional information check the [columnShow](/kendo-ui/api/web/grid#events-columnShow) event documentation.
 
 
 #### Parameters
@@ -713,7 +713,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ColumnShow(`System.String`)
 Defines the name of the JavaScript function that will handle the the ColumnShow client-side event.
 
-For additional information check the [columnShow](/api/web/grid#events-columnShow) event documentation.
+For additional information check the [columnShow](/kendo-ui/api/web/grid#events-columnShow) event documentation.
 
 
 #### Parameters
@@ -734,7 +734,7 @@ The name of the JavaScript function that will handle the event.
 ### ColumnMenuInit(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the ColumnMenuInit client-side event.
 
-For additional information check the [columnMenuInit](/api/web/grid#events-columnMenuInit) event documentation.
+For additional information check the [columnMenuInit](/kendo-ui/api/web/grid#events-columnMenuInit) event documentation.
 
 
 #### Parameters
@@ -761,7 +761,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ColumnMenuInit(`System.String`)
 Defines the name of the JavaScript function that will handle the ColumnMenuInit client-side event.
 
-For additional information check the [columnMenuInit](/api/web/grid#events-columnMenuInit) event documentation.
+For additional information check the [columnMenuInit](/kendo-ui/api/web/grid#events-columnMenuInit) event documentation.
 
 
 #### Parameters
@@ -782,7 +782,7 @@ The name of the JavaScript function that will handle the event.
 ### FilterMenuInit(`System.Func<System.Object,System.Object>`)
 Defines the name of the JavaScript function that will handle the FilterMenuInit client-side event.
 
-For additional information check the [filterMenuInit](/api/web/grid#events-filterMenuInit) event documentation.
+For additional information check the [filterMenuInit](/kendo-ui/api/web/grid#events-filterMenuInit) event documentation.
 
 
 #### Parameters
@@ -809,7 +809,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### FilterMenuInit(`System.String`)
 Defines the name of the JavaScript function that will handle the FilterMenuInit client-side event.
 
-For additional information check the [filterMenuInit](/api/web/grid#events-filterMenuInit) event documentation.
+For additional information check the [filterMenuInit](/kendo-ui/api/web/grid#events-filterMenuInit) event documentation.
 
 
 #### Parameters

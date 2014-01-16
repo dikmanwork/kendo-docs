@@ -9,18 +9,18 @@ relatedDocs: php-ui-listview
 
 # ListView
 
-The Kendo ListView for PHP is a server-side wrapper for the [Kendo UI ListView](/api/web/listview) widget.
+The Kendo ListView for PHP is a server-side wrapper for the [Kendo UI ListView](/kendo-ui/api/web/listview) widget.
 
 ## Getting Started
 
 There are two ways to bind Kendo ListView for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/listview/local-binding) - the listview is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/listview/remote-binding) - the listview makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/listview/local-binding) - the listview is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/listview/remote-binding) - the listview makes AJAX requests and is bound to JSON result
 
 Here is how to configure the listview for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the listview will be bound to
 
         <?php
@@ -29,7 +29,7 @@ Here is how to configure the listview for local binding:
             array('name' => 'Jane Doe', 'age' => 29)
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
@@ -45,7 +45,7 @@ Here is how to configure the listview for local binding:
     		</div>
 		</script>
 
-5. Create a [listview](/api/wrappers/php/Kendo/UI/ListView), configure its [template](/api/wrappers/php/Kendo/UI/ListView#template) and set its [data source](/api/wrappers/php/Kendo/UI/ListView#datasource).
+5. Create a [listview](/kendo-ui/api/wrappers/php/Kendo/UI/ListView), configure its [template](/kendo-ui/api/wrappers/php/Kendo/UI/ListView#template) and set its [data source](/kendo-ui/api/wrappers/php/Kendo/UI/ListView#datasource).
 
         <?php        
         $listview = new \Kendo\UI\ListView('listview');		
@@ -53,13 +53,13 @@ Here is how to configure the listview for local binding:
              ->dataSource($dataSource);
         ?>
 
-6. Optionally you can configure the [tagName](/api/wrappers/php/Kendo/UI/ListView#tagname) which is used to create an element which will contain all listivew items once the listview is bound. By default `div` element will be created.
+6. Optionally you can configure the [tagName](/kendo-ui/api/wrappers/php/Kendo/UI/ListView#tagname) which is used to create an element which will contain all listivew items once the listview is bound. By default `div` element will be created.
 
 		<?php
 		$listview->tagName('ul');
 		?>
 
-7. Output the listview by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+7. Output the listview by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $listview->render();
@@ -68,7 +68,7 @@ Here is how to configure the listview for local binding:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo ListView instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/listview#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/listview#methods) to control its behavior.
 
 
 ### Example
@@ -86,7 +86,7 @@ Once a reference has been established, you can use the [API](/api/web/listview#m
 
 ## Handling Events
 
-You can subscribe to all listview [events](/api/web/listview#events).
+You can subscribe to all listview [events](/kendo-ui/api/web/listview#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

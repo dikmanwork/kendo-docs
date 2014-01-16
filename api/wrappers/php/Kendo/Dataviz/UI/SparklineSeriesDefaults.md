@@ -49,7 +49,7 @@ The border of the series.
 ##### $value `\Kendo\Dataviz\UI\SparklineSeriesDefaultsBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsBorder](/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsBorder)
+#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsBorder)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\SparklineSeriesDefaults();
     $border = new \Kendo\Dataviz\UI\SparklineSeriesDefaultsBorder();
@@ -109,7 +109,7 @@ Configures the series data labels.
 ##### $value `\Kendo\Dataviz\UI\SparklineSeriesDefaultsLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsLabels](/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsLabels)
+#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsLabels)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\SparklineSeriesDefaults();
     $labels = new \Kendo\Dataviz\UI\SparklineSeriesDefaultsLabels();
@@ -212,7 +212,7 @@ The data point tooltip configuration options.
 ##### $value `\Kendo\Dataviz\UI\SparklineSeriesDefaultsTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsTooltip](/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsTooltip)
+#### Example - using [\Kendo\Dataviz\UI\SparklineSeriesDefaultsTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/SparklineSeriesDefaultsTooltip)
     <?php
     $seriesDefaults = new \Kendo\Dataviz\UI\SparklineSeriesDefaults();
     $tooltip = new \Kendo\Dataviz\UI\SparklineSeriesDefaultsTooltip();

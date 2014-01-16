@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:rangeSlider\>
-A JSP wrapper for Kendo UI [RangeSlider](/api/web/rangeslider).
+A JSP wrapper for Kendo UI [RangeSlider](/kendo-ui/api/web/rangeslider).
 
 ## Configuration Attributes
 
@@ -86,7 +86,7 @@ Denotes the location of the tick marks in the RangeSlider. The available options
 
 Configuration of the RangeSlider tooltip.
 
-More documentation is available at [kendo:rangeSlider-tooltip](/api/wrappers/jsp/rangeslider/tooltip).
+More documentation is available at [kendo:rangeSlider-tooltip](/kendo-ui/api/wrappers/jsp/rangeslider/tooltip).
 
 #### Example
 
@@ -102,7 +102,7 @@ More documentation is available at [kendo:rangeSlider-tooltip](/api/wrappers/jsp
 Fires when the rangeSlider value changes as a result of selecting a new value with one of the drag handles or the keyboard.
 
 
-For additional information check the [change](/api/web/rangeslider#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/rangeslider#events-change) event documentation.
 
 #### Example
     <kendo:rangeSlider change="handle_change">
@@ -118,7 +118,7 @@ For additional information check the [change](/api/web/rangeslider#events-change
 Fires when the user drags the drag handle to a new position.
 
 
-For additional information check the [slide](/api/web/rangeslider#events-slide) event documentation.
+For additional information check the [slide](/kendo-ui/api/web/rangeslider#events-slide) event documentation.
 
 #### Example
     <kendo:rangeSlider slide="handle_slide">
@@ -136,7 +136,7 @@ For additional information check the [slide](/api/web/rangeslider#events-slide) 
 Fires when the rangeSlider value changes as a result of selecting a new value with one of the drag handles or the keyboard.
 
 
-For additional information check the [change](/api/web/rangeslider#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/rangeslider#events-change) event documentation.
 
 #### Example
     <kendo:rangeSlider>
@@ -154,7 +154,7 @@ For additional information check the [change](/api/web/rangeslider#events-change
 Fires when the user drags the drag handle to a new position.
 
 
-For additional information check the [slide](/api/web/rangeslider#events-slide) event documentation.
+For additional information check the [slide](/kendo-ui/api/web/rangeslider#events-slide) event documentation.
 
 #### Example
     <kendo:rangeSlider>

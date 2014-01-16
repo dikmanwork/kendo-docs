@@ -10,7 +10,7 @@ publish: true
 
 # MVVM in Kendo UI Walkthrough
 
-This document provides an in-depth look on creating Kendo UI apps that use [framework MVVM features](/getting-started/framework/mvvm/overview). For those not familiar with the term **MVVM**, we'll start by setting some context.
+This document provides an in-depth look on creating Kendo UI apps that use [framework MVVM features](/kendo-ui/getting-started/framework/mvvm/overview). For those not familiar with the term **MVVM**, we'll start by setting some context.
 
 ## A Brief MVVM Primer
 
@@ -117,14 +117,14 @@ The **select** element now has no options. Instead, it has some new **data** att
 		<input id="merchant" type="text" class='k-textbox' data-bind="value: merchant" />
 	</dd>
 
-The **merchant** input has a new binding. The **data-bind=”value: merchant”** says that we want to bind the value of this input to the **merchant** variable in the view model. I also added a “**k-textbox**” css class to it to style it using [Kendo UI styles](/getting-started/ui-widgets/appearance-styling).
+The **merchant** input has a new binding. The **data-bind=”value: merchant”** says that we want to bind the value of this input to the **merchant** variable in the view model. I also added a “**k-textbox**” css class to it to style it using [Kendo UI styles](/kendo-ui/getting-started/ui-widgets/appearance-styling).
 
 	<dt>Amount</dt> 
 	<dd>
 		<input data-role="numerictextbox" data-bind="value: amount" id="amount" type="text" />
 	</dd>
 
-The **amount** input has two new bindings: **data-role** sets the input to a [Kendo UI NumericTextBox](/getting-started/web/numerictextbox/overview) and **data-bind** which binds the value to our **amount** variable.
+The **amount** input has two new bindings: **data-role** sets the input to a [Kendo UI NumericTextBox](/kendo-ui/getting-started/web/numerictextbox/overview) and **data-bind** which binds the value to our **amount** variable.
 
 	<button id="create" data-bind="click: create" class="k-button">Add</button>
 
@@ -133,7 +133,7 @@ The **Add** button has only one new change. It now has a **data-bind=”click: c
 	<div data-role="grid" data-sortable="true" data-bind="source: expenses"
     	 data-columns='["Type", "Merchant", "Amount"]' ></div>
 
-This last one is the grid. Yes, this one line creates a [Kendo UI Grid](/getting-started/ui-widgets/grid/walkthrough).
+This last one is the grid. Yes, this one line creates a [Kendo UI Grid](/kendo-ui/getting-started/ui-widgets/grid/walkthrough).
 
 ### The Final Result
 
@@ -143,4 +143,4 @@ Here is the finished product. Kendo UI bindings are keeping the UI and the model
 
 Not only does MVVM keep you from having to worry about many of the manual details, it also dramatically simplifies your code so that in your JavaScript you are only working with model objects. The DOM simply reflects the changes that you make to the model.
 
-To explore Kendo UI MVVM Features more, visit the [MVVM Overview Page](/getting-started/framework/mvvm/overview) and related docs.
+To explore Kendo UI MVVM Features more, visit the [MVVM Overview Page](/kendo-ui/getting-started/framework/mvvm/overview) and related docs.

@@ -6,13 +6,13 @@ publish: true
 
 # Splitter
 
-The Splitter JSP tag is a server-side wrapper for the [Kendo UI Splitter](/api/web/splitter) widget.
+The Splitter JSP tag is a server-side wrapper for the [Kendo UI Splitter](/kendo-ui/api/web/splitter) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Splitter:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method which renders the view:
 
@@ -49,7 +49,7 @@ Here is how to configure a simple Kendo Splitter:
 ## Accessing an Existing Splitter
 
 You can reference an existing Splitter instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/splitter#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/splitter#methods) to control its behavior.
 
 ### Accessing an existing Splitter instance
 
@@ -63,7 +63,7 @@ Once a reference has been established, you can use the [API](/api/web/splitter#m
 
 ## Handling Kendo UI Splitter events
 
-You can subscribe to all [events](/api/web/splitter#events) exposed by Kendo UI Splitter:
+You can subscribe to all [events](/kendo-ui/api/web/splitter#events) exposed by Kendo UI Splitter:
 
 ### Subscribe by handler name
 

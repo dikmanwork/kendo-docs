@@ -13,7 +13,7 @@ In Part 1 of this two part tutorial, we went over how to get up
 and running with PHP, how to choose and IDE, and how to get some
 fake data if you need it.
 
-[Read Part 1](/tutorials/PHP/build-apps-with-kendo-ui-and-php)
+[Read Part 1](/kendo-ui/tutorials/PHP/build-apps-with-kendo-ui-and-php)
 
 We built a simple SPA (single page application) which displays a list of sales
 employees and each employee can be expanded to show the territories they are

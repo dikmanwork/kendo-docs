@@ -16,7 +16,7 @@ This help topic shows how to bind Kendo Chart for PHP to JSON response.
 
 ### Configure Chart for Remote Binding
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a data source and configure it:
 
         <?php
@@ -76,7 +76,7 @@ This help topic shows how to bind Kendo Chart for PHP to JSON response.
 
 ### Create PHP file which returns JSON
 
-1. Create a new php file called **weather.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
+1. Create a new php file called **weather.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
 1. Create a PDO connection
 
         <?php

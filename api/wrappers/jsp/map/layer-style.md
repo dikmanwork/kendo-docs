@@ -24,7 +24,7 @@ The default style for shapes.
 The default fill for layer shapes.
 Accepts a valid CSS color string or object with detailed configuration.
 
-More documentation is available at [kendo:map-layer-style-fill](/api/wrappers/jsp/map/layer-style-fill).
+More documentation is available at [kendo:map-layer-style-fill](/kendo-ui/api/wrappers/jsp/map/layer-style-fill).
 
 #### Example
 
@@ -37,7 +37,7 @@ More documentation is available at [kendo:map-layer-style-fill](/api/wrappers/js
 The default stroke for layer shapes.
 Accepts a valid CSS color string or object with detailed configuration.
 
-More documentation is available at [kendo:map-layer-style-stroke](/api/wrappers/jsp/map/layer-style-stroke).
+More documentation is available at [kendo:map-layer-style-stroke](/kendo-ui/api/wrappers/jsp/map/layer-style-stroke).
 
 #### Example
 

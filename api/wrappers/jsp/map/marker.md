@@ -39,7 +39,7 @@ The marker shape. Supported shapes are "pin" and "circle".
 
 Kendo UI Tooltip options for this marker.
 
-More documentation is available at [kendo:map-marker-tooltip](/api/wrappers/jsp/map/marker-tooltip).
+More documentation is available at [kendo:map-marker-tooltip](/kendo-ui/api/wrappers/jsp/map/marker-tooltip).
 
 #### Example
 

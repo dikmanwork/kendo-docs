@@ -30,7 +30,7 @@ the DataSource is configured:
         .PageSize(20)
 
 The part we care about in this DataSource configuration is the `ServerOperation(true)` function call. Passing `true` to this
-function causes the resulting client-side Kendo DataSource to include any [filters](/api/framework/datasource#methods-filter)
+function causes the resulting client-side Kendo DataSource to include any [filters](/kendo-ui/api/framework/datasource#methods-filter)
 that are being applied to it in the request that it sends to the server. In passing along any filters that need to be
 applied, the DataSource will also pass up any paging information (if it has been configured for it) to the server in its
 request.

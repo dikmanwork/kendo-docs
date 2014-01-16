@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:timePicker\>
-A JSP wrapper for Kendo UI [TimePicker](/api/web/timepicker).
+A JSP wrapper for Kendo UI [TimePicker](/kendo-ui/api/web/timepicker).
 
 ## Configuration Attributes
 
@@ -81,7 +81,7 @@ Specifies the selected time.
 
 Configures the opening and closing animations of the popup. Setting the animation option to false will disable the opening and closing animations. As a result the popup will open and close instantly.
 
-More documentation is available at [kendo:timePicker-animation](/api/wrappers/jsp/timepicker/animation).
+More documentation is available at [kendo:timePicker-animation](/kendo-ui/api/wrappers/jsp/timepicker/animation).
 
 #### Example
 
@@ -97,7 +97,7 @@ More documentation is available at [kendo:timePicker-animation](/api/wrappers/js
 Fires when the selected date is changed
 
 
-For additional information check the [change](/api/web/timepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/timepicker#events-change) event documentation.
 
 #### Example
     <kendo:timePicker change="handle_change">
@@ -113,7 +113,7 @@ For additional information check the [change](/api/web/timepicker#events-change)
 Fires when the time drop-down list is closed
 
 
-For additional information check the [close](/api/web/timepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/timepicker#events-close) event documentation.
 
 #### Example
     <kendo:timePicker close="handle_close">
@@ -129,7 +129,7 @@ For additional information check the [close](/api/web/timepicker#events-close) e
 Fires when the time drop-down list is opened
 
 
-For additional information check the [open](/api/web/timepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/timepicker#events-open) event documentation.
 
 #### Example
     <kendo:timePicker open="handle_open">
@@ -147,7 +147,7 @@ For additional information check the [open](/api/web/timepicker#events-open) eve
 Fires when the selected date is changed
 
 
-For additional information check the [change](/api/web/timepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/timepicker#events-change) event documentation.
 
 #### Example
     <kendo:timePicker>
@@ -165,7 +165,7 @@ For additional information check the [change](/api/web/timepicker#events-change)
 Fires when the time drop-down list is closed
 
 
-For additional information check the [close](/api/web/timepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/timepicker#events-close) event documentation.
 
 #### Example
     <kendo:timePicker>
@@ -183,7 +183,7 @@ For additional information check the [close](/api/web/timepicker#events-close) e
 Fires when the time drop-down list is opened
 
 
-For additional information check the [open](/api/web/timepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/timepicker#events-open) event documentation.
 
 #### Example
     <kendo:timePicker>

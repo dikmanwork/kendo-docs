@@ -91,7 +91,7 @@ preferably in the $(document).ready() event handler.
     })
 
 A complete reference on how to bind the TreeView to different service end-points can be found
-on the [HierarchicalDataSource API help](/api/framework/hierarchicaldatasource).
+on the [HierarchicalDataSource API help](/kendo-ui/api/framework/hierarchicaldatasource).
 
 ### Enabling drag-and-drop for TreeView nodes
 
@@ -151,12 +151,12 @@ When binding through the dataSource configuration option, each item can have the
     };
 
 The **text**, **imageUrl**, **spriteCssClass** and **url** fields can be changed through the
-[datatextfield](/api/web/treeview#dataTextField), [dataimageurlfield](/api/web/treeview#dataImageUrlField),
-[dataspritecssclassfield](/api/web/treeview#dataSpriteCssClassField), and [dataurlfield](/api/web/treeview#dataUrlField),
+[datatextfield](/kendo-ui/api/web/treeview#dataTextField), [dataimageurlfield](/kendo-ui/api/web/treeview#dataImageUrlField),
+[dataspritecssclassfield](/kendo-ui/api/web/treeview#dataSpriteCssClassField), and [dataurlfield](/kendo-ui/api/web/treeview#dataUrlField),
 respectively.
 
 You can add arbitrary fields when binding through a dataSource. These are stored in the HierarchicalDataSource,
-and can be easily accessed through the treeview [dataItem method](/api/web/treeview#dataitem):
+and can be easily accessed through the treeview [dataItem method](/kendo-ui/api/web/treeview#dataitem):
 
 ## Common operations
 
@@ -179,8 +179,8 @@ and can be easily accessed through the treeview [dataItem method](/api/web/treev
         select: onSelect
     });
 
-Since the dataItem is of type [Node](/api/framework/node),
-you can use its [loaded flag](/api/framework/node#methods-loaded) to force reloading of nodes from the server.
+Since the dataItem is of type [Node](/kendo-ui/api/framework/node),
+you can use its [loaded flag](/kendo-ui/api/framework/node#methods-loaded) to force reloading of nodes from the server.
 
 ### Reloading child nodes when nodes are expanded
 
@@ -220,7 +220,7 @@ The same approach can be used for gathering of expanded nodes.
 
 ### Projecting the TreeView state
 
-Because the HierarchicalDataSource does not support data projection, you might need to remap state fields via the [schema.parse](/api/framework/datasource#configuration-schema.parse) configuration option:
+Because the HierarchicalDataSource does not support data projection, you might need to remap state fields via the [schema.parse](/kendo-ui/api/framework/datasource#configuration-schema.parse) configuration option:
 
     <div id="tree">
     <script>

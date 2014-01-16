@@ -14,7 +14,7 @@ Defines the fluent interface for configuring tooltip client events.
 ### Show(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the Show client-side event
 
-For additional information check the [show](/api/web/tooltip#events-show) event documentation.
+For additional information check the [show](/kendo-ui/api/web/tooltip#events-show) event documentation.
 
 
 #### Parameters
@@ -41,7 +41,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Show(`System.String`)
 Defines the name of the JavaScript function that will handle the the Show client-side event.
 
-For additional information check the [show](/api/web/tooltip#events-show) event documentation.
+For additional information check the [show](/kendo-ui/api/web/tooltip#events-show) event documentation.
 
 
 #### Parameters
@@ -62,7 +62,7 @@ The name of the JavaScript function that will handle the event.
 ### Hide(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the Hide client-side event
 
-For additional information check the [hide](/api/web/tooltip#events-hide) event documentation.
+For additional information check the [hide](/kendo-ui/api/web/tooltip#events-hide) event documentation.
 
 
 #### Parameters
@@ -89,7 +89,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Hide(`System.String`)
 Defines the name of the JavaScript function that will handle the the Hide client-side event.
 
-For additional information check the [hide](/api/web/tooltip#events-hide) event documentation.
+For additional information check the [hide](/kendo-ui/api/web/tooltip#events-hide) event documentation.
 
 
 #### Parameters
@@ -110,7 +110,7 @@ The name of the JavaScript function that will handle the event.
 ### ContentLoad(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the ContentLoad client-side event
 
-For additional information check the [contentLoad](/api/web/tooltip#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/tooltip#events-contentLoad) event documentation.
 
 
 #### Parameters
@@ -137,7 +137,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### ContentLoad(`System.String`)
 Defines the name of the JavaScript function that will handle the the ContentLoad client-side event.
 
-For additional information check the [contentLoad](/api/web/tooltip#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/tooltip#events-contentLoad) event documentation.
 
 
 #### Parameters
@@ -158,7 +158,7 @@ The name of the JavaScript function that will handle the event.
 ### Error(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the Error client-side event
 
-For additional information check the [error](/api/web/tooltip#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/tooltip#events-error) event documentation.
 
 
 #### Parameters
@@ -185,7 +185,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### Error(`System.String`)
 Defines the name of the JavaScript function that will handle the the Error client-side event.
 
-For additional information check the [error](/api/web/tooltip#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/tooltip#events-error) event documentation.
 
 
 #### Parameters
@@ -206,7 +206,7 @@ The name of the JavaScript function that will handle the event.
 ### RequestStart(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the RequestStart client-side event
 
-For additional information check the [requestStart](/api/web/tooltip#events-requestStart) event documentation.
+For additional information check the [requestStart](/kendo-ui/api/web/tooltip#events-requestStart) event documentation.
 
 
 #### Parameters
@@ -233,7 +233,7 @@ The handler code wrapped in a text tag (Razor syntax).
 ### RequestStart(`System.String`)
 Defines the name of the JavaScript function that will handle the the RequestStart client-side event.
 
-For additional information check the [requestStart](/api/web/tooltip#events-requestStart) event documentation.
+For additional information check the [requestStart](/kendo-ui/api/web/tooltip#events-requestStart) event documentation.
 
 
 #### Parameters

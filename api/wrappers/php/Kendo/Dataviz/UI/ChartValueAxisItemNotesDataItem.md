@@ -24,7 +24,7 @@ The icon of the note.
 ##### $value `\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemIcon|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemIcon](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemIcon)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemIcon](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemIcon)
     <?php
     $dataItem = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItem();
     $icon = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemIcon();
@@ -53,7 +53,7 @@ The label of the note.
 ##### $value `\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLabel|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLabel](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLabel)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLabel](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLabel)
     <?php
     $dataItem = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItem();
     $label = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLabel();
@@ -82,7 +82,7 @@ The line of the note.
 ##### $value `\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLine|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLine](/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLine)
+#### Example - using [\Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLine](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartValueAxisItemNotesDataItemLine)
     <?php
     $dataItem = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItem();
     $line = new \Kendo\Dataviz\UI\ChartValueAxisItemNotesDataItemLine();

@@ -149,7 +149,7 @@ This does not trigger the "change" event.
 
 ### color
 
-Get or set the selected color. If no argument is given, this returns the currently selected color as a [`kendo.Color` object](/api/framework/color).
+Get or set the selected color. If no argument is given, this returns the currently selected color as a [`kendo.Color` object](/kendo-ui/api/framework/color).
 
 #### Parameters
 

@@ -17,7 +17,7 @@ Sets the labels position
 
 #### Parameters
 
-##### position [Kendo.Mvc.UI.ChartNoteLabelPosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartNoteLabelPosition)
+##### position [Kendo.Mvc.UI.ChartNoteLabelPosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartNoteLabelPosition)
 The labels position.
 
 

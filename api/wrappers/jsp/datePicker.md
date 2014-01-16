@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:datePicker\>
-A JSP wrapper for Kendo UI [DatePicker](/api/web/datepicker).
+A JSP wrapper for Kendo UI [DatePicker](/kendo-ui/api/web/datepicker).
 
 ## Configuration Attributes
 
@@ -108,7 +108,7 @@ Specifies the selected date.
 
 Configures the opening and closing animations of the calendar popup. Setting the animation option to false will disable the opening and closing animations. As a result the calendar popup will open and close instantly.
 
-More documentation is available at [kendo:datePicker-animation](/api/wrappers/jsp/datepicker/animation).
+More documentation is available at [kendo:datePicker-animation](/kendo-ui/api/wrappers/jsp/datepicker/animation).
 
 #### Example
 
@@ -120,7 +120,7 @@ More documentation is available at [kendo:datePicker-animation](/api/wrappers/js
 
 Templates for the cells rendered in the calendar "month" view.
 
-More documentation is available at [kendo:datePicker-month](/api/wrappers/jsp/datepicker/month).
+More documentation is available at [kendo:datePicker-month](/kendo-ui/api/wrappers/jsp/datepicker/month).
 
 #### Example
 
@@ -136,7 +136,7 @@ More documentation is available at [kendo:datePicker-month](/api/wrappers/jsp/da
 Fires when the selected date is changed
 
 
-For additional information check the [change](/api/web/datepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/datepicker#events-change) event documentation.
 
 #### Example
     <kendo:datePicker change="handle_change">
@@ -152,7 +152,7 @@ For additional information check the [change](/api/web/datepicker#events-change)
 Fires when the calendar is closed
 
 
-For additional information check the [close](/api/web/datepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/datepicker#events-close) event documentation.
 
 #### Example
     <kendo:datePicker close="handle_close">
@@ -168,7 +168,7 @@ For additional information check the [close](/api/web/datepicker#events-close) e
 Fires when the calendar is opened
 
 
-For additional information check the [open](/api/web/datepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/datepicker#events-open) event documentation.
 
 #### Example
     <kendo:datePicker open="handle_open">
@@ -186,7 +186,7 @@ For additional information check the [open](/api/web/datepicker#events-open) eve
 Fires when the selected date is changed
 
 
-For additional information check the [change](/api/web/datepicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/datepicker#events-change) event documentation.
 
 #### Example
     <kendo:datePicker>
@@ -204,7 +204,7 @@ For additional information check the [change](/api/web/datepicker#events-change)
 Fires when the calendar is closed
 
 
-For additional information check the [close](/api/web/datepicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/datepicker#events-close) event documentation.
 
 #### Example
     <kendo:datePicker>
@@ -222,7 +222,7 @@ For additional information check the [close](/api/web/datepicker#events-close) e
 Fires when the calendar is opened
 
 
-For additional information check the [open](/api/web/datepicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/datepicker#events-open) event documentation.
 
 #### Example
     <kendo:datePicker>

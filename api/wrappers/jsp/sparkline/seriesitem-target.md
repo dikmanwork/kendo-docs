@@ -39,7 +39,7 @@ The target color.
 
 The border of the target.
 
-More documentation is available at [kendo:sparkline-seriesItem-target-border](/api/wrappers/jsp/sparkline/seriesitem-target-border).
+More documentation is available at [kendo:sparkline-seriesItem-target-border](/kendo-ui/api/wrappers/jsp/sparkline/seriesitem-target-border).
 
 #### Example
 
@@ -51,7 +51,7 @@ More documentation is available at [kendo:sparkline-seriesItem-target-border](/a
 
 The target line.
 
-More documentation is available at [kendo:sparkline-seriesItem-target-line](/api/wrappers/jsp/sparkline/seriesitem-target-line).
+More documentation is available at [kendo:sparkline-seriesItem-target-line](/kendo-ui/api/wrappers/jsp/sparkline/seriesitem-target-line).
 
 #### Example
 

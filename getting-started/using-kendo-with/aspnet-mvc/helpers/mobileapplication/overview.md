@@ -8,7 +8,7 @@ publish: true
 
 # MobileApplication
 
-The MobileApplication HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Application](/api/mobile/application) widget. It allows you to configure the Kendo UI Mobile Application
+The MobileApplication HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile Application](/kendo-ui/api/mobile/application) widget. It allows you to configure the Kendo UI Mobile Application
 from server-side code.
 
 ## Getting started
@@ -21,8 +21,8 @@ so that they navigate between the mobile views when the user taps them. There ar
 
 ### Server navigation
 
-1.  Create a new ASP.NET MVC 4 application (or UI for ASP.NET MVC application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or UI for ASP.NET MVC application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
@@ -130,8 +130,8 @@ to add **UI for ASP.NET MVC** to the application.
 
 ### Ajax navigation
 
-1.  Create a new ASP.NET MVC 4 application (or UI for ASP.NET MVC application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or UI for ASP.NET MVC application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
@@ -244,7 +244,7 @@ to add **UI for ASP.NET MVC** to the application.
 ## Getting reference to the Kendo UI MobileApplication widget
 
 To get a reference to the application instance use the following script.
-Then you can use you can use the JavaScript [API](/api/mobile/application#methods) of the application.
+Then you can use you can use the JavaScript [API](/kendo-ui/api/mobile/application#methods) of the application.
 
 ### Example - get reference to a Kendo UI MobileApplication instance
 

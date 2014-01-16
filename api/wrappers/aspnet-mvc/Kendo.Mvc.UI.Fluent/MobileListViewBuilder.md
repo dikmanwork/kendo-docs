@@ -81,7 +81,7 @@ Instance of DataSource or the data that the mobile ListView will be bound to.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.AjaxDataSourceBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/AjaxDataSourceBuilder)<T>>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.AjaxDataSourceBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/AjaxDataSourceBuilder)<T>>
 The value that configures the datasource.
 
 
@@ -276,7 +276,7 @@ Indicates whether the filter input must be visible or not.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewFilterableSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewFilterableSettingsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewFilterableSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewFilterableSettingsBuilder)>
 The action that configures the filterable.
 
 
@@ -289,7 +289,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewEventBuilder)>
 The client events action.
 
 
@@ -310,7 +310,7 @@ Builds MobileListView items.
 
 #### Parameters
 
-##### action System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewItemFactory)>
+##### action System.Action<[Kendo.Mvc.UI.Fluent.MobileListViewItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileListViewItemFactory)>
 Action for declaratively building MobileListView items.
 
 

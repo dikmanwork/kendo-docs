@@ -186,7 +186,7 @@ Contains the items of the ScrollView widget
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileScrollViewItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileScrollViewItemFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileScrollViewItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileScrollViewItemFactory)>
 The action that configures the items.
 
 
@@ -212,7 +212,7 @@ Instance of DataSource or the data that the mobile ScrollView will be bound to.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyDataSourceBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyDataSourceBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ReadOnlyDataSourceBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ReadOnlyDataSourceBuilder)>
 The value that configures the datasource.
 
 
@@ -225,7 +225,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileScrollViewEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileScrollViewEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileScrollViewEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileScrollViewEventBuilder)>
 The client events action.
 
 

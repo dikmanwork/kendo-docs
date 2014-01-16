@@ -6,13 +6,13 @@ publish: true
 
 # TreeView
 
-The TreeView tag is a server-side wrapper for the [Kendo UI TreeView](/api/web/treeview) widget.
+The TreeView tag is a server-side wrapper for the [Kendo UI TreeView](/kendo-ui/api/web/treeview) widget.
 
 ## Getting Started
 
 Here is how to bind the Kendo TreeView to data passed as a model attribute in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method and pass the Category list to the View:
 
@@ -36,7 +36,7 @@ Here is how to bind the Kendo TreeView to data passed as a model attribute in Sp
 ## Accessing an Existing TreeView
 
 You can reference an existing TreeView instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/treeview#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/treeview#methods) to control its behavior.
 
 ### Accessing an existing TreeView instance
 
@@ -51,7 +51,7 @@ Once a reference has been established, you can use the [API](/api/web/treeview#m
 
 ## Handling Kendo UI TreeView events
 
-You can subscribe to all [events](/api/web/treeview#events) exposed by Kendo UI TreeView:
+You can subscribe to all [events](/kendo-ui/api/web/treeview#events) exposed by Kendo UI TreeView:
 
 
 ### Subscribe by handler name

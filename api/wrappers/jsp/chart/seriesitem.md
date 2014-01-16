@@ -507,7 +507,7 @@ The data item field containing the Y value.
 
 The border of the chart series.
 
-More documentation is available at [kendo:chart-seriesItem-border](/api/wrappers/jsp/chart/seriesitem-border).
+More documentation is available at [kendo:chart-seriesItem-border](/kendo-ui/api/wrappers/jsp/chart/seriesitem-border).
 
 #### Example
 
@@ -519,7 +519,7 @@ More documentation is available at [kendo:chart-seriesItem-border](/api/wrappers
 
 The label connectors options.
 
-More documentation is available at [kendo:chart-seriesItem-connectors](/api/wrappers/jsp/chart/seriesitem-connectors).
+More documentation is available at [kendo:chart-seriesItem-connectors](/kendo-ui/api/wrappers/jsp/chart/seriesitem-connectors).
 
 #### Example
 
@@ -531,7 +531,7 @@ More documentation is available at [kendo:chart-seriesItem-connectors](/api/wrap
 
 The error bars of the chart series.
 
-More documentation is available at [kendo:chart-seriesItem-errorBars](/api/wrappers/jsp/chart/seriesitem-errorbars).
+More documentation is available at [kendo:chart-seriesItem-errorBars](/kendo-ui/api/wrappers/jsp/chart/seriesitem-errorbars).
 
 #### Example
 
@@ -543,7 +543,7 @@ More documentation is available at [kendo:chart-seriesItem-errorBars](/api/wrapp
 
 The chart series extremes configuration.
 
-More documentation is available at [kendo:chart-seriesItem-extremes](/api/wrappers/jsp/chart/seriesitem-extremes).
+More documentation is available at [kendo:chart-seriesItem-extremes](/kendo-ui/api/wrappers/jsp/chart/seriesitem-extremes).
 
 #### Example
 
@@ -555,7 +555,7 @@ More documentation is available at [kendo:chart-seriesItem-extremes](/api/wrappe
 
 The chart series highlighting configuration options.
 
-More documentation is available at [kendo:chart-seriesItem-highlight](/api/wrappers/jsp/chart/seriesitem-highlight).
+More documentation is available at [kendo:chart-seriesItem-highlight](/kendo-ui/api/wrappers/jsp/chart/seriesitem-highlight).
 
 #### Example
 
@@ -567,7 +567,7 @@ More documentation is available at [kendo:chart-seriesItem-highlight](/api/wrapp
 
 The chart series label configuration.
 
-More documentation is available at [kendo:chart-seriesItem-labels](/api/wrappers/jsp/chart/seriesitem-labels).
+More documentation is available at [kendo:chart-seriesItem-labels](/kendo-ui/api/wrappers/jsp/chart/seriesitem-labels).
 
 #### Example
 
@@ -579,7 +579,7 @@ More documentation is available at [kendo:chart-seriesItem-labels](/api/wrappers
 
 The chart line configuration options.
 
-More documentation is available at [kendo:chart-seriesItem-line](/api/wrappers/jsp/chart/seriesitem-line).
+More documentation is available at [kendo:chart-seriesItem-line](/kendo-ui/api/wrappers/jsp/chart/seriesitem-line).
 
 #### Example
 
@@ -591,7 +591,7 @@ More documentation is available at [kendo:chart-seriesItem-line](/api/wrappers/j
 
 The margin around each donut series (ring). A numeric value will set all margins.
 
-More documentation is available at [kendo:chart-seriesItem-margin](/api/wrappers/jsp/chart/seriesitem-margin).
+More documentation is available at [kendo:chart-seriesItem-margin](/kendo-ui/api/wrappers/jsp/chart/seriesitem-margin).
 
 #### Example
 
@@ -603,7 +603,7 @@ More documentation is available at [kendo:chart-seriesItem-margin](/api/wrappers
 
 The chart series marker configuration.
 
-More documentation is available at [kendo:chart-seriesItem-markers](/api/wrappers/jsp/chart/seriesitem-markers).
+More documentation is available at [kendo:chart-seriesItem-markers](/kendo-ui/api/wrappers/jsp/chart/seriesitem-markers).
 
 #### Example
 
@@ -615,7 +615,7 @@ More documentation is available at [kendo:chart-seriesItem-markers](/api/wrapper
 
 The options for displaying the chart negative bubble values.
 
-More documentation is available at [kendo:chart-seriesItem-negativeValues](/api/wrappers/jsp/chart/seriesitem-negativevalues).
+More documentation is available at [kendo:chart-seriesItem-negativeValues](/kendo-ui/api/wrappers/jsp/chart/seriesitem-negativevalues).
 
 #### Example
 
@@ -627,7 +627,7 @@ More documentation is available at [kendo:chart-seriesItem-negativeValues](/api/
 
 The series notes configuration.
 
-More documentation is available at [kendo:chart-seriesItem-notes](/api/wrappers/jsp/chart/seriesitem-notes).
+More documentation is available at [kendo:chart-seriesItem-notes](/kendo-ui/api/wrappers/jsp/chart/seriesitem-notes).
 
 #### Example
 
@@ -639,7 +639,7 @@ More documentation is available at [kendo:chart-seriesItem-notes](/api/wrappers/
 
 The chart series outliers configuration.
 
-More documentation is available at [kendo:chart-seriesItem-outliers](/api/wrappers/jsp/chart/seriesitem-outliers).
+More documentation is available at [kendo:chart-seriesItem-outliers](/kendo-ui/api/wrappers/jsp/chart/seriesitem-outliers).
 
 #### Example
 
@@ -651,7 +651,7 @@ More documentation is available at [kendo:chart-seriesItem-outliers](/api/wrappe
 
 The chart series overlay options.
 
-More documentation is available at [kendo:chart-seriesItem-overlay](/api/wrappers/jsp/chart/seriesitem-overlay).
+More documentation is available at [kendo:chart-seriesItem-overlay](/kendo-ui/api/wrappers/jsp/chart/seriesitem-overlay).
 
 #### Example
 
@@ -663,7 +663,7 @@ More documentation is available at [kendo:chart-seriesItem-overlay](/api/wrapper
 
 The configuration options of the target
 
-More documentation is available at [kendo:chart-seriesItem-target](/api/wrappers/jsp/chart/seriesitem-target).
+More documentation is available at [kendo:chart-seriesItem-target](/kendo-ui/api/wrappers/jsp/chart/seriesitem-target).
 
 #### Example
 
@@ -675,7 +675,7 @@ More documentation is available at [kendo:chart-seriesItem-target](/api/wrappers
 
 The chart series tooltip configuration options.
 
-More documentation is available at [kendo:chart-seriesItem-tooltip](/api/wrappers/jsp/chart/seriesitem-tooltip).
+More documentation is available at [kendo:chart-seriesItem-tooltip](/kendo-ui/api/wrappers/jsp/chart/seriesitem-tooltip).
 
 #### Example
 

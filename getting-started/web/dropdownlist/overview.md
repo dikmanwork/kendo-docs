@@ -96,7 +96,7 @@ larger data sets. With remote data-binding, items will be loaded on-demand; when
 
 The **DropDownList** uses Kendo UI templates to enable you to control how items are rendered. For
 a detailed description of the capabilities and syntax of the Kendo UI templates, please refer to the
-[documentation](/getting-started/framework/templates/overview).
+[documentation](/kendo-ui/getting-started/framework/templates/overview).
 
 ### Basic item template customization
 

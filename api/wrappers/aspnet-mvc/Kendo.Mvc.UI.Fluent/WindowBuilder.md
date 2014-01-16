@@ -193,7 +193,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowEventBuilder)>
 The client events action.
 
 
@@ -227,7 +227,7 @@ Configures the resizing ability of the window.
 
 #### Parameters
 
-##### resizingSettingsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowResizingSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowResizingSettingsBuilder)>
+##### resizingSettingsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowResizingSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowResizingSettingsBuilder)>
 Resizing settings action.
 
 
@@ -248,7 +248,7 @@ Configures the window buttons.
 
 #### Parameters
 
-##### actionsBuilderAction System.Action<[Kendo.Mvc.UI.Fluent.WindowActionsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowActionsBuilder)>
+##### actionsBuilderAction System.Action<[Kendo.Mvc.UI.Fluent.WindowActionsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowActionsBuilder)>
 The buttons configuration action.
 
 
@@ -283,7 +283,7 @@ Configures the position of the window.
 
 #### Parameters
 
-##### positionSettingsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowPositionSettingsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowPositionSettingsBuilder)>
+##### positionSettingsAction System.Action<[Kendo.Mvc.UI.Fluent.WindowPositionSettingsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/WindowPositionSettingsBuilder)>
 Position settings action.
 
 
@@ -336,7 +336,7 @@ Configures the animation effects of the panelbar.
 
 #### Parameters
 
-##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
+##### animationAction System.Action<[Kendo.Mvc.UI.Fluent.PopupAnimationBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/PopupAnimationBuilder)>
 The action that configures the animation.
 
 

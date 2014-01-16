@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\Dataviz\UI\QRCode
 
-A PHP wrapper for Kendo UI [QRCode](/api/dataviz/qrcode).
+A PHP wrapper for Kendo UI [QRCode](/kendo-ui/api/dataviz/qrcode).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use QRCode in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo QRCode
 
@@ -63,7 +63,7 @@ The border of the QR code.
 ##### $value `\Kendo\Dataviz\UI\QRCodeBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\QRCodeBorder](/api/wrappers/php/Kendo/Dataviz/UI/QRCodeBorder)
+#### Example - using [\Kendo\Dataviz\UI\QRCodeBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/QRCodeBorder)
     <?php
     $qRCode = new \Kendo\Dataviz\UI\QRCode('QRCode');
     $border = new \Kendo\Dataviz\UI\QRCodeBorder();

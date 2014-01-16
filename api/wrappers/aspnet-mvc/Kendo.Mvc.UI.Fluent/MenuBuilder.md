@@ -17,7 +17,7 @@ Defines the items in the menu
 
 #### Parameters
 
-##### addAction System.Action<[Kendo.Mvc.UI.Fluent.MenuItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MenuItemFactory)>
+##### addAction System.Action<[Kendo.Mvc.UI.Fluent.MenuItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MenuItemFactory)>
 The add action.
 
 
@@ -40,7 +40,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.MenuEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MenuEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.MenuEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MenuEventBuilder)>
 The client events action.
 
 
@@ -61,7 +61,7 @@ Specifies Menu opening direction.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MenuDirection](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuDirection)
+##### value [Kendo.Mvc.UI.MenuDirection](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuDirection)
 The desired direction.
 
 
@@ -99,7 +99,7 @@ Sets the menu orientation.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MenuOrientation](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuOrientation)
+##### value [Kendo.Mvc.UI.MenuOrientation](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuOrientation)
 The desired orientation.
 
 
@@ -160,7 +160,7 @@ Binds the menu to a sitemap
 ##### viewDataKey `System.String`
 The view data key.
 
-##### siteMapAction System.Action<[Kendo.Mvc.UI.MenuItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem),Kendo.Mvc.SiteMapNode>
+##### siteMapAction System.Action<[Kendo.Mvc.UI.MenuItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem),Kendo.Mvc.SiteMapNode>
 The action to configure the item.
 
 
@@ -204,7 +204,7 @@ Binds the menu to a list of objects. The menu will be "flat" which means a menu 
 ##### dataSource `System.Collections.Generic.IEnumerable<T1>`
 The data source.
 
-##### itemDataBound System.Action<[Kendo.Mvc.UI.MenuItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem),T1>
+##### itemDataBound System.Action<[Kendo.Mvc.UI.MenuItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem),T1>
 The action executed for every data bound item.
 
 
@@ -229,7 +229,7 @@ Binds the menu to a list of objects. The menu will create a hierarchy of items u
 ##### dataSource `System.Collections.IEnumerable`
 The data source.
 
-##### factoryAction System.Action<[Kendo.Mvc.UI.Fluent.NavigationBindingFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/NavigationBindingFactory)<Kendo.Mvc.UI.MenuItem>>
+##### factoryAction System.Action<[Kendo.Mvc.UI.Fluent.NavigationBindingFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/NavigationBindingFactory)<Kendo.Mvc.UI.MenuItem>>
 The action which will configure the mappings
 
 
@@ -257,7 +257,7 @@ Callback for each item.
 
 #### Parameters
 
-##### action System.Action<[Kendo.Mvc.UI.MenuItem](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem)>
+##### action System.Action<[Kendo.Mvc.UI.MenuItem](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MenuItem)>
 Action, which will be executed for each item.
 
 
@@ -319,7 +319,7 @@ Defines the security trimming functionality of the component
 
 #### Parameters
 
-##### securityTrimmingAction System.Action<[Kendo.Mvc.UI.SecurityTrimmingBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SecurityTrimmingBuilder)>
+##### securityTrimmingAction System.Action<[Kendo.Mvc.UI.SecurityTrimmingBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/SecurityTrimmingBuilder)>
 The securityTrimming action.
 
 

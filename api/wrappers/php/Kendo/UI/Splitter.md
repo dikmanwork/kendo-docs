@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\Splitter
 
-A PHP wrapper for Kendo UI [Splitter](/api/web/splitter).
+A PHP wrapper for Kendo UI [Splitter](/kendo-ui/api/web/splitter).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use Splitter in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo Splitter
 
@@ -35,7 +35,7 @@ configuration [methods](#methods) and output it by `echo`-ing the result of the 
 
 ### collapse
 Triggered when a pane of a Splitter is collapsed.
-For additional information check the [collapse](/api/web/splitter#events-collapse) event documentation.
+For additional information check the [collapse](/kendo-ui/api/web/splitter#events-collapse) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -62,7 +62,7 @@ For additional information check the [collapse](/api/web/splitter#events-collaps
     $splitter->collapse('onCollapse');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');
@@ -71,7 +71,7 @@ For additional information check the [collapse](/api/web/splitter#events-collaps
 
 ### contentLoad
 Triggered when the content for a pane has finished loading.
-For additional information check the [contentLoad](/api/web/splitter#events-contentLoad) event documentation.
+For additional information check the [contentLoad](/kendo-ui/api/web/splitter#events-contentLoad) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -98,7 +98,7 @@ For additional information check the [contentLoad](/api/web/splitter#events-cont
     $splitter->contentLoad('onContentLoad');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');
@@ -107,7 +107,7 @@ For additional information check the [contentLoad](/api/web/splitter#events-cont
 
 ### error
 Triggered when the AJAX request that fetches a pane content has failed.
-For additional information check the [error](/api/web/splitter#events-error) event documentation.
+For additional information check the [error](/kendo-ui/api/web/splitter#events-error) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -134,7 +134,7 @@ For additional information check the [error](/api/web/splitter#events-error) eve
     $splitter->error('onError');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');
@@ -143,7 +143,7 @@ For additional information check the [error](/api/web/splitter#events-error) eve
 
 ### expand
 Triggered when a pane of a Splitter is expanded.
-For additional information check the [expand](/api/web/splitter#events-expand) event documentation.
+For additional information check the [expand](/kendo-ui/api/web/splitter#events-expand) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -170,7 +170,7 @@ For additional information check the [expand](/api/web/splitter#events-expand) e
     $splitter->expand('onExpand');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');
@@ -179,7 +179,7 @@ For additional information check the [expand](/api/web/splitter#events-expand) e
 
 ### layoutChange
 This event is now obsolete and will be removed in the future. Please use the resize event instead.Fires when the splitter layout has changed
-For additional information check the [layoutChange](/api/web/splitter#events-layoutChange) event documentation.
+For additional information check the [layoutChange](/kendo-ui/api/web/splitter#events-layoutChange) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -206,7 +206,7 @@ For additional information check the [layoutChange](/api/web/splitter#events-lay
     $splitter->layoutChange('onLayoutChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');
@@ -271,7 +271,7 @@ Adds one or more SplitterPane to the Splitter.
 
 ### resize
 Triggered when a pane is resized.
-For additional information check the [resize](/api/web/splitter#events-resize) event documentation.
+For additional information check the [resize](/kendo-ui/api/web/splitter#events-resize) event documentation.
 
 #### Returns
 `\Kendo\UI\Splitter`
@@ -298,7 +298,7 @@ For additional information check the [resize](/api/web/splitter#events-resize) e
     $splitter->resize('onResize');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $splitter = new \Kendo\UI\Splitter('Splitter');

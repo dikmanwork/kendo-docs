@@ -224,7 +224,7 @@ because the theme might need to override some of the base styles.
 
 The Kendo UI widgets come with the following themes: Black, BlueOpal, Default, Metro (Green) and Silver.
 The styling mechanism of the MVC extensions and the Kendo UI widgets is quite similar.
-More information about the Kendo UI styling is available in the [Kendo UI Appearance and Styling](/getting-started/web/appearance-styling) documentation article.
+More information about the Kendo UI styling is available in the [Kendo UI Appearance and Styling](/kendo-ui/getting-started/web/appearance-styling) documentation article.
 
 In some cases, developers that migrate from Telerik Extensions for ASP.NET MVC to **UI for ASP.NET MVC**, may want to preserve the previous look of the components.
 For this purpose the so-called **legacy themes** are provided.

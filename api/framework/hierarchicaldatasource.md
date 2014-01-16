@@ -11,17 +11,17 @@ publish: true
 
 ## Configuration
 
-See the [DataSource configuration](/api/framework/datasource#configuration) for all inherited configuration.
+See the [DataSource configuration](/kendo-ui/api/framework/datasource#configuration) for all inherited configuration.
 
 ### schema `Object`
 
-The schema configuration. See the [DataSource.schema configuration](/api/framework/datasource#configuration-schema) for all available options.
+The schema configuration. See the [DataSource.schema configuration](/kendo-ui/api/framework/datasource#configuration-schema) for all available options.
 
 ### schema.model `Object|kendo.data.Node`
 
-The data item (model) configuration. See the [DataSource.schema.model configuration](/api/framework/datasource#configuration-schema.model) for all available options.
+The data item (model) configuration. See the [DataSource.schema.model configuration](/kendo-ui/api/framework/datasource#configuration-schema.model) for all available options.
 
-> The model **must** inherit from [kendo.data.Node](/api/framework/node).
+> The model **must** inherit from [kendo.data.Node](/kendo-ui/api/framework/node).
 
 #### Example - use a custom model
 
@@ -243,18 +243,18 @@ indicating which field holds the nested data.
 
 ## Methods
 
-See the [DataSource methods](/api/framework/datasource#methods) for all inherited methods.
+See the [DataSource methods](/kendo-ui/api/framework/datasource#methods) for all inherited methods.
 
 The **remove** and **getByUid** methods are overridden and work with the hierarchical data
 (they will act on all child datasources that have been read).
 
 ## Events
 
-See the [DataSource events](/api/framework/datasource#events) for all inherited events.
+See the [DataSource events](/kendo-ui/api/framework/datasource#events) for all inherited events.
 
 ### change
 
-Fires when data is changed. In addition to the [standard change event](/api/framework/datasource#change),
+Fires when data is changed. In addition to the [standard change event](/kendo-ui/api/framework/datasource#change),
 the HierarchicalDataSource includes additional data when the event has been triggered from a child
 DataSource.
 

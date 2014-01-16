@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.ModalView
 
-Represents the Kendo UI Mobile ModalView widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile ModalView widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## Example
     <div data-role="view">

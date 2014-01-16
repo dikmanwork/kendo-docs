@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.Button
 
-Represents the Kendo UI Mobile Button widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile Button widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## Configuration
 

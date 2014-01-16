@@ -62,7 +62,7 @@ The Upload requires the response to be in JSON format with Content-Type set to "
 			return "{ \"status\": \"OK\" }";
 		}
 
-2. Declare a handler for the [success event](/api/web/upload#success) and process the response
+2. Declare a handler for the [success event](/kendo-ui/api/web/upload#success) and process the response
 
         function onSuccess(e) {
             alert("Status: " + e.response.status);

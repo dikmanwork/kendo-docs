@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.BackButton
 
-Represents the Kendo UI Mobile BackButton widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile BackButton widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## BackButton
 

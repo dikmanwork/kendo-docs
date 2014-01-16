@@ -9,7 +9,7 @@ relatedDocs: php-ui-scheduler
 
 # Scheduler
 
-The Kendo Scheduler for PHP is a server-side wrapper for the [Kendo UI Scheduler](/api/web/scheduler) widget.
+The Kendo Scheduler for PHP is a server-side wrapper for the [Kendo UI Scheduler](/kendo-ui/api/web/scheduler) widget.
 
 
 
@@ -17,12 +17,12 @@ The Kendo Scheduler for PHP is a server-side wrapper for the [Kendo UI Scheduler
 
 There are two ways to bind Kendo Scheduler for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/scheduler/local-binding) - the scheduler is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/scheduler/remote-binding) - the scheduler makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/scheduler/local-binding) - the scheduler is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/scheduler/remote-binding) - the scheduler makes AJAX requests and is bound to JSON result
 
 Here is how to configure the scheduler for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array of events to which the scheduler will be bound to
 
         <?php
@@ -42,20 +42,20 @@ Here is how to configure the scheduler for local binding:
             )
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
         $dataSource->data($data);
         ?>
-4. Create a [scheduler](/api/wrappers/php/Kendo/UI/Scheduler), set initial selected [date](/api/wrappers/php/Kendo/UI/Scheduler#date) and set its [data source](/api/wrappers/php/Kendo/UI/Scheduler#datasource).
+4. Create a [scheduler](/kendo-ui/api/wrappers/php/Kendo/UI/Scheduler), set initial selected [date](/kendo-ui/api/wrappers/php/Kendo/UI/Scheduler#date) and set its [data source](/kendo-ui/api/wrappers/php/Kendo/UI/Scheduler#datasource).
 
         <?php
         $scheduler = new \Kendo\UI\Scheduler('scheduler');
         $scheduler->date(new DateTime('2013/6/13'))
              ->dataSource($dataSource);
         ?>
-5. Output the scheduler by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the scheduler by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $scheduler->render();
@@ -64,7 +64,7 @@ Here is how to configure the scheduler for local binding:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo Scheduler instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/scheduler#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/scheduler#methods) to control its behavior.
 
 
 ### Example
@@ -82,7 +82,7 @@ Once a reference has been established, you can use the [API](/api/web/scheduler#
 
 ## Handling Events
 
-You can subscribe to all scheduler [events](/api/web/scheduler#events).
+You can subscribe to all scheduler [events](/kendo-ui/api/web/scheduler#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

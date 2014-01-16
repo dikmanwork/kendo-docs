@@ -114,7 +114,7 @@ The configuration of the scheduler editor messages. Use this option to customize
 ##### $value `\Kendo\UI\SchedulerMessagesEditor|array`
 
 
-#### Example - using [\Kendo\UI\SchedulerMessagesEditor](/api/wrappers/php/Kendo/UI/SchedulerMessagesEditor)
+#### Example - using [\Kendo\UI\SchedulerMessagesEditor](/kendo-ui/api/wrappers/php/Kendo/UI/SchedulerMessagesEditor)
     <?php
     $messages = new \Kendo\UI\SchedulerMessages();
     $editor = new \Kendo\UI\SchedulerMessagesEditor();
@@ -161,7 +161,7 @@ The configuration of the scheduler recurrence editor messages. Use this option t
 ##### $value `\Kendo\UI\SchedulerMessagesRecurrenceEditor|array`
 
 
-#### Example - using [\Kendo\UI\SchedulerMessagesRecurrenceEditor](/api/wrappers/php/Kendo/UI/SchedulerMessagesRecurrenceEditor)
+#### Example - using [\Kendo\UI\SchedulerMessagesRecurrenceEditor](/kendo-ui/api/wrappers/php/Kendo/UI/SchedulerMessagesRecurrenceEditor)
     <?php
     $messages = new \Kendo\UI\SchedulerMessages();
     $recurrenceEditor = new \Kendo\UI\SchedulerMessagesRecurrenceEditor();
@@ -190,7 +190,7 @@ The configuration of the scheduler recurrence messages. Use this option to custo
 ##### $value `\Kendo\UI\SchedulerMessagesRecurrenceMessages|array`
 
 
-#### Example - using [\Kendo\UI\SchedulerMessagesRecurrenceMessages](/api/wrappers/php/Kendo/UI/SchedulerMessagesRecurrenceMessages)
+#### Example - using [\Kendo\UI\SchedulerMessagesRecurrenceMessages](/kendo-ui/api/wrappers/php/Kendo/UI/SchedulerMessagesRecurrenceMessages)
     <?php
     $messages = new \Kendo\UI\SchedulerMessages();
     $recurrenceMessages = new \Kendo\UI\SchedulerMessagesRecurrenceMessages();
@@ -309,7 +309,7 @@ The configuration of the scheduler views messages. Use this option to customize 
 ##### $value `\Kendo\UI\SchedulerMessagesViews|array`
 
 
-#### Example - using [\Kendo\UI\SchedulerMessagesViews](/api/wrappers/php/Kendo/UI/SchedulerMessagesViews)
+#### Example - using [\Kendo\UI\SchedulerMessagesViews](/kendo-ui/api/wrappers/php/Kendo/UI/SchedulerMessagesViews)
     <?php
     $messages = new \Kendo\UI\SchedulerMessages();
     $views = new \Kendo\UI\SchedulerMessagesViews();

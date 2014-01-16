@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\RangeSlider
 
-A PHP wrapper for Kendo UI [RangeSlider](/api/web/rangeslider).
+A PHP wrapper for Kendo UI [RangeSlider](/kendo-ui/api/web/rangeslider).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use RangeSlider in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo RangeSlider
 
@@ -35,7 +35,7 @@ configuration [methods](#methods) and output it by `echo`-ing the result of the 
 
 ### change
 Fires when the rangeSlider value changes as a result of selecting a new value with one of the drag handles or the keyboard.
-For additional information check the [change](/api/web/rangeslider#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/rangeslider#events-change) event documentation.
 
 #### Returns
 `\Kendo\UI\RangeSlider`
@@ -62,7 +62,7 @@ For additional information check the [change](/api/web/rangeslider#events-change
     $rangeSlider->change('onChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $rangeSlider = new \Kendo\UI\RangeSlider('RangeSlider');
@@ -182,7 +182,7 @@ The selection start value of the RangeSlider.
 
 ### slide
 Fires when the user drags the drag handle to a new position.
-For additional information check the [slide](/api/web/rangeslider#events-slide) event documentation.
+For additional information check the [slide](/kendo-ui/api/web/rangeslider#events-slide) event documentation.
 
 #### Returns
 `\Kendo\UI\RangeSlider`
@@ -209,7 +209,7 @@ For additional information check the [slide](/api/web/rangeslider#events-slide) 
     $rangeSlider->slide('onSlide');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $rangeSlider = new \Kendo\UI\RangeSlider('RangeSlider');
@@ -266,7 +266,7 @@ Configuration of the RangeSlider tooltip.
 ##### $value `\Kendo\UI\RangeSliderTooltip|array`
 
 
-#### Example - using [\Kendo\UI\RangeSliderTooltip](/api/wrappers/php/Kendo/UI/RangeSliderTooltip)
+#### Example - using [\Kendo\UI\RangeSliderTooltip](/kendo-ui/api/wrappers/php/Kendo/UI/RangeSliderTooltip)
     <?php
     $rangeSlider = new \Kendo\UI\RangeSlider('RangeSlider');
     $tooltip = new \Kendo\UI\RangeSliderTooltip();

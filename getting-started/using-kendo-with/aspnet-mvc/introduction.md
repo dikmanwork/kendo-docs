@@ -87,9 +87,9 @@ The sample application Visual Studio solution contains the following.
 
 After you run the sample application you can continue with the following articles.
 
-* [Fundamentals](/getting-started/using-kendo-with/aspnet-mvc/fundamentals)
-* [Kendo UI in ASP.NET MVC 3 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-3)
-* [Kendo UI in ASP.NET MVC 4 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-4)
-* [Kendo UI in ASP.NET MVC 5 application](/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-5)
-* [Using the Kendo UI Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/vs-integration/introduction)
-* [Troubleshooting](/getting-started/using-kendo-with/aspnet-mvc/troubleshooting)
+* [Fundamentals](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/fundamentals)
+* [Kendo UI in ASP.NET MVC 3 application](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-3)
+* [Kendo UI in ASP.NET MVC 4 application](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-4)
+* [Kendo UI in ASP.NET MVC 5 application](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/asp-net-mvc-5)
+* [Using the Kendo UI Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/vs-integration/introduction)
+* [Troubleshooting](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/troubleshooting)

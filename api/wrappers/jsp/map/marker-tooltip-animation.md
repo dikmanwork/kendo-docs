@@ -24,7 +24,7 @@ will disable all animations in the widget.
 
 The animation that will be used when a Tooltip closes.
 
-More documentation is available at [kendo:map-marker-tooltip-animation-close](/api/wrappers/jsp/map/marker-tooltip-animation-close).
+More documentation is available at [kendo:map-marker-tooltip-animation-close](/kendo-ui/api/wrappers/jsp/map/marker-tooltip-animation-close).
 
 #### Example
 
@@ -36,7 +36,7 @@ More documentation is available at [kendo:map-marker-tooltip-animation-close](/a
 
 The animation that will be used when a Tooltip opens.
 
-More documentation is available at [kendo:map-marker-tooltip-animation-open](/api/wrappers/jsp/map/marker-tooltip-animation-open).
+More documentation is available at [kendo:map-marker-tooltip-animation-open](/kendo-ui/api/wrappers/jsp/map/marker-tooltip-animation-open).
 
 #### Example
 

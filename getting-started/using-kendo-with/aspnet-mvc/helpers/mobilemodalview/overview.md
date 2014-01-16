@@ -8,15 +8,15 @@ publish: true
 
 # MobileModalView
 
-The MobileModalView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ModalView](/api/mobile/modalview) widget. It allows you to configure the Kendo UI Mobile ModalView
+The MobileModalView HtmlHelper extension is a server-side wrapper for the [Kendo UI Mobile ModalView](/kendo-ui/api/mobile/modalview) widget. It allows you to configure the Kendo UI Mobile ModalView
 from server-side code.
 
 ## Getting started
 
 The following tutorial shows how to configure Kendo UI MobileModalView for ASP.NET MVC.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
 to add **UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
@@ -103,7 +103,7 @@ to add **UI for ASP.NET MVC** to the application.
 ## Getting reference to the Kendo UI MobileModalView widget
 
 To get a reference to a modalview instance use the [jQuery.data()](http://api.jquery.com/jQuery.data/) method and the value specified via the `Name()` method.
-Then you can use you can use the JavaScript [API](/api/mobile/modalview#methods) of the modalview.
+Then you can use you can use the JavaScript [API](/kendo-ui/api/mobile/modalview#methods) of the modalview.
 
 ### Example - get reference to a Kendo UI MobileModalView instance
 
@@ -126,7 +126,7 @@ Then you can use you can use the JavaScript [API](/api/mobile/modalview#methods)
 
 ## Handling Kendo UI MobileModalView events
 
-You can subscribe to all [events](/api/mobile/modalview#events) exposed by the widget:
+You can subscribe to all [events](/kendo-ui/api/mobile/modalview#events) exposed by the widget:
 
 ### Example - subscribe to event by handler name (ASPX)
 

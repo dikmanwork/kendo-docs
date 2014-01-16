@@ -12,7 +12,7 @@ Kendo MVVM provides the ability to create custom bindings.
 
 ## Registering a custom binding
 
-A custom binding is registered by extending the [`kendo.data.Binder`](/api/framework/binder) object.
+A custom binding is registered by extending the [`kendo.data.Binder`](/kendo-ui/api/framework/binder) object.
 
 #### Example: one-way binding (the HTML element will be updated when the view-model changes)
 

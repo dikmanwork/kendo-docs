@@ -59,7 +59,7 @@ Sets the mousehweel zoom type
 
 #### Parameters
 
-##### fromDate [Kendo.Mvc.UI.ChartZoomDirection](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartZoomDirection)
+##### fromDate [Kendo.Mvc.UI.ChartZoomDirection](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartZoomDirection)
 The mousehweel zoom type. Default value is ChartZoomDirection.Both
 
 

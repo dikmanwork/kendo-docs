@@ -10,7 +10,7 @@ publish: true
 
 # kendo.ui.Calendar
 
-Represents the Kendo UI Calendar widget. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI Calendar widget. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 
@@ -76,7 +76,7 @@ shows the decades from the century
 
 ### footer `String|Function`
 
- The [template](/api/framework/kendo#methods-template) which renders the footer. If false, the footer will not be rendered.
+ The [template](/kendo-ui/api/framework/kendo#methods-template) which renders the footer. If false, the footer will not be rendered.
 
 #### Example - specify footer template as a function
 

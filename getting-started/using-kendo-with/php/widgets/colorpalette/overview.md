@@ -9,22 +9,22 @@ relatedDocs: php-ui-colorpalette
 
 # ColorPalette
 
-The Kendo ColorPalette for PHP is a server-side wrapper for the [Kendo UI ColorPalette](/api/web/colorpalette) widget.
+The Kendo ColorPalette for PHP is a server-side wrapper for the [Kendo UI ColorPalette](/kendo-ui/api/web/colorpalette) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo ColorPalette:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 
-2. Create a [colorpalette](/api/wrappers/php/Kendo/UI/ColorPalette).
+2. Create a [colorpalette](/kendo-ui/api/wrappers/php/Kendo/UI/ColorPalette).
 
         <?php
         $colorpalette = new \Kendo\UI\ColorPalette('colorpalette');
         $colorpalette->value('#ff0000');
         ?>
 
-3. Output the colorpalette by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+3. Output the colorpalette by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $colorpalette->render();
@@ -33,7 +33,7 @@ Here is how to configure a simple Kendo ColorPalette:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo ColorPalette instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/colorpalette#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/colorpalette#methods) to control its behavior.
 
 
 ### Example
@@ -51,7 +51,7 @@ Once a reference has been established, you can use the [API](/api/web/colorpalet
 
 ## Handling Events
 
-You can subscribe to all colorpalette [events](/api/web/colorpalette#events).
+You can subscribe to all colorpalette [events](/kendo-ui/api/web/colorpalette#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

@@ -45,7 +45,7 @@ To use Kendo UI in your HTML page you need to include the required JavaScript an
 1. Download Kendo UI Web and extract the distribution zip file to a convenient location.
 1. Copy the **/js** and **/styles** directories of the Kendo UI Web distribution to your web application root directory.
 1. Include the Kendo UI Web JavaScript and CSS files in the `head` tag of your HTML page. **Make sure the common CSS file is registered before the theme CSS file.
-Also make sure only one combined script file is registered. For more information, please refer to the [Javascript Dependencies page](/getting-started/javascript-dependencies).**
+Also make sure only one combined script file is registered. For more information, please refer to the [Javascript Dependencies page](/kendo-ui/getting-started/javascript-dependencies).**
 
         <!-- Common Kendo UI Web CSS -->
         <link href="styles/kendo.common.min.css" rel="stylesheet" />
@@ -210,9 +210,9 @@ which allow configuring the Kendo UI widgets with server-side code.
 
 You can find more info about the server-side wrappers here:
 
-- [Get Started with **UI for ASP.NET MVC**](/getting-started/using-kendo-with/aspnet-mvc/introduction)
-- [Get Started with **UI for JSP**](/getting-started/using-kendo-with/jsp/introduction)
-- [Get Started with **UI for PHP**](/getting-started/using-kendo-with/php/introduction)
+- [Get Started with **UI for ASP.NET MVC**](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction)
+- [Get Started with **UI for JSP**](/kendo-ui/getting-started/using-kendo-with/jsp/introduction)
+- [Get Started with **UI for PHP**](/kendo-ui/getting-started/using-kendo-with/php/introduction)
 
 ## Next Steps
 
@@ -226,9 +226,9 @@ A lot of interactive tutorials are available in the [Kendo UI Dojo](http://www.t
 
 ### Further reading
 
-1. [Kendo UI Widgets](/getting-started/widgets)
-1. [Data Attribute Initialization](/getting-started/data-attribute-initialization)
-1. [Requirements](/getting-started/technical-requirements)
+1. [Kendo UI Widgets](/kendo-ui/getting-started/widgets)
+1. [Data Attribute Initialization](/kendo-ui/getting-started/data-attribute-initialization)
+1. [Requirements](/kendo-ui/getting-started/technical-requirements)
 
 ### Examples
 

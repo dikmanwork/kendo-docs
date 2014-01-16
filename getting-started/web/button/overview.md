@@ -13,7 +13,7 @@ publish: true
 The **Kendo UI Button** provides a styled clickable UI widget with arbitrary content.
 Apart from consistent Kendo UI styling, the **Button** provides keyboard operability for elements, which natively don't have it (e.g. `span`).
 
-It is assumed that the reader of this page is familiar with the [fundamental Kendo UI widget concepts](/getting-started/widgets).
+It is assumed that the reader of this page is familiar with the [fundamental Kendo UI widget concepts](/kendo-ui/getting-started/widgets).
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ There are two ways to do this - one is to use a jQuery selector, which returns m
 ### Multiple Buttons initialization with kendo.init
 
 This approach allows you to initialize multiple **Buttons** at once, but with different configuration options.
-For more information, please refer to [Data Attribute Initialization](/getting-started/data-attribute-initialization) and [`kendo.init()` method description](/api/framework/kendo#methods-init).
+For more information, please refer to [Data Attribute Initialization](/kendo-ui/getting-started/data-attribute-initialization) and [`kendo.init()` method description](/kendo-ui/api/framework/kendo#methods-init).
 
 	<div id="buttonsContainer">
 		<span data-role="button" data-sprite-css-class="myEditIcon">Edit</span>
@@ -213,7 +213,7 @@ The **Button** can also be disabled or enabled at any time with Javascript by us
 	
 	</script>
 
-For more information on the **Button** [`enable` property](/api/web/button#configuration-enable) and the [`enable` method](/api/web/button#methods-enable), please refer to the [Button API](/api/web/button/).
+For more information on the **Button** [`enable` property](/kendo-ui/api/web/button#configuration-enable) and the [`enable` method](/kendo-ui/api/web/button#methods-enable), please refer to the [Button API](/kendo-ui/api/web/button/).
 
 ## Accessing the Button instance
 
@@ -255,4 +255,4 @@ That's why, if the **Button** will be accessed afterwards, it is a good idea to 
 	
 	</script>
 
-For further reading and related information, please refer to the [Button API](/api/web/button/).
+For further reading and related information, please refer to the [Button API](/kendo-ui/api/web/button/).

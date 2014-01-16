@@ -9,18 +9,18 @@ relatedDocs: php-ui-grid
 
 # Grid
 
-The Kendo Grid for PHP is a server-side wrapper for the [Kendo UI Grid](/api/web/grid) widget.
+The Kendo Grid for PHP is a server-side wrapper for the [Kendo UI Grid](/kendo-ui/api/web/grid) widget.
 
 ## Getting Started
 
 There are two ways to bind Kendo Grid for PHP:
 
-* [local](/getting-started/using-kendo-with/php/widgets/grid/local-binding) - the grid is bound to PHP array
-* [remote](/getting-started/using-kendo-with/php/widgets/grid/remote-binding) - the grid makes AJAX requests and is bound to JSON result
+* [local](/kendo-ui/getting-started/using-kendo-with/php/widgets/grid/local-binding) - the grid is bound to PHP array
+* [remote](/kendo-ui/getting-started/using-kendo-with/php/widgets/grid/remote-binding) - the grid makes AJAX requests and is bound to JSON result
 
 Here is how to configure the grid for local binding:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 2. Create an array which to which the grid will be bound to
 
         <?php
@@ -29,13 +29,13 @@ Here is how to configure the grid for local binding:
             array('name' => 'Jane Doe', 'age' => 29)
         );
         ?>
-3. Create a [data source](/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/api/wrappers/php/Kendo/Data/DataSource#data):
+3. Create a [data source](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource) and set its [data](/kendo-ui/api/wrappers/php/Kendo/Data/DataSource#data):
 
         <?php
         $dataSource = new \Kendo\Data\DataSource();
         $dataSource->data($data);
         ?>
-4. Create a [grid](/api/wrappers/php/Kendo/UI/Grid), configure its [columns](/api/wrappers/php/Kendo/UI/Grid#addcolumn) and set its [data source](/api/wrappers/php/Kendo/UI/Grid#datasource).
+4. Create a [grid](/kendo-ui/api/wrappers/php/Kendo/UI/Grid), configure its [columns](/kendo-ui/api/wrappers/php/Kendo/UI/Grid#addcolumn) and set its [data source](/kendo-ui/api/wrappers/php/Kendo/UI/Grid#datasource).
 
         <?php
         $nameColumn = new \Kendo\UI\GridColumn();
@@ -48,7 +48,7 @@ Here is how to configure the grid for local binding:
         $grid->addColumn($nameColumn, $ageColumn)
              ->dataSource($dataSource);
         ?>
-5. Output the grid by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+5. Output the grid by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $grid->render();
@@ -57,7 +57,7 @@ Here is how to configure the grid for local binding:
 ## Getting Client-side Reference
 
 You can reference the clien-side Kendo Grid instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/grid#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/grid#methods) to control its behavior.
 
 
 ### Example
@@ -75,7 +75,7 @@ Once a reference has been established, you can use the [API](/api/web/grid#metho
 
 ## Handling Events
 
-You can subscribe to all grid [events](/api/web/grid#events).
+You can subscribe to all grid [events](/kendo-ui/api/web/grid#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

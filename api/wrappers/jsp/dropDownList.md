@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:dropDownList\>
-A JSP wrapper for Kendo UI [DropDownList](/api/web/dropdownlist).
+A JSP wrapper for Kendo UI [DropDownList](/kendo-ui/api/web/dropdownlist).
 
 ## Configuration Attributes
 
@@ -156,7 +156,7 @@ The valueTemplate used to render the selected value. By default the widget displ
 
 Configures the opening and closing animations of the suggestion popup. Setting the animation option to false will disable the opening and closing animations. As a result the suggestion popup will open and close instantly.
 
-More documentation is available at [kendo:dropDownList-animation](/api/wrappers/jsp/dropdownlist/animation).
+More documentation is available at [kendo:dropDownList-animation](/kendo-ui/api/wrappers/jsp/dropdownlist/animation).
 
 #### Example
 
@@ -172,7 +172,7 @@ More documentation is available at [kendo:dropDownList-animation](/api/wrappers/
 Fired when the value of the widget is changed by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/dropdownlist#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/dropdownlist#events-change) event documentation.
 
 #### Example
     <kendo:dropDownList change="handle_change">
@@ -188,7 +188,7 @@ For additional information check the [change](/api/web/dropdownlist#events-chang
 Fired when the popup of the widget is closed.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [close](/api/web/dropdownlist#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/dropdownlist#events-close) event documentation.
 
 #### Example
     <kendo:dropDownList close="handle_close">
@@ -204,7 +204,7 @@ For additional information check the [close](/api/web/dropdownlist#events-close)
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/dropdownlist#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/dropdownlist#events-dataBound) event documentation.
 
 #### Example
     <kendo:dropDownList dataBound="handle_dataBound">
@@ -220,7 +220,7 @@ For additional information check the [dataBound](/api/web/dropdownlist#events-da
 Fired when the popup of the widget is opened by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [open](/api/web/dropdownlist#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/dropdownlist#events-open) event documentation.
 
 #### Example
     <kendo:dropDownList open="handle_open">
@@ -236,7 +236,7 @@ For additional information check the [open](/api/web/dropdownlist#events-open) e
 Fired when an item from the popup is selected by the user.
 
 
-For additional information check the [select](/api/web/dropdownlist#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/dropdownlist#events-select) event documentation.
 
 #### Example
     <kendo:dropDownList select="handle_select">
@@ -252,7 +252,7 @@ For additional information check the [select](/api/web/dropdownlist#events-selec
 Fired when the value of the widget is changed via API or user interactionTriggered.
 
 
-For additional information check the [cascade](/api/web/dropdownlist#events-cascade) event documentation.
+For additional information check the [cascade](/kendo-ui/api/web/dropdownlist#events-cascade) event documentation.
 
 #### Example
     <kendo:dropDownList cascade="handle_cascade">
@@ -270,7 +270,7 @@ For additional information check the [cascade](/api/web/dropdownlist#events-casc
 Fired when the value of the widget is changed by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [change](/api/web/dropdownlist#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/dropdownlist#events-change) event documentation.
 
 #### Example
     <kendo:dropDownList>
@@ -288,7 +288,7 @@ For additional information check the [change](/api/web/dropdownlist#events-chang
 Fired when the popup of the widget is closed.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [close](/api/web/dropdownlist#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/dropdownlist#events-close) event documentation.
 
 #### Example
     <kendo:dropDownList>
@@ -306,7 +306,7 @@ For additional information check the [close](/api/web/dropdownlist#events-close)
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [dataBound](/api/web/dropdownlist#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/dropdownlist#events-dataBound) event documentation.
 
 #### Example
     <kendo:dropDownList>
@@ -324,7 +324,7 @@ For additional information check the [dataBound](/api/web/dropdownlist#events-da
 Fired when the popup of the widget is opened by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
 
 
-For additional information check the [open](/api/web/dropdownlist#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/dropdownlist#events-open) event documentation.
 
 #### Example
     <kendo:dropDownList>
@@ -342,7 +342,7 @@ For additional information check the [open](/api/web/dropdownlist#events-open) e
 Fired when an item from the popup is selected by the user.
 
 
-For additional information check the [select](/api/web/dropdownlist#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/dropdownlist#events-select) event documentation.
 
 #### Example
     <kendo:dropDownList>
@@ -360,7 +360,7 @@ For additional information check the [select](/api/web/dropdownlist#events-selec
 Fired when the value of the widget is changed via API or user interactionTriggered.
 
 
-For additional information check the [cascade](/api/web/dropdownlist#events-cascade) event documentation.
+For additional information check the [cascade](/kendo-ui/api/web/dropdownlist#events-cascade) event documentation.
 
 #### Example
     <kendo:dropDownList>

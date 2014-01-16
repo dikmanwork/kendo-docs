@@ -82,7 +82,7 @@ Specifies predefined button style
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileDetailButtonStyle](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileDetailButtonStyle)
+##### value [Kendo.Mvc.UI.MobileDetailButtonStyle](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileDetailButtonStyle)
 The value that configures the style.
 
 
@@ -95,7 +95,7 @@ Use the align data attribute to specify the elements position inside the NavBar.
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileButtonAlign](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonAlign)
+##### value [Kendo.Mvc.UI.MobileButtonAlign](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonAlign)
 The value that configures the align.
 
 
@@ -108,7 +108,7 @@ Specifies the widget to be open when is tapped (the href must be set too)
 
 #### Parameters
 
-##### value [Kendo.Mvc.UI.MobileButtonRel](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonRel)
+##### value [Kendo.Mvc.UI.MobileButtonRel](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileButtonRel)
 The value that configures the rel.
 
 
@@ -163,7 +163,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileDetailButtonEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileDetailButtonEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileDetailButtonEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileDetailButtonEventBuilder)>
 The client events action.
 
 

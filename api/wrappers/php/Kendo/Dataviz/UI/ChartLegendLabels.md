@@ -69,7 +69,7 @@ The margin of the labels. A numeric value will set all margins.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegendLabelsMargin](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendLabelsMargin)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegendLabelsMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendLabelsMargin)
     <?php
     $labels = new \Kendo\Dataviz\UI\ChartLegendLabels();
     $margin = new \Kendo\Dataviz\UI\ChartLegendLabelsMargin();

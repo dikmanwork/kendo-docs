@@ -22,7 +22,7 @@ The order is SVG -> VML -> Canvas for all widgets except Barcode and QRCode.
 These components do not require interactivity and will default to Canvas rendering.
 
 You can set the preferred rendering mode in the
-[renderAs](/api/dataviz/chart#configuration-renderAs) option.
+[renderAs](/kendo-ui/api/dataviz/chart#configuration-renderAs) option.
 
 ### Example: Set preferred rendering mode to Canvas
 
@@ -47,11 +47,11 @@ The rendering modules are available as separate files:
 
 You must include at least one, the rest are optional.
 
-> The Canvas and SVG modules are required by the [imageDataURL](/api/dataviz/chart#methods-imageDataURL) and [svg](/api/dataviz/chart#methods-svg) methods.
+> The Canvas and SVG modules are required by the [imageDataURL](/kendo-ui/api/dataviz/chart#methods-imageDataURL) and [svg](/kendo-ui/api/dataviz/chart#methods-svg) methods.
 
 See also:
 
-* [JavaScript dependencies](/getting-started/javascript-dependencies)
+* [JavaScript dependencies](/kendo-ui/getting-started/javascript-dependencies)
 * [Custom Download Builder](http://www.telerik.com/kendo-ui/custom-download) (requires login)
 
 ## Limitations

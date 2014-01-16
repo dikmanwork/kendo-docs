@@ -95,7 +95,7 @@ options, while remote data binding is better for larger data sets.
 
 The mobile ListView leverages Kendo UI high-performance Templates to provide complete control
 over item rendering. For a complete overview of Kendo UI Template capabilities and syntax,
-please review the [Kendo UI Templates](/getting-started/framework/templates/overview) documentation.
+please review the [Kendo UI Templates](/kendo-ui/getting-started/framework/templates/overview) documentation.
 
 > The ListView automatically wraps the template content in `<li>` tag. Putting a `<li>` tag inside the template creates invalid nesting of elements.
 
@@ -135,7 +135,7 @@ please review the [Kendo UI Templates](/getting-started/framework/templates/over
 ## Press to Load More / Endless Scrolling
 
 The listview widget supports displaying large amounts of data by appending additional pages of data on demand.
-Loading can happen automatically by enabling [endless scrolling](/api/mobile/listview#configuration-endlessScroll), or by displaying a button at the bottom ([ press to load more ](/api/mobile/listview#configuration-loadMore)).
+Loading can happen automatically by enabling [endless scrolling](/kendo-ui/api/mobile/listview#configuration-endlessScroll), or by displaying a button at the bottom ([ press to load more ](/kendo-ui/api/mobile/listview#configuration-loadMore)).
 Enabling endless scrolling or press to load more options triggers the **virtual mode** of the ListView.
 
 In order for the listview virtual mode to be working as expected, the listview should be the only widget in the scrolling container. In case more widgets are needed in the view in question, the listview should be wrapped in a mobile scroller container.
@@ -151,7 +151,7 @@ For example, if 5 items are visible on the page, at least 15 physical DOM elemen
 
 > Bigger DataSource page size ensures smooth scrolling, but has adverce effects on view transition performance.
 
-Once the listview reaches the amount of items specified by the [schema.total](/api/framework/datasource#configuration-schema.total) setting of the datasource, the loadmore button/endless scrolling indicator is hidden.
+Once the listview reaches the amount of items specified by the [schema.total](/kendo-ui/api/framework/datasource#configuration-schema.total) setting of the datasource, the loadmore button/endless scrolling indicator is hidden.
 
 > Currently, endless scrolling or press to load more configuration options are not supported in grouped mode.
 

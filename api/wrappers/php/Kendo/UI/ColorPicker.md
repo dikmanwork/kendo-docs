@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\ColorPicker
 
-A PHP wrapper for Kendo UI [ColorPicker](/api/web/colorpicker).
+A PHP wrapper for Kendo UI [ColorPicker](/kendo-ui/api/web/colorpicker).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use ColorPicker in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo ColorPicker
 
@@ -55,7 +55,7 @@ Specifies whether the widget should display the Apply / Cancel buttons.Applicabl
 Fires when a color was selected, either by clicking on it (in the
 simple picker), by clicking ENTER or by pressing "Apply" in the HSV
 picker.
-For additional information check the [change](/api/web/colorpicker#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/colorpicker#events-change) event documentation.
 
 #### Returns
 `\Kendo\UI\ColorPicker`
@@ -82,7 +82,7 @@ For additional information check the [change](/api/web/colorpicker#events-change
     $colorPicker->change('onChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $colorPicker = new \Kendo\UI\ColorPicker('ColorPicker');
@@ -91,7 +91,7 @@ For additional information check the [change](/api/web/colorpicker#events-change
 
 ### close
 Fires when the picker popup is closing.
-For additional information check the [close](/api/web/colorpicker#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/colorpicker#events-close) event documentation.
 
 #### Returns
 `\Kendo\UI\ColorPicker`
@@ -118,7 +118,7 @@ For additional information check the [close](/api/web/colorpicker#events-close) 
     $colorPicker->close('onClose');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $colorPicker = new \Kendo\UI\ColorPicker('ColorPicker');
@@ -178,7 +178,7 @@ Note that currently in HTML5 the <input type="color"> does not support opacity.
 
 ### open
 Fires when the picker popup is opening.
-For additional information check the [open](/api/web/colorpicker#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/colorpicker#events-open) event documentation.
 
 #### Returns
 `\Kendo\UI\ColorPicker`
@@ -205,7 +205,7 @@ For additional information check the [open](/api/web/colorpicker#events-open) ev
     $colorPicker->open('onOpen');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $colorPicker = new \Kendo\UI\ColorPicker('ColorPicker');
@@ -262,7 +262,7 @@ not necessarily the "final" value; for example this event triggers
 when the sliders in the HSV selector are dragged, but then pressing
 ESC would cancel the selection and the color will revert to the
 original value.
-For additional information check the [select](/api/web/colorpicker#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/colorpicker#events-select) event documentation.
 
 #### Returns
 `\Kendo\UI\ColorPicker`
@@ -289,7 +289,7 @@ For additional information check the [select](/api/web/colorpicker#events-select
     $colorPicker->select('onSelect');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $colorPicker = new \Kendo\UI\ColorPicker('ColorPicker');
@@ -317,7 +317,7 @@ The size of a color cell.
     ?>
 
 
-#### Example - using [\Kendo\UI\ColorPickerTileSize](/api/wrappers/php/Kendo/UI/ColorPickerTileSize)
+#### Example - using [\Kendo\UI\ColorPickerTileSize](/kendo-ui/api/wrappers/php/Kendo/UI/ColorPickerTileSize)
     <?php
     $colorPicker = new \Kendo\UI\ColorPicker('ColorPicker');
     $tileSize = new \Kendo\UI\ColorPickerTileSize();

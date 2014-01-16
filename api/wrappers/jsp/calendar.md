@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:calendar\>
-A JSP wrapper for Kendo UI [Calendar](/api/web/calendar).
+A JSP wrapper for Kendo UI [Calendar](/kendo-ui/api/web/calendar).
 
 ## Configuration Attributes
 
@@ -91,7 +91,7 @@ Specifies the selected date.
 
 Templates for the cells rendered in "month" view.
 
-More documentation is available at [kendo:calendar-month](/api/wrappers/jsp/calendar/month).
+More documentation is available at [kendo:calendar-month](/kendo-ui/api/wrappers/jsp/calendar/month).
 
 #### Example
 
@@ -107,7 +107,7 @@ More documentation is available at [kendo:calendar-month](/api/wrappers/jsp/cale
 Fires when the selected date is changed.
 
 
-For additional information check the [change](/api/web/calendar#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/calendar#events-change) event documentation.
 
 #### Example
     <kendo:calendar change="handle_change">
@@ -123,7 +123,7 @@ For additional information check the [change](/api/web/calendar#events-change) e
 Fires when calendar navigates.
 
 
-For additional information check the [navigate](/api/web/calendar#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/calendar#events-navigate) event documentation.
 
 #### Example
     <kendo:calendar navigate="handle_navigate">
@@ -141,7 +141,7 @@ For additional information check the [navigate](/api/web/calendar#events-navigat
 Fires when the selected date is changed.
 
 
-For additional information check the [change](/api/web/calendar#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/calendar#events-change) event documentation.
 
 #### Example
     <kendo:calendar>
@@ -159,7 +159,7 @@ For additional information check the [change](/api/web/calendar#events-change) e
 Fires when calendar navigates.
 
 
-For additional information check the [navigate](/api/web/calendar#events-navigate) event documentation.
+For additional information check the [navigate](/kendo-ui/api/web/calendar#events-navigate) event documentation.
 
 #### Example
     <kendo:calendar>

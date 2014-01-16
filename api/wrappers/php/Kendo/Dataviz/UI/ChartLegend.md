@@ -42,7 +42,7 @@ The border of the legend.
 ##### $value `\Kendo\Dataviz\UI\ChartLegendBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegendBorder](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendBorder)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegendBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendBorder)
     <?php
     $legend = new \Kendo\Dataviz\UI\ChartLegend();
     $border = new \Kendo\Dataviz\UI\ChartLegendBorder();
@@ -71,7 +71,7 @@ The chart inactive legend items configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartLegendInactiveItems|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegendInactiveItems](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendInactiveItems)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegendInactiveItems](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendInactiveItems)
     <?php
     $legend = new \Kendo\Dataviz\UI\ChartLegend();
     $inactiveItems = new \Kendo\Dataviz\UI\ChartLegendInactiveItems();
@@ -100,7 +100,7 @@ The chart legend label configuration.
 ##### $value `\Kendo\Dataviz\UI\ChartLegendLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegendLabels](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendLabels)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegendLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendLabels)
     <?php
     $legend = new \Kendo\Dataviz\UI\ChartLegend();
     $labels = new \Kendo\Dataviz\UI\ChartLegendLabels();
@@ -138,7 +138,7 @@ The margin of the chart legend. A numeric value will set all paddings.
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\ChartLegendMargin](/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendMargin)
+#### Example - using [\Kendo\Dataviz\UI\ChartLegendMargin](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/ChartLegendMargin)
     <?php
     $legend = new \Kendo\Dataviz\UI\ChartLegend();
     $margin = new \Kendo\Dataviz\UI\ChartLegendMargin();

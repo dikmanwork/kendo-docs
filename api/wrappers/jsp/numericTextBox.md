@@ -6,7 +6,7 @@ publish: true
 ---
 
 # \<kendo:numericTextBox\>
-A JSP wrapper for Kendo UI [NumericTextBox](/api/web/numerictextbox).
+A JSP wrapper for Kendo UI [NumericTextBox](/kendo-ui/api/web/numerictextbox).
 
 ## Configuration Attributes
 
@@ -106,7 +106,7 @@ Specifies the value of the NumericTextBox widget.
 Fires when the value is changed
 
 
-For additional information check the [change](/api/web/numerictextbox#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/numerictextbox#events-change) event documentation.
 
 #### Example
     <kendo:numericTextBox change="handle_change">
@@ -122,7 +122,7 @@ For additional information check the [change](/api/web/numerictextbox#events-cha
 Fires when the value is changed from the spin buttons
 
 
-For additional information check the [spin](/api/web/numerictextbox#events-spin) event documentation.
+For additional information check the [spin](/kendo-ui/api/web/numerictextbox#events-spin) event documentation.
 
 #### Example
     <kendo:numericTextBox spin="handle_spin">
@@ -140,7 +140,7 @@ For additional information check the [spin](/api/web/numerictextbox#events-spin)
 Fires when the value is changed
 
 
-For additional information check the [change](/api/web/numerictextbox#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/numerictextbox#events-change) event documentation.
 
 #### Example
     <kendo:numericTextBox>
@@ -158,7 +158,7 @@ For additional information check the [change](/api/web/numerictextbox#events-cha
 Fires when the value is changed from the spin buttons
 
 
-For additional information check the [spin](/api/web/numerictextbox#events-spin) event documentation.
+For additional information check the [spin](/kendo-ui/api/web/numerictextbox#events-spin) event documentation.
 
 #### Example
     <kendo:numericTextBox>

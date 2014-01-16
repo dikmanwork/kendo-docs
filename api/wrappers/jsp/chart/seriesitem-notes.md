@@ -31,7 +31,7 @@ The position of the series note.
 
 The icon of the notes.
 
-More documentation is available at [kendo:chart-seriesItem-notes-icon](/api/wrappers/jsp/chart/seriesitem-notes-icon).
+More documentation is available at [kendo:chart-seriesItem-notes-icon](/kendo-ui/api/wrappers/jsp/chart/seriesitem-notes-icon).
 
 #### Example
 
@@ -43,7 +43,7 @@ More documentation is available at [kendo:chart-seriesItem-notes-icon](/api/wrap
 
 The label of the notes.
 
-More documentation is available at [kendo:chart-seriesItem-notes-label](/api/wrappers/jsp/chart/seriesitem-notes-label).
+More documentation is available at [kendo:chart-seriesItem-notes-label](/kendo-ui/api/wrappers/jsp/chart/seriesitem-notes-label).
 
 #### Example
 
@@ -55,7 +55,7 @@ More documentation is available at [kendo:chart-seriesItem-notes-label](/api/wra
 
 The line of the notes.
 
-More documentation is available at [kendo:chart-seriesItem-notes-line](/api/wrappers/jsp/chart/seriesitem-notes-line).
+More documentation is available at [kendo:chart-seriesItem-notes-line](/kendo-ui/api/wrappers/jsp/chart/seriesitem-notes-line).
 
 #### Example
 

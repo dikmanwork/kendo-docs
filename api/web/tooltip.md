@@ -9,7 +9,7 @@ publish: true
 
 # kendo.ui.Tooltip
 
-Represents the Kendo UI Tooltip. Inherits from [Widget](/api/framework/widget).
+Represents the Kendo UI Tooltip. Inherits from [Widget](/kendo-ui/api/framework/widget).
 
 ## Configuration
 

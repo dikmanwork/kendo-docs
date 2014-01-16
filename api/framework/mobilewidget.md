@@ -7,13 +7,13 @@ publish: true
 
 # kendo.mobile.ui.Widget
 
-Base class of all Kendo UI Mobile widgets. Inherits from [kendo.ui.Widget](/api/framework/widget).
+Base class of all Kendo UI Mobile widgets. Inherits from [kendo.ui.Widget](/kendo-ui/api/framework/widget).
 
 ## Methods
 
 ### view
 
-Returns the [kendo.mobile.ui.View](/api/mobile/view) which contains the widget. If the widget is contained in a splitview, modalview, or drawer, the respective widget instance is returned.
+Returns the [kendo.mobile.ui.View](/kendo-ui/api/mobile/view) which contains the widget. If the widget is contained in a splitview, modalview, or drawer, the respective widget instance is returned.
 
 #### Example
 

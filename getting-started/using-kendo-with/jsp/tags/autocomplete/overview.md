@@ -6,18 +6,18 @@ publish: true
 
 # AutoComplete
 
-The AutoComplete JSP tag is a server-side wrapper for the [Kendo UI AutoComplete](/api/web/autocomplete) widget.
+The AutoComplete JSP tag is a server-side wrapper for the [Kendo UI AutoComplete](/kendo-ui/api/web/autocomplete) widget.
 
 ## Getting Started
 
 There are two ways to bind a Kendo AutoComplete:
 
 *   **server** - the data will be serialized to the client. No Ajax requests will be made.
-*   **ajax** - the autocomplete will make ajax requests to get the data. [Here](/getting-started/using-kendo-with/jsp/tags/autocomplete/ajax-binding) you can find more information about this binding.
+*   **ajax** - the autocomplete will make ajax requests to get the data. [Here](/kendo-ui/getting-started/using-kendo-with/jsp/tags/autocomplete/ajax-binding) you can find more information about this binding.
 
 Here is how to configure the Kendo AutoComplete for binding to a data passed as model attribute in Spring MVC:
 
-1.  Make sure you have followed all the steps from the [Introduction](/getting-started/using-kendo-with/jsp/introduction) help topic.
+1.  Make sure you have followed all the steps from the [Introduction](/kendo-ui/getting-started/using-kendo-with/jsp/introduction) help topic.
 
 2.  Create a new action method and pass the Products table to the View:
 
@@ -41,7 +41,7 @@ Here is how to configure the Kendo AutoComplete for binding to a data passed as 
 ## Accessing an Existing AutoComplete
 
 You can reference an existing AutoComplete instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/autocomplete#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/autocomplete#methods) to control its behavior.
 
 ### Accessing an existing AutoComplete instance
 
@@ -55,7 +55,7 @@ Once a reference has been established, you can use the [API](/api/web/autocomple
 
 ## Handling Kendo UI AutoComplete events
 
-You can subscribe to all [events](/api/web/autocomplete#events) exposed by Kendo UI autocomplete:
+You can subscribe to all [events](/kendo-ui/api/web/autocomplete#events) exposed by Kendo UI autocomplete:
 
 ### Subscribe by handler name
 

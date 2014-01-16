@@ -43,4 +43,4 @@ Refer to the [encodings](getting-started/dataviz/barcode/overview) section to ch
 
 ### 4\. Fine tune the color, background, padding margin of the text and more.
 
-Refer to the complete [API reference](/api/dataviz/barcode) for examples and complete list of settings that the Barcode provides.
+Refer to the complete [API reference](/kendo-ui/api/dataviz/barcode) for examples and complete list of settings that the Barcode provides.

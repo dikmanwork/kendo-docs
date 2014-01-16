@@ -17,7 +17,7 @@ Sets the date axis base unit.
 
 #### Parameters
 
-##### baseUnit [Kendo.Mvc.UI.ChartAxisBaseUnit](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartAxisBaseUnit)
+##### baseUnit [Kendo.Mvc.UI.ChartAxisBaseUnit](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartAxisBaseUnit)
 The date axis base unit
 
 
@@ -170,7 +170,7 @@ Configures the axis labels.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartDateAxisLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartDateAxisLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartDateAxisLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartDateAxisLabelsBuilder)>
 The configuration action.
 
 

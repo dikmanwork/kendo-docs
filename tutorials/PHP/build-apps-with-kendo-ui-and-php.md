@@ -423,7 +423,7 @@ the following things…
 
 This has been an example of how to get rolling with PHP and [Kendo UI][32].
 
-[Proceed To Part 2](/tutorials/PHP/build-apps-with-kendo-ui-and-php-2)
+[Proceed To Part 2](/kendo-ui/tutorials/PHP/build-apps-with-kendo-ui-and-php-2)
 
    [2]: http://en.wikipedia.org/wiki/Polyglot
 

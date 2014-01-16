@@ -14,7 +14,7 @@ Defines the fluent API for configuring the Kendo MobileButtonGroup for ASP.NET M
 ### Select(`System.String`)
 Fires when a Button is selected.
 
-For additional information check the [select](/api/web/mobilebuttongroup#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/mobilebuttongroup#events-select) event documentation.
 
 
 #### Parameters

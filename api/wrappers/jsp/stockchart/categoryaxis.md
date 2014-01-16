@@ -23,7 +23,7 @@ The category axis configuration options.
 
 The category axis configuration options.
 
-More documentation is available at [kendo:stockChart-categoryAxisItem](/api/wrappers/jsp/stockchart/categoryaxisitem).
+More documentation is available at [kendo:stockChart-categoryAxisItem](/kendo-ui/api/wrappers/jsp/stockchart/categoryaxisitem).
 
 #### Example
 

@@ -42,7 +42,7 @@ The border configuration options.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltipBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltipBorder](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltipBorder)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltipBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltipBorder)
     <?php
     $tooltip = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltip();
     $border = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltipBorder();

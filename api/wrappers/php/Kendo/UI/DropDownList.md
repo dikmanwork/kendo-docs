@@ -7,14 +7,14 @@ publish: true
 
 # \Kendo\UI\DropDownList
 
-A PHP wrapper for Kendo UI [DropDownList](/api/web/dropdownlist).
+A PHP wrapper for Kendo UI [DropDownList](/kendo-ui/api/web/dropdownlist).
 
-Inherits from [\Kendo\UI\Widget](/api/wrappers/php/Kendo/UI/Widget).
+Inherits from [\Kendo\UI\Widget](/kendo-ui/api/wrappers/php/Kendo/UI/Widget).
 
 ## Usage
 
 To use DropDownList in a PHP page instantiate a new instance, configure it via the available
-configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+configuration [methods](#methods) and output it by `echo`-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
 ### Using Kendo DropDownList
 
@@ -45,7 +45,7 @@ Configures the opening and closing animations of the suggestion popup. Setting t
 ##### $value `\Kendo\UI\DropDownListAnimation|array`
 
 
-#### Example - using [\Kendo\UI\DropDownListAnimation](/api/wrappers/php/Kendo/UI/DropDownListAnimation)
+#### Example - using [\Kendo\UI\DropDownListAnimation](/kendo-ui/api/wrappers/php/Kendo/UI/DropDownListAnimation)
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
     $animation = new \Kendo\UI\DropDownListAnimation();
@@ -82,7 +82,7 @@ Controls whether to bind the widget to the data source on initialization.
 
 ### cascade
 Fired when the value of the widget is changed via API or user interactionTriggered.
-For additional information check the [cascade](/api/web/dropdownlist#events-cascade) event documentation.
+For additional information check the [cascade](/kendo-ui/api/web/dropdownlist#events-cascade) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -109,7 +109,7 @@ For additional information check the [cascade](/api/web/dropdownlist#events-casc
     $dropDownList->cascade('onCascade');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -156,7 +156,7 @@ Help topic showing how cascading functionality works
 
 ### change
 Fired when the value of the widget is changed by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [change](/api/web/dropdownlist#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/dropdownlist#events-change) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -183,7 +183,7 @@ For additional information check the [change](/api/web/dropdownlist#events-chang
     $dropDownList->change('onChange');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -192,7 +192,7 @@ For additional information check the [change](/api/web/dropdownlist#events-chang
 
 ### close
 Fired when the popup of the widget is closed.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [close](/api/web/dropdownlist#events-close) event documentation.
+For additional information check the [close](/kendo-ui/api/web/dropdownlist#events-close) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -219,7 +219,7 @@ For additional information check the [close](/api/web/dropdownlist#events-close)
     $dropDownList->close('onClose');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -228,7 +228,7 @@ For additional information check the [close](/api/web/dropdownlist#events-close)
 
 ### dataBound
 Fired when the widget is bound to data from its data source.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [dataBound](/api/web/dropdownlist#events-dataBound) event documentation.
+For additional information check the [dataBound](/kendo-ui/api/web/dropdownlist#events-dataBound) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -255,7 +255,7 @@ For additional information check the [dataBound](/api/web/dropdownlist#events-da
     $dropDownList->dataBound('onDataBound');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -273,7 +273,7 @@ Sets the data source of the dataSource.
 
 ##### $value `\Kendo\Data\DataSource|array`
 
-#### Example - using [\Kendo\Data\DataSource](/api/wrappers/php/kendo/data/datasource)
+#### Example - using [\Kendo\Data\DataSource](/kendo-ui/api/wrappers/php/kendo/data/datasource)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -441,7 +441,7 @@ The index of the initially selected item. The index is 0 based.
 
 ### open
 Fired when the popup of the widget is opened by the user.The event handler function context (available via the this keyword) will be set to the widget instance.
-For additional information check the [open](/api/web/dropdownlist#events-open) event documentation.
+For additional information check the [open](/kendo-ui/api/web/dropdownlist#events-open) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -468,7 +468,7 @@ For additional information check the [open](/api/web/dropdownlist#events-open) e
     $dropDownList->open('onOpen');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');
@@ -496,7 +496,7 @@ Define the text of the default empty item. If the value is an object, then the w
 
 ### select
 Fired when an item from the popup is selected by the user.
-For additional information check the [select](/api/web/dropdownlist#events-select) event documentation.
+For additional information check the [select](/kendo-ui/api/web/dropdownlist#events-select) event documentation.
 
 #### Returns
 `\Kendo\UI\DropDownList`
@@ -523,7 +523,7 @@ For additional information check the [select](/api/web/dropdownlist#events-selec
     $dropDownList->select('onSelect');
     ?>
 
-#### Example - using [\Kendo\JavaScriptFunction](/api/wrappers/php/kendo/javascriptfunction)
+#### Example - using [\Kendo\JavaScriptFunction](/kendo-ui/api/wrappers/php/kendo/javascriptfunction)
 
     <?php
     $dropDownList = new \Kendo\UI\DropDownList('DropDownList');

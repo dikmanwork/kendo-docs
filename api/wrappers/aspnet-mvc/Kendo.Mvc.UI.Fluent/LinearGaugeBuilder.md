@@ -37,7 +37,7 @@ Sets the preferred rendering engine.
 
 #### Parameters
 
-##### renderAs [Kendo.Mvc.UI.RenderingMode](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/RenderingMode)
+##### renderAs [Kendo.Mvc.UI.RenderingMode](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/RenderingMode)
 The preferred rendering engine.
 
 
@@ -50,7 +50,7 @@ Sets the linear gauge area.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeAreaBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeAreaBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeAreaBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeAreaBuilder)>
 The linear gauge area.
 
 
@@ -69,7 +69,7 @@ Configures the scale
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeLinearScaleBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeLinearScaleBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeLinearScaleBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeLinearScaleBuilder)>
 The configurator
 
 
@@ -90,7 +90,7 @@ Configures the pointer
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeLinearPointerBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeLinearPointerBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.GaugeLinearPointerBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/GaugeLinearPointerBuilder)>
 The configurator
 
 

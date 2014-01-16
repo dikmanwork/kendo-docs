@@ -10,7 +10,7 @@ publish: true
 
 # kendo.mobile.ui.ListView
 
-Represents the Kendo UI Mobile ListView widget. Inherits from [kendo.mobile.ui.Widget](/api/framework/mobilewidget).
+Represents the Kendo UI Mobile ListView widget. Inherits from [kendo.mobile.ui.Widget](/kendo-ui/api/framework/mobilewidget).
 
 ## Configuration
 
@@ -601,7 +601,7 @@ Specifies whether the filter expression must be case sensitive or not.
 
 ### filterable.operator `String`*(default: "startsWith")*
 
-Specifies the comparison operator used in the filter expression. The operator must be one of the available DataSource filter [operators](/api/framework/datasource#configuration-filter.operator).
+Specifies the comparison operator used in the filter expression. The operator must be one of the available DataSource filter [operators](/kendo-ui/api/framework/datasource#configuration-filter.operator).
 
 #### Example - enabled filtering with comparison operator defined
 

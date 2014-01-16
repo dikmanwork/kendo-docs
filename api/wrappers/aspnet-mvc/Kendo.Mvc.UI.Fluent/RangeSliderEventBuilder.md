@@ -14,7 +14,7 @@ Defines the fluent interface for configuring the Events.
 ### Change(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the Change client-side event
 
-For additional information check the [change](/api/web/rangeslider#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/rangeslider#events-change) event documentation.
 
 
 #### Parameters
@@ -43,7 +43,7 @@ The action defining the inline handler.
 ### Change(`System.String`)
 Defines the name of the JavaScript function that will handle the the Kendo client-side event.
 
-For additional information check the [change](/api/web/rangeslider#events-change) event documentation.
+For additional information check the [change](/kendo-ui/api/web/rangeslider#events-change) event documentation.
 
 
 #### Parameters
@@ -64,7 +64,7 @@ The name of the JavaScript function that will handle the event.
 ### Slide(`System.Func<System.Object,System.Object>`)
 Defines the inline handler of the Slide client-side event.
 
-For additional information check the [slide](/api/web/rangeslider#events-slide) event documentation.
+For additional information check the [slide](/kendo-ui/api/web/rangeslider#events-slide) event documentation.
 
 
 #### Parameters
@@ -93,7 +93,7 @@ The action defining the inline handler.
 ### Slide(`System.String`)
 Defines the name of the JavaScript function that will handle the the Slide client-side event.
 
-For additional information check the [slide](/api/web/rangeslider#events-slide) event documentation.
+For additional information check the [slide](/kendo-ui/api/web/rangeslider#events-slide) event documentation.
 
 
 #### Parameters

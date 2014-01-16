@@ -66,7 +66,7 @@ The first step is to add script and stylesheet references for jQuery and Kendo U
 	</body>
 	</html>
 
-> Style and script references to Kendo UI are accessible via HTTPS. However, they are hosted on Amazon CloudFront. Please refer to the [JavaScript Dependencies of Kendo UI](/getting-started/javascript-dependencies) for more information about script requirements for Kendo UI Web, Kendo UI DataViz, and Kendo UI Mobile.
+> Style and script references to Kendo UI are accessible via HTTPS. However, they are hosted on Amazon CloudFront. Please refer to the [JavaScript Dependencies of Kendo UI](/kendo-ui/getting-started/javascript-dependencies) for more information about script requirements for Kendo UI Web, Kendo UI DataViz, and Kendo UI Mobile.
 
 The next step is to declare a target element for a chart. This will be represented by a `div` element. A script block is also required to initialize and configure the area chart. Here's an example for an area chart along with some sample data:
 

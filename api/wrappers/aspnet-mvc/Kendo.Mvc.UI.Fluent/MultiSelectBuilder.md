@@ -44,7 +44,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.MultiSelectEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MultiSelectEventBuilder)>
+##### clientEventsAction System.Action<[Kendo.Mvc.UI.Fluent.MultiSelectEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MultiSelectEventBuilder)>
 The client events action.
 
 
@@ -91,7 +91,7 @@ Defines the items in the MultiSelect
 
 #### Parameters
 
-##### addAction System.Action<[Kendo.Mvc.UI.Fluent.DropDownListItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DropDownListItemFactory)>
+##### addAction System.Action<[Kendo.Mvc.UI.Fluent.DropDownListItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/DropDownListItemFactory)>
 The add action.
 
 

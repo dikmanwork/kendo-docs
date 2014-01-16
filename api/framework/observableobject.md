@@ -9,10 +9,10 @@ publish: true
 
 # kendo.data.ObservableObject
 
-The `kendo.data.ObservableObject` is the building block of [Kendo MVVM](/getting-started/framework/mvvm/overview). In addition
-the items of the [kendo.dat.DataSource](/getting-started/framework/datasource/overview) are `kendo.data.ObservableObject` instances.
+The `kendo.data.ObservableObject` is the building block of [Kendo MVVM](/kendo-ui/getting-started/framework/mvvm/overview). In addition
+the items of the [kendo.dat.DataSource](/kendo-ui/getting-started/framework/datasource/overview) are `kendo.data.ObservableObject` instances.
 
-Inherits from [kendo.Observable](/api/framework/observable).
+Inherits from [kendo.Observable](/kendo-ui/api/framework/observable).
 
 ## Configuration
 
@@ -69,7 +69,7 @@ The unique identifier of the `ObservableObject`.
 
 ### bind
 
-Attaches a handler to an event. Examples and more info can be found in the [bind](/api/framework/observable#bind) section of the
+Attaches a handler to an event. Examples and more info can be found in the [bind](/kendo-ui/api/framework/observable#bind) section of the
 kendo.Observable API reference.
 
 #### Example - subscribe to an event

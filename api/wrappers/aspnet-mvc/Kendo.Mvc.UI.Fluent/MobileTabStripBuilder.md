@@ -30,7 +30,7 @@ Contains the items of the tabstrip widget
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileTabStripItemFactory](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileTabStripItemFactory)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileTabStripItemFactory](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileTabStripItemFactory)>
 The action that configures the items.
 
 
@@ -43,7 +43,7 @@ Configures the client-side events.
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileTabStripEventBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileTabStripEventBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.MobileTabStripEventBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/MobileTabStripEventBuilder)>
 The client events action.
 
 

@@ -30,7 +30,7 @@ Sets the HTML content which the content should display.
 
 #### Parameters
 
-##### value System.Action<[Kendo.Mvc.UI.MobileNavBar](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileNavBar)>
+##### value System.Action<[Kendo.Mvc.UI.MobileNavBar](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileNavBar)>
 The action which renders the content.
 
 
@@ -56,7 +56,7 @@ Sets the HTML content which the content should display.
 
 #### Parameters
 
-##### value System.Func<[Kendo.Mvc.UI.MobileNavBar](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileNavBar),System.Func<System.Object,System.Object>>
+##### value System.Func<[Kendo.Mvc.UI.MobileNavBar](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/MobileNavBar),System.Func<System.Object,System.Object>>
 The content wrapped in a regular HTML tag or text tag (Razor syntax).
 
 

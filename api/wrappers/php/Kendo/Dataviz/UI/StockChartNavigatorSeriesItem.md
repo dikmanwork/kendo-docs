@@ -61,7 +61,7 @@ The border of the points.** Applicable to column, ohlc and candlestick series **
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemBorder|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemBorder](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemBorder)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemBorder](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemBorder)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $border = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemBorder();
@@ -288,7 +288,7 @@ Configures the appearance of highlighted points.** Applicable to candlestick and
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemHighlight|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemHighlight](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemHighlight)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemHighlight](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemHighlight)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $highlight = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemHighlight();
@@ -317,7 +317,7 @@ Configures the series data labels.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLabels|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLabels](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLabels)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLabels](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLabels)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $labels = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLabels();
@@ -355,7 +355,7 @@ Line options.** Applicable to area, candlestick and ohlc series. **
     ?>
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLine](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLine)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLine](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemLine)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $line = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemLine();
@@ -402,7 +402,7 @@ Marker options.** Applicable for area and line series. **
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemMarkers|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemMarkers](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemMarkers)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemMarkers](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemMarkers)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $markers = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemMarkers();
@@ -503,7 +503,7 @@ The effects overlay.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemOverlay|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemOverlay](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemOverlay)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemOverlay](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemOverlay)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $overlay = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemOverlay();
@@ -593,7 +593,7 @@ The data point tooltip configuration options.
 ##### $value `\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltip|array`
 
 
-#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltip](/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltip)
+#### Example - using [\Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltip](/kendo-ui/api/wrappers/php/Kendo/Dataviz/UI/StockChartNavigatorSeriesItemTooltip)
     <?php
     $seriesItem = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItem();
     $tooltip = new \Kendo\Dataviz\UI\StockChartNavigatorSeriesItemTooltip();

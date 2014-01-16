@@ -9,16 +9,16 @@ relatedDocs: php-ui-calendar
 
 # Calendar
 
-The Kendo Calendar for PHP is a server-side wrapper for the [Kendo UI Calendar](/api/web/calendar) widget.
+The Kendo Calendar for PHP is a server-side wrapper for the [Kendo UI Calendar](/kendo-ui/api/web/calendar) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Calendar:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 
-2. Create a [calendar](/api/wrappers/php/Kendo/UI/Calendar), configure its [min](/api/wrappers/php/Kendo/UI/Calendar#min),
-[max](/api/wrappers/php/Kendo/UI/Calendar#max) and [value](/api/wrappers/php/Kendo/UI/Calendar#value) options.
+2. Create a [calendar](/kendo-ui/api/wrappers/php/Kendo/UI/Calendar), configure its [min](/kendo-ui/api/wrappers/php/Kendo/UI/Calendar#min),
+[max](/kendo-ui/api/wrappers/php/Kendo/UI/Calendar#max) and [value](/kendo-ui/api/wrappers/php/Kendo/UI/Calendar#value) options.
 
         <?php
         $calendar = new \Kendo\UI\Calendar('calendar');
@@ -30,7 +30,7 @@ Here is how to configure a simple Kendo Calendar:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Calendar instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/calendar#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/calendar#methods) to control its behavior.
 
 
 ### Example
@@ -48,7 +48,7 @@ Once a reference has been established, you can use the [API](/api/web/calendar#m
 
 ## Handling Events
 
-You can subscribe to all calendar [events](/api/web/calendar#events).
+You can subscribe to all calendar [events](/kendo-ui/api/web/calendar#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

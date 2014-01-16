@@ -28,8 +28,8 @@ It's an excellent choice for fast-updating graphs that don't need animations and
 
 See also:
 
- - [renderAs](/api/dataviz/chart#configuration-renderAs)
- - [Notes on rendering](/getting-started/dataviz/rendering)
+ - [renderAs](/kendo-ui/api/dataviz/chart#configuration-renderAs)
+ - [Notes on rendering](/kendo-ui/getting-started/dataviz/rendering)
 
 # Turn off animated transitions
 

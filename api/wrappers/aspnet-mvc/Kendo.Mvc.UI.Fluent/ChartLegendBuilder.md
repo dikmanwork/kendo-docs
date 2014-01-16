@@ -77,7 +77,7 @@ Sets the legend position
 
 #### Parameters
 
-##### position [Kendo.Mvc.UI.ChartLegendPosition](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLegendPosition)
+##### position [Kendo.Mvc.UI.ChartLegendPosition](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartLegendPosition)
 The legend position.
 
 
@@ -244,7 +244,7 @@ The legend border width.
 ##### color `System.String`
 The legend border color (CSS syntax).
 
-##### dashType [Kendo.Mvc.UI.ChartDashType](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
+##### dashType [Kendo.Mvc.UI.ChartDashType](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI/ChartDashType)
 The legend border dash type.
 
 
@@ -264,7 +264,7 @@ Configures the legend border
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartBorderBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartBorderBuilder)>
 The border configuration action
 
 
@@ -277,7 +277,7 @@ Configures the legend labels
 
 #### Parameters
 
-##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartLegendLabelsBuilder](/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartLegendLabelsBuilder)>
+##### configurator System.Action<[Kendo.Mvc.UI.Fluent.ChartLegendLabelsBuilder](/kendo-ui/api/wrappers/aspnet-mvc/Kendo.Mvc.UI.Fluent/ChartLegendLabelsBuilder)>
 The labels configuration action
 
 

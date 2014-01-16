@@ -9,15 +9,15 @@ relatedDocs: php-ui-menu
 
 # Menu
 
-The Menu class is a server-side wrapper for the [Kendo UI Menu](/api/web/menu) widget.
+The Menu class is a server-side wrapper for the [Kendo UI Menu](/kendo-ui/api/web/menu) widget.
 
 ## Getting Started
 
 Here is how to configure a simple Kendo Menu:
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 
-1. Create a [menu](/api/wrappers/php/Kendo/UI/Menu) and set its [items](/api/wrappers/php/Kendo/UI/Menu#additem)
+1. Create a [menu](/kendo-ui/api/wrappers/php/Kendo/UI/Menu) and set its [items](/kendo-ui/api/wrappers/php/Kendo/UI/Menu#additem)
 
         <?php
         $menu = new \Kendo\UI\Menu('menu');
@@ -41,7 +41,7 @@ Here is how to configure a simple Kendo Menu:
         $menu.addItem($item1, $item2);
         ?>
 
-1. Output the menu by echo-ing the result of the [render](/api/wrappers/php/Kendo/UI/Widget#render) method.
+1. Output the menu by echo-ing the result of the [render](/kendo-ui/api/wrappers/php/Kendo/UI/Widget#render) method.
 
         <?php
         echo $menu->render();
@@ -50,7 +50,7 @@ Here is how to configure a simple Kendo Menu:
 ## Getting Client-side Reference
 
 You can reference the client-side Kendo Menu instance via [jQuery.data()](http://api.jquery.com/jQuery.data/).
-Once a reference has been established, you can use the [API](/api/web/menu#methods) to control its behavior.
+Once a reference has been established, you can use the [API](/kendo-ui/api/web/menu#methods) to control its behavior.
 
 ### Example
 
@@ -67,7 +67,7 @@ Once a reference has been established, you can use the [API](/api/web/menu#metho
 
 ## Handling Events
 
-You can subscribe to all menu [events](/api/web/menu#events).
+You can subscribe to all menu [events](/kendo-ui/api/web/menu#events).
 
 ### Example - subscribing by specifying JavaScript function name
 

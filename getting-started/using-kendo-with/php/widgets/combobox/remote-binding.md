@@ -15,7 +15,7 @@ will happen on the server-side.
 
 ### Configure ComboBox for Remote Binding
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a data source and configure it:
 
         <?php
@@ -65,7 +65,7 @@ will happen on the server-side.
 
 ### Create PHP file which returns JSON
 
-1. Create a new php file called **products.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
+1. Create a new php file called **products.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
 1. Create a PDO connection
 
         <?php
@@ -99,7 +99,7 @@ First we will configure a Kendo ComboBox for PHP binding and then we will implem
 
 ### Configure ComboBox for Remote Binding (using DataSourceResult)
 
-1. Follow the steps from the [introduction](/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
+1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a data source and configure it:
 
         <?php
@@ -160,11 +160,11 @@ First we will configure a Kendo ComboBox for PHP binding and then we will implem
 
 ### Create PHP file which returns JSON (using DataSourceResult)
 
-1. Create a new php file called **products.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
+1. Create a new php file called **products.php**. This file will return data in JSON format. The data source is configured to request it via the [url](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransportRead#url) setting.
 1. Copy **/wrappers/php/lib/DataSourceResult.php** to your web site root and include it.
 
         <?php require_once 'lib/DataSourceResult.php'; ?>
-1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
+1. Read the request body and parse it as JSON. In the previous example we configured the Kendo DataSource to submit its parameters as JSON via the [parameterMap](/kendo-ui/api/wrappers/php/Kendo/Data/DataSourceTransport#parametermap).
 
         <?php
         $request = json_decode(file_get_contents('php://input'));
