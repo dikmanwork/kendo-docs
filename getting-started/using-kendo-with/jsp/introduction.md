@@ -4,13 +4,13 @@ slug: jsp-introduction
 publish: true
 ---
 
-## Downloading and Installing UI for JSP
+## Downloading and Installing Telerik UI for JSP
 
 The distribution files contain the following:
 
 *   **\js** - Kendo UI minified JavaScript files.
 *   **\styles** - Kendo UI minified CSS files and background images used by the themes.
-*   **\wrappers\jsp\kendo-taglib** - **UI for JSP** jar files.
+*   **\wrappers\jsp\kendo-taglib** - **Telerik UI for JSP** jar files.
 *   **\wrappers\jsp\spring-demos** - a sample JSP Spring MVC application.
 
 ## Running the sample application
@@ -28,11 +28,11 @@ You can find a sample JSP Spring MVC application in the **\wrappers\jsp\spring-d
 
 #### Steps to run the project
 
-1.  Extract the **UI for JSP** zip file to some location.
+1.  Extract the **Telerik UI for JSP** zip file to some location.
 2.  Start Eclipse.
 3.  Right-click in Eclipse Project Explorer. Pick "Import".
 4.  Choose "Existing Maven Projects". Click "Next". If you don't see that option make sure your Eclipse has Maven support installed.
-5.  Browse to the location where you extracted **UI for JSP**. Then pick "wrappers\jsp\spring-demos" for "Root Directory". Click "Finish".
+5.  Browse to the location where you extracted **Telerik UI for JSP**. Then pick "wrappers\jsp\spring-demos" for "Root Directory". Click "Finish".
 6.  Right-click "spring-demos" in Eclipse Project Explorer. Pick "Properties".
 7.  In the properties window pick "Project Facets".
 8.  Click "Convert to facetted form..."
@@ -114,7 +114,7 @@ You can include the JavaScript and CSS files from CDN. Don't forget to specify t
 
 You can watch the videos in the [Kendo UI YouTube channel](http://www.youtube.com/kendouitv):
 
-1. [Getting Started With UI for JSP - Episode 1](http://www.youtube.com/watch?v=3VH75XVhLCI)
-1. [Getting Started With UI for JSP - Episode 2](http://www.youtube.com/watch?v=LyGHeRMmq5I)
-1. [Getting Started With UI for JSP - Episode 3](http://www.youtube.com/watch?v=sCwqj_ZRGI8)
-1. [Getting Started With UI for JSP - Episode 4](http://www.youtube.com/watch?v=fcbw4YR4P2I)
+1. [Getting Started With Telerik UI for JSP - Episode 1](http://www.youtube.com/watch?v=3VH75XVhLCI)
+1. [Getting Started With Telerik UI for JSP - Episode 2](http://www.youtube.com/watch?v=LyGHeRMmq5I)
+1. [Getting Started With Telerik UI for JSP - Episode 3](http://www.youtube.com/watch?v=sCwqj_ZRGI8)
+1. [Getting Started With Telerik UI for JSP - Episode 4](http://www.youtube.com/watch?v=fcbw4YR4P2I)

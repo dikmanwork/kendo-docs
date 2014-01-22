@@ -124,7 +124,7 @@ Here is how to configure the Kendo UI Scheduler for displaying and editing sched
             }
 
         }
-1. Register the **UI for JSP** taglib in your JSP page
+1. Register the **Telerik UI for JSP** taglib in your JSP page
 
         <%@taglib prefix="kendo" uri="http://www.kendoui.com/jsp/tags"%>
 1. Declare a scheduler tag. Configure it's data source model's fields.
