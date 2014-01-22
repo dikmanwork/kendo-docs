@@ -8,7 +8,7 @@ publish: true
 
 # Troubleshooting
 
-This page provides solutions for common problems you may encounter while working with **Telerik UI for ASP.NET MVC**. In addition you could check the general [Kendo UI troubleshooting help topic](/kendo-ui/getting-started/troubleshooting).
+This page provides solutions for common problems you may encounter while working with Telerik UI for ASP.NET MVC. In addition you could check the general [Kendo UI troubleshooting help topic](/kendo-ui/getting-started/troubleshooting).
 
 ## JavaScript error that jQuery is unavailable or undefined
 

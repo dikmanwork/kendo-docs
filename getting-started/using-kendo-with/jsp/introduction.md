@@ -10,7 +10,7 @@ The distribution files contain the following:
 
 *   **\js** - Kendo UI minified JavaScript files.
 *   **\styles** - Kendo UI minified CSS files and background images used by the themes.
-*   **\wrappers\jsp\kendo-taglib** - **Telerik UI for JSP** jar files.
+*   **\wrappers\jsp\kendo-taglib** - Telerik UI for JSP jar files.
 *   **\wrappers\jsp\spring-demos** - a sample JSP Spring MVC application.
 
 ## Running the sample application
@@ -28,11 +28,11 @@ You can find a sample JSP Spring MVC application in the **\wrappers\jsp\spring-d
 
 #### Steps to run the project
 
-1.  Extract the **Telerik UI for JSP** zip file to some location.
+1.  Extract the Telerik UI for JSP zip file to some location.
 2.  Start Eclipse.
 3.  Right-click in Eclipse Project Explorer. Pick "Import".
 4.  Choose "Existing Maven Projects". Click "Next". If you don't see that option make sure your Eclipse has Maven support installed.
-5.  Browse to the location where you extracted **Telerik UI for JSP**. Then pick "wrappers\jsp\spring-demos" for "Root Directory". Click "Finish".
+5.  Browse to the location where you extracted Telerik UI for JSP. Then pick "wrappers\jsp\spring-demos" for "Root Directory". Click "Finish".
 6.  Right-click "spring-demos" in Eclipse Project Explorer. Pick "Properties".
 7.  In the properties window pick "Project Facets".
 8.  Click "Convert to facetted form..."

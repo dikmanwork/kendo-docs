@@ -6,21 +6,21 @@ publish: true
 
 #New Project Wizard
 
-This help topic shows how to create a new **Telerik UI for ASP.NET MVC** Application.
+This help topic shows how to create a new Telerik UI for ASP.NET MVC Application.
 
-The New Project wizard is used for creation of a new **Telerik UI for ASP.NET MVC** Application (**Visual Studio | Telerik | Telerik UI for ASP.NET MVC | Create New KendoUI Project**). The wizard consists of two steps. On the first page the user can specify some project-wide settings while on the second page he can configure the data access layer.
+The New Project wizard is used for creation of a new Telerik UI for ASP.NET MVC** Application (**Visual Studio | Telerik | Telerik UI for ASP.NET MVC | Create New KendoUI Project). The wizard consists of two steps. On the first page the user can specify some project-wide settings while on the second page he can configure the data access layer.
 
 ##Project Settings
 
 ![New Project Wizard](images/new1.png)
 
-Using the options in the **Telerik UI for ASP.NET MVC** Project Settings page you can modify various project-wide settings:
+Using the options in the Telerik UI for ASP.NET MVC Project Settings page you can modify various project-wide settings:
 
--   **Version** - Choose which version of **Telerik UI for ASP.NET MVC** to use
+-   **Version** - Choose which version of Telerik UI for ASP.NET MVC to use
 - **Add referenced assemblies to solution** - Choose whether to copy referenced assemblies to your solution folder. The assemblies will automatically get added to source control when using Microsoft Team Foundation Server.
 -   **Target ASP.NET MVC Version** – Choose the targeted ASP.NET MVC version
 -   **View Engine** – Choose between Razor and WebForms
--   **Theme** – Choose the visual theme for your **Telerik UI for ASP.NET MVC** Application
+-   **Theme** – Choose the visual theme for your Telerik UI for ASP.NET MVC Application
 -   **Copy Editor Templates** - Copy the predefined editor templates to ~/Views/Shared/EditorTemplates
 -   **Use CDN Support** - Enable or disable [CDN](/kendo-ui/getting-started/javascript-dependencies#cdn) support.
 -   **Copy Global Resources** - Copy the localization files to ~/Scripts/kendo/{version}/cultures

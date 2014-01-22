@@ -12,7 +12,7 @@ relatedDocs: php-ui-listview, php-listview-overview
 This help topic shows how to persist the changes from create, update and destroy operations using Kendo UI ListView for PHP.
 
 
-> The following demos are using the sample SQLite database shipped with the **Telerik UI for PHP** demos (**/wrappers/php/sample.db**).
+> The following demos are using the sample SQLite database shipped with the Telerik UI for PHP** demos (**/wrappers/php/sample.db).
 
 ## Editing with PDO
 
@@ -304,7 +304,7 @@ This demo shows how to use [PDO]() to perform create, update and destroy operati
 
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
 The DataSourceResult can also perform paging, sorting, filtering, grouping and aggregate calculation on the server side by generating SQL executed via PDO.
-It is distributed with the **Telerik UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **Telerik UI for PHP** distribution.
+It is distributed with the Telerik UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **Telerik UI for PHP distribution.
 
 First we will configure a Kendo ListView for PHP binding and then we will implement the remote service.
 

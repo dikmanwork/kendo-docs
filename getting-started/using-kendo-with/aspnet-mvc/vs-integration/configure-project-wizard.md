@@ -6,7 +6,7 @@ publish: true
 
 #Configure Project Wizard
 
-This help topic shows how to configure a **Telerik UI for ASP.NET MVC** Application.
+This help topic shows how to configure a Telerik UI for ASP.NET MVC Application.
 
 **Visual Studio | Telerik | Telerik UI for ASP.NET MVC | Configure Project** opens the Project Configuration Wizard.
 
@@ -14,6 +14,6 @@ This help topic shows how to configure a **Telerik UI for ASP.NET MVC** Applicat
 
 You can modify the following project-wide settings:
 
-- **Theme** - Choose the visual theme for your **Telerik UI for ASP.NET MVC** Application
+- **Theme** - Choose the visual theme for your Telerik UI for ASP.NET MVC Application
 - **Use CDN Support** - Enable or disable [CDN](/kendo-ui/getting-started/javascript-dependencies#cdn) support.
 - **Copy Global Resources** - Copy the localization files to ~/Scripts/kendo/{version}/cultures

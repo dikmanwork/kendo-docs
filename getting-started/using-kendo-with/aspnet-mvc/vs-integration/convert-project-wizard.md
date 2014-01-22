@@ -6,9 +6,9 @@ publish: true
 
 #Convert Project Wizard
 
-This help topic shows how to convert an existing ASP.NET MVC Application to a **Telerik UI for ASP.NET MVC** Application.
+This help topic shows how to convert an existing ASP.NET MVC Application to a Telerik UI for ASP.NET MVC Application.
 
-The Convert Project Wizard converts an existing ASP.NET MVC 3 or 4 Application to **Telerik UI for ASP.NET MVC** Application
+The Convert Project Wizard converts an existing ASP.NET MVC 3 or 4 Application to Telerik UI for ASP.NET MVC Application
 **(Visual Studio | Telerik | Telerik UI for ASP.NET MVC | Convert to Telerik UI for ASP.NET MVC Application)**. The convert wizard has two steps - project settings page and master pages settings one.
 
 ##Project Settings
@@ -17,7 +17,7 @@ The Convert Project Wizard converts an existing ASP.NET MVC 3 or 4 Application t
 
 You can modify the following project-wide settings:
 
-- **Version** - Choose which version of **Telerik UI for ASP.NET MVC** to use
+- **Version** - Choose which version of Telerik UI for ASP.NET MVC to use
 - **Add referenced assemblies to solution** - Choose whether to copy referenced assemblies to your solution folder. The assemblies will automatically get added to source control when using Microsoft Team Foundation Server
 - **Copy Editor Templates** - Copy the predefined editor templates to ~/Views/Shared/EditorTemplates
 - **Use CDN Support** - Enable or disable [CDN](/kendo-ui/getting-started/javascript-dependencies#cdn) support.
@@ -29,7 +29,7 @@ If you have layout and master page you can choose whether you want to apply the 
 
 ![update Project Resources](images/convert2.png)
 
-- **Theme** - Choose the visual theme for your **Telerik UI for ASP.NET MVC** Application
+- **Theme** - Choose the visual theme for your Telerik UI for ASP.NET MVC Application
 
 In case you have neither a master page nor a layout page you have the opportunity to add one:
 

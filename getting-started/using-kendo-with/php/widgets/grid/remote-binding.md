@@ -11,7 +11,7 @@ relatedDocs: php-ui-grid, php-grid-overview
 This help topic shows how to bind Kendo Grid for PHP to JSON response. Remote binding means that all data operations (paging, sorting, filtering etc.)
 will happen on the server-side.
 
-> The following demos are using the sample SQLite database shipped with the **Telerik UI for PHP** demos (**/wrappers/php/sample.db**).
+> The following demos are using the sample SQLite database shipped with the Telerik UI for PHP** demos (**/wrappers/php/sample.db).
 
 ## Binding to array returned by PDO
 
@@ -113,7 +113,7 @@ will happen on the server-side.
 
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
 The DataSourceResult can also perform paging, sorting, filtering, grouping and aggregate calculation on the server side by generating SQL executed via PDO.
-It is distributed with the **Telerik UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **Telerik UI for PHP** distribution.
+It is distributed with the Telerik UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **Telerik UI for PHP distribution.
 
 First we will configure a Kendo Grid for PHP binding and then we will implement the remote service which will return JSON.
 

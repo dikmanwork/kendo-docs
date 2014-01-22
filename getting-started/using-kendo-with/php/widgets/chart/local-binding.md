@@ -20,7 +20,7 @@ returned by PDO.
 First we will configure a Kendo Chart for PHP binding and then we will implement the remote service which will return JSON.
 
 
-> The following demo is using the sample SQLite database shipped with the **Telerik UI for PHP** demos (**/wrappers/php/sample.db**).
+> The following demo is using the sample SQLite database shipped with the Telerik UI for PHP** demos (**/wrappers/php/sample.db).
 
 1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a PDO connection

@@ -1,36 +1,36 @@
 ---
 title: Introduction
 slug: php-introduction
-meta_title: Documentation guide for **Telerik UI for PHP**
-meta_description: How to download, install **Telerik UI for PHP** and run the sample application.
+meta_title: Documentation guide for Telerik UI for PHP
+meta_description: How to download, install Telerik UI for PHP and run the sample application.
 publish: true
 ---
 
 ## What is Telerik UI for PHP
 
-**Telerik UI for PHP** is a set of PHP classes which help you configure Kendo UI widgets by using server-side code in PHP web sites.
+Telerik UI for PHP is a set of PHP classes which help you configure Kendo UI widgets by using server-side code in PHP web sites.
 
 ## Requirements
 
-**Telerik UI for PHP** requires PHP 5.3+. The sample application uses [PDO](http://www.php.net/manual/en/intro.pdo.php)
+Telerik UI for PHP requires PHP 5.3+. The sample application uses [PDO](http://www.php.net/manual/en/intro.pdo.php)
 and [SQLite](http://www.php.net/manual/en/ref.pdo-sqlite.php).
 Both extensions should be enabled in the PHP configuration (php.ini). The
 [phpinfo](http://php.net/manual/en/function.phpinfo.php) function can be used to verify that PDO and the SQLite extensions are successfully installed.
 
 ## Downloading and Installing Telerik UI for PHP
 
-Yoiu can download **Telerik UI for PHP** from the [official download page](http://www.telerik.com/download/pho-ui). The distribution zip file
+Yoiu can download Telerik UI for PHP from the [official download page](http://www.telerik.com/download/pho-ui). The distribution zip file
 contains the following directories:
 
 *   **/js** - minified JavaScript files.
 *   **/styles** - minified CSS files and background images used by the themes.
 *   **/src** - JavaScript and CSS source files. Not available in the trial version.
-*   **/wrappers/php/lib/Kendo/** - PHP files required to use **Telerik UI for PHP**.
+*   **/wrappers/php/lib/Kendo/** - PHP files required to use Telerik UI for PHP.
 *   **/wrappers/php/** - sample PHP web site.
 
 ## Running the sample web site
 
-You can find a sample PHP web site in the **/wrappers/php/** directory of the **Telerik UI for PHP** distribution.
+You can find a sample PHP web site in the **/wrappers/php/** directory of the Telerik UI for PHP distribution.
 To run the web site copy this directory to your web root. Then navigate to **index.php**.
 
 ## Using Telerik UI for PHP in your PHP web site
