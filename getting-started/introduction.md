@@ -19,7 +19,7 @@ Kendo UI comes in different bundles:
 * Kendo UI DataViz - HTML5 data vizualization widgets.
 * Kendo UI Mobile - HTML5 framework for building hybrid mobile applications.
 * Kendo UI Complete - includes Kendo UI Web, Kendo UI DataViz and Kendo UI Mobile.
-* **UI for ASP.NET MVC** - Kendo UI Complete plus ASP.NET MVC wrappers for Kendo UI Web and Kendo UI DataViz.
+* **Telerik UI for ASP.NET MVC** - Kendo UI Complete plus ASP.NET MVC wrappers for Kendo UI Web and Kendo UI DataViz.
 * **Telerik UI for JSP** - Kendo UI Complete plus JSP wrappers for Kendo UI Web and Kendo UI DataViz.
 * **Telerik UI for PHP** - Kendo UI Complete plus PHP wrappers for Kendo UI Web and Kendo UI DataViz.
 
@@ -33,7 +33,7 @@ The distribution zip file contains the following:
 * /js - minified JavaScript files.
 * /src - complete source code. Not available in the trial distribution.
 * /styles - minified CSS files and theme images.
-* /wrappers - server-side wrappers. Available in **UI for ASP.NET MVC**, JSP or PHP.
+* /wrappers - server-side wrappers. Available in **Telerik UI for ASP.NET MVC**, JSP or PHP.
 * changelog.html - Kendo UI release notes.
 
 ## Using Kendo UI
@@ -210,7 +210,7 @@ which allow configuring the Kendo UI widgets with server-side code.
 
 You can find more info about the server-side wrappers here:
 
-- [Get Started with **UI for ASP.NET MVC**](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction)
+- [Get Started with **Telerik UI for ASP.NET MVC**](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction)
 - [Get Started with **Telerik UI for JSP**](/kendo-ui/getting-started/using-kendo-with/jsp/introduction)
 - [Get Started with **Telerik UI for PHP**](/kendo-ui/getting-started/using-kendo-with/php/introduction)
 

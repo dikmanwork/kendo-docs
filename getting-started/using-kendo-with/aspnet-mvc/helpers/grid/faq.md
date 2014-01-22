@@ -430,7 +430,7 @@ the editor form.
 
 ### How do I use Kendo widgets as editors for dates and numbers?
 
-Custom editor templates should be used. ASP.NET MVC will look for a partial view named after the type e.g. `DateTime.cshtml`. **UI for ASP.NET MVC** ships with a few
+Custom editor templates should be used. ASP.NET MVC will look for a partial view named after the type e.g. `DateTime.cshtml`. **Telerik UI for ASP.NET MVC** ships with a few
 ready-to-use editor templates. They are located in the **\wrappers\aspnetmvc\EditorTemplates** folder. The editor templates are available in two flavors - the **ascx** folder
 contains the WebForms view engine version whereas the **razor** folder contains the Razor view egine version. To use those editor templates in your application copy all files from
 the corresponding folder ("ascx" or "razor") to `~/Views/Shared/EditorTemplates` (you may need to create that folder if it does not exist).

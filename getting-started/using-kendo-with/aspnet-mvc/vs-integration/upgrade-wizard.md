@@ -6,14 +6,14 @@ publish: true
 
 #Upgrade Wizard
 
-This help topic shows how to upgrade a **UI for ASP.NET MVC** Application.
+This help topic shows how to upgrade a **Telerik UI for ASP.NET MVC** Application.
 
 The Upgrade Wizard has two main purposes:
 
-- Check and retrieve the latest available **UI for ASP.NET MVC**  release
-- Change the version of **UI for ASP.NET MVC** in the projects in the solution use.
+- Check and retrieve the latest available **Telerik UI for ASP.NET MVC**  release
+- Change the version of **Telerik UI for ASP.NET MVC** in the projects in the solution use.
 
-The Upgrade Wizard can be launched from **Visual Studio | Telerik | UI for ASP.NET MVC | Upgrade Wizard**
+The Upgrade Wizard can be launched from **Visual Studio | Telerik | Telerik UI for ASP.NET MVC | Upgrade Wizard**
 
 ![Choose projects](images/upgrade_menu.png)
 
@@ -33,7 +33,7 @@ The page allows you to configure the following options:
 The distribution, downloaded by the Upgrade Wizard contains only the "hotfix" files, e.g. the bare bone files, needed for a project to run correctly. It does not contain the documentation or the demo project.
 
 > **Note:**
-The listed projects use **UI for ASP.NET MVC** 4. If the solution contains any projects which use **UI for ASP.NET MVC** for other MVC version, they will be displayed on a separate page. When you complete the wizard all selected projects from the different pages will be updated.
+The listed projects use **Telerik UI for ASP.NET MVC** 4. If the solution contains any projects which use **Telerik UI for ASP.NET MVC** for other MVC version, they will be displayed on a separate page. When you complete the wizard all selected projects from the different pages will be updated.
 
 ##Update Project Resources
 

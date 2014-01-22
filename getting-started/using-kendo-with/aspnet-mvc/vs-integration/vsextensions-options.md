@@ -6,13 +6,13 @@ publish: true
 
 #Visual Studio Extensions Options
 
-The Visual Studio Extensions options dialog provides settings allowing you to configure the **UI for ASP.NET MVC** Visual Studio Extensions to best suit your needs.
+The Visual Studio Extensions options dialog provides settings allowing you to configure the **Telerik UI for ASP.NET MVC** Visual Studio Extensions to best suit your needs.
 
 It can be accessed through **Visual Studio | Telerik | VSExtensions Options…**
 
 ![Options menu](images/options_menu.png)
 
-The Options dialog contains two sets of options that affect the **UI for ASP.NET MVC** Visual Studio Extensions.
+The Options dialog contains two sets of options that affect the **Telerik UI for ASP.NET MVC** Visual Studio Extensions.
 
 ## General Settings ##
 The settings under the General category affect all of the installed **Telerik Visual Studio Extensions**.
@@ -39,8 +39,8 @@ Configures the path where the extensions look for and store distributions.
 >**Note:**
 Changing the folder path will not move existing folder contents from your previous path. Please, move your previous folder contents manually in case you still want to use them.
 
-##**UI for ASP.NET MVC** Settings
-All settings under the KendoUI category affect only the **UI for ASP.NET MVC** Visual Studio Extensions.
+##**Telerik UI for ASP.NET MVC** Settings
+All settings under the KendoUI category affect only the **Telerik UI for ASP.NET MVC** Visual Studio Extensions.
 
 ![Options Dialog](images/options_kendo.png)
 
@@ -50,4 +50,4 @@ All settings under the KendoUI category affect only the **UI for ASP.NET MVC** V
 
 ###Notifications
 
-- **Show me message when a newer version is available on www.telerik.com** - When enabled, you will receive notifications if a new version of **UI for ASP.NET MVC** is available on the Telerik website.
+- **Show me message when a newer version is available on www.telerik.com** - When enabled, you will receive notifications if a new version of **Telerik UI for ASP.NET MVC** is available on the Telerik website.

@@ -15,9 +15,9 @@ from server-side code.
 
 The following tutorial shows how to configure Kendo UI MobileButtonGroup for ASP.NET MVC.
 
-1.  Create a new ASP.NET MVC 4 application (or **UI for ASP.NET MVC** application if you have installed the [UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
-If you decide not to use the UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
-to add **UI for ASP.NET MVC** to the application.
+1.  Create a new ASP.NET MVC 4 application (or **Telerik UI for ASP.NET MVC** application if you have installed the [Telerik UI for ASP.NET MVC Visual Studio Extensions](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction#kendo-ui-for-asp.net-mvc-visual-studio-extensions)).
+If you decide not to use the Telerik UI for ASP.NET MVC Visual Studio Extensions, follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction) help topic in order
+to add **Telerik UI for ASP.NET MVC** to the application.
 1.  Open "HomeController.cs" and modify the `Index` action method:
 
         public ActionResult Index()
