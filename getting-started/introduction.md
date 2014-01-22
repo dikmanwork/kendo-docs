@@ -222,7 +222,7 @@ You can watch the videos in the [Kendo UI YouTube channel](http://www.youtube.co
 
 ### Kendo UI Dojo
 
-A lot of interactive tutorials are available in the [Kendo UI Dojo](http://www.telerik.com/kendo-ui/dojo).
+A lot of interactive tutorials are available in the [Kendo UI Dojo](http://trykendoui.telerik.com).
 
 ### Further reading
 
