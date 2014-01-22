@@ -17,7 +17,7 @@ can be populated from a data base or declared inline (in the page). Local bindin
 PHP Data Objects ([PDO](http://www.php.net/manual/en/intro.pdo.php)) is an interface for accessing various databases in PHP. Here is how to bind Kendo DropDownList to array
 returned by PDO.
 
-> The following demo is using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
+> The following demo is using the sample SQLite database shipped with the **Telerik UI for PHP** demos (**/wrappers/php/sample.db**).
 
 1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Create a PDO connection
@@ -80,7 +80,7 @@ to specify the model fields. Those fields are required for filtering.
 ## Using the DataSourceResult Helper
 
 The `DataSourceResult` class is a helper utility on top of PDO which simplifies common CRUD operations.
-It is distributed with the **UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **UI for PHP** distribution.
+It is distributed with the **Telerik UI for PHP** demos and can be found in the **/wrappers/php/lib/** directory of the **Telerik UI for PHP** distribution.
 
 1. Follow the steps from the [introduction](/kendo-ui/getting-started/using-kendo-with/php/introduction) - include the autoloader, JavaScript and CSS files.
 1. Copy **/wrappers/php/lib/DataSourceResult.php** to your web site root and include it.

@@ -21,7 +21,7 @@ Kendo UI comes in different bundles:
 * Kendo UI Complete - includes Kendo UI Web, Kendo UI DataViz and Kendo UI Mobile.
 * **UI for ASP.NET MVC** - Kendo UI Complete plus ASP.NET MVC wrappers for Kendo UI Web and Kendo UI DataViz.
 * **UI for JSP** - Kendo UI Complete plus JSP wrappers for Kendo UI Web and Kendo UI DataViz.
-* **UI for PHP** - Kendo UI Complete plus PHP wrappers for Kendo UI Web and Kendo UI DataViz.
+* **Telerik UI for PHP** - Kendo UI Complete plus PHP wrappers for Kendo UI Web and Kendo UI DataViz.
 
 # Installing and Getting Started with Kendo UI
 
@@ -212,7 +212,7 @@ You can find more info about the server-side wrappers here:
 
 - [Get Started with **UI for ASP.NET MVC**](/kendo-ui/getting-started/using-kendo-with/aspnet-mvc/introduction)
 - [Get Started with **UI for JSP**](/kendo-ui/getting-started/using-kendo-with/jsp/introduction)
-- [Get Started with **UI for PHP**](/kendo-ui/getting-started/using-kendo-with/php/introduction)
+- [Get Started with **Telerik UI for PHP**](/kendo-ui/getting-started/using-kendo-with/php/introduction)
 
 ## Next Steps
 

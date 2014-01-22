@@ -10,7 +10,7 @@ relatedDocs: php-ui-treeview, php-treeview-overview
 
 This help topic shows how to bind Kendo TreeView for PHP to JSON response. Remote binding means that only the nodes that the user has expanded will be sent to the client, loaded on demand.
 
-> The following demos are using the sample SQLite database shipped with the **UI for PHP** demos (**/wrappers/php/sample.db**).
+> The following demos are using the sample SQLite database shipped with the **Telerik UI for PHP** demos (**/wrappers/php/sample.db**).
 
 ## Binding to array returned by PDO
 
